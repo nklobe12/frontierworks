@@ -26,6 +26,7 @@ public final class CoreClient {
 
     public static void init(IEventBus bus) {
         bus.addListener(CoreClient::setup);
+        bus.addListener(RenderUtil::registerModels);
         com.lodestar.core.data.PlayerData.initClient();
         MinecraftForge.EVENT_BUS.addListener((net.minecraftforge.client.event.ClientPlayerNetworkEvent.LoggingOut e) -> com.lodestar.core.data.PlayerData.clearClient());
         MinecraftForge.EVENT_BUS.addListener(CoreClient::onTooltip);

@@ -7,4 +7,5 @@ ORDER = [
     'dynamos',
     'toolsmith',
     'transmutation',
+    'ducts',
 ]

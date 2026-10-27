@@ -22,6 +22,24 @@ import org.joml.Matrix4f;
 public final class RenderUtil {
     private RenderUtil() {}
 
+    private static final java.util.Set<net.minecraft.resources.ResourceLocation> EXTRA_MODELS = new java.util.LinkedHashSet<>();
+
+    /** Asks for a block model that no block state uses to be baked, so renderers can draw it with {@link #model}. Call during client init. */
+    public static void extraModel(net.minecraft.resources.ResourceLocation id) {
+        EXTRA_MODELS.add(id);
+    }
+
+    static void registerModels(net.minecraftforge.client.event.ModelEvent.RegisterAdditional event) {
+        EXTRA_MODELS.forEach(event::register);
+    }
+
+    /** Draws a baked block model (registered with {@link #extraModel}) at the current pose, in block space. */
+    public static void model(PoseStack ps, MultiBufferSource buf, net.minecraft.resources.ResourceLocation id, int light, int overlay) {
+        net.minecraft.client.resources.model.BakedModel m = Minecraft.getInstance().getModelManager().getModel(id);
+        Minecraft.getInstance().getBlockRenderer().getModelRenderer().renderModel(ps.last(), buf.getBuffer(RenderType.cutout()), null, m, 1f, 1f, 1f,
+                light, overlay, net.minecraftforge.client.model.data.ModelData.EMPTY, RenderType.cutout());
+    }
+
     /** Renders an item centered at the current pose origin, scaled. */
     public static void item(PoseStack ps, MultiBufferSource buf, ItemStack stack, float scale, int light, Level level, int seed) {
         if (stack.isEmpty()) return;

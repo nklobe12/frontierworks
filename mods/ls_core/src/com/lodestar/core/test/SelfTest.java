@@ -46,6 +46,20 @@ public final class SelfTest {
 
     private SelfTest() {}
 
+    /** A functional test: builds something at origin and returns a check that runs after the wait (null result = pass). */
+    public interface Scenario {
+        java.util.function.Supplier<String> build(ServerLevel level, BlockPos origin);
+    }
+
+    private record ScenarioEntry(String name, int ticks, Scenario scenario) {}
+
+    private static final List<ScenarioEntry> SCENARIOS = new ArrayList<>();
+
+    /** Registers a functional test run by the server self-test (call during mod construction). */
+    public static void scenario(String name, int ticks, Scenario scenario) {
+        SCENARIOS.add(new ScenarioEntry(name, ticks, scenario));
+    }
+
     public static boolean enabled() {
         return "server".equals(System.getProperty("lodestar.selftest"));
     }
@@ -191,7 +205,50 @@ public final class SelfTest {
             LOG.info("LSSELFTEST entities ticked");
         });
 
-        // 5. done
+        // 5. functional scenarios, all built at once in force-loaded chunks, checked after the longest wait
+        final List<java.util.function.Supplier<String>> checks = new ArrayList<>();
+        final List<net.minecraft.world.level.ChunkPos> forced = new ArrayList<>();
+        steps.add(() -> {
+            int i = 0, longest = 0;
+            for (ScenarioEntry e : SCENARIOS) {
+                BlockPos origin = new BlockPos(12000 + (i++) * 48, 100, 12000);
+                try {
+                    for (int cx = -1; cx <= 2; cx++)
+                        for (int cz = -1; cz <= 2; cz++) {
+                            net.minecraft.world.level.ChunkPos cp = new net.minecraft.world.level.ChunkPos((origin.getX() >> 4) + cx, (origin.getZ() >> 4) + cz);
+                            overworld.setChunkForced(cp.x, cp.z, true);
+                            forced.add(cp);
+                        }
+                    java.util.function.Supplier<String> c = e.scenario().build(overworld, origin);
+                    checks.add(() -> {
+                        String r = c.get();
+                        return r == null ? null : e.name() + ": " + r;
+                    });
+                    longest = Math.max(longest, e.ticks());
+                } catch (Throwable t) {
+                    fail("scenario " + e.name() + " (build)", t);
+                }
+            }
+            LOG.info("LSSELFTEST scenarios built={}", checks.size());
+            wait = longest;
+        });
+        steps.add(() -> {
+            for (java.util.function.Supplier<String> c : checks) {
+                try {
+                    String r = c.get();
+                    if (r != null) {
+                        failures++;
+                        LOG.error("LSSELFTEST FAIL scenario {}", r);
+                    }
+                } catch (Throwable t) {
+                    fail("scenario check", t);
+                }
+            }
+            for (net.minecraft.world.level.ChunkPos cp : forced) overworld.setChunkForced(cp.x, cp.z, false);
+            LOG.info("LSSELFTEST scenarios checked={}", checks.size());
+        });
+
+        // 6. done
         steps.add(() -> {
             LOG.info("LSSELFTEST DONE failures={}", failures);
             server.halt(false);

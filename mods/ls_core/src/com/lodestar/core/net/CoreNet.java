@@ -107,7 +107,7 @@ public final class CoreNet {
         static void handle(Action a, Supplier<NetworkEvent.Context> ctx) {
             ServerPlayer player = ctx.get().getSender();
             BiConsumer<ServerPlayer, Integer> h = ACTIONS.get(a.id);
-            if (player != null && h != null) h.accept(player, a.data);
+            if (player != null && h != null) ctx.get().enqueueWork(() -> h.accept(player, a.data));
             ctx.get().setPacketHandled(true);
         }
     }
@@ -135,7 +135,7 @@ public final class CoreNet {
         static void handle(TagAction a, Supplier<NetworkEvent.Context> ctx) {
             ServerPlayer player = ctx.get().getSender();
             BiConsumer<ServerPlayer, CompoundTag> h = TAG_ACTIONS.get(a.id);
-            if (player != null && h != null) h.accept(player, a.tag);
+            if (player != null && h != null) ctx.get().enqueueWork(() -> h.accept(player, a.tag));
             ctx.get().setPacketHandled(true);
         }
     }
@@ -162,7 +162,7 @@ public final class CoreNet {
 
         static void handle(ClientAction a, Supplier<NetworkEvent.Context> ctx) {
             Consumer<CompoundTag> h = CLIENT_ACTIONS.get(a.id);
-            if (h != null) h.accept(a.tag);
+            if (h != null) ctx.get().enqueueWork(() -> h.accept(a.tag));
             ctx.get().setPacketHandled(true);
         }
     }
