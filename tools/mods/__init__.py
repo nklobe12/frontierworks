@@ -8,4 +8,5 @@ ORDER = [
     'toolsmith',
     'transmutation',
     'ducts',
+    'lens',
 ]

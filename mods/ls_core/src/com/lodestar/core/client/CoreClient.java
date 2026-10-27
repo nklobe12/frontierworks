@@ -27,6 +27,10 @@ public final class CoreClient {
     public static void init(IEventBus bus) {
         bus.addListener(CoreClient::setup);
         bus.addListener(RenderUtil::registerModels);
+        Showcase.init();
+        for (String id : new String[]{"ls_machina:pulverizer", "ls_machina:induction_smelter", "ls_dynamos:stirling_dynamo",
+                "ls_metalwork:alloy_kiln", "ls_toolsmith:part_builder", "ls_toolsmith:tool_station", "ls_transmutation:exchange_table",
+                "ls_transmutation:aether_condenser"}) Showcase.guiBlock(id);
         com.lodestar.core.data.PlayerData.initClient();
         MinecraftForge.EVENT_BUS.addListener((net.minecraftforge.client.event.ClientPlayerNetworkEvent.LoggingOut e) -> com.lodestar.core.data.PlayerData.clearClient());
         MinecraftForge.EVENT_BUS.addListener(CoreClient::onTooltip);
