@@ -76,3 +76,11 @@ fw_hud
 fw_sorting
 fw_graves
 fw_xpbank
+fw_ruins
+fw_dungeons
+fw_towers
+fw_skyislands
+fw_outposts
+fw_bunkers
+fw_temples
+fw_camps

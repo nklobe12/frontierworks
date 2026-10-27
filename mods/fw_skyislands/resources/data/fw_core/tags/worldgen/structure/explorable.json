@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "fw_skyislands:sky_grove",
+    "fw_skyislands:sky_pond",
+    "fw_skyislands:sky_shrine",
+    "fw_skyislands:sky_ruin"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fw_camps:explorer_camp",
+    "fw_camps:bandit_camp"
+  ]
+}

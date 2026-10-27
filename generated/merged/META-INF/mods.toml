@@ -2150,3 +2150,227 @@ description='''Bank your experience so you never lose it to death or lava: depos
     versionRange="[1.0.0,)"
     ordering="AFTER"
     side="BOTH"
+
+[[mods]]
+modId="fw_ruins"
+version="1.0.0"
+displayName="Frontierworks: Ancient Ruins"
+authors="Klobe & Claude"
+description='''Crumbling houses, broken arches, column circles and sunken cellars from a forgotten age dot the overworld, with ancient bricks to build with and treasure to dig up.'''
+
+[[dependencies.fw_ruins]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_ruins]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_ruins]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_dungeons"
+version="1.0.0"
+displayName="Frontierworks: Deep Dungeons"
+authors="Klobe & Claude"
+description='''A ruined shaft leads down into sprawling dungeons: spawner halls, crypts, libraries, prisons and armories, with spike traps in the corridors and a locked vault in the treasure room. Find a Dungeon Key in the dungeon's chests to open it.'''
+
+[[dependencies.fw_dungeons]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_dungeons]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_dungeons]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_towers"
+version="1.0.0"
+displayName="Frontierworks: Towers"
+authors="Klobe & Claude"
+description='''Lonely towers rise across the land: stone wizard towers with conical roofs, wooden forest watchtowers, sandstone desert towers and frozen ice spires, each with guards on the way up and loot at the top.'''
+
+[[dependencies.fw_towers]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_towers]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_towers]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_skyislands"
+version="1.0.0"
+displayName="Frontierworks: Sky Islands"
+authors="Klobe & Claude"
+description='''Floating islands drift high above the overworld - groves, sky ponds, quartz shrines and haunted ruins - with skystone, aether crystals and treasure for anyone who can get up there.'''
+
+[[dependencies.fw_skyislands]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_skyislands]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_skyislands]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_outposts"
+version="1.0.0"
+displayName="Frontierworks: Tech Outposts"
+authors="Klobe & Claude"
+description='''Abandoned research stations, radio relays and supply depots left behind by earlier engineers. Salvage their machines and decode their data drives for rare technology.'''
+
+[[dependencies.fw_outposts]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_outposts]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_outposts]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_bunkers"
+version="1.0.0"
+displayName="Frontierworks: Bunkers"
+authors="Klobe & Claude"
+description='''Sealed concrete shelters lie buried under the plains, marked only by a hatch and a rusty mast. Inside: bunks, stores, a dead generator and a command room with the bunker's secrets.'''
+
+[[dependencies.fw_bunkers]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_bunkers]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_bunkers]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_temples"
+version="1.0.0"
+displayName="Frontierworks: Lost Temples"
+authors="Klobe & Claude"
+description='''Stepped sun pyramids in the deserts, moss-eaten ziggurats in the jungles and frost shrines in the snow. Mind the pressure plates.'''
+
+[[dependencies.fw_temples]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_temples]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_temples]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_camps"
+version="1.0.0"
+displayName="Frontierworks: Camps"
+authors="Klobe & Claude"
+description='''Explorer camps with tents, maps and supplies to share, and fenced bandit hideouts guarded by pillagers with a boss chest full of stolen goods.'''
+
+[[dependencies.fw_camps]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_camps]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_camps]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

@@ -1,0 +1,32 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "item": "fw_temples:frost_idol",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:gold_ingot",
+      "count": 4
+    },
+    {
+      "item": "minecraft:emerald",
+      "count": 2
+    },
+    {
+      "item": "minecraft:diamond",
+      "count": 1,
+      "chance": 0.25
+    }
+  ],
+  "time": 160,
+  "energy": 20,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_machines"
+    }
+  ]
+}

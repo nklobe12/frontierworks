@@ -1,0 +1,86 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "fw_dungeons:block/spike_trap",
+    "spikes": "fw_dungeons:block/spike_trap",
+    "base": "fw_dungeons:block/dungeon_tiles"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        1,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#base"
+        },
+        "south": {
+          "texture": "#base"
+        },
+        "east": {
+          "texture": "#base"
+        },
+        "west": {
+          "texture": "#base"
+        },
+        "up": {
+          "texture": "#base"
+        },
+        "down": {
+          "texture": "#base",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        1,
+        8
+      ],
+      "to": [
+        16,
+        7,
+        8
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "texture": "#spikes"
+        },
+        "south": {
+          "texture": "#spikes"
+        }
+      }
+    },
+    {
+      "from": [
+        8,
+        1,
+        0
+      ],
+      "to": [
+        8,
+        7,
+        16
+      ],
+      "shade": false,
+      "faces": {
+        "east": {
+          "texture": "#spikes"
+        },
+        "west": {
+          "texture": "#spikes"
+        }
+      }
+    }
+  ]
+}

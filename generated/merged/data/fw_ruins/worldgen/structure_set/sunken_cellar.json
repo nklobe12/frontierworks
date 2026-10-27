@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "fw_ruins:sunken_cellar",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 34,
+    "separation": 12,
+    "salt": 302094012
+  }
+}

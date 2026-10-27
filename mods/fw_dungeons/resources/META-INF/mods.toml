@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_dungeons"
+version="1.0.0"
+displayName="Frontierworks: Deep Dungeons"
+authors="Klobe & Claude"
+description='''A ruined shaft leads down into sprawling dungeons: spawner halls, crypts, libraries, prisons and armories, with spike traps in the corridors and a locked vault in the treasure room. Find a Dungeon Key in the dungeon's chests to open it.'''
+
+[[dependencies.fw_dungeons]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_dungeons]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_dungeons]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

@@ -1,0 +1,8 @@
+{
+  "structures": [
+    {
+      "id": "fw_dungeons:dungeon",
+      "dim": "minecraft:overworld"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_towers"
+version="1.0.0"
+displayName="Frontierworks: Towers"
+authors="Klobe & Claude"
+description='''Lonely towers rise across the land: stone wizard towers with conical roofs, wooden forest watchtowers, sandstone desert towers and frozen ice spires, each with guards on the way up and loot at the top.'''
+
+[[dependencies.fw_towers]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_towers]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_towers]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

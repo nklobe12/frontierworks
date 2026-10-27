@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "fw_ruins:column_circle",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 14,
+    "salt": 301365464
+  }
+}

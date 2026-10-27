@@ -1,0 +1,8 @@
+{
+  "item.fw_outposts.salvaged_circuit": "Salvaged Circuit",
+  "item.fw_outposts.salvaged_circuit.desc": "Scorched but repairable. Recycle or pulverise it for parts.",
+  "item.fw_outposts.encrypted_data_drive": "Encrypted Data Drive",
+  "item.fw_outposts.encrypted_data_drive.desc": "Right-click to decode: experience and a chance of rare technology",
+  "item.fw_outposts.supply_crate": "Supply Crate",
+  "item.fw_outposts.supply_crate.desc": "Right-click to open"
+}

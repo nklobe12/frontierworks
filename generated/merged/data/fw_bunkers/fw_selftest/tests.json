@@ -1,0 +1,8 @@
+{
+  "structures": [
+    {
+      "id": "fw_bunkers:bunker",
+      "dim": "minecraft:overworld"
+    }
+  ]
+}

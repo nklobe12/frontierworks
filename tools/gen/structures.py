@@ -9,6 +9,11 @@ DATA_VERSION = 3465  # Minecraft 1.20.1
 
 AIR = 'minecraft:air'
 
+# (modid of the template's mod, block id) pairs used in templates - checked by tools/check/refs.py
+USED_BLOCKS = set()
+# loot table ids referenced from template chests: (modid, table)
+USED_LOOT = set()
+
 LAND = ['#minecraft:is_forest', '#minecraft:is_taiga', '#minecraft:is_savanna', '#minecraft:is_badlands', '#minecraft:is_jungle',
         '#forge:is_plains', '#forge:is_desert', 'minecraft:meadow', 'minecraft:snowy_plains', 'minecraft:windswept_hills',
         'minecraft:sunflower_plains', 'minecraft:cherry_grove']
@@ -36,6 +41,8 @@ class Struct:
         return 0 <= x < self.size[0] and 0 <= y < self.size[1] and 0 <= z < self.size[2]
 
     def set(self, x, y, z, state, data=None):
+        if callable(state):
+            state = state()
         if self.inside(x, y, z):
             self.blocks[(x, y, z)] = (state, data)
 
@@ -157,6 +164,12 @@ def add_pool(m, pool_name, variants, fallback='minecraft:empty'):
     for i, (st, w) in enumerate(variants):
         loc = '%s/%d' % (pool_name, i)
         m.data('structures/%s.nbt' % loc, st.to_nbt())
+        for (state, data) in st.blocks.values():
+            USED_BLOCKS.add((m.modid, parse_state(state)[0]))
+            if data and 'LootTable' in data:
+                USED_LOOT.add((m.modid, data['LootTable']))
+            if data and isinstance(data.get('final_state'), str):
+                USED_BLOCKS.add((m.modid, parse_state(data['final_state'])[0]))
         elements.append((m.rl(loc), w))
     m.data('worldgen/template_pool/%s.json' % pool_name, pool_json(m, elements, fallback))
     return m.rl(pool_name)

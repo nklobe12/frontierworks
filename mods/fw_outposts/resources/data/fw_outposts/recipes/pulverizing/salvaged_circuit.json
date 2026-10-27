@@ -1,0 +1,41 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "item": "fw_outposts:salvaged_circuit",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_metals:copper_dust",
+      "count": 2
+    },
+    {
+      "item": "fw_metals:gold_dust",
+      "count": 1,
+      "chance": 0.4
+    },
+    {
+      "item": "fw_circuits:silicon",
+      "count": 1,
+      "chance": 0.5
+    }
+  ],
+  "time": 120,
+  "energy": 20,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_machines"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    }
+  ]
+}

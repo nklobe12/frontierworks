@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "id": "fw_outposts:research_station",
+      "dim": "minecraft:overworld"
+    },
+    {
+      "id": "fw_outposts:relay_station",
+      "dim": "minecraft:overworld"
+    },
+    {
+      "id": "fw_outposts:supply_depot",
+      "dim": "minecraft:overworld"
+    }
+  ]
+}

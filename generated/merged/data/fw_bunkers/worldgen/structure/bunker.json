@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#fw_bunkers:has_structure/bunker",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none",
+  "start_pool": "fw_bunkers:bunker/start",
+  "size": 1,
+  "start_height": {
+    "absolute": -10
+  },
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false,
+  "project_start_to_heightmap": "WORLD_SURFACE_WG"
+}

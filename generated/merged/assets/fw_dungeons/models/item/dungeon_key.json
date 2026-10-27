@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fw_dungeons:item/dungeon_key"
+  }
+}

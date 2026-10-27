@@ -1,0 +1,12 @@
+{
+  "structures": [
+    {
+      "id": "fw_camps:explorer_camp",
+      "dim": "minecraft:overworld"
+    },
+    {
+      "id": "fw_camps:bandit_camp",
+      "dim": "minecraft:overworld"
+    }
+  ]
+}

@@ -16,6 +16,11 @@
     "fw_stone:travertine_slab",
     "fw_stone:polished_travertine_slab",
     "fw_stone:travertine_brick_slab",
-    "fw_rubber:rubber_slab"
+    "fw_rubber:rubber_slab",
+    "fw_ruins:ancient_brick_slab",
+    "fw_ruins:ancient_tiles_slab",
+    "fw_dungeons:dungeon_brick_slab",
+    "fw_dungeons:dungeon_tiles_slab",
+    "fw_skyislands:skystone_brick_slab"
   ]
 }

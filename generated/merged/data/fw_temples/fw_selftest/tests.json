@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "id": "fw_temples:sun_pyramid",
+      "dim": "minecraft:overworld"
+    },
+    {
+      "id": "fw_temples:jungle_ziggurat",
+      "dim": "minecraft:overworld"
+    },
+    {
+      "id": "fw_temples:frost_shrine",
+      "dim": "minecraft:overworld"
+    }
+  ]
+}

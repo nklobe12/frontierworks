@@ -15,6 +15,9 @@
     "fw_stone:gabbro_brick_wall",
     "fw_stone:travertine_wall",
     "fw_stone:polished_travertine_wall",
-    "fw_stone:travertine_brick_wall"
+    "fw_stone:travertine_brick_wall",
+    "fw_ruins:ancient_brick_wall",
+    "fw_dungeons:dungeon_brick_wall",
+    "fw_skyislands:skystone_brick_wall"
   ]
 }

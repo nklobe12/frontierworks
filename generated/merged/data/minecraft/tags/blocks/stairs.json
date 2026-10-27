@@ -16,6 +16,11 @@
     "fw_stone:travertine_stairs",
     "fw_stone:polished_travertine_stairs",
     "fw_stone:travertine_brick_stairs",
-    "fw_rubber:rubber_stairs"
+    "fw_rubber:rubber_stairs",
+    "fw_ruins:ancient_brick_stairs",
+    "fw_ruins:ancient_tiles_stairs",
+    "fw_dungeons:dungeon_brick_stairs",
+    "fw_dungeons:dungeon_tiles_stairs",
+    "fw_skyislands:skystone_brick_stairs"
   ]
 }

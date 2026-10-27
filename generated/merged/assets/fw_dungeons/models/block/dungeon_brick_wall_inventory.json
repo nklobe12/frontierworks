@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "fw_dungeons:block/dungeon_bricks"
+  }
+}

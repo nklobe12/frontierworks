@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_ruins:ancient_brick_slab"
+    }
+  },
+  "result": {
+    "item": "fw_ruins:chiseled_ancient_bricks",
+    "count": 1
+  }
+}

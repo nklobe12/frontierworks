@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fw_dungeons:block/dungeon_tiles_slab"
+    },
+    "type=top": {
+      "model": "fw_dungeons:block/dungeon_tiles_slab_top"
+    },
+    "type=double": {
+      "model": "fw_dungeons:block/dungeon_tiles_slab_double"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "block.fw_ruins.ancient_bricks": "Ancient Bricks",
+  "block.fw_ruins.cracked_ancient_bricks": "Cracked Ancient Bricks",
+  "block.fw_ruins.mossy_ancient_bricks": "Mossy Ancient Bricks",
+  "block.fw_ruins.ancient_tiles": "Ancient Tiles",
+  "block.fw_ruins.chiseled_ancient_bricks": "Chiseled Ancient Bricks",
+  "block.fw_ruins.ancient_pillar": "Ancient Pillar",
+  "block.fw_ruins.ancient_brick_stairs": "Ancient Brick Stairs",
+  "block.fw_ruins.ancient_brick_slab": "Ancient Brick Slab",
+  "block.fw_ruins.ancient_brick_wall": "Ancient Brick Wall",
+  "block.fw_ruins.ancient_tiles_stairs": "Ancient Tiles Stairs",
+  "block.fw_ruins.ancient_tiles_slab": "Ancient Tiles Slab",
+  "item.fw_ruins.ancient_coin": "Ancient Coin",
+  "item.fw_ruins.ancient_coin.desc": "Struck by a forgotten kingdom. Collectors and villagers pay well for these.",
+  "item.fw_ruins.ancient_tablet": "Ancient Tablet",
+  "item.fw_ruins.ancient_tablet.desc": "Covered in worn glyphs. Use it to gain a little experience.",
+  "msg.fw_ruins.deciphered": "You decipher the glyphs (+%s XP)"
+}

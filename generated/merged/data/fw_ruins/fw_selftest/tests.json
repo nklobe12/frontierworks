@@ -1,0 +1,20 @@
+{
+  "structures": [
+    {
+      "id": "fw_ruins:ruined_house",
+      "dim": "minecraft:overworld"
+    },
+    {
+      "id": "fw_ruins:column_circle",
+      "dim": "minecraft:overworld"
+    },
+    {
+      "id": "fw_ruins:broken_arch",
+      "dim": "minecraft:overworld"
+    },
+    {
+      "id": "fw_ruins:sunken_cellar",
+      "dim": "minecraft:overworld"
+    }
+  ]
+}

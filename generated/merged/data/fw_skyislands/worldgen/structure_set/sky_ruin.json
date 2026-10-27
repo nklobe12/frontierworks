@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "fw_skyislands:sky_ruin",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 14,
+    "salt": 309292383
+  }
+}

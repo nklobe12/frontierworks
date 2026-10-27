@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "fw_towers:wizard_tower",
+    "fw_towers:watchtower",
+    "fw_towers:desert_tower",
+    "fw_towers:ice_spire"
+  ]
+}

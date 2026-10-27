@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fw_dungeons:dungeon_brick_slab",
+    "fw_dungeons:dungeon_tiles_slab"
+  ]
+}

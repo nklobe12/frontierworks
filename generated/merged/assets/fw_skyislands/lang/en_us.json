@@ -1,0 +1,14 @@
+{
+  "block.fw_skyislands.skystone": "Skystone",
+  "block.fw_skyislands.polished_skystone": "Polished Skystone",
+  "block.fw_skyislands.skystone_bricks": "Skystone Bricks",
+  "block.fw_skyislands.skystone_brick_stairs": "Skystone Brick Stairs",
+  "block.fw_skyislands.skystone_brick_slab": "Skystone Brick Slab",
+  "block.fw_skyislands.skystone_brick_wall": "Skystone Brick Wall",
+  "block.fw_skyislands.aether_crystal_ore": "Aether Crystal Ore",
+  "item.fw_skyislands.aether_crystal": "Aether Crystal",
+  "item.fw_skyislands.aether_crystal.desc": "Light as air. Feather Falling for anything it is crafted into.",
+  "item.fw_skyislands.feather_charm": "Feather Charm",
+  "item.fw_skyislands.feather_charm.desc": "While in your inventory you take no fall damage",
+  "block.fw_skyislands.cloud_bloom": "Cloud Bloom"
+}

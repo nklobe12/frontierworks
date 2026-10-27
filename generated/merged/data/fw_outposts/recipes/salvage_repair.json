@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_outposts:salvaged_circuit"
+    },
+    {
+      "item": "fw_outposts:salvaged_circuit"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "fw_parts:copper_wire"
+    }
+  ],
+  "result": {
+    "item": "fw_circuits:basic_circuit",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

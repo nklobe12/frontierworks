@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_skyislands:polished_skystone"
+    }
+  },
+  "result": {
+    "item": "fw_skyislands:skystone_bricks",
+    "count": 4
+  }
+}

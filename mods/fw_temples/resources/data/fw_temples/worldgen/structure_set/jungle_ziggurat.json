@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "fw_temples:jungle_ziggurat",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 14,
+    "salt": 405896264
+  }
+}

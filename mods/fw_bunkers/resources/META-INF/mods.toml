@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_bunkers"
+version="1.0.0"
+displayName="Frontierworks: Bunkers"
+authors="Klobe & Claude"
+description='''Sealed concrete shelters lie buried under the plains, marked only by a hatch and a rusty mast. Inside: bunks, stores, a dead generator and a command room with the bunker's secrets.'''
+
+[[dependencies.fw_bunkers]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_bunkers]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_bunkers]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

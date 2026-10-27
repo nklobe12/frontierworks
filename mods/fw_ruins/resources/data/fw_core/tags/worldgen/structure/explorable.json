@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "fw_ruins:ruined_house",
+    "fw_ruins:column_circle",
+    "fw_ruins:broken_arch",
+    "fw_ruins:sunken_cellar"
+  ]
+}

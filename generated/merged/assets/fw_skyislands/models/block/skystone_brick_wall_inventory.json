@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "fw_skyislands:block/skystone_bricks"
+  }
+}

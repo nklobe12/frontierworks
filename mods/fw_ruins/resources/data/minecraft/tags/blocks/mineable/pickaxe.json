@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "fw_ruins:ancient_bricks",
+    "fw_ruins:cracked_ancient_bricks",
+    "fw_ruins:mossy_ancient_bricks",
+    "fw_ruins:ancient_tiles",
+    "fw_ruins:chiseled_ancient_bricks",
+    "fw_ruins:ancient_pillar",
+    "fw_ruins:ancient_brick_stairs",
+    "fw_ruins:ancient_brick_slab",
+    "fw_ruins:ancient_brick_wall",
+    "fw_ruins:ancient_tiles_stairs",
+    "fw_ruins:ancient_tiles_slab"
+  ]
+}

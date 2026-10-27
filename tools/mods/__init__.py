@@ -8,4 +8,5 @@ ORDER = [
     'redstone', 'teleporters', 'elevators', 'beacons',
     'tools', 'armor', 'hammers', 'drills', 'jetpack', 'grapple', 'backpacks', 'sleepingbags', 'compass', 'waystones', 'rope',
     'flares', 'scanner', 'glider', 'goggles', 'buildingtools', 'magnet', 'qol',
+    'ruins', 'dungeons', 'towers', 'skyislands', 'outposts', 'bunkers', 'temples', 'camps',
 ]

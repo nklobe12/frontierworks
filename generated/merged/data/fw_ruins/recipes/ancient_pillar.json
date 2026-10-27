@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_ruins:ancient_bricks"
+    }
+  },
+  "result": {
+    "item": "fw_ruins:ancient_pillar",
+    "count": 2
+  }
+}

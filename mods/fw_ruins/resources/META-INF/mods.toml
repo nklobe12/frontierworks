@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_ruins"
+version="1.0.0"
+displayName="Frontierworks: Ancient Ruins"
+authors="Klobe & Claude"
+description='''Crumbling houses, broken arches, column circles and sunken cellars from a forgotten age dot the overworld, with ancient bricks to build with and treasure to dig up.'''
+
+[[dependencies.fw_ruins]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_ruins]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_ruins]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

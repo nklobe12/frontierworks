@@ -36,6 +36,8 @@ def build():
         'tooltip.fw_core.upgrade.efficiency': 'Machines use 20% less energy per card',
         'tooltip.fw_core.upgrade.capacity': 'Adds the base energy capacity again per card',
         'tooltip.fw_core.upgrade.range': 'Extends the working area of area machines',
+        'msg.fw_core.empty_bag': 'There was nothing useful inside', 'key.categories.frontierworks': 'Frontierworks',
+        'msg.fw_core.destination_unavailable': 'That destination is unavailable',
     }.items():
         m.tr(k, v)
     return m

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "fw_temples:sun_pyramid",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 48,
+    "separation": 18,
+    "salt": 305617967
+  }
+}

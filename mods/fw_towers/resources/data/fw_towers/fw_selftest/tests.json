@@ -1,0 +1,20 @@
+{
+  "structures": [
+    {
+      "id": "fw_towers:wizard_tower",
+      "dim": "minecraft:overworld"
+    },
+    {
+      "id": "fw_towers:watchtower",
+      "dim": "minecraft:overworld"
+    },
+    {
+      "id": "fw_towers:desert_tower",
+      "dim": "minecraft:overworld"
+    },
+    {
+      "id": "fw_towers:ice_spire",
+      "dim": "minecraft:overworld"
+    }
+  ]
+}

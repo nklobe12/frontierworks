@@ -1,0 +1,20 @@
+{
+  "block.fw_dungeons.dungeon_bricks": "Dungeon Bricks",
+  "block.fw_dungeons.cracked_dungeon_bricks": "Cracked Dungeon Bricks",
+  "block.fw_dungeons.mossy_dungeon_bricks": "Mossy Dungeon Bricks",
+  "block.fw_dungeons.dungeon_tiles": "Dungeon Tiles",
+  "block.fw_dungeons.dungeon_pillar": "Dungeon Pillar",
+  "block.fw_dungeons.dungeon_brick_stairs": "Dungeon Brick Stairs",
+  "block.fw_dungeons.dungeon_brick_slab": "Dungeon Brick Slab",
+  "block.fw_dungeons.dungeon_brick_wall": "Dungeon Brick Wall",
+  "block.fw_dungeons.dungeon_tiles_stairs": "Dungeon Tiles Stairs",
+  "block.fw_dungeons.dungeon_tiles_slab": "Dungeon Tiles Slab",
+  "block.fw_dungeons.spike_trap": "Spike Trap",
+  "block.fw_dungeons.spike_trap.desc": "Hurts anything that walks across it",
+  "item.fw_dungeons.dungeon_key": "Dungeon Key",
+  "item.fw_dungeons.dungeon_key.desc": "Opens one dungeon vault",
+  "block.fw_dungeons.vault": "Vault",
+  "block.fw_dungeons.vault.desc": "Needs a Dungeon Key",
+  "msg.fw_dungeons.vault_locked": "Locked. It needs a %s",
+  "msg.fw_dungeons.vault_empty": "The vault is empty"
+}

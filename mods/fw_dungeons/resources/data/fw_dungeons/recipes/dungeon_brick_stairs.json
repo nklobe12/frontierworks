@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_dungeons:dungeon_bricks"
+    }
+  },
+  "result": {
+    "item": "fw_dungeons:dungeon_brick_stairs",
+    "count": 4
+  }
+}

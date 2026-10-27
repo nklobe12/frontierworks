@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DB",
+    "BD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:deepslate_bricks"
+    },
+    "B": {
+      "item": "minecraft:stone_bricks"
+    }
+  },
+  "result": {
+    "item": "fw_dungeons:dungeon_bricks",
+    "count": 4
+  }
+}

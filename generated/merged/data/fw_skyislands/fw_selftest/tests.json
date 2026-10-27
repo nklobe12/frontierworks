@@ -1,0 +1,20 @@
+{
+  "structures": [
+    {
+      "id": "fw_skyislands:sky_grove",
+      "dim": "minecraft:overworld"
+    },
+    {
+      "id": "fw_skyislands:sky_pond",
+      "dim": "minecraft:overworld"
+    },
+    {
+      "id": "fw_skyislands:sky_shrine",
+      "dim": "minecraft:overworld"
+    },
+    {
+      "id": "fw_skyislands:sky_ruin",
+      "dim": "minecraft:overworld"
+    }
+  ]
+}

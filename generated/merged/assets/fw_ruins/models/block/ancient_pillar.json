@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "fw_ruins:block/ancient_pillar",
+    "end": "fw_ruins:block/ancient_pillar_top"
+  }
+}

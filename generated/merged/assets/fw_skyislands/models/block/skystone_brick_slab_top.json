@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "fw_skyislands:block/skystone_bricks",
+    "top": "fw_skyislands:block/skystone_bricks",
+    "side": "fw_skyislands:block/skystone_bricks"
+  }
+}

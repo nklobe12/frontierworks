@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "fw_ruins:block/ancient_tiles",
+    "top": "fw_ruins:block/ancient_tiles",
+    "side": "fw_ruins:block/ancient_tiles"
+  }
+}

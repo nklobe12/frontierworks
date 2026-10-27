@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "fw_dungeons:dungeon_bricks",
+    "fw_dungeons:cracked_dungeon_bricks",
+    "fw_dungeons:mossy_dungeon_bricks",
+    "fw_dungeons:dungeon_tiles",
+    "fw_dungeons:dungeon_pillar",
+    "fw_dungeons:dungeon_brick_stairs",
+    "fw_dungeons:dungeon_brick_slab",
+    "fw_dungeons:dungeon_brick_wall",
+    "fw_dungeons:dungeon_tiles_stairs",
+    "fw_dungeons:dungeon_tiles_slab",
+    "fw_dungeons:spike_trap"
+  ]
+}

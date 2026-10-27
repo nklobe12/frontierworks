@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "FCF",
+    " F "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "C": {
+      "item": "fw_skyislands:aether_crystal"
+    }
+  },
+  "result": {
+    "item": "fw_skyislands:feather_charm",
+    "count": 1
+  }
+}

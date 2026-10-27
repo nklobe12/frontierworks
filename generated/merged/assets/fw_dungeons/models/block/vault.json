@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "fw_dungeons:block/vault_top",
+    "side": "fw_dungeons:block/vault_side",
+    "front": "fw_dungeons:block/vault_front"
+  }
+}

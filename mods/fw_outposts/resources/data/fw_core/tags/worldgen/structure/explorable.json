@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "fw_outposts:research_station",
+    "fw_outposts:relay_station",
+    "fw_outposts:supply_depot"
+  ]
+}

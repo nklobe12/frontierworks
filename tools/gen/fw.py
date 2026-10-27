@@ -96,6 +96,7 @@ class Mod:
         self.mine = defaultdict(list)
         self.items_order = []
         self.recipe_names = set()
+        self.java_files = OrderedDict()  # extra generated Java: relative path under com/frontierworks/<pkg>/ -> source
         ALL_MODS.append(self)
 
     # ------------------------------------------------------------------ basics
@@ -118,6 +119,16 @@ class Mod:
 
     def field(self, line):
         self.fields.append(line)
+
+    def java_file(self, rel, source):
+        """Extra generated Java source, rel is relative to the mod package directory (e.g. 'client/RocketModel.java')."""
+        self.java_files[rel] = source
+
+    def model(self, box, subpkg='client', seed=None):
+        """Generated entity model: writes the Java class and its texture (textures/entity/<layer>.png)."""
+        self.java_file('%s/%s.java' % (subpkg, box.cls), box.java('com.frontierworks.%s.%s' % (self.pkg, subpkg), self.modid))
+        self.texture('entity/' + box.layer, box.texture(seed or (self.modid + box.layer)))
+        return 'com.frontierworks.%s.%s.%s' % (self.pkg, subpkg, box.cls)
 
     def imp(self, *names):
         for n in names:
@@ -795,6 +806,8 @@ def build_all():
         jdir = mdir / 'gen' / 'com' / 'frontierworks' / m.pkg
         write_file(jdir / 'Content.java', m.java_content())
         write_file(jdir / ('%sMod.java' % m.pascal), m.java_main())
+        for rel, src in m.java_files.items():
+            write_file(jdir / rel, src)
         res = mdir / 'resources'
         toml = 'modLoader="javafml"\nloaderVersion="[47,)"\nlicense="MIT"\n\n' + m.mods_toml_entry()
         write_file(res / 'META-INF' / 'mods.toml', toml)

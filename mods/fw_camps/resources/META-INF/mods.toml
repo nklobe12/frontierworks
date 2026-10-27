@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_camps"
+version="1.0.0"
+displayName="Frontierworks: Camps"
+authors="Klobe & Claude"
+description='''Explorer camps with tents, maps and supplies to share, and fenced bandit hideouts guarded by pillagers with a boss chest full of stolen goods.'''
+
+[[dependencies.fw_camps]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_camps]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_camps]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
