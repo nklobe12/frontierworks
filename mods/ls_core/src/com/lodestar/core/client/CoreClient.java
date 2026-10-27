@@ -26,6 +26,8 @@ public final class CoreClient {
 
     public static void init(IEventBus bus) {
         bus.addListener(CoreClient::setup);
+        com.lodestar.core.data.PlayerData.initClient();
+        MinecraftForge.EVENT_BUS.addListener((net.minecraftforge.client.event.ClientPlayerNetworkEvent.LoggingOut e) -> com.lodestar.core.data.PlayerData.clearClient());
         MinecraftForge.EVENT_BUS.addListener(CoreClient::onTooltip);
         MinecraftForge.EVENT_BUS.addListener(CoreClient::onScreenInit);
         MinecraftForge.EVENT_BUS.addListener(CoreClient::onSkipTick);
@@ -36,7 +38,7 @@ public final class CoreClient {
     }
 
     private static void setup(FMLClientSetupEvent event) {
-        event.enqueueWork(() -> MenuScreens.register(CoreRegistry.MACHINE_MENU.get(), MachineScreen::new));
+        event.enqueueWork(() -> MenuScreens.register(CoreRegistry.MACHINE_MENU.get(), MachineScreen::create));
     }
 
     /** Adds a gray description line for any Lodestar item whose lang file has "<key>.desc". */

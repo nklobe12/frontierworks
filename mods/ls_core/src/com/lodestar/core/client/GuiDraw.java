@@ -126,6 +126,55 @@ public final class GuiDraw {
         }
     }
 
+    /** A tab or side panel sticking out of a GUI: raised background with a colored accent along the top. */
+    public static void tab(GuiGraphics g, int x, int y, int w, int h, int accent) {
+        panel(g, x, y, w, h);
+        g.fill(x + 3, y + 3, x + w - 3, y + 4, accent);
+    }
+
+    /** Flat button: raised when idle, darker when hovered, gray when disabled. */
+    public static void button(GuiGraphics g, int x, int y, int w, int h, boolean hovered, boolean enabled) {
+        int face = !enabled ? 0xFF8A8A8A : hovered ? 0xFFB8C8E8 : 0xFFD8D8D8;
+        g.fill(x, y, x + w, y + h, 0xFF000000);
+        g.fill(x + 1, y + 1, x + w - 1, y + h - 1, face);
+        g.fill(x + 1, y + 1, x + w - 1, y + 2, enabled ? LIGHT : 0xFFA0A0A0);
+        g.fill(x + 1, y + h - 2, x + w - 1, y + h - 1, 0xFF6A6A6A);
+    }
+
+    /** Vertical scroll bar: track plus a thumb at position (0..1) sized by visible fraction. */
+    public static void scrollbar(GuiGraphics g, int x, int y, int w, int h, float pos, float visible) {
+        inset(g, x, y, w, h);
+        int th = Math.max(8, Math.round(h * Math.min(1f, visible)));
+        int ty = y + Math.round((h - th) * Math.max(0f, Math.min(1f, pos)));
+        g.fill(x, ty, x + w, ty + th, 0xFFC6C6C6);
+        g.fill(x, ty, x + w, ty + 1, LIGHT);
+        g.fill(x, ty + th - 1, x + w, ty + th, 0xFF555555);
+    }
+
+    /** Horizontal bar (progress, health, heat...) filled left to right with a color. */
+    public static void hbar(GuiGraphics g, int x, int y, int w, int h, float fraction, int color) {
+        inset(g, x, y, w, h);
+        int fw = Math.round(w * Math.max(0f, Math.min(1f, fraction)));
+        if (fw > 0) g.fill(x, y, x + fw, y + h, color);
+    }
+
+    /** Vertical bar filled bottom to top. */
+    public static void vbar(GuiGraphics g, int x, int y, int w, int h, float fraction, int color) {
+        inset(g, x, y, w, h);
+        int fh = Math.round(h * Math.max(0f, Math.min(1f, fraction)));
+        if (fh > 0) g.fill(x, y + h - fh, x + w, y + h, color);
+    }
+
+    /** Word-wraps text into width and draws it; returns the height used. */
+    public static int wrapped(GuiGraphics g, net.minecraft.client.gui.Font font, net.minecraft.network.chat.Component text, int x, int y, int width, int color) {
+        int yy = y;
+        for (net.minecraft.util.FormattedCharSequence line : font.split(text, width)) {
+            g.drawString(font, line, x, yy, color, false);
+            yy += font.lineHeight + 1;
+        }
+        return yy - y;
+    }
+
     public static boolean in(int mx, int my, int x, int y, int w, int h) {
         return mx >= x && mx < x + w && my >= y && my < y + h;
     }

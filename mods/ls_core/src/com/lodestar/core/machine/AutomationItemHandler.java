@@ -3,14 +3,20 @@ package com.lodestar.core.machine;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.items.IItemHandler;
 
-import javax.annotation.Nonnull;
+import net.minecraft.core.Direction;
 
-/** What pipes/hoppers see: insert into input/fuel/battery/storage slots, extract from output/storage slots. */
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+
+/** What pipes/hoppers see: insert into input/fuel/battery/storage slots, extract from output/storage slots, per side config. */
 public class AutomationItemHandler implements IItemHandler {
     private final MachineBlockEntity be;
+    @Nullable
+    private final Direction side;
 
-    public AutomationItemHandler(MachineBlockEntity be) {
+    public AutomationItemHandler(MachineBlockEntity be, @Nullable Direction side) {
         this.be = be;
+        this.side = side;
     }
 
     private MachineLayout.Role role(int slot) {
@@ -31,6 +37,7 @@ public class AutomationItemHandler implements IItemHandler {
     @Nonnull
     @Override
     public ItemStack insertItem(int slot, @Nonnull ItemStack stack, boolean simulate) {
+        if (!be.sideAllows(side, true)) return stack;
         MachineLayout.Role r = role(slot);
         if (r == MachineLayout.Role.INPUT || r == MachineLayout.Role.FUEL || r == MachineLayout.Role.BATTERY
                 || r == MachineLayout.Role.STORAGE || r == MachineLayout.Role.CHARGE) {
@@ -43,6 +50,7 @@ public class AutomationItemHandler implements IItemHandler {
     @Nonnull
     @Override
     public ItemStack extractItem(int slot, int amount, boolean simulate) {
+        if (!be.sideAllows(side, false)) return ItemStack.EMPTY;
         MachineLayout.Role r = role(slot);
         if (r == MachineLayout.Role.OUTPUT || r == MachineLayout.Role.STORAGE) {
             return be.getItems().extractItem(slot, amount, simulate);

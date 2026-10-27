@@ -89,15 +89,29 @@ public class MachineMenu extends AbstractContainerMenu {
     }
 
     public int extra(int i) {
-        return data(MachineBlockEntity.D_TANKS + be.getTanks().length * 2 + i);
+        return data(MachineBlockEntity.D_TANKS + be.getTanks().length * 3 + i);
     }
 
     public int tankAmount(int t) {
-        return data(MachineBlockEntity.D_TANKS + t * 2);
+        return data(MachineBlockEntity.D_TANKS + t * 3);
     }
 
     public int tankFluidId(int t) {
-        return data(MachineBlockEntity.D_TANKS + t * 2 + 1);
+        return data(MachineBlockEntity.D_TANKS + t * 3 + 1);
+    }
+
+    public int tankCapacity(int t) {
+        return data(MachineBlockEntity.D_TANKS + t * 3 + 2);
+    }
+
+    public SideConfig sides() {
+        SideConfig c = new SideConfig();
+        c.unpack(data(MachineBlockEntity.D_SIDES));
+        return c;
+    }
+
+    public RedstoneMode redstone() {
+        return RedstoneMode.values()[Math.max(0, Math.min(2, data(MachineBlockEntity.D_REDSTONE)))];
     }
 
     public int machineSlotCount() {

@@ -11,6 +11,7 @@ public final class CoreHooks {
     public static void init(IEventBus bus) {
         CoreRegistry.init();
         CoreNet.init();
+        com.lodestar.core.data.PlayerData.init();
         SelfTest.init();
     }
 }

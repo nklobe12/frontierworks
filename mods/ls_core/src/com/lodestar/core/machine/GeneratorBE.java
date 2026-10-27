@@ -29,13 +29,17 @@ public abstract class GeneratorBE extends MachineBlockEntity {
     public void serverTick() {
         if (level == null || energy == null) return;
         int made = 0;
-        if (!energy.isFull()) {
+        if (!energy.isFull() && canRun()) {
             made = generate();
-            if (made > 0) energy.produce(made);
+            if (made > 0) {
+                made = Math.round(made * (1 + outputBonus()));
+                energy.produce(made);
+            }
         } else {
             idle();
         }
         lastGenerated = made;
+        rate = made;
         chargeItems(pushRate);
         EnergyUtil.pushToNeighbors(level, worldPosition, energy, pushRate, null);
         setLit(made > 0);

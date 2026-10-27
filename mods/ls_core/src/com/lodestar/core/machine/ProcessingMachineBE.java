@@ -68,7 +68,7 @@ public class ProcessingMachineBE extends MachineBlockEntity {
             }
         }
         boolean active = false;
-        if (job != null && canFinish(job) && consumePower(job)) {
+        if (job != null && canRun() && canFinish(job) && consumePower(job)) {
             progress++;
             active = true;
             if (progress >= maxProgress) {
@@ -78,6 +78,7 @@ public class ProcessingMachineBE extends MachineBlockEntity {
             }
             setChanged();
         }
+        rate = active && job != null ? energyPerTick(job) : 0;
         idleTick(active);
         setLit(active);
     }
@@ -129,7 +130,7 @@ public class ProcessingMachineBE extends MachineBlockEntity {
             if (t >= 0) tanks[t].drain(j.fluidIn2.getAmount(), IFluidHandler.FluidAction.EXECUTE);
         }
         for (ChanceStack cs : j.outputs) {
-            ItemStack out = cs.roll(level.random);
+            ItemStack out = cs.roll(level.random, outputBonus());
             if (!out.isEmpty()) insertOutput(out, false);
         }
         int filled = -1;
