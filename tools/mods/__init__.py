@@ -14,4 +14,5 @@ ORDER = [
     'codex',
     'lapidary',
     'quarry',
+    'aeolus',
 ]
