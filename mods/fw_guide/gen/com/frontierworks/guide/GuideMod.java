@@ -16,5 +16,8 @@ public final class GuideMod {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         Content.REG.register(bus);
         com.frontierworks.guide.GuideEvents.init();
+        DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> {
+            com.frontierworks.guide.client.ShowcaseClient.init();
+        });
     }
 }

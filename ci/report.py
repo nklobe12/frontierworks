@@ -78,11 +78,22 @@ if client is not None:
     probs = [l for l in cl if any(p in l for p in pats)]
     lines += ['### Client problems (%d)' % len(probs), '```'] + probs[:400] + ['```', '']
 
+show = read('showcase.log')
+if show is not None:
+    sh = show.splitlines()
+    done = any('FWSHOWCASE DONE' in l for l in sh)
+    shots = sorted(os.listdir(os.path.join(OUT, 'screenshots'))) if os.path.isdir(os.path.join(OUT, 'screenshots')) else []
+    lines += ['## Showcase: %s, %d screenshots' % ('done' if done else 'DID NOT FINISH', len(shots)), '']
+    pats = ('Unable to load model', 'Missing textures', 'Exception', 'ERROR]', 'FATAL]', 'FWSHOWCASE')
+    probs = [l for l in sh if any(p in l for p in pats)]
+    lines += ['### Showcase log (%d)' % len(probs), '```'] + probs[:300] + ['```', '']
+
 with open(os.path.join(OUT, 'summary.md'), 'w') as f:
     f.write('\n'.join(lines) + '\n')
 trim_copy('compile.log', 'compile.log')
 trim_copy('server/server.log', 'server.log')
 trim_copy('client.log', 'client.log')
+trim_copy('showcase.log', 'showcase.log')
 trim_copy('jars.txt', 'jars.txt')
 trim_copy('ci-gen.log', 'gen.log')
 print('\n'.join(lines[:60]))

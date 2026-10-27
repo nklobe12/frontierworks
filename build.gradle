@@ -43,6 +43,10 @@ minecraft {
             if (project.hasProperty('fwSelftest')) {
                 property 'fwcore.selftest', 'client'
             }
+            if (project.hasProperty('fwShowcase')) {
+                property 'fwcore.showcase', 'true'
+                args '--quickPlaySingleplayer', 'showcase', '--width', '1280', '--height', '720'
+            }
         }
         server {
             args '--nogui'

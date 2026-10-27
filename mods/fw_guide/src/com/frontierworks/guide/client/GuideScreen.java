@@ -27,6 +27,21 @@ public class GuideScreen extends Screen {
         this.data = data;
     }
 
+    /** Opens directly on a mod's page (used by the showcase). */
+    public GuideScreen(GuideData data, String modid) {
+        this(data);
+        for (int c = 0; c < data.categories.size(); c++) {
+            List<GuideData.ModPage> mods = data.categories.get(c).mods();
+            for (int i = 0; i < mods.size(); i++) {
+                if (mods.get(i).id().equals(modid)) {
+                    cat = c;
+                    mod = i;
+                    modPage = i / MODS_PER_PAGE;
+                }
+            }
+        }
+    }
+
     @Override
     protected void init() {
         left = (width - W) / 2;

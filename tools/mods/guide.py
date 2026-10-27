@@ -56,6 +56,7 @@ def build():
                               'items it adds, and a progression advancement tree from your first ingot to Mars.', tab='TOOLS')
     rl = m.rl
     m.init('com.frontierworks.guide.GuideEvents.init()')
+    m.client('com.frontierworks.guide.client.ShowcaseClient.init()')
     m.item('field_guide', ('tablet', '#6b4a2a', None, '#d4af37') if 'tablet' in tex.T else ('scroll', '#d4af37'),
            java='new com.frontierworks.guide.FieldGuideItem(new Item.Properties().stacksTo(1))', jtype='com.frontierworks.guide.FieldGuideItem',
            desc='Right-click to read about every Frontierworks mod')

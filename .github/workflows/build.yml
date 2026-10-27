@@ -71,6 +71,45 @@ jobs:
         if: always() && steps.compile.outcome == 'success' && (github.event_name == 'push' || github.event.inputs.client == 'true')
         run: bash ci/client_test.sh
 
+      - name: Showcase screenshots
+        id: showcase
+        if: always() && steps.server.outcome == 'success'
+        run: bash ci/showcase.sh
+
+      - name: Package modpacks
+        id: package
+        if: always() && steps.server.outcome == 'success'
+        run: |
+          python3 tools/package.py "${FORGE#1.20.1-}" build/modjars dist
+          cp MODS.md dist/ 2>/dev/null || true
+
+      - name: Publish release
+        if: always() && steps.package.outcome == 'success' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VER=$(grep '^pack_version=' gradle.properties | cut -d= -f2)
+          TAG="v${VER}"
+          NOTES="Frontierworks ${VER} for Minecraft 1.20.1 + Forge ${FORGE#1.20.1-}. Built from ${GITHUB_SHA::7}. See MODS.md for the full mod list."
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" > /dev/null 2>&1; then
+            gh release upload "$TAG" dist/* --clobber --repo "$GITHUB_REPOSITORY"
+            gh release edit "$TAG" --notes "$NOTES" --repo "$GITHUB_REPOSITORY"
+          else
+            gh release create "$TAG" dist/* --title "Frontierworks ${VER}" --notes "$NOTES" --repo "$GITHUB_REPOSITORY"
+          fi
+
+      - name: Publish dist branch
+        if: always() && steps.package.outcome == 'success' && github.ref == 'refs/heads/main'
+        run: |
+          set -e
+          cd dist
+          git init -q -b dist
+          git config user.name "frontierworks-ci"
+          git config user.email "ci@frontierworks.invalid"
+          git add -A
+          git commit -q -m "Modpack build from ${GITHUB_SHA}"
+          git push -q --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" dist
+
       - name: Report
         if: always()
         run: python3 ci/report.py
