@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "fw_dungeons:dungeon",
+      "required": false
+    },
+    {
+      "id": "fw_temples:sun_pyramid",
+      "required": false
+    },
+    {
+      "id": "fw_temples:jungle_ziggurat",
+      "required": false
+    },
+    {
+      "id": "fw_temples:frost_shrine",
+      "required": false
+    },
+    {
+      "id": "fw_bunkers:bunker",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "I I",
+    "IRI"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "R": {
+      "tag": "forge:raw_materials"
+    }
+  },
+  "result": {
+    "item": "fw_villagers:ore_cart",
+    "count": 1
+  }
+}

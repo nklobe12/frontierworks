@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_flora:aspen_log"
+    }
+  ],
+  "result": {
+    "item": "fw_flora:aspen_planks",
+    "count": 4
+  }
+}

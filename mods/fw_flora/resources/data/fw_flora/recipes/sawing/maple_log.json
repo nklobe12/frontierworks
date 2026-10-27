@@ -1,0 +1,28 @@
+{
+  "type": "fw_sawmill:sawing",
+  "inputs": [
+    {
+      "item": "fw_flora:maple_log",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_flora:maple_planks",
+      "count": 6
+    },
+    {
+      "item": "fw_sawmill:sawdust",
+      "count": 1,
+      "chance": 0.5
+    }
+  ],
+  "time": 100,
+  "energy": 16,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_sawmill"
+    }
+  ]
+}

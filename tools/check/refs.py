@@ -94,6 +94,15 @@ def main():
     for (modid, table) in sorted(structures.USED_LOOT):
         if table not in known:
             problems.append('%s template uses unknown loot table %s' % (modid, table))
+    # string literals in hand-written Java ("fw_mod:thing")
+    lit = re.compile(r'"(fw_[a-z0-9_]+:[a-z0-9_/]+)"')
+    for jf in sorted((ROOT / 'mods').glob('fw_*/src/**/*.java')):
+        lines = [ln for ln in jf.read_text().splitlines() if 'ResourceLocation(' in ln or 'buy(' in ln or 'sell(' in ln or 'Offer(' in ln
+                 or 'item(' in ln]
+        for mm in lit.finditer('\n'.join(lines)):
+            v = mm.group(1)
+            if v not in known and not v.startswith('fw_core:') and '#' + v not in known:
+                problems.append('%s: java literal %s' % (jf.relative_to(ROOT), v))
     for p in sorted(set(problems)):
         print(p)
     print('%d problems' % len(set(problems)))

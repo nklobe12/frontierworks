@@ -84,3 +84,7 @@ fw_outposts
 fw_bunkers
 fw_temples
 fw_camps
+fw_caves
+fw_flora
+fw_treasure
+fw_villagers

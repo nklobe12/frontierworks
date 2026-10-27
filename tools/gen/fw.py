@@ -150,6 +150,11 @@ class Mod:
     def tr(self, key, value):
         self.lang[key] = value
 
+    def biome_tag(self, name, values):
+        """Biome tag mixing tags and ids (biome modifiers cannot mix them inline); returns '#modid:name'."""
+        self.data('tags/worldgen/biome/%s.json' % name, {'replace': False, 'values': list(values)})
+        return '#%s:%s' % (self.modid, name)
+
     def ref(self, name):
         return 'Content.' + const(name)
 

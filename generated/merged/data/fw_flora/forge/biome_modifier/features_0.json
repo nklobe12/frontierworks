@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#fw_flora:aspen_trees",
+  "features": [
+    "fw_flora:aspen_tree"
+  ],
+  "step": "vegetal_decoration"
+}

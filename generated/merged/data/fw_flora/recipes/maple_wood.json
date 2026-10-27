@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_flora:maple_log"
+    }
+  },
+  "result": {
+    "item": "fw_flora:maple_wood",
+    "count": 3
+  }
+}

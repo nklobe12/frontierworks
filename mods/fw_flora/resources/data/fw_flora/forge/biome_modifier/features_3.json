@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#fw_flora:flowers_forest",
+  "features": [
+    "fw_flora:flowers_forest"
+  ],
+  "step": "vegetal_decoration"
+}

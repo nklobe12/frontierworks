@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_flora"
+version="1.0.0"
+displayName="Frontierworks: Wild Flora"
+authors="Klobe & Claude"
+description='''New trees - fiery maples, golden aspens and savanna baobabs - plus six wildflowers and blueberry and raspberry bushes to forage.'''
+
+[[dependencies.fw_flora]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_flora]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_flora]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

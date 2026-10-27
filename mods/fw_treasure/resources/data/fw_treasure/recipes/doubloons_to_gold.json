@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_treasure:gold_doubloon"
+    },
+    {
+      "item": "fw_treasure:gold_doubloon"
+    },
+    {
+      "item": "fw_treasure:gold_doubloon"
+    },
+    {
+      "item": "fw_treasure:gold_doubloon"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gold_ingot",
+    "count": 1
+  }
+}

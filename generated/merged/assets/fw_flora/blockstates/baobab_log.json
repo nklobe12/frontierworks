@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "fw_flora:block/baobab_log"
+    },
+    "axis=z": {
+      "model": "fw_flora:block/baobab_log_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "fw_flora:block/baobab_log_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

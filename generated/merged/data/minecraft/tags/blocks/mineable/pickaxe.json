@@ -285,6 +285,8 @@
     "fw_skyislands:skystone_brick_stairs",
     "fw_skyislands:skystone_brick_slab",
     "fw_skyislands:skystone_brick_wall",
-    "fw_skyislands:aether_crystal_ore"
+    "fw_skyislands:aether_crystal_ore",
+    "fw_caves:cave_crystal",
+    "fw_caves:crystal_lamp"
   ]
 }

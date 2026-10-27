@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "fw_rubber:rubber_sapling"
+    "fw_rubber:rubber_sapling",
+    "fw_flora:maple_sapling",
+    "fw_flora:aspen_sapling",
+    "fw_flora:baobab_sapling"
   ]
 }

@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#fw_flora:flowers_savanna",
+  "features": [
+    "fw_flora:flowers_savanna"
+  ],
+  "step": "vegetal_decoration"
+}

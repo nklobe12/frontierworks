@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "fw_ruins:ruined_house",
+      "required": false
+    },
+    {
+      "id": "fw_ruins:column_circle",
+      "required": false
+    },
+    {
+      "id": "fw_ruins:broken_arch",
+      "required": false
+    },
+    {
+      "id": "fw_ruins:sunken_cellar",
+      "required": false
+    },
+    {
+      "id": "fw_towers:wizard_tower",
+      "required": false
+    },
+    {
+      "id": "fw_towers:watchtower",
+      "required": false
+    },
+    {
+      "id": "fw_towers:desert_tower",
+      "required": false
+    },
+    {
+      "id": "fw_towers:ice_spire",
+      "required": false
+    }
+  ]
+}

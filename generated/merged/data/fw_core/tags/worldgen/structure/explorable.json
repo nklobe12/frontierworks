@@ -28,6 +28,7 @@
     "fw_temples:jungle_ziggurat",
     "fw_temples:frost_shrine",
     "fw_camps:explorer_camp",
-    "fw_camps:bandit_camp"
+    "fw_camps:bandit_camp",
+    "fw_treasure:buried_stash"
   ]
 }

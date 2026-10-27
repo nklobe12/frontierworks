@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "fw_caves:emberstool"
+    },
+    {
+      "item": "fw_caves:emberstool"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "fw_caves:ember_tea",
+    "count": 1
+  }
+}

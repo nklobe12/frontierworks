@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "fw_flora:maple_log",
+    "fw_flora:stripped_maple_log",
+    "fw_flora:maple_wood",
+    "fw_flora:aspen_log",
+    "fw_flora:stripped_aspen_log",
+    "fw_flora:aspen_wood",
+    "fw_flora:baobab_log",
+    "fw_flora:stripped_baobab_log",
+    "fw_flora:baobab_wood"
+  ]
+}

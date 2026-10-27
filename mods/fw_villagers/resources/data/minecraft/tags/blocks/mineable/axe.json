@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "fw_villagers:engineering_bench",
+    "fw_villagers:survey_table",
+    "fw_villagers:ore_cart",
+    "fw_villagers:potting_bench"
+  ]
+}

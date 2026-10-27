@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
-    "fw_skyislands:cloud_bloom"
+    "fw_skyislands:cloud_bloom",
+    "fw_flora:bluebell",
+    "fw_flora:sunpetal",
+    "fw_flora:violet",
+    "fw_flora:frostbloom",
+    "fw_flora:moonflower",
+    "fw_flora:firelily"
   ]
 }

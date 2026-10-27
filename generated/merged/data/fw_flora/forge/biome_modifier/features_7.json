@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#fw_flora:maple_trees",
+  "features": [
+    "fw_flora:maple_tree"
+  ],
+  "step": "vegetal_decoration"
+}

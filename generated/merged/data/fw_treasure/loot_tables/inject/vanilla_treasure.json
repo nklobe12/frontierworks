@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 2
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fw_treasure:gold_doubloon",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fw_treasure:treasure_pouch",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fw_treasure:stash_map",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fw_treasure:dungeon_map",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MC",
+    "PP"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:map"
+    },
+    "C": {
+      "item": "minecraft:compass"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "fw_villagers:survey_table",
+    "count": 1
+  }
+}

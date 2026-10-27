@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "fw_flora:maple_sapling",
+    "fw_flora:aspen_sapling",
+    "fw_flora:baobab_sapling"
+  ]
+}

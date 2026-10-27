@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "fw_flora:block/maple_planks",
+    "top": "fw_flora:block/maple_planks",
+    "side": "fw_flora:block/maple_planks"
+  }
+}

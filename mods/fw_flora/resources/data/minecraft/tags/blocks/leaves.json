@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "fw_flora:maple_leaves",
+    "fw_flora:aspen_leaves",
+    "fw_flora:baobab_leaves"
+  ]
+}

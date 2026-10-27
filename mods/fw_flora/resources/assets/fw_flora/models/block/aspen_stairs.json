@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "fw_flora:block/aspen_planks",
+    "top": "fw_flora:block/aspen_planks",
+    "side": "fw_flora:block/aspen_planks"
+  }
+}

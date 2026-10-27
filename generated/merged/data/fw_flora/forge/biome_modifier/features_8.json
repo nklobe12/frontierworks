@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#fw_flora:raspberry_bushes",
+  "features": [
+    "fw_flora:raspberry_bush_patch"
+  ],
+  "step": "vegetal_decoration"
+}

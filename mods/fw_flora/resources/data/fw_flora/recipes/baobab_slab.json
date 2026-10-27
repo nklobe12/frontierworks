@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_flora:baobab_planks"
+    }
+  },
+  "result": {
+    "item": "fw_flora:baobab_slab",
+    "count": 6
+  }
+}

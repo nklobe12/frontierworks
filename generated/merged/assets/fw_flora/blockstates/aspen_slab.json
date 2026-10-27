@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fw_flora:block/aspen_slab"
+    },
+    "type=top": {
+      "model": "fw_flora:block/aspen_slab_top"
+    },
+    "type=double": {
+      "model": "fw_flora:block/aspen_slab_double"
+    }
+  }
+}

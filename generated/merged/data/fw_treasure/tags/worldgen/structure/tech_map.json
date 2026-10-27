@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "fw_outposts:research_station",
+      "required": false
+    },
+    {
+      "id": "fw_outposts:relay_station",
+      "required": false
+    },
+    {
+      "id": "fw_outposts:supply_depot",
+      "required": false
+    },
+    {
+      "id": "fw_meteors:crater_medium",
+      "required": false
+    },
+    {
+      "id": "fw_meteors:crater_large",
+      "required": false
+    }
+  ]
+}

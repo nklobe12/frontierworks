@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "fw_flora:stripped_maple_log",
+    "fw_flora:maple_log",
+    "fw_flora:maple_wood",
+    "fw_flora:maple_planks",
+    "fw_flora:maple_stairs",
+    "fw_flora:maple_slab",
+    "fw_flora:stripped_aspen_log",
+    "fw_flora:aspen_log",
+    "fw_flora:aspen_wood",
+    "fw_flora:aspen_planks",
+    "fw_flora:aspen_stairs",
+    "fw_flora:aspen_slab",
+    "fw_flora:stripped_baobab_log",
+    "fw_flora:baobab_log",
+    "fw_flora:baobab_wood",
+    "fw_flora:baobab_planks",
+    "fw_flora:baobab_stairs",
+    "fw_flora:baobab_slab"
+  ]
+}

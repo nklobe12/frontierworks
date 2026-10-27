@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_flora:aspen_planks"
+    }
+  },
+  "result": {
+    "item": "fw_flora:aspen_slab",
+    "count": 6
+  }
+}

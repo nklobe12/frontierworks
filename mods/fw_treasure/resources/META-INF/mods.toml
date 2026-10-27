@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_treasure"
+version="1.0.0"
+displayName="Frontierworks: Treasure Hunting"
+authors="Klobe & Claude"
+description='''Treasure maps that lead to dungeons, ruins, salvage sites and buried stashes, a treasure detector that beeps its way to unopened chests, and new treasure in vanilla loot.'''
+
+[[dependencies.fw_treasure]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_treasure]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_treasure]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

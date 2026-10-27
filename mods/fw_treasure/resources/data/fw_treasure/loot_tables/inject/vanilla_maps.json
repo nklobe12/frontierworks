@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fw_treasure:explorers_map",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fw_treasure:dungeon_map",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fw_treasure:ruins_map",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fw_treasure:tech_map",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fw_treasure:stash_map",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

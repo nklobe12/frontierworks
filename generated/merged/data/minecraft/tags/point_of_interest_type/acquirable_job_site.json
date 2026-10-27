@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "fw_villagers:engineer",
+    "fw_villagers:surveyor",
+    "fw_villagers:miner",
+    "fw_villagers:botanist"
+  ]
+}

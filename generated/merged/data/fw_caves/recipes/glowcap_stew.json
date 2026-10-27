@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "fw_caves:glowcap"
+    },
+    {
+      "item": "fw_caves:glowcap"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    }
+  ],
+  "result": {
+    "item": "fw_caves:glowcap_stew",
+    "count": 1
+  }
+}

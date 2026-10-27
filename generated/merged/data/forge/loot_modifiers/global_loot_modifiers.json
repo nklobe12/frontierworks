@@ -1,6 +1,8 @@
 {
   "replace": false,
   "entries": [
-    "fw_rope:plant_fiber_grass"
+    "fw_rope:plant_fiber_grass",
+    "fw_treasure:vanilla_maps",
+    "fw_treasure:vanilla_treasure"
   ]
 }

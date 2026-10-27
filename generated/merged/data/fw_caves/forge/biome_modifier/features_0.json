@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "fw_caves:glowcap_patch",
+    "fw_caves:emberstool_patch",
+    "fw_caves:luminous_moss_patch",
+    "fw_caves:cave_crystal_patch"
+  ],
+  "step": "underground_decoration"
+}

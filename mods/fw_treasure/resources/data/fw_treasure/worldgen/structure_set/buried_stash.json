@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "fw_treasure:buried_stash",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 20,
+    "separation": 6,
+    "salt": 351080946
+  }
+}

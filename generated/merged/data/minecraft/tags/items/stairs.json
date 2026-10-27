@@ -21,6 +21,9 @@
     "fw_ruins:ancient_tiles_stairs",
     "fw_dungeons:dungeon_brick_stairs",
     "fw_dungeons:dungeon_tiles_stairs",
-    "fw_skyislands:skystone_brick_stairs"
+    "fw_skyislands:skystone_brick_stairs",
+    "fw_flora:maple_stairs",
+    "fw_flora:aspen_stairs",
+    "fw_flora:baobab_stairs"
   ]
 }

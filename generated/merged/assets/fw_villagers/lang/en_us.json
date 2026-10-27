@@ -1,0 +1,14 @@
+{
+  "block.fw_villagers.engineering_bench": "Engineering Bench",
+  "block.fw_villagers.engineering_bench.desc": "Workstation of the Engineer",
+  "entity.minecraft.villager.fw_villagers.engineer": "Engineer",
+  "block.fw_villagers.survey_table": "Survey Table",
+  "block.fw_villagers.survey_table.desc": "Workstation of the Surveyor",
+  "entity.minecraft.villager.fw_villagers.surveyor": "Surveyor",
+  "block.fw_villagers.ore_cart": "Ore Cart",
+  "block.fw_villagers.ore_cart.desc": "Workstation of the Miner",
+  "entity.minecraft.villager.fw_villagers.miner": "Miner",
+  "block.fw_villagers.potting_bench": "Potting Bench",
+  "block.fw_villagers.potting_bench.desc": "Workstation of the Botanist",
+  "entity.minecraft.villager.fw_villagers.botanist": "Botanist"
+}

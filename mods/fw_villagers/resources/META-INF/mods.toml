@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_villagers"
+version="1.0.0"
+displayName="Frontierworks: Frontier Villagers"
+authors="Klobe & Claude"
+description='''Four new village professions - the Engineer, Surveyor, Miner and Botanist - who trade tech parts, treasure maps, ores and exotic plants. Give a villager their workstation to recruit one.'''
+
+[[dependencies.fw_villagers]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_villagers]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_villagers]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

@@ -1,0 +1,28 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "item": "fw_caves:cave_crystal_shard",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:glowstone_dust",
+      "count": 2
+    },
+    {
+      "item": "minecraft:amethyst_shard",
+      "count": 1,
+      "chance": 0.3
+    }
+  ],
+  "time": 80,
+  "energy": 20,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_machines"
+    }
+  ]
+}

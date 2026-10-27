@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_flora:baobab_log"
+    }
+  ],
+  "result": {
+    "item": "fw_flora:baobab_planks",
+    "count": 4
+  }
+}

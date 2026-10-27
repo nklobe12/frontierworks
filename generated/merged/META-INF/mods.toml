@@ -2374,3 +2374,115 @@ description='''Explorer camps with tents, maps and supplies to share, and fenced
     versionRange="[1.0.0,)"
     ordering="AFTER"
     side="BOTH"
+
+[[mods]]
+modId="fw_caves"
+version="1.0.0"
+displayName="Frontierworks: Glowing Caves"
+authors="Klobe & Claude"
+description='''The overworld's caves come alive with bioluminescent glowcaps, luminous moss and crystal growths - natural light for spelunkers, and ingredients for lamps and night-vision stew.'''
+
+[[dependencies.fw_caves]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_caves]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_caves]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_flora"
+version="1.0.0"
+displayName="Frontierworks: Wild Flora"
+authors="Klobe & Claude"
+description='''New trees - fiery maples, golden aspens and savanna baobabs - plus six wildflowers and blueberry and raspberry bushes to forage.'''
+
+[[dependencies.fw_flora]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_flora]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_flora]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_treasure"
+version="1.0.0"
+displayName="Frontierworks: Treasure Hunting"
+authors="Klobe & Claude"
+description='''Treasure maps that lead to dungeons, ruins, salvage sites and buried stashes, a treasure detector that beeps its way to unopened chests, and new treasure in vanilla loot.'''
+
+[[dependencies.fw_treasure]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_treasure]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_treasure]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_villagers"
+version="1.0.0"
+displayName="Frontierworks: Frontier Villagers"
+authors="Klobe & Claude"
+description='''Four new village professions - the Engineer, Surveyor, Miner and Botanist - who trade tech parts, treasure maps, ores and exotic plants. Give a villager their workstation to recruit one.'''
+
+[[dependencies.fw_villagers]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_villagers]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_villagers]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

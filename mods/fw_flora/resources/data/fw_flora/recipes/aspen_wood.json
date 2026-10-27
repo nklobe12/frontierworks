@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_flora:aspen_log"
+    }
+  },
+  "result": {
+    "item": "fw_flora:aspen_wood",
+    "count": 3
+  }
+}

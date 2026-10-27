@@ -1,0 +1,23 @@
+{
+  "type": "fw_machines:extracting",
+  "inputs": [
+    {
+      "item": "fw_flora:maple_log",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_flora:maple_syrup",
+      "count": 1
+    }
+  ],
+  "time": 120,
+  "energy": 16,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_machines"
+    }
+  ]
+}

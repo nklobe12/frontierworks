@@ -2067,6 +2067,25 @@ def cross_plant(stem, petal, seed, style='flower'):
             h = 5 + hsh(seed, i) % 8
             for y in range(16 - h, 16):
                 px[x, y] = shade(s, 0.8 + (16 - y) / 30.0)
+    elif style == 'cluster':
+        # three stems with flower heads at different heights
+        for i, (sx, top) in enumerate(((4, 6), (8, 3), (11, 7))):
+            for y in range(top + 2, 16):
+                px[sx, y] = shade(s, 0.85 + (y % 3) * 0.08)
+            for (dx, dy) in ((0, 0), (-1, 1), (1, 1), (0, 2), (-1, 0), (1, 0), (0, 1)):
+                x, y = sx + dx, top + dy
+                if 0 <= x < 16:
+                    px[x, y] = shade(p, 1.0 - 0.12 * abs(dx), 0.08 if (dx, dy) == (0, 1) else 0)
+            px[sx, top + 1] = shade(p, 0.6, 0.35)
+        for (x, y) in ((3, 12), (5, 13), (9, 11), (12, 13), (7, 14)):
+            px[x, y] = shade(s, 1.1)
+    elif style == 'crystal':
+        for i, (cx, h, w) in enumerate(((5, 9, 1), (8, 13, 2), (11, 8, 1))):
+            for y in range(16 - h, 16):
+                hw = w if y > 16 - h + 2 else max(0, w - 1)
+                for x in range(cx - hw, cx + hw + 1):
+                    edge = x == cx - hw or x == cx + hw
+                    px[x, y] = shade(p, 0.8 if edge else 1.1, 0.1 if x == cx and y < 16 - h + 4 else 0)
     elif style == 'bush':
         for y in range(4, 16):
             for x in range(2, 14):

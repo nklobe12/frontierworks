@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fw_caves:cave_crystal",
+    "fw_caves:crystal_lamp"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#fw_flora:baobab_trees",
+  "features": [
+    "fw_flora:baobab_tree"
+  ],
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fw_villagers:block/survey_table"
+    },
+    "facing=east": {
+      "model": "fw_villagers:block/survey_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fw_villagers:block/survey_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fw_villagers:block/survey_table",
+      "y": 270
+    }
+  }
+}

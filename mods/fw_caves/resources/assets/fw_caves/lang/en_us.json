@@ -1,0 +1,16 @@
+{
+  "block.fw_caves.glowcap": "Glowcap",
+  "block.fw_caves.glowcap.desc": "Glows softly. Makes night-vision stew.",
+  "block.fw_caves.emberstool": "Emberstool",
+  "block.fw_caves.cave_crystal": "Cave Crystal",
+  "block.fw_caves.cave_crystal.desc": "A cluster of glowing crystal",
+  "item.fw_caves.cave_crystal_shard": "Cave Crystal Shard",
+  "block.fw_caves.luminous_moss": "Luminous Moss",
+  "block.fw_caves.luminous_moss_carpet": "Luminous Moss Carpet",
+  "block.fw_caves.crystal_lamp": "Crystal Lamp",
+  "block.fw_caves.crystal_lamp.desc": "Bright, cold light",
+  "item.fw_caves.glowcap_stew": "Glowcap Stew",
+  "item.fw_caves.glowcap_stew.desc": "Night vision for two minutes",
+  "item.fw_caves.ember_tea": "Ember Tea",
+  "item.fw_caves.ember_tea.desc": "Fire resistance for one minute"
+}

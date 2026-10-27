@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_caves:luminous_moss"
+    }
+  },
+  "result": {
+    "item": "fw_caves:luminous_moss_carpet",
+    "count": 3
+  }
+}
