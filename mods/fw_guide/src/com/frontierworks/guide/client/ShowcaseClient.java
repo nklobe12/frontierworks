@@ -81,6 +81,17 @@ public final class ShowcaseClient {
         Screenshot.grab(mc.gameDirectory, "fw_" + name + ".png", mc.getMainRenderTarget(), msg -> LOG.info("FWSHOWCASE shot {}", name));
     }
 
+    /** Teleports the player and puts an invisible barrier pad under their feet so the camera stays exactly there. */
+    private static void place(ServerPlayer p, ServerLevel lvl, double x, double y, double z, float yaw, float pitch) {
+        BlockPos feet = BlockPos.containing(x, y, z);
+        for (int dx = -1; dx <= 1; dx++)
+            for (int dz = -1; dz <= 1; dz++) {
+                BlockPos b = feet.offset(dx, -1, dz);
+                if (lvl.isEmptyBlock(b)) lvl.setBlock(b, Blocks.BARRIER.defaultBlockState(), 2);
+            }
+        p.teleportTo(lvl, x, feet.getY(), z, yaw, pitch);
+    }
+
     private static void command(MinecraftServer srv, String cmd) {
         srv.getCommands().performPrefixedCommand(srv.createCommandSourceStack().withSuppressedOutput(), cmd);
     }
@@ -213,7 +224,7 @@ public final class ShowcaseClient {
                 int x0 = sp.getX() - 8, y0 = 236, z0 = sp.getZ() - 30;
                 ServerPlayer early = player(srv);
                 LOG.info("FWSHOWCASE blocks page {}: {} blocks, player {}", pg + 1, slice.size(), early == null ? "missing" : early.blockPosition());
-                if (early != null) early.teleportTo(lvl, x0 + 7.5, y0 + 2.0, z0 + 11.5, 180f, 8f);
+                if (early != null) place(early, lvl, x0 + 7.5, y0 + 2.0, z0 + 11.5, 180f, 8f);
                 for (int x = -2; x < 18; x++)
                     for (int y = -2; y < 10; y++) {
                         lvl.setBlock(new BlockPos(x0 + x, y0 + y, z0), Blocks.SMOOTH_QUARTZ.defaultBlockState(), 2 | 16);
@@ -228,7 +239,7 @@ public final class ShowcaseClient {
                 }
                 LOG.info("FWSHOWCASE blocks page {} placed", pg + 1);
                 ServerPlayer p = player(srv);
-                if (p != null) p.teleportTo(lvl, x0 + 7.5, y0 + 2.0, z0 + 11.5, 180f, 8f);
+                if (p != null) place(p, lvl, x0 + 7.5, y0 + 2.0, z0 + 11.5, 180f, 8f);
             }));
             add(10, mc -> shot(mc, "blocks_" + (pg + 1)));
         }
@@ -257,13 +268,13 @@ public final class ShowcaseClient {
                 n += big ? 2 : 1;
             }
             ServerPlayer p = player(srv);
-            if (p != null) p.teleportTo(lvl, x0 + 18.0, y0 + 3.0, z0 + 16.0, 180f, 10f);
+            if (p != null) place(p, lvl, x0 + 18.0, y0 + 3.0, z0 + 16.0, 180f, 10f);
         }));
         add(10, mc -> shot(mc, "creatures"));
         add(200, mc -> server(mc, srv -> {
             ServerPlayer p = player(srv);
             BlockPos sp = srv.overworld().getSharedSpawnPos();
-            if (p != null) p.teleportTo(srv.overworld(), sp.getX() + 48.0, 238.0, sp.getZ() - 21.0, 180f, 12f);
+            if (p != null) place(p, srv.overworld(), sp.getX() + 48.0, 238.0, sp.getZ() - 21.0, 180f, 12f);
         }));
         add(10, mc -> shot(mc, "creatures_close"));
         // 3. structures from their templates on a flat platform
@@ -291,7 +302,7 @@ public final class ShowcaseClient {
                 command(srv, "place template " + id + " " + x0 + " " + y0 + " " + z0);
                 int span = Math.max(size.getX(), Math.max(size.getY(), size.getZ()));
                 ServerPlayer p = player(srv);
-                if (p != null) p.teleportTo(lvl, x0 + size.getX() / 2.0, y0 + size.getY() * 0.55 + 2, z0 + size.getZ() + span * 0.9 + 4, 180f, 12f);
+                if (p != null) place(p, lvl, x0 + size.getX() / 2.0, y0 + size.getY() * 0.55 + 2, z0 + size.getZ() + span * 0.9 + 4, 180f, 12f);
             }));
             add(10, mc -> shot(mc, "structure_" + id.substring(3, id.indexOf('/')).replace(':', '_')));
         }
@@ -303,7 +314,7 @@ public final class ShowcaseClient {
                 ServerPlayer p = player(srv);
                 if (lvl == null || p == null) return;
                 double[] v = viewpoint(lvl);
-                p.teleportTo(lvl, v[0] + 0.5, v[1], v[2] + 0.5, 45f, Float.parseFloat(d[1]));
+                place(p, lvl, v[0] + 0.5, v[1], v[2] + 0.5, 45f, Float.parseFloat(d[1]));
             }));
             add(10, mc -> shot(mc, "dimension_" + d[0].substring(d[0].indexOf(':') + 1)));
         }
