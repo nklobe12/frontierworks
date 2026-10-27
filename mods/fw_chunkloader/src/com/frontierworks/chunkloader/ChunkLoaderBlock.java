@@ -28,13 +28,7 @@ public class ChunkLoaderBlock extends Block {
     }
 
     public static void init() {
-        ForgeChunkManager.setForcedChunkLoadingValidationCallback(MODID, (level, helper) -> {
-            for (BlockPos owner : helper.getBlockTickets().keySet()) {
-                if (!(level.getBlockState(owner).getBlock() instanceof ChunkLoaderBlock)) {
-                    helper.removeAllTickets(owner);
-                }
-            }
-        });
+        // Forge 1.20.1 restores block tickets on load; loaders release theirs when broken (onRemove).
     }
 
     private void force(ServerLevel level, BlockPos pos, boolean add) {

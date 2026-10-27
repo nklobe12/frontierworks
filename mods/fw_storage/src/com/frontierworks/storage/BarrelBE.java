@@ -35,7 +35,7 @@ public class BarrelBE extends BlockEntity {
         return type.isEmpty() ? stacks * 64 : stacks * type.getMaxStackSize();
     }
 
-    public ItemStack getType() {
+    public ItemStack getStoredType() {
         return type;
     }
 

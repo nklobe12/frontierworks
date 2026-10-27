@@ -24,7 +24,7 @@ public class BarrelRenderer implements BlockEntityRenderer<BarrelBE> {
 
     @Override
     public void render(BarrelBE be, float partialTick, PoseStack pose, MultiBufferSource buffers, int light, int overlay) {
-        ItemStack type = be.getType();
+        ItemStack type = be.getStoredType();
         if (type.isEmpty() || be.getLevel() == null) return;
         Direction facing = be.getBlockState().hasProperty(BarrelBlock.FACING) ? be.getBlockState().getValue(BarrelBlock.FACING) : Direction.NORTH;
         int faceLight = net.minecraft.client.renderer.LevelRenderer.getLightColor(be.getLevel(), be.getBlockPos().relative(facing));

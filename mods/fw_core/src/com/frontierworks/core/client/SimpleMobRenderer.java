@@ -28,7 +28,8 @@ public class SimpleMobRenderer<T extends Mob, M extends EntityModel<T>> extends 
 
     @Override
     protected void scale(T entity, PoseStack pose, float partialTick) {
-        if (scale != 1.0f) pose.scale(scale, scale, scale);
+        float s = entity.isBaby() ? scale * 0.5f : scale;
+        if (s != 1.0f) pose.scale(s, s, s);
     }
 
     /** Humanoid (zombie-shaped) mob with a custom 64x64 skin. */
