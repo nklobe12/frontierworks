@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#fw_mobs:drone_spawns",
+  "spawners": [
+    {
+      "type": "fw_mobs:scrap_drone",
+      "weight": 10,
+      "minCount": 1,
+      "maxCount": 2
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_colossus"
+version="1.0.0"
+displayName="Frontierworks: The Iron Colossus"
+authors="Klobe & Claude"
+description='''A boss: a four-block-tall war machine awakened with a Colossus Core. It smashes the ground, flings you skyward and calls scrap drones when damaged. Defeat it for a Heart Container, colossus plating and the ground-shaking Colossus Maul.'''
+
+[[dependencies.fw_colossus]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_colossus]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_colossus]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fw_colossus]]
+    modId="fw_mobs"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fw_colossus]]
+    modId="fw_hearts"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

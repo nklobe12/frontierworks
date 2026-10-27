@@ -7,9 +7,6 @@
     " S "
   ],
   "key": {
-    "I": {
-      "tag": "forge:gems/diamond"
-    },
     "B": {
       "tag": "forge:storage_blocks/diamond"
     },

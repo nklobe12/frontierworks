@@ -100,3 +100,7 @@ fw_explosives
 fw_relics
 fw_hearts
 fw_coins
+fw_mobs
+fw_colossus
+fw_wraithking
+fw_wyvern

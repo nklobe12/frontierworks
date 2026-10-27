@@ -7,9 +7,6 @@
     " S "
   ],
   "key": {
-    "I": {
-      "tag": "forge:ingots/titanium"
-    },
     "B": {
       "tag": "forge:storage_blocks/titanium"
     },

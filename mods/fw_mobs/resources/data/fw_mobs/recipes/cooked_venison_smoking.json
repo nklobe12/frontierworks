@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": {
+    "item": "fw_mobs:raw_venison"
+  },
+  "result": "fw_mobs:cooked_venison",
+  "experience": 0.35,
+  "cookingtime": 100
+}

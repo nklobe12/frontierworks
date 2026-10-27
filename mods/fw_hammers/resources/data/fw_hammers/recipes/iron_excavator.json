@@ -7,9 +7,6 @@
     " S "
   ],
   "key": {
-    "I": {
-      "tag": "forge:ingots/iron"
-    },
     "B": {
       "tag": "forge:storage_blocks/iron"
     },

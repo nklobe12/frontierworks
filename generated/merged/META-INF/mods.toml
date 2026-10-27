@@ -2822,3 +2822,143 @@ description='''A frontier currency: hostile mobs drop copper and silver coins (b
     versionRange="[1.0.0,)"
     ordering="AFTER"
     side="BOTH"
+
+[[mods]]
+modId="fw_mobs"
+version="1.0.0"
+displayName="Frontierworks: Frontier Bestiary"
+authors="Klobe & Claude"
+description='''New creatures for the frontier: deer and wild boars in the forests, rust beetles and venomous cave crawlers underground, scrap drones patrolling the plains at night, bog lurkers in swamps, sand mummies in deserts, frost wraiths in the snow and ember imps in the Nether.'''
+
+[[dependencies.fw_mobs]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_mobs]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_mobs]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_colossus"
+version="1.0.0"
+displayName="Frontierworks: The Iron Colossus"
+authors="Klobe & Claude"
+description='''A boss: a four-block-tall war machine awakened with a Colossus Core. It smashes the ground, flings you skyward and calls scrap drones when damaged. Defeat it for a Heart Container, colossus plating and the ground-shaking Colossus Maul.'''
+
+[[dependencies.fw_colossus]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_colossus]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_colossus]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fw_colossus]]
+    modId="fw_mobs"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fw_colossus]]
+    modId="fw_hearts"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_wraithking"
+version="1.0.0"
+displayName="Frontierworks: The Wraith King"
+authors="Klobe & Claude"
+description='''A boss of the night: place the Cursed Crown after dark to summon the Wraith King. He hurls wither skulls, blinks behind you and raises skeleton guards - wither skeletons once he's enraged. Drops a Heart Container, soul gems and the life-draining Wraith Blade.'''
+
+[[dependencies.fw_wraithking]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_wraithking]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_wraithking]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fw_wraithking]]
+    modId="fw_hearts"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_wyvern"
+version="1.0.0"
+displayName="Frontierworks: The Sky Wyvern"
+authors="Klobe & Claude"
+description='''A boss of the high skies: blow a Wyvern Lure above y=140 (or anywhere in the Skylands) and the Sky Wyvern answers - a winged beast that rains fireballs and dives at you. Its scales make fireproof armor that lets you drift down gently while sneaking.'''
+
+[[dependencies.fw_wyvern]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_wyvern]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_wyvern]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fw_wyvern]]
+    modId="fw_hearts"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

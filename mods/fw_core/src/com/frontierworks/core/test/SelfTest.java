@@ -118,19 +118,29 @@ public final class SelfTest {
             }
         });
 
-        // 3. structures
-        steps.add(() -> {
-            List<ResourceLocation> ids = new ArrayList<>();
-            for (Map.Entry<ResourceKey<Structure>, Structure> e : server.registryAccess().registryOrThrow(Registries.STRUCTURE).entrySet()) {
-                if (e.getKey().location().getNamespace().startsWith("fw_")) ids.add(e.getKey().location());
-            }
-            int n = 0;
-            for (ResourceLocation id : ids) {
+        // 3. structures: one per tick, with the surrounding chunks loaded first (/place requires loaded chunks)
+        List<ResourceLocation> ids = new ArrayList<>();
+        for (Map.Entry<ResourceKey<Structure>, Structure> e : server.registryAccess().registryOrThrow(Registries.STRUCTURE).entrySet()) {
+            if (e.getKey().location().getNamespace().startsWith("fw_")) ids.add(e.getKey().location());
+        }
+        int n = 0;
+        for (ResourceLocation id : ids) {
+            final int idx = n++;
+            steps.add(() -> {
                 String dim = dimFor(specs, id.toString());
-                int x = 8000 + n * 160;
-                n++;
-                String cmd = "execute in " + dim + " run place structure " + id + " " + x + " 120 8000";
+                ServerLevel lvl = server.getLevel(ResourceKey.create(Registries.DIMENSION, new ResourceLocation(dim)));
+                if (lvl == null) {
+                    failures++;
+                    LOG.error("FWSELFTEST FAIL structure {} (dimension {} missing)", id, dim);
+                    return;
+                }
+                int x = 8000 + idx * 400;
+                int z = 8000;
                 try {
+                    for (int cx = -5; cx <= 5; cx++)
+                        for (int cz = -5; cz <= 5; cz++)
+                            lvl.getChunk((x >> 4) + cx, (z >> 4) + cz);
+                    String cmd = "execute in " + dim + " run place structure " + id + " " + x + " 120 " + z;
                     int r = server.getCommands().performPrefixedCommand(server.createCommandSourceStack(), cmd);
                     if (r <= 0) {
                         failures++;
@@ -141,9 +151,8 @@ public final class SelfTest {
                 } catch (Throwable t) {
                     fail("structure " + id, t);
                 }
-            }
-            wait = 20;
-        });
+            });
+        }
 
         // 4. entities
         steps.add(() -> {

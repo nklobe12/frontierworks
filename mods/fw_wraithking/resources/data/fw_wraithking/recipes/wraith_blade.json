@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " G ",
+    " G ",
+    " N "
+  ],
+  "key": {
+    "G": {
+      "item": "fw_wraithking:soul_gem"
+    },
+    "N": {
+      "item": "minecraft:netherite_sword"
+    }
+  },
+  "result": {
+    "item": "fw_wraithking:wraith_blade",
+    "count": 1
+  }
+}

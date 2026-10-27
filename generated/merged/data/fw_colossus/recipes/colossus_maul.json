@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "PNP",
+    " S "
+  ],
+  "key": {
+    "P": {
+      "item": "fw_colossus:colossus_plating"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "fw_colossus:colossus_maul",
+    "count": 1
+  }
+}

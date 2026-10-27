@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#fw_mobs:boar_spawns",
+  "spawners": [
+    {
+      "type": "fw_mobs:boar",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    }
+  ]
+}

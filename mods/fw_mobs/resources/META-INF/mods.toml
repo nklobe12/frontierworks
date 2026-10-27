@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_mobs"
+version="1.0.0"
+displayName="Frontierworks: Frontier Bestiary"
+authors="Klobe & Claude"
+description='''New creatures for the frontier: deer and wild boars in the forests, rust beetles and venomous cave crawlers underground, scrap drones patrolling the plains at night, bog lurkers in swamps, sand mummies in deserts, frost wraiths in the snow and ember imps in the Nether.'''
+
+[[dependencies.fw_mobs]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_mobs]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_mobs]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EEE",
+    "EIE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "fw_mobs:frost_essence"
+    },
+    "I": {
+      "item": "minecraft:packed_ice"
+    }
+  },
+  "result": {
+    "item": "minecraft:blue_ice",
+    "count": 2
+  }
+}

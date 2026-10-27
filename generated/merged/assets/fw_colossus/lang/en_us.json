@@ -1,0 +1,11 @@
+{
+  "item.fw_colossus.iron_colossus_spawn_egg": "Iron Colossus Spawn Egg",
+  "entity.fw_colossus.iron_colossus": "Iron Colossus",
+  "item.fw_colossus.colossus_core": "Colossus Core",
+  "item.fw_colossus.colossus_core.desc": "Right-click the ground to awaken the Iron Colossus",
+  "item.fw_colossus.colossus_plating": "Colossus Plating",
+  "item.fw_colossus.colossus_plating.desc": "Boss material",
+  "item.fw_colossus.colossus_maul": "Colossus Maul",
+  "item.fw_colossus.colossus_maul.desc": "Right-click: ground slam (5s cooldown)",
+  "msg.fw_colossus.fail": "The core stays silent"
+}

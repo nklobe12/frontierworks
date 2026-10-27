@@ -12,4 +12,5 @@ ORDER = [
     'caves', 'flora', 'treasure', 'villagers',
     'glass', 'lamps', 'decor', 'food', 'potions', 'enchantments',
     'weapons', 'blasters', 'explosives', 'relics', 'hearts', 'coins',
+    'mobs', 'colossus', 'wraithking', 'wyvern',
 ]

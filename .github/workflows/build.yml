@@ -68,7 +68,7 @@ jobs:
 
       - name: Client self-test
         id: client
-        if: steps.compile.outcome == 'success' && (github.event_name == 'push' || github.event.inputs.client == 'true')
+        if: always() && steps.compile.outcome == 'success' && (github.event_name == 'push' || github.event.inputs.client == 'true')
         run: bash ci/client_test.sh
 
       - name: Report
@@ -88,7 +88,7 @@ jobs:
           git push -q --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" ci-results
 
       - name: Upload jars
-        if: steps.compile.outcome == 'success'
+        if: always() && steps.compile.outcome == 'success'
         uses: actions/upload-artifact@v4
         with:
           name: frontierworks-mods

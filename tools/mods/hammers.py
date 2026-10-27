@@ -22,7 +22,8 @@ def build():
             name = '%s_%s' % (mat, kind)
             m.item(name, (kind, color, '#5a3a22'), java='new AreaToolItem(%s, %s, new Item.Properties())' % (tier, 'true' if shovel else 'false'),
                    jtype='AreaToolItem', model='handheld', tags=['forge:tools/' + ('hammers' if not shovel else 'excavators')])
-            m.shaped(name, rl(name), pattern, {'I': ing, 'B': blk, 'S': '#forge:rods/wooden'})
+            keys = {'I': ing, 'B': blk, 'S': '#forge:rods/wooden'}
+            m.shaped(name, rl(name), pattern, {k: v for k, v in keys.items() if any(k in row for row in pattern)})
     m.tr('tooltip.fw_hammers.hammer', 'Mines 3x3. Sneak for a single block.')
     m.tr('tooltip.fw_hammers.excavator', 'Digs 3x3. Sneak for a single block.')
     return m

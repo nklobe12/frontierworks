@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "minecraft:desert"
+  ],
+  "spawners": [
+    {
+      "type": "fw_mobs:sand_mummy",
+      "weight": 40,
+      "minCount": 1,
+      "maxCount": 3
+    }
+  ]
+}

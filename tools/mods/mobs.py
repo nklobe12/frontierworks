@@ -76,7 +76,7 @@ def build():
           spawn=('ON_GROUND', 'MOTION_BLOCKING_NO_LEAVES', 'CaveCrawler::checkCaveSpawn'),
           loot=drops(('minecraft:spider_eye', 0, 1), ('minecraft:amethyst_shard', 0, 1), (rl('beetle_carapace'), 0, 1)))
     m.mob('scrap_drone', 'ScrapDrone', size=(0.8, 0.8), egg=('#7b8591', '#4ad8ff'), model=drone('ScrapDroneModel', 'scrap_drone', '#7b8591', '#3a3a3a'),
-          loot=drops(('fw_parts:copper_wire', 0, 2) if False else ('minecraft:redstone', 1, 3), ('minecraft:iron_nugget', 1, 3), (rl('drone_core'), 1, 1, 0.08)))
+          loot=drops(('minecraft:redstone', 1, 3), ('minecraft:iron_nugget', 1, 3), (rl('drone_core'), 1, 1, 0.08)))
     m.mob('bog_lurker', 'BogLurker', size=(0.6, 1.95), egg=('#4a5a3a', '#2a3a2a'),
           skin=tex.humanoid_skin('#4a5a3a', '#2a3a2a', '#6a7a4a', 'boglurker', (230, 230, 80)),
           loot=drops(('minecraft:rotten_flesh', 0, 2), (rl('bog_moss'), 0, 2), ('minecraft:slime_ball', 0, 1)))

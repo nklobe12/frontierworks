@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "M M",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "item": "fw_wyvern:wyvern_scale"
+    }
+  },
+  "result": {
+    "item": "fw_wyvern:wyvern_boots",
+    "count": 1
+  }
+}

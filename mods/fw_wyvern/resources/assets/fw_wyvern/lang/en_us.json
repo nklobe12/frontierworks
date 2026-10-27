@@ -1,0 +1,17 @@
+{
+  "item.fw_wyvern.sky_wyvern_spawn_egg": "Sky Wyvern Spawn Egg",
+  "entity.fw_wyvern.sky_wyvern": "Sky Wyvern",
+  "item.fw_wyvern.wyvern_lure": "Wyvern Lure",
+  "item.fw_wyvern.wyvern_lure.desc": "Right-click the ground above y=140 or in the Skylands to call the Sky Wyvern",
+  "item.fw_wyvern.wyvern_scale": "Wyvern Scale",
+  "item.fw_wyvern.wyvern_scale.desc": "Boss material",
+  "msg.fw_wyvern.fail": "Nothing answers from down here - climb higher",
+  "item.fw_wyvern.wyvern_helmet": "Wyvern Helmet",
+  "item.fw_wyvern.wyvern_helmet.desc": "Full set: fire immunity, and sneak in mid-air to glide down slowly",
+  "item.fw_wyvern.wyvern_chestplate": "Wyvern Chestplate",
+  "item.fw_wyvern.wyvern_chestplate.desc": "Full set: fire immunity, and sneak in mid-air to glide down slowly",
+  "item.fw_wyvern.wyvern_leggings": "Wyvern Leggings",
+  "item.fw_wyvern.wyvern_leggings.desc": "Full set: fire immunity, and sneak in mid-air to glide down slowly",
+  "item.fw_wyvern.wyvern_boots": "Wyvern Boots",
+  "item.fw_wyvern.wyvern_boots.desc": "Full set: fire immunity, and sneak in mid-air to glide down slowly"
+}

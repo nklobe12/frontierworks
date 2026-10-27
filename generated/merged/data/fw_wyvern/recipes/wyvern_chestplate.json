@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "M M",
+    "MMM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "fw_wyvern:wyvern_scale"
+    }
+  },
+  "result": {
+    "item": "fw_wyvern:wyvern_chestplate",
+    "count": 1
+  }
+}

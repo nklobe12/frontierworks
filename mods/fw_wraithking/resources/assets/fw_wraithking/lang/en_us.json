@@ -1,0 +1,11 @@
+{
+  "item.fw_wraithking.wraith_king_spawn_egg": "Wraith King Spawn Egg",
+  "entity.fw_wraithking.wraith_king": "Wraith King",
+  "item.fw_wraithking.cursed_crown": "Cursed Crown",
+  "item.fw_wraithking.cursed_crown.desc": "Right-click the ground at night to summon the Wraith King",
+  "item.fw_wraithking.soul_gem": "Soul Gem",
+  "item.fw_wraithking.soul_gem.desc": "Boss material",
+  "item.fw_wraithking.wraith_blade": "Wraith Blade",
+  "item.fw_wraithking.wraith_blade.desc": "Heals you and withers your foes with every hit",
+  "msg.fw_wraithking.fail": "The crown only answers in darkness"
+}

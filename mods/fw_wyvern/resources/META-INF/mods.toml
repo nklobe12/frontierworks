@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_wyvern"
+version="1.0.0"
+displayName="Frontierworks: The Sky Wyvern"
+authors="Klobe & Claude"
+description='''A boss of the high skies: blow a Wyvern Lure above y=140 (or anywhere in the Skylands) and the Sky Wyvern answers - a winged beast that rains fireballs and dives at you. Its scales make fireproof armor that lets you drift down gently while sneaking.'''
+
+[[dependencies.fw_wyvern]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_wyvern]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_wyvern]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fw_wyvern]]
+    modId="fw_hearts"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

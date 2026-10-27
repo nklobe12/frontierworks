@@ -7,9 +7,6 @@
     " S "
   ],
   "key": {
-    "I": {
-      "tag": "forge:ingots/meteoric_steel"
-    },
     "B": {
       "tag": "forge:storage_blocks/meteoric_steel"
     },
