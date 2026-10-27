@@ -31,6 +31,14 @@ public abstract class GridNodeBE<G extends Grid> extends LSBlockEntity {
     /** Whether this node joins grids with that neighbouring node on side d (both sides must agree). */
     public abstract boolean linksTo(Direction d, GridNodeBE<?> other);
 
+    /**
+     * Nodes this one links to that are not face neighbours (belts, chains, wireless links). A remote link joins
+     * the grids only when both ends list each other. Default: none.
+     */
+    public java.util.Collection<BlockPos> remoteLinks() {
+        return java.util.Collections.emptyList();
+    }
+
     /** Add this node's stored share to a newly built grid. */
     protected void absorbInto(G grid) {}
 
@@ -82,6 +90,14 @@ public abstract class GridNodeBE<G extends Grid> extends LSBlockEntity {
                     queue.add(other);
                 }
             }
+            for (BlockPos np : n.remoteLinks()) {
+                if (seen.contains(np) || !level.isLoaded(np)) continue;
+                BlockEntity be = level.getBlockEntity(np);
+                if (be instanceof GridNodeBE<?> other && !other.isRemoved() && other.remoteLinks().contains(n.worldPosition)) {
+                    seen.add(np);
+                    queue.add(other);
+                }
+            }
         }
         this.grid = g;
         g.onBuilt();
@@ -110,6 +126,9 @@ public abstract class GridNodeBE<G extends Grid> extends LSBlockEntity {
                 BlockPos np = worldPosition.relative(d);
                 if (!level.isLoaded(np)) continue;
                 if (level.getBlockEntity(np) instanceof GridNodeBE<?> other) other.invalidateGrid();
+            }
+            for (BlockPos np : remoteLinks()) {
+                if (level.isLoaded(np) && level.getBlockEntity(np) instanceof GridNodeBE<?> other) other.invalidateGrid();
             }
         }
     }
