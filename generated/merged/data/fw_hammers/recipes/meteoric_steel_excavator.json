@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " B ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/meteoric_steel"
+    },
+    "B": {
+      "tag": "forge:storage_blocks/meteoric_steel"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "fw_hammers:meteoric_steel_excavator",
+    "count": 1
+  }
+}

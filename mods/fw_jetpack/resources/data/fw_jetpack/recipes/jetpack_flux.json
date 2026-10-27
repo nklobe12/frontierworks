@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PCP",
+    "EJE",
+    "TBT"
+  ],
+  "key": {
+    "P": {
+      "item": "fw_chemistry:carbon_fiber"
+    },
+    "C": {
+      "item": "fw_circuits:elite_circuit"
+    },
+    "E": {
+      "item": "fw_crystals:charged_energite"
+    },
+    "J": {
+      "item": "fw_jetpack:jetpack_reinforced"
+    },
+    "T": {
+      "item": "fw_jetpack:thruster"
+    },
+    "B": {
+      "item": "fw_batteries:battery_elite"
+    }
+  },
+  "result": {
+    "item": "fw_jetpack:jetpack_flux",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_batteries"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_chemistry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_crystals"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " PP",
+    "PMP",
+    "BP "
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "M": {
+      "item": "fw_parts:motor"
+    },
+    "B": {
+      "item": "fw_batteries:battery_basic"
+    }
+  },
+  "result": {
+    "item": "fw_drills:chainsaw",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_batteries"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

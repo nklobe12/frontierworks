@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "tag": "forge:ingots/titanium"
+    }
+  },
+  "result": {
+    "item": "fw_armor:titanium_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "fw_armor:bronze_chestplate",
+    "fw_armor:steel_chestplate",
+    "fw_armor:silver_chestplate",
+    "fw_armor:platinum_chestplate",
+    "fw_armor:ruby_chestplate",
+    "fw_armor:sapphire_chestplate",
+    "fw_armor:peridot_chestplate",
+    "fw_armor:topaz_chestplate",
+    "fw_armor:onyx_chestplate",
+    "fw_armor:meteoric_steel_chestplate",
+    "fw_armor:titanium_chestplate"
+  ]
+}

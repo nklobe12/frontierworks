@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "SBS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:ingots/steel"
+    },
+    "B": {
+      "item": "fw_backpacks:iron_backpack"
+    }
+  },
+  "result": {
+    "item": "fw_backpacks:steel_backpack",
+    "count": 1
+  }
+}

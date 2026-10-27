@@ -1,0 +1,8 @@
+{
+  "item.fw_scanner.ore_scanner": "Ore Scanner",
+  "item.fw_scanner.ore_scanner.desc": "Right-click to reveal ores within 8 blocks (2,000 FE)",
+  "item.fw_scanner.advanced_ore_scanner": "Advanced Ore Scanner",
+  "item.fw_scanner.advanced_ore_scanner.desc": "Right-click to reveal ores within 16 blocks (8,000 FE)",
+  "msg.fw_scanner.no_power": "Scanner needs charging",
+  "msg.fw_scanner.none": "No ores nearby"
+}

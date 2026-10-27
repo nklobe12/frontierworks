@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "fw_tools:bronze_shovel",
+    "fw_tools:steel_shovel",
+    "fw_tools:invar_shovel",
+    "fw_tools:silver_shovel",
+    "fw_tools:electrum_shovel",
+    "fw_tools:platinum_shovel",
+    "fw_tools:ruby_shovel",
+    "fw_tools:sapphire_shovel",
+    "fw_tools:peridot_shovel",
+    "fw_tools:topaz_shovel",
+    "fw_tools:onyx_shovel",
+    "fw_tools:meteoric_steel_shovel",
+    "fw_tools:titanium_shovel"
+  ]
+}

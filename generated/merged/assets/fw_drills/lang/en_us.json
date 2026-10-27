@@ -1,0 +1,12 @@
+{
+  "item.fw_drills.electric_drill": "Electric Drill",
+  "item.fw_drills.advanced_drill": "Advanced Drill",
+  "item.fw_drills.chainsaw": "Chainsaw",
+  "item.fw_drills.advanced_chainsaw": "Advanced Chainsaw",
+  "item.fw_drills.drill_head": "Drill Head",
+  "tooltip.fw_drills.cost": "%s FE per block",
+  "tooltip.fw_drills.area": "Mode: 3x3 (sneak + right-click to change)",
+  "tooltip.fw_drills.single": "Mode: single block (sneak + right-click to change)",
+  "msg.fw_drills.area_on": "3x3 mode",
+  "msg.fw_drills.area_off": "Single block mode"
+}

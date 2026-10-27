@@ -1,0 +1,6 @@
+{
+  "item.fw_glider.hang_glider": "Hang Glider",
+  "item.fw_glider.reinforced_glider": "Reinforced Glider",
+  "item.fw_glider.reinforced_glider.desc": "Sinks slower and flies faster",
+  "tooltip.fw_glider.use": "Hold while falling to glide. Sneak to drop."
+}

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "fw_armor:bronze_boots",
+    "fw_armor:steel_boots",
+    "fw_armor:silver_boots",
+    "fw_armor:platinum_boots",
+    "fw_armor:ruby_boots",
+    "fw_armor:sapphire_boots",
+    "fw_armor:peridot_boots",
+    "fw_armor:topaz_boots",
+    "fw_armor:onyx_boots",
+    "fw_armor:meteoric_steel_boots",
+    "fw_armor:titanium_boots"
+  ]
+}

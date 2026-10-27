@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_glider"
+version="1.0.0"
+displayName="Frontierworks: Hang Gliders"
+authors="Klobe & Claude"
+description='''Hang gliders for soaring off cliffs and sky islands: hold one while falling to glide in the direction you look. Sneak to drop.'''
+
+[[dependencies.fw_glider]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_glider]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_glider]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

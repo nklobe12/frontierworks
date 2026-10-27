@@ -1422,3 +1422,731 @@ description='''Powered beacons: a Field Projector bathes every player within 16 
     versionRange="[1.0.0,)"
     ordering="AFTER"
     side="BOTH"
+
+[[mods]]
+modId="fw_tools"
+version="1.0.0"
+displayName="Frontierworks: Toolsmith"
+authors="Klobe & Claude"
+description='''Full tool sets in thirteen materials, from early bronze to space-age titanium: swords, pickaxes, axes, shovels and hoes.'''
+
+[[dependencies.fw_tools]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_tools]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_tools]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_armor"
+version="1.0.0"
+displayName="Frontierworks: Armory"
+authors="Klobe & Claude"
+description='''Armor sets in eleven materials. Wear a full gem or space-metal set for a bonus: strength, water breathing, luck, haste, fire resistance, resistance, speed and more.'''
+
+[[dependencies.fw_armor]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_armor]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_armor]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_hammers"
+version="1.0.0"
+displayName="Frontierworks: Hammers"
+authors="Klobe & Claude"
+description='''Hammers and excavators that dig a 3x3 area at once, in eight materials. They mine a little slower and last three times longer. Sneak to dig a single block.'''
+
+[[dependencies.fw_hammers]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_hammers]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_hammers]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_drills"
+version="1.0.0"
+displayName="Frontierworks: Power Tools"
+authors="Klobe & Claude"
+description='''Electric drills and chainsaws that run on Forge Energy instead of durability. The advanced drill can switch to 3x3 mining. Charge them in any energy cell.'''
+
+[[dependencies.fw_drills]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_drills]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_drills]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_jetpack"
+version="1.0.0"
+displayName="Frontierworks: Jetpacks"
+authors="Klobe & Claude"
+description='''Energy-powered jetpacks in three tiers. Hold jump to fly, sprint for a horizontal boost (reinforced and flux), and press H to toggle hover mode for gentle descents.'''
+
+[[dependencies.fw_jetpack]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_jetpack]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_jetpack]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_grapple"
+version="1.0.0"
+displayName="Frontierworks: Grappling Hooks"
+authors="Klobe & Claude"
+description='''Grappling hooks for explorers: fire at any surface, keep holding to be reeled in, sneak to let go. Three tiers with longer reach and faster pulls.'''
+
+[[dependencies.fw_grapple]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_grapple]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_grapple]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_backpacks"
+version="1.0.0"
+displayName="Frontierworks: Backpacks"
+authors="Klobe & Claude"
+description='''Leather, iron, steel and explorer backpacks with up to 54 extra slots. Right-click to open; contents travel with the backpack. Backpacks and shulker boxes cannot be nested.'''
+
+[[dependencies.fw_backpacks]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_backpacks]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_backpacks]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_sleepingbags"
+version="1.0.0"
+displayName="Frontierworks: Sleeping Bags"
+authors="Klobe & Claude"
+description='''Roll out a sleeping bag anywhere to skip the night without moving your spawn point - perfect for long expeditions.'''
+
+[[dependencies.fw_sleepingbags]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_sleepingbags]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_sleepingbags]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_compass"
+version="1.0.0"
+displayName="Frontierworks: Explorer's Compass"
+authors="Klobe & Claude"
+description='''The Explorer's Compass finds every Frontierworks structure: sneak-right-click to choose a target (ruins, dungeons, towers, craters...), right-click to locate it.'''
+
+[[dependencies.fw_compass]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_compass]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_compass]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_waystones"
+version="1.0.0"
+displayName="Frontierworks: Waystones"
+authors="Klobe & Claude"
+description='''Ancient waystones dot the land. Activate them to build a fast-travel network and teleport between any you have found - for a small cost in experience. You can craft your own, too.'''
+
+[[dependencies.fw_waystones]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_waystones]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_waystones]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_rope"
+version="1.0.0"
+displayName="Frontierworks: Rope"
+authors="Klobe & Claude"
+description='''Climbable rope for cave diving and cliff faces. Right-click a hanging rope with more rope to extend it, or throw down a whole rope coil at once.'''
+
+[[dependencies.fw_rope]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_rope]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_rope]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_flares"
+version="1.0.0"
+displayName="Frontierworks: Flares & Glowsticks"
+authors="Klobe & Claude"
+description='''Light the dark: throw flares that light up caves for two minutes, or place glowsticks that glow forever.'''
+
+[[dependencies.fw_flares]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_flares]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_flares]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_scanner"
+version="1.0.0"
+displayName="Frontierworks: Ore Scanner"
+authors="Klobe & Claude"
+description='''Handheld ore scanners that outline every ore around you through solid rock for 15 seconds and list what they found. Runs on Forge Energy.'''
+
+[[dependencies.fw_scanner]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_scanner]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_scanner]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_glider"
+version="1.0.0"
+displayName="Frontierworks: Hang Gliders"
+authors="Klobe & Claude"
+description='''Hang gliders for soaring off cliffs and sky islands: hold one while falling to glide in the direction you look. Sneak to drop.'''
+
+[[dependencies.fw_glider]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_glider]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_glider]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_goggles"
+version="1.0.0"
+displayName="Frontierworks: Goggles"
+authors="Klobe & Claude"
+description='''Powered goggles: night vision goggles light up caves, and tactical goggles also reveal every creature within 24 blocks through walls.'''
+
+[[dependencies.fw_goggles]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_goggles]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_goggles]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_buildingtools"
+version="1.0.0"
+displayName="Frontierworks: Builder's Wands"
+authors="Klobe & Claude"
+description='''Builder's wands that extend a whole surface of matching blocks by one layer in a single click, pulling the blocks from your inventory.'''
+
+[[dependencies.fw_buildingtools]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_buildingtools]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_buildingtools]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_magnet"
+version="1.0.0"
+displayName="Frontierworks: Magnets"
+authors="Klobe & Claude"
+description='''Item magnets: switch one on and every item and experience orb nearby flies to you. Sneak to pause it.'''
+
+[[dependencies.fw_magnet]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_magnet]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_magnet]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_veinminer"
+version="1.0.0"
+displayName="Frontierworks: Vein Miner"
+authors="Klobe & Claude"
+description='''Sneak while mining an ore with the right tool to mine the whole connected vein (up to 64 blocks). Costs durability and a little hunger per block.'''
+
+[[dependencies.fw_veinminer]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_veinminer]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_veinminer]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_treefeller"
+version="1.0.0"
+displayName="Frontierworks: Tree Feller"
+authors="Klobe & Claude"
+description='''Chop the base of a natural tree with any axe and the whole trunk comes down. Sneak to chop just one log.'''
+
+[[dependencies.fw_treefeller]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_treefeller]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_treefeller]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_harvest"
+version="1.0.0"
+displayName="Frontierworks: Right-Click Harvest"
+authors="Klobe & Claude"
+description='''Right-click fully grown crops, nether wart and cocoa to harvest and replant them in one go.'''
+
+[[dependencies.fw_harvest]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_harvest]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_harvest]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_leafdecay"
+version="1.0.0"
+displayName="Frontierworks: Fast Leaf Decay"
+authors="Klobe & Claude"
+description='''Leaves left floating after you chop a tree fall within a few seconds.'''
+
+[[dependencies.fw_leafdecay]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_leafdecay]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_leafdecay]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_doors"
+version="1.0.0"
+displayName="Frontierworks: Double Doors"
+authors="Klobe & Claude"
+description='''Open one half of a double door and the other half opens with it.'''
+
+[[dependencies.fw_doors]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_doors]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_doors]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_hud"
+version="1.0.0"
+displayName="Frontierworks: Explorer HUD"
+authors="Klobe & Claude"
+description='''A compact HUD with coordinates, facing, biome, day and time, and block light level. Press F7 to move or hide it.'''
+
+[[dependencies.fw_hud]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_hud]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_hud]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_sorting"
+version="1.0.0"
+displayName="Frontierworks: Inventory Sorting"
+authors="Klobe & Claude"
+description='''Press R in any chest, crate or your inventory to merge and sort its contents.'''
+
+[[dependencies.fw_sorting]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_sorting]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_sorting]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_graves"
+version="1.0.0"
+displayName="Frontierworks: Graves"
+authors="Klobe & Claude"
+description='''When you die, a grave keeps all of your items safe at the spot. Only you can open it.'''
+
+[[dependencies.fw_graves]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_graves]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_graves]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_xpbank"
+version="1.0.0"
+displayName="Frontierworks: Experience Bank"
+authors="Klobe & Claude"
+description='''Bank your experience so you never lose it to death or lava: deposit and withdraw levels at the XP Bank.'''
+
+[[dependencies.fw_xpbank]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_xpbank]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_xpbank]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

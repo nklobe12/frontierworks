@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GCG",
+    "PDP",
+    "PBP"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass_panes"
+    },
+    "C": {
+      "item": "fw_circuits:basic_circuit"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "D": {
+      "item": "minecraft:compass"
+    },
+    "B": {
+      "item": "fw_batteries:battery_basic"
+    }
+  },
+  "result": {
+    "item": "fw_scanner:ore_scanner",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_batteries"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    }
+  ]
+}

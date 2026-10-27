@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "fw_tools:bronze_pickaxe",
+    "fw_tools:steel_pickaxe",
+    "fw_tools:invar_pickaxe",
+    "fw_tools:silver_pickaxe",
+    "fw_tools:electrum_pickaxe",
+    "fw_tools:platinum_pickaxe",
+    "fw_tools:ruby_pickaxe",
+    "fw_tools:sapphire_pickaxe",
+    "fw_tools:peridot_pickaxe",
+    "fw_tools:topaz_pickaxe",
+    "fw_tools:onyx_pickaxe",
+    "fw_tools:meteoric_steel_pickaxe",
+    "fw_tools:titanium_pickaxe"
+  ]
+}

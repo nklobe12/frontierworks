@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_buildingtools"
+version="1.0.0"
+displayName="Frontierworks: Builder's Wands"
+authors="Klobe & Claude"
+description='''Builder's wands that extend a whole surface of matching blocks by one layer in a single click, pulling the blocks from your inventory.'''
+
+[[dependencies.fw_buildingtools]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_buildingtools]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_buildingtools]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

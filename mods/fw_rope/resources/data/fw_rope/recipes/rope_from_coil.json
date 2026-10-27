@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_rope:rope_coil"
+    }
+  ],
+  "result": {
+    "item": "fw_rope:rope",
+    "count": 8
+  }
+}

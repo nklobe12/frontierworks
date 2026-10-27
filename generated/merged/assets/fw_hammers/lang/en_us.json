@@ -1,0 +1,20 @@
+{
+  "item.fw_hammers.iron_hammer": "Iron Hammer",
+  "item.fw_hammers.iron_excavator": "Iron Excavator",
+  "item.fw_hammers.diamond_hammer": "Diamond Hammer",
+  "item.fw_hammers.diamond_excavator": "Diamond Excavator",
+  "item.fw_hammers.bronze_hammer": "Bronze Hammer",
+  "item.fw_hammers.bronze_excavator": "Bronze Excavator",
+  "item.fw_hammers.steel_hammer": "Steel Hammer",
+  "item.fw_hammers.steel_excavator": "Steel Excavator",
+  "item.fw_hammers.platinum_hammer": "Platinum Hammer",
+  "item.fw_hammers.platinum_excavator": "Platinum Excavator",
+  "item.fw_hammers.onyx_hammer": "Onyx Hammer",
+  "item.fw_hammers.onyx_excavator": "Onyx Excavator",
+  "item.fw_hammers.meteoric_steel_hammer": "Meteoric Steel Hammer",
+  "item.fw_hammers.meteoric_steel_excavator": "Meteoric Steel Excavator",
+  "item.fw_hammers.titanium_hammer": "Titanium Hammer",
+  "item.fw_hammers.titanium_excavator": "Titanium Excavator",
+  "tooltip.fw_hammers.hammer": "Mines 3x3. Sneak for a single block.",
+  "tooltip.fw_hammers.excavator": "Digs 3x3. Sneak for a single block."
+}

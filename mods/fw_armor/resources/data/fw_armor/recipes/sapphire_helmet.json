@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "tag": "forge:gems/sapphire"
+    }
+  },
+  "result": {
+    "item": "fw_armor:sapphire_helmet",
+    "count": 1
+  }
+}

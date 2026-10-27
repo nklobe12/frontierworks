@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_tools"
+version="1.0.0"
+displayName="Frontierworks: Toolsmith"
+authors="Klobe & Claude"
+description='''Full tool sets in thirteen materials, from early bronze to space-age titanium: swords, pickaxes, axes, shovels and hoes.'''
+
+[[dependencies.fw_tools]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_tools]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_tools]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

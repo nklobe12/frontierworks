@@ -1,0 +1,8 @@
+{
+  "block.fw_rope.rope": "Rope",
+  "block.fw_rope.rope.desc": "Hangs from blocks. Climbable.",
+  "item.fw_rope.rope_coil": "Rope Coil",
+  "item.fw_rope.rope_coil.desc": "Use on a block edge to drop 24 rope at once",
+  "item.fw_rope.plant_fiber": "Plant Fiber",
+  "item.fw_rope.plant_fiber.desc": "Gathered from grass. Twist into rope."
+}

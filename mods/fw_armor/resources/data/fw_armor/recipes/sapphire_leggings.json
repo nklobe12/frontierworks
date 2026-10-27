@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    "M M",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "tag": "forge:gems/sapphire"
+    }
+  },
+  "result": {
+    "item": "fw_armor:sapphire_leggings",
+    "count": 1
+  }
+}

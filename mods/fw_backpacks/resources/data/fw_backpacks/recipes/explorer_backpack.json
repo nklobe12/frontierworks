@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CDC",
+    "RBR",
+    "CDC"
+  ],
+  "key": {
+    "C": {
+      "item": "fw_chemistry:carbon_fiber"
+    },
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "R": {
+      "tag": "forge:rubber"
+    },
+    "B": {
+      "item": "fw_backpacks:steel_backpack"
+    }
+  },
+  "result": {
+    "item": "fw_backpacks:explorer_backpack",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_chemistry"
+    }
+  ]
+}

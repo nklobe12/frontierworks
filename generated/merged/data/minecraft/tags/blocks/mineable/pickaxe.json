@@ -253,6 +253,9 @@
     "fw_elevators:green_elevator",
     "fw_elevators:red_elevator",
     "fw_elevators:black_elevator",
-    "fw_beacons:field_projector"
+    "fw_beacons:field_projector",
+    "fw_waystones:waystone",
+    "fw_graves:grave",
+    "fw_xpbank:xp_bank"
   ]
 }

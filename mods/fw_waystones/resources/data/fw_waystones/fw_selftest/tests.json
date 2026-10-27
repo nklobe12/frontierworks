@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "id": "fw_waystones:waystone_shrine",
+      "dim": "minecraft:overworld"
+    },
+    {
+      "id": "fw_waystones:desert_waystone_shrine",
+      "dim": "minecraft:overworld"
+    },
+    {
+      "id": "fw_waystones:snowy_waystone_shrine",
+      "dim": "minecraft:overworld"
+    }
+  ]
+}

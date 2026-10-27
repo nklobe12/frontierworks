@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fw_sleepingbags:block/gray_sleeping_bag"
+    },
+    "facing=east": {
+      "model": "fw_sleepingbags:block/gray_sleeping_bag",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fw_sleepingbags:block/gray_sleeping_bag",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fw_sleepingbags:block/gray_sleeping_bag",
+      "y": 270
+    }
+  }
+}

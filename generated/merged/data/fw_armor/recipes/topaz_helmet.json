@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "tag": "forge:gems/topaz"
+    }
+  },
+  "result": {
+    "item": "fw_armor:topaz_helmet",
+    "count": 1
+  }
+}

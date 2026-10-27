@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "fw_hammers:iron_excavator",
+    "fw_hammers:diamond_excavator",
+    "fw_hammers:bronze_excavator",
+    "fw_hammers:steel_excavator",
+    "fw_hammers:platinum_excavator",
+    "fw_hammers:onyx_excavator",
+    "fw_hammers:meteoric_steel_excavator",
+    "fw_hammers:titanium_excavator"
+  ]
+}

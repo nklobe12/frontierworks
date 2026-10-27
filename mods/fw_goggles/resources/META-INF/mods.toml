@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_goggles"
+version="1.0.0"
+displayName="Frontierworks: Goggles"
+authors="Klobe & Claude"
+description='''Powered goggles: night vision goggles light up caves, and tactical goggles also reveal every creature within 24 blocks through walls.'''
+
+[[dependencies.fw_goggles]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_goggles]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_goggles]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

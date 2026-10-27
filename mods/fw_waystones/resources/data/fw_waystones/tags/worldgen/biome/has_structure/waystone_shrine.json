@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:is_plains",
+    "#forge:is_desert",
+    "#minecraft:is_savanna",
+    "minecraft:meadow",
+    "minecraft:snowy_plains",
+    "minecraft:sunflower_plains",
+    "minecraft:forest",
+    "minecraft:birch_forest"
+  ]
+}

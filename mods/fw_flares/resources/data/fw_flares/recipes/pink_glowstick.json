@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:glass_panes"
+    },
+    {
+      "tag": "forge:dusts/glowstone"
+    },
+    {
+      "item": "minecraft:pink_dye"
+    }
+  ],
+  "result": {
+    "item": "fw_flares:pink_glowstick",
+    "count": 4
+  }
+}

@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_veinminer"
+version="1.0.0"
+displayName="Frontierworks: Vein Miner"
+authors="Klobe & Claude"
+description='''Sneak while mining an ore with the right tool to mine the whole connected vein (up to 64 blocks). Costs durability and a little hunger per block.'''
+
+[[dependencies.fw_veinminer]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_veinminer]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_veinminer]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ECE",
+    "PSP",
+    "PBP"
+  ],
+  "key": {
+    "E": {
+      "item": "fw_crystals:energite_shard"
+    },
+    "C": {
+      "item": "fw_circuits:advanced_circuit"
+    },
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "S": {
+      "item": "fw_scanner:ore_scanner"
+    },
+    "B": {
+      "item": "fw_batteries:battery_advanced"
+    }
+  },
+  "result": {
+    "item": "fw_scanner:advanced_ore_scanner",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_batteries"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_crystals"
+    }
+  ]
+}

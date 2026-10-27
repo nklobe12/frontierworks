@@ -1,0 +1,7 @@
+{
+  "item.fw_compass.explorers_compass": "Explorer's Compass",
+  "tooltip.fw_compass.use": "Sneak + right-click: change target. Right-click: locate.",
+  "msg.fw_compass.target": "Target: %s",
+  "msg.fw_compass.none": "No %s found nearby",
+  "msg.fw_compass.found": "%s found %s blocks away"
+}

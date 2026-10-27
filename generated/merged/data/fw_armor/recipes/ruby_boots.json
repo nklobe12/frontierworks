@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "M M",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "tag": "forge:gems/ruby"
+    }
+  },
+  "result": {
+    "item": "fw_armor:ruby_boots",
+    "count": 1
+  }
+}

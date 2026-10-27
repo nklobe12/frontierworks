@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "F",
+    "F",
+    "F"
+  ],
+  "key": {
+    "F": [
+      {
+        "item": "fw_rope:plant_fiber"
+      },
+      {
+        "item": "minecraft:string"
+      }
+    ]
+  },
+  "result": {
+    "item": "fw_rope:rope",
+    "count": 3
+  }
+}

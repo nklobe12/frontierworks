@@ -3,6 +3,9 @@
   "values": [
     "fw_meteors:crater_small",
     "fw_meteors:crater_medium",
-    "fw_meteors:crater_large"
+    "fw_meteors:crater_large",
+    "fw_waystones:waystone_shrine",
+    "fw_waystones:desert_waystone_shrine",
+    "fw_waystones:snowy_waystone_shrine"
   ]
 }

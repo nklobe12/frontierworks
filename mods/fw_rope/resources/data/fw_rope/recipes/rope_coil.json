@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RRR",
+    "R R",
+    "RRR"
+  ],
+  "key": {
+    "R": {
+      "item": "fw_rope:rope"
+    }
+  },
+  "result": {
+    "item": "fw_rope:rope_coil",
+    "count": 1
+  }
+}

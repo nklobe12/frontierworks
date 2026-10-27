@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " H ",
+    "PMP",
+    "PBP"
+  ],
+  "key": {
+    "H": {
+      "item": "fw_drills:drill_head"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "M": {
+      "item": "fw_parts:motor"
+    },
+    "B": {
+      "item": "fw_batteries:battery_basic"
+    }
+  },
+  "result": {
+    "item": "fw_drills:electric_drill",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_batteries"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

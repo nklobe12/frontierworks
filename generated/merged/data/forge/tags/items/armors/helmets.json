@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "fw_armor:bronze_helmet",
+    "fw_armor:steel_helmet",
+    "fw_armor:silver_helmet",
+    "fw_armor:platinum_helmet",
+    "fw_armor:ruby_helmet",
+    "fw_armor:sapphire_helmet",
+    "fw_armor:peridot_helmet",
+    "fw_armor:topaz_helmet",
+    "fw_armor:onyx_helmet",
+    "fw_armor:meteoric_steel_helmet",
+    "fw_armor:titanium_helmet"
+  ]
+}

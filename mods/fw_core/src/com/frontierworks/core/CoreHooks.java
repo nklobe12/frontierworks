@@ -1,5 +1,6 @@
 package com.frontierworks.core;
 
+import com.frontierworks.core.net.CoreNet;
 import com.frontierworks.core.test.SelfTest;
 import net.minecraftforge.eventbus.api.IEventBus;
 
@@ -9,6 +10,7 @@ public final class CoreHooks {
 
     public static void init(IEventBus bus) {
         CoreRegistry.init();
+        CoreNet.init();
         SelfTest.init();
     }
 }

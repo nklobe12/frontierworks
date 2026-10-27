@@ -1,0 +1,8 @@
+{
+  "item.fw_grapple.grappling_hook": "Grappling Hook",
+  "item.fw_grapple.grappling_hook.desc": "Fire at a surface and hold to be pulled. Sneak to let go.",
+  "item.fw_grapple.steel_grappling_hook": "Steel Grappling Hook",
+  "item.fw_grapple.steel_grappling_hook.desc": "Longer reach, faster pull",
+  "item.fw_grapple.ender_grappling_hook": "Ender Grappling Hook",
+  "item.fw_grapple.ender_grappling_hook.desc": "Huge reach, very fast pull"
+}

@@ -1,0 +1,6 @@
+{
+  "item.fw_goggles.night_vision_goggles": "Night Vision Goggles",
+  "item.fw_goggles.tactical_goggles": "Tactical Goggles",
+  "tooltip.fw_goggles.night": "Night vision while worn (20 FE/s)",
+  "tooltip.fw_goggles.detect": "Night vision + reveals creatures within 24 blocks (60 FE/s)"
+}

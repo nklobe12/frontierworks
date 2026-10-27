@@ -10,6 +10,7 @@
     "fw_sifting:sifter",
     "fw_sawmill:particle_board",
     "fw_storage:wooden_crate",
-    "fw_storage:bulk_barrel"
+    "fw_storage:bulk_barrel",
+    "fw_rope:rope"
   ]
 }

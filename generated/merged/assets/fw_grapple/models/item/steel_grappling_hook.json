@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fw_grapple:item/steel_grappling_hook"
+  }
+}

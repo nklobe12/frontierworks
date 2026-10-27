@@ -1,0 +1,5 @@
+{
+  "block.fw_graves.grave": "Grave",
+  "msg.fw_graves.placed": "Your items are safe in a grave at %s, %s, %s",
+  "msg.fw_graves.not_yours": "This is the grave of %s"
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "fw_waystones:waystone_shrine",
+    "fw_waystones:desert_waystone_shrine",
+    "fw_waystones:snowy_waystone_shrine"
+  ]
+}

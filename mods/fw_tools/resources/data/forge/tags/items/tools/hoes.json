@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "fw_tools:bronze_hoe",
+    "fw_tools:steel_hoe",
+    "fw_tools:invar_hoe",
+    "fw_tools:silver_hoe",
+    "fw_tools:electrum_hoe",
+    "fw_tools:platinum_hoe",
+    "fw_tools:ruby_hoe",
+    "fw_tools:sapphire_hoe",
+    "fw_tools:peridot_hoe",
+    "fw_tools:topaz_hoe",
+    "fw_tools:onyx_hoe",
+    "fw_tools:meteoric_steel_hoe",
+    "fw_tools:titanium_hoe"
+  ]
+}

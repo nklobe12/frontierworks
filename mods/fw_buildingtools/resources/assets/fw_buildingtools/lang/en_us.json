@@ -1,0 +1,7 @@
+{
+  "item.fw_buildingtools.stone_wand": "Stone Builder's Wand",
+  "item.fw_buildingtools.iron_wand": "Iron Builder's Wand",
+  "item.fw_buildingtools.diamond_wand": "Diamond Builder's Wand",
+  "item.fw_buildingtools.voidite_wand": "Voidite Builder's Wand",
+  "tooltip.fw_buildingtools.wand": "Extends up to %s blocks of a surface"
+}

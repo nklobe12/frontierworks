@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "M M",
+    "MMM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "tag": "forge:ingots/platinum"
+    }
+  },
+  "result": {
+    "item": "fw_armor:platinum_chestplate",
+    "count": 1
+  }
+}

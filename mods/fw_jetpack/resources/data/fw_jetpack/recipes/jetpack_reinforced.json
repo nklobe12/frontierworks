@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PCP",
+    "PJP",
+    "TBT"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "C": {
+      "item": "fw_circuits:advanced_circuit"
+    },
+    "J": {
+      "item": "fw_jetpack:jetpack_basic"
+    },
+    "T": {
+      "item": "fw_jetpack:thruster"
+    },
+    "B": {
+      "item": "fw_batteries:battery_advanced"
+    }
+  },
+  "result": {
+    "item": "fw_jetpack:jetpack_reinforced",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_batteries"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    }
+  ]
+}

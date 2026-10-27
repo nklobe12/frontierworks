@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_waystones"
+version="1.0.0"
+displayName="Frontierworks: Waystones"
+authors="Klobe & Claude"
+description='''Ancient waystones dot the land. Activate them to build a fast-travel network and teleport between any you have found - for a small cost in experience. You can craft your own, too.'''
+
+[[dependencies.fw_waystones]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_waystones]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_waystones]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

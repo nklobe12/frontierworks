@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "fw_hammers:iron_hammer",
+    "fw_hammers:diamond_hammer",
+    "fw_hammers:bronze_hammer",
+    "fw_hammers:steel_hammer",
+    "fw_hammers:platinum_hammer",
+    "fw_hammers:onyx_hammer",
+    "fw_hammers:meteoric_steel_hammer",
+    "fw_hammers:titanium_hammer"
+  ]
+}

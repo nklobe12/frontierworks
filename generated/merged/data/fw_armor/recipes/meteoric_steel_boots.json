@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "M M",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "tag": "forge:ingots/meteoric_steel"
+    }
+  },
+  "result": {
+    "item": "fw_armor:meteoric_steel_boots",
+    "count": 1
+  }
+}

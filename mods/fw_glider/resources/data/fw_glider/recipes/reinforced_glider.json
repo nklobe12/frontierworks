@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "RGR",
+    " R "
+  ],
+  "key": {
+    "C": {
+      "item": "fw_chemistry:carbon_fiber"
+    },
+    "R": {
+      "tag": "forge:rods/aluminum"
+    },
+    "G": {
+      "item": "fw_glider:hang_glider"
+    }
+  },
+  "result": {
+    "item": "fw_glider:reinforced_glider",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_chemistry"
+    }
+  ]
+}

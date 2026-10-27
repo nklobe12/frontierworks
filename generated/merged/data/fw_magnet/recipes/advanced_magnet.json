@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "E E",
+    "MCM",
+    "PPP"
+  ],
+  "key": {
+    "E": {
+      "tag": "forge:ender_pearls"
+    },
+    "M": {
+      "item": "fw_magnet:item_magnet"
+    },
+    "C": {
+      "item": "fw_circuits:advanced_circuit"
+    },
+    "P": {
+      "tag": "forge:plates/electrum"
+    }
+  },
+  "result": {
+    "item": "fw_magnet:advanced_magnet",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    }
+  ]
+}

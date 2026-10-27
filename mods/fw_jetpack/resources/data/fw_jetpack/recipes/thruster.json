@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PCP",
+    "PFP",
+    "P P"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/bronze"
+    },
+    "C": {
+      "item": "fw_parts:heating_coil"
+    },
+    "F": {
+      "item": "fw_parts:fan"
+    }
+  },
+  "result": {
+    "item": "fw_jetpack:thruster",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

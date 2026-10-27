@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "fw_tools:bronze_sword",
+    "fw_tools:steel_sword",
+    "fw_tools:invar_sword",
+    "fw_tools:silver_sword",
+    "fw_tools:electrum_sword",
+    "fw_tools:platinum_sword",
+    "fw_tools:ruby_sword",
+    "fw_tools:sapphire_sword",
+    "fw_tools:peridot_sword",
+    "fw_tools:topaz_sword",
+    "fw_tools:onyx_sword",
+    "fw_tools:meteoric_steel_sword",
+    "fw_tools:titanium_sword"
+  ]
+}

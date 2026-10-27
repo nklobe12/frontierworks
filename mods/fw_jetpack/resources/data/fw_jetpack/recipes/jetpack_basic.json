@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PCP",
+    "PBP",
+    "T T"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/bronze"
+    },
+    "C": {
+      "item": "fw_circuits:basic_circuit"
+    },
+    "B": {
+      "item": "fw_batteries:battery_basic"
+    },
+    "T": {
+      "item": "fw_jetpack:thruster"
+    }
+  },
+  "result": {
+    "item": "fw_jetpack:jetpack_basic",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_batteries"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    }
+  ]
+}

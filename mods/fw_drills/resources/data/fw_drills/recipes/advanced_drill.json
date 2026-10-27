@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CHC",
+    "PDP",
+    "PBP"
+  ],
+  "key": {
+    "H": {
+      "item": "fw_drills:drill_head"
+    },
+    "C": {
+      "item": "fw_circuits:advanced_circuit"
+    },
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "D": {
+      "item": "fw_drills:electric_drill"
+    },
+    "B": {
+      "item": "fw_batteries:battery_advanced"
+    }
+  },
+  "result": {
+    "item": "fw_drills:advanced_drill",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_batteries"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    }
+  ]
+}

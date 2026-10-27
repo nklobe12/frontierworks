@@ -1,0 +1,12 @@
+{
+  "block.fw_sleepingbags.red_sleeping_bag": "Red Sleeping Bag",
+  "block.fw_sleepingbags.red_sleeping_bag.desc": "Sleep through the night. Does not set your spawn.",
+  "block.fw_sleepingbags.blue_sleeping_bag": "Blue Sleeping Bag",
+  "block.fw_sleepingbags.blue_sleeping_bag.desc": "Sleep through the night. Does not set your spawn.",
+  "block.fw_sleepingbags.green_sleeping_bag": "Green Sleeping Bag",
+  "block.fw_sleepingbags.green_sleeping_bag.desc": "Sleep through the night. Does not set your spawn.",
+  "block.fw_sleepingbags.orange_sleeping_bag": "Orange Sleeping Bag",
+  "block.fw_sleepingbags.orange_sleeping_bag.desc": "Sleep through the night. Does not set your spawn.",
+  "block.fw_sleepingbags.gray_sleeping_bag": "Gray Sleeping Bag",
+  "block.fw_sleepingbags.gray_sleeping_bag.desc": "Sleep through the night. Does not set your spawn."
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "M M",
+    "MMM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "tag": "forge:ingots/titanium"
+    }
+  },
+  "result": {
+    "item": "fw_armor:titanium_chestplate",
+    "count": 1
+  }
+}

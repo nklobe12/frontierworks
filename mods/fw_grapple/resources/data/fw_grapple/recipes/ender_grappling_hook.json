@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " E ",
+    "EHE",
+    " C "
+  ],
+  "key": {
+    "E": {
+      "tag": "forge:ender_pearls"
+    },
+    "H": {
+      "item": "fw_grapple:steel_grappling_hook"
+    },
+    "C": {
+      "item": "fw_circuits:basic_circuit"
+    }
+  },
+  "result": {
+    "item": "fw_grapple:ender_grappling_hook",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    }
+  ]
+}

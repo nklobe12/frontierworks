@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    "M M",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "tag": "forge:ingots/bronze"
+    }
+  },
+  "result": {
+    "item": "fw_armor:bronze_leggings",
+    "count": 1
+  }
+}

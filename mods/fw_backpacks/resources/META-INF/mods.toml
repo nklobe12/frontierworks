@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_backpacks"
+version="1.0.0"
+displayName="Frontierworks: Backpacks"
+authors="Klobe & Claude"
+description='''Leather, iron, steel and explorer backpacks with up to 54 extra slots. Right-click to open; contents travel with the backpack. Backpacks and shulker boxes cannot be nested.'''
+
+[[dependencies.fw_backpacks]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_backpacks]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_backpacks]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

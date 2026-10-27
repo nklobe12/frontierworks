@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "fw_waystones:snowy_waystone_shrine",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 44,
+    "separation": 16,
+    "salt": 657839249
+  }
+}

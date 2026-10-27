@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PCP",
+    "GNG"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "C": {
+      "item": "fw_circuits:advanced_circuit"
+    },
+    "G": {
+      "item": "fw_crystals:energite_shard"
+    },
+    "N": {
+      "item": "fw_goggles:night_vision_goggles"
+    }
+  },
+  "result": {
+    "item": "fw_goggles:tactical_goggles",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_crystals"
+    }
+  ]
+}

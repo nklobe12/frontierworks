@@ -94,6 +94,7 @@
     "fw_farming:crop_harvester",
     "fw_mobgrinder:mob_grinder",
     "fw_teleporters:teleport_pad",
-    "fw_beacons:field_projector"
+    "fw_beacons:field_projector",
+    "fw_xpbank:xp_bank"
   ]
 }

@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_drills"
+version="1.0.0"
+displayName="Frontierworks: Power Tools"
+authors="Klobe & Claude"
+description='''Electric drills and chainsaws that run on Forge Energy instead of durability. The advanced drill can switch to 3x3 mining. Charge them in any energy cell.'''
+
+[[dependencies.fw_drills]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_drills]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_drills]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "fw_flares:block/green_glowstick",
+    "stick": "fw_flares:block/green_glowstick"
+  },
+  "elements": [
+    {
+      "from": [
+        7,
+        0,
+        7
+      ],
+      "to": [
+        9,
+        9,
+        9
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "texture": "#stick",
+          "uv": [
+            7,
+            3,
+            9,
+            12
+          ]
+        },
+        "south": {
+          "texture": "#stick",
+          "uv": [
+            7,
+            3,
+            9,
+            12
+          ]
+        },
+        "east": {
+          "texture": "#stick",
+          "uv": [
+            7,
+            3,
+            9,
+            12
+          ]
+        },
+        "west": {
+          "texture": "#stick",
+          "uv": [
+            7,
+            3,
+            9,
+            12
+          ]
+        }
+      }
+    }
+  ]
+}

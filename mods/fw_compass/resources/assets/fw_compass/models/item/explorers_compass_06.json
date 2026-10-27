@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fw_compass:item/explorers_compass_06"
+  }
+}

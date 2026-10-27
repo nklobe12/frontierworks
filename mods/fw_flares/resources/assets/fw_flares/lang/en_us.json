@@ -1,0 +1,13 @@
+{
+  "block.fw_flares.flare_light": "Flare Light",
+  "item.fw_flares.flare": "Flare",
+  "item.fw_flares.flare.desc": "Throw to light up an area for two minutes",
+  "block.fw_flares.green_glowstick": "Green Glowstick",
+  "block.fw_flares.green_glowstick.desc": "Place on a surface. Glows forever.",
+  "block.fw_flares.blue_glowstick": "Blue Glowstick",
+  "block.fw_flares.blue_glowstick.desc": "Place on a surface. Glows forever.",
+  "block.fw_flares.pink_glowstick": "Pink Glowstick",
+  "block.fw_flares.pink_glowstick.desc": "Place on a surface. Glows forever.",
+  "block.fw_flares.yellow_glowstick": "Yellow Glowstick",
+  "block.fw_flares.yellow_glowstick.desc": "Place on a surface. Glows forever."
+}

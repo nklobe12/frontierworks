@@ -1,0 +1,13 @@
+{
+  "item.fw_jetpack.jetpack_basic": "Basic Jetpack",
+  "item.fw_jetpack.jetpack_reinforced": "Reinforced Jetpack",
+  "item.fw_jetpack.jetpack_flux": "Flux Jetpack",
+  "item.fw_jetpack.thruster": "Thruster",
+  "tooltip.fw_jetpack.use": "Wear on your chest. Hold jump to fly.",
+  "tooltip.fw_jetpack.hover_on": "Hover: on (H)",
+  "tooltip.fw_jetpack.hover_off": "Hover: off (H)",
+  "msg.fw_jetpack.hover_on": "Hover mode on",
+  "msg.fw_jetpack.hover_off": "Hover mode off",
+  "key.fw_jetpack.hover": "Jetpack hover",
+  "key.categories.frontierworks": "Frontierworks"
+}

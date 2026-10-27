@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "IBI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "B": {
+      "item": "fw_backpacks:leather_backpack"
+    }
+  },
+  "result": {
+    "item": "fw_backpacks:iron_backpack",
+    "count": 1
+  }
+}

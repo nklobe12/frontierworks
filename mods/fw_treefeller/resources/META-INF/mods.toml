@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_treefeller"
+version="1.0.0"
+displayName="Frontierworks: Tree Feller"
+authors="Klobe & Claude"
+description='''Chop the base of a natural tree with any axe and the whole trunk comes down. Sneak to chop just one log.'''
+
+[[dependencies.fw_treefeller]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_treefeller]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_treefeller]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

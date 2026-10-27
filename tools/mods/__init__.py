@@ -6,4 +6,6 @@ ORDER = [
     'generators', 'steam', 'solar', 'wind', 'hydro', 'geothermal', 'batteries', 'cables', 'wireless', 'nuclear', 'fusion',
     'pipes', 'fluidducts', 'tanks', 'storage', 'conveyors', 'vacuum', 'quarry', 'pump', 'farming', 'mobgrinder', 'chunkloader',
     'redstone', 'teleporters', 'elevators', 'beacons',
+    'tools', 'armor', 'hammers', 'drills', 'jetpack', 'grapple', 'backpacks', 'sleepingbags', 'compass', 'waystones', 'rope',
+    'flares', 'scanner', 'glider', 'goggles', 'buildingtools', 'magnet', 'qol',
 ]

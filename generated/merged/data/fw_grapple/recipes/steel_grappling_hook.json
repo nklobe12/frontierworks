@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " P ",
+    "PHP",
+    " R "
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "H": {
+      "item": "fw_grapple:grappling_hook"
+    },
+    "R": {
+      "item": "fw_rope:rope"
+    }
+  },
+  "result": {
+    "item": "fw_grapple:steel_grappling_hook",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_rope"
+    }
+  ]
+}

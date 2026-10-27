@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fw_rope:block/rope"
+    }
+  }
+}

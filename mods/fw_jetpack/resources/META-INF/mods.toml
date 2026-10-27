@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_jetpack"
+version="1.0.0"
+displayName="Frontierworks: Jetpacks"
+authors="Klobe & Claude"
+description='''Energy-powered jetpacks in three tiers. Hold jump to fly, sprint for a horizontal boost (reinforced and flux), and press H to toggle hover mode for gentle descents.'''
+
+[[dependencies.fw_jetpack]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_jetpack]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_jetpack]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

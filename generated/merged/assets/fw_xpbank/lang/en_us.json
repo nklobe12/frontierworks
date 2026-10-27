@@ -1,0 +1,9 @@
+{
+  "block.fw_xpbank.xp_bank": "XP Bank",
+  "block.fw_xpbank.xp_bank.desc": "Stores experience. Never loses it.",
+  "gui.fw_xpbank.deposit1": "Deposit 1",
+  "gui.fw_xpbank.deposit_all": "Deposit all",
+  "gui.fw_xpbank.withdraw1": "Withdraw 1",
+  "gui.fw_xpbank.withdraw_all": "Withdraw all",
+  "gui.fw_xpbank.stored": "Stored: %s XP (%s levels)"
+}

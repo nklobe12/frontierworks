@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "fw_armor:bronze_leggings",
+    "fw_armor:steel_leggings",
+    "fw_armor:silver_leggings",
+    "fw_armor:platinum_leggings",
+    "fw_armor:ruby_leggings",
+    "fw_armor:sapphire_leggings",
+    "fw_armor:peridot_leggings",
+    "fw_armor:topaz_leggings",
+    "fw_armor:onyx_leggings",
+    "fw_armor:meteoric_steel_leggings",
+    "fw_armor:titanium_leggings"
+  ]
+}

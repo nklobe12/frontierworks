@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_compass"
+version="1.0.0"
+displayName="Frontierworks: Explorer's Compass"
+authors="Klobe & Claude"
+description='''The Explorer's Compass finds every Frontierworks structure: sneak-right-click to choose a target (ruins, dungeons, towers, craters...), right-click to locate it.'''
+
+[[dependencies.fw_compass]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_compass]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_compass]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

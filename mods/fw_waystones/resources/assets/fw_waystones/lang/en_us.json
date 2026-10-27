@@ -1,0 +1,8 @@
+{
+  "block.fw_waystones.waystone": "Waystone",
+  "block.fw_waystones.waystone.desc": "Right-click to activate, then to travel to any waystone you have activated",
+  "msg.fw_waystones.activated": "Waystone activated: %s",
+  "msg.fw_waystones.gone": "Waystone %s no longer exists",
+  "msg.fw_waystones.cost": "You need %s experience levels",
+  "gui.fw_waystones.empty": "Activate more waystones to travel."
+}

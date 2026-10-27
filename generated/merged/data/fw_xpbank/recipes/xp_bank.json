@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GEG",
+    "EBE",
+    "GEG"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "E": {
+      "item": "minecraft:experience_bottle"
+    },
+    "B": {
+      "item": "minecraft:enchanting_table"
+    }
+  },
+  "result": {
+    "item": "fw_xpbank:xp_bank",
+    "count": 1
+  }
+}

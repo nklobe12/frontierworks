@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_hammers"
+version="1.0.0"
+displayName="Frontierworks: Hammers"
+authors="Klobe & Claude"
+description='''Hammers and excavators that dig a 3x3 area at once, in eight materials. They mine a little slower and last three times longer. Sneak to dig a single block.'''
+
+[[dependencies.fw_hammers]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_hammers]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_hammers]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

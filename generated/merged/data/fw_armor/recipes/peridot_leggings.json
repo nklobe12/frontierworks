@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    "M M",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "tag": "forge:gems/peridot"
+    }
+  },
+  "result": {
+    "item": "fw_armor:peridot_leggings",
+    "count": 1
+  }
+}

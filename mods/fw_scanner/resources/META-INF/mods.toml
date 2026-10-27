@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_scanner"
+version="1.0.0"
+displayName="Frontierworks: Ore Scanner"
+authors="Klobe & Claude"
+description='''Handheld ore scanners that outline every ore around you through solid rock for 15 seconds and list what they found. Runs on Forge Energy.'''
+
+[[dependencies.fw_scanner]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_scanner]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_scanner]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

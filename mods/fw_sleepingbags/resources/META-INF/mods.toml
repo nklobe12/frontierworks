@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_sleepingbags"
+version="1.0.0"
+displayName="Frontierworks: Sleeping Bags"
+authors="Klobe & Claude"
+description='''Roll out a sleeping bag anywhere to skip the night without moving your spawn point - perfect for long expeditions.'''
+
+[[dependencies.fw_sleepingbags]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_sleepingbags]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_sleepingbags]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

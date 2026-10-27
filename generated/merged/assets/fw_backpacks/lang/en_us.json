@@ -1,0 +1,8 @@
+{
+  "item.fw_backpacks.leather_backpack": "Leather Backpack",
+  "item.fw_backpacks.iron_backpack": "Iron Backpack",
+  "item.fw_backpacks.steel_backpack": "Steel Backpack",
+  "item.fw_backpacks.explorer_backpack": "Explorer Backpack",
+  "tooltip.fw_backpacks.slots": "%s slots",
+  "msg.fw_backpacks.main_hand": "Hold the backpack in your main hand to open it"
+}

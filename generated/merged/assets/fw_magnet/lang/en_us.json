@@ -1,0 +1,6 @@
+{
+  "item.fw_magnet.item_magnet": "Item Magnet",
+  "item.fw_magnet.advanced_magnet": "Advanced Magnet",
+  "tooltip.fw_magnet.on": "Active - pulling items within %s blocks (right-click to toggle)",
+  "tooltip.fw_magnet.off": "Inactive - range %s blocks (right-click to toggle)"
+}

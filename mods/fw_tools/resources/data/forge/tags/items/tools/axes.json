@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "fw_tools:bronze_axe",
+    "fw_tools:steel_axe",
+    "fw_tools:invar_axe",
+    "fw_tools:silver_axe",
+    "fw_tools:electrum_axe",
+    "fw_tools:platinum_axe",
+    "fw_tools:ruby_axe",
+    "fw_tools:sapphire_axe",
+    "fw_tools:peridot_axe",
+    "fw_tools:topaz_axe",
+    "fw_tools:onyx_axe",
+    "fw_tools:meteoric_steel_axe",
+    "fw_tools:titanium_axe"
+  ]
+}
