@@ -33,6 +33,10 @@ def main():
         src = '\n'.join(m.fields)
         for kind, n in REG_RE.findall(src):
             known.add('%s:%s' % (m.modid, n))
+        # hand-written registrations (features, recipe types, menus, ...) in the mod's src folder
+        for jf in (ROOT / 'mods' / m.modid / 'src').rglob('*.java'):
+            for n in re.findall(r'\.(?:register|machineRecipe|menu|blockEntity|entity|item|block)\("([a-z0-9_/]+)"', jf.read_text()):
+                known.add('%s:%s' % (m.modid, n))
         for rel in m.files:
             files[(m.modid, rel)] = m.files[rel]
         # data files define ids too (worldgen, loot tables, structures, recipes types)

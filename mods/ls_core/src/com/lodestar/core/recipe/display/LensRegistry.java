@@ -29,12 +29,24 @@ public final class LensRegistry {
 
     private static final Map<ResourceLocation, RecipeCategory> CATEGORIES = new LinkedHashMap<>();
     private static final Map<ResourceLocation, Provider> PROVIDERS = new LinkedHashMap<>();
+    private static final Map<ResourceLocation, List<Supplier<ItemStack>>> EXTRA_CATALYSTS = new LinkedHashMap<>();
 
     private LensRegistry() {}
 
     public static synchronized void register(RecipeCategory category, Provider provider) {
         CATEGORIES.put(category.id, category);
         PROVIDERS.put(category.id, provider);
+    }
+
+    /** Adds a block or item that also performs recipes of a category (e.g. an electric furnace for smelting). */
+    public static synchronized void addCatalyst(ResourceLocation category, Supplier<ItemStack> stack) {
+        EXTRA_CATALYSTS.computeIfAbsent(category, k -> new ArrayList<>()).add(stack);
+    }
+
+    public static synchronized List<ItemStack> extraCatalysts(ResourceLocation category) {
+        List<ItemStack> out = new ArrayList<>();
+        for (Supplier<ItemStack> s : EXTRA_CATALYSTS.getOrDefault(category, List.of())) out.add(s.get());
+        return out;
     }
 
     public static synchronized List<RecipeCategory> categories() {
@@ -83,10 +95,14 @@ public final class LensRegistry {
             List<ItemStack> st = new ArrayList<>();
             for (ItemStack s : ci.ingredient.getItems()) {
                 ItemStack c = s.copy();
-                c.setCount(ci.count);
+                c.setCount(Math.max(1, ci.count));
                 st.add(c);
             }
-            b.input(x + (i % inCols) * 18, y0 + (i / inCols) * 18, st);
+            if (ci.isCatalyst()) {
+                b.catalyst(x + (i % inCols) * 18, y0 + (i / inCols) * 18, st, Component.translatable("lens.ls_core.not_consumed"));
+            } else {
+                b.input(x + (i % inCols) * 18, y0 + (i / inCols) * 18, st);
+            }
         }
         x += inCols * 18 + 4;
         b.arrow(x, 13);

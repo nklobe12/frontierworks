@@ -118,7 +118,7 @@ public class ProcessingMachineBE extends MachineBlockEntity {
 
     protected void finish(ProcessJob j) {
         for (int i = 0; i < j.slots.length; i++) {
-            items.extractItem(j.slots[i], j.counts[i], false);
+            if (j.counts[i] > 0) items.extractItem(j.slots[i], j.counts[i], false);
         }
         int used = -1;
         if (!j.fluidIn.isEmpty()) {

@@ -91,7 +91,7 @@ public class MachineRecipe implements Recipe<Container> {
         for (int s = 0; s < slots.length; s++) {
             if (used[s]) continue;
             ItemStack st = items.getStackInSlot(slots[s]);
-            if (!st.isEmpty() && ci.ingredient.test(st) && st.getCount() >= ci.count) {
+            if (!st.isEmpty() && ci.ingredient.test(st) && st.getCount() >= Math.max(1, ci.count)) {
                 used[s] = true;
                 assign[idx] = s;
                 if (assign(items, slots, idx + 1, assign, used)) {

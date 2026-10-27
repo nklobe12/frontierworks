@@ -97,6 +97,7 @@ class Mod:
         self.items_order = []
         self.recipe_names = set()
         self.java_files = OrderedDict()  # extra generated Java: relative path under com/lodestar/<pkg>/ -> source
+        self.codex = {'intro': None, 'pages': []}
         self.mobs = []  # dicts from mob()
         self.extra_renderers = []  # Java statements run in RegisterRenderers (variable e)
         self.extra_layers = []  # Java statements run in RegisterLayerDefinitions (variable e)
@@ -161,6 +162,21 @@ class Mod:
     def ref(self, name):
         return 'Content.' + const(name)
 
+    # ------------------------------------------------------------------ codex (Field Codex chapter data)
+    def codex_intro(self, text):
+        self.codex['intro'] = text
+
+    def codex_page(self, title_, text, items=(), multiblock=None, image=None):
+        """A Codex page: title, body text (\\n\\n separates paragraphs), items shown with their recipes, optional multiblock id."""
+        page = {'title': title_, 'text': text}
+        if items:
+            page['items'] = list(items)
+        if multiblock:
+            page['multiblock'] = multiblock
+        if image:
+            page['image'] = image
+        self.codex['pages'].append(page)
+
     # ------------------------------------------------------------------ items
     def item(self, name, tex_spec=None, java=None, jtype='Item', tab=None, model='generated', lang=None, desc=None,
              props=None, tags=(), stack=None):
@@ -170,6 +186,7 @@ class Mod:
             if stack:
                 p += '.stacksTo(%d)' % stack
             java = 'new Item(%s)' % p
+        assert tab in TAB_NAMES or tab == 'NONE', 'unknown tab %s for %s' % (tab, name)
         tabref = 'LSTab.%s' % tab if tab in TAB_NAMES else 'null'
         self.field('public static final RegistryObject<%s> %s = REG.item("%s", %s, () -> %s);' % (jtype, const(name), name, tabref, java))
         if model == 'generated' or model == 'handheld':
@@ -192,6 +209,7 @@ class Mod:
         tab = tab or self.tab
         if java is None:
             java = 'new Block(%s)' % (props or 'LSProps.stone(1.5f)')
+        assert tab in TAB_NAMES or tab == 'NONE', 'unknown tab %s for %s' % (tab, name)
         tabref = 'LSTab.%s' % tab if tab in TAB_NAMES else 'null'
         C = const(name)
         if item:
@@ -421,6 +439,8 @@ class Mod:
     # ------------------------------------------------------------------ output
     def finalize(self):
         self.finalize_mobs()
+        self.asset('codex/chapter.json', {'mod': self.modid, 'name': self.name, 'tab': self.tab, 'desc': self.desc,
+                                          'intro': self.codex['intro'] or self.desc, 'pages': self.codex['pages']})
         # lang
         self.asset('lang/en_us.json', dict(self.lang))
         # tags
@@ -490,7 +510,7 @@ class Mod:
         self.client('%s.client.MobRenderers.init(bus)' % pkg)
 
     def mob(self, name, cls, category='MONSTER', size=(0.6, 1.95), egg=('#3a3a3a', '#c0c0c0'), model=None, skin=None, scale=1.0, shadow=0.5,
-            attrs=None, spawn='monster', tracking=8, fire_immune=False, renderer=None, lang=None, egg_tab='ADVENTURE', loot=None, desc=None):
+            attrs=None, spawn='monster', tracking=8, fire_immune=False, renderer=None, lang=None, egg_tab='CREATURES', loot=None, desc=None):
         """Registers a mob: EntityType, spawn egg, attributes, spawn placement, renderer (generated box model or humanoid skin).
 
         cls: Java class (simple name in this mod's package, or fully qualified). model: gen.models.BoxModel. skin: 64x64 humanoid
@@ -547,7 +567,7 @@ class Mod:
 
     def java_content(self):
         imports = [
-            'com.lodestar.core.block.LSBlocks', 'com.lodestar.core.energy.*', 'com.lodestar.core.fluid.LSFluid',
+            'com.lodestar.core.block.*', 'com.lodestar.core.energy.*', 'com.lodestar.core.fluid.LSFluid',
             'com.lodestar.core.item.*', 'com.lodestar.core.machine.*', 'com.lodestar.core.recipe.MachineRecipeKind',
             'com.lodestar.core.registry.LSProps', 'com.lodestar.core.registry.LSRegistry', 'com.lodestar.core.registry.LSTab',
             'net.minecraft.resources.ResourceLocation', 'net.minecraft.util.valueproviders.UniformInt',
@@ -678,7 +698,7 @@ def machine_models(m, name, tier, glyph, share_casing=True):
     return models, textures
 
 
-def machine(m, name, be_expr, tier='basic', glyph='gear', tab='MACHINES', desc=None, lang=None, block_class='MachineBlock',
+def machine(m, name, be_expr, tier='basic', glyph='gear', tab='INDUSTRY', desc=None, lang=None, block_class='MachineBlock',
             be_class='ProcessingMachineBE', props='LSProps.machine()', extra_be_blocks=()):
     """A MachineBlock + block entity type. be_expr is a Java expression using (pos, state) and BE_TYPE."""
     C = const(name)
@@ -707,7 +727,7 @@ def processing_machine(m, name, kind_ref, inputs=1, outputs=1, tier='basic', gly
     return machine(m, name, 'new ProcessingMachineBE(BE_TYPE, pos, state, Content.%s_SPEC)' % C, tier, glyph, desc=desc, lang=lang)
 
 
-def stairs_slab_wall(m, base_name, tex_ref, tab='DECOR', wall=True, props='LSProps.stone(1.5f)', mine='pickaxe', level=None):
+def stairs_slab_wall(m, base_name, tex_ref, tab='BUILDING', wall=True, props='LSProps.stone(1.5f)', mine='pickaxe', level=None):
     """Stairs, slab and (optionally) wall for an existing block, using vanilla parent models."""
     T = tex_ref
     base = 'Content.' + const(base_name)
@@ -785,13 +805,13 @@ def wall_state(mid, n):
     return {'multipart': parts}
 
 
-def cross_block(m, name, texture, java, tab='WORLD', loot='self', item_model='generated_block', mine=None, **kw):
+def cross_block(m, name, texture, java, tab='NATURE', loot='self', item_model='generated_block', mine=None, **kw):
     models = {name: {'parent': 'minecraft:block/cross', 'render_type': 'minecraft:cutout', 'textures': {'cross': '%s:block/%s' % (m.modid, name)}}}
     im = 'blocktex:' + name if item_model == 'generated_block' else item_model
     return m.block(name, java=java, tab=tab, models=models, item_model=im, textures={'block/' + name: texture}, loot=loot, mine=mine, **kw)
 
 
-def wood_set(m, prefix, bark, inner, plank_color, leaf_color, tree_feature, tab='WORLD', fruit=None, leaf_extra_drop=None):
+def wood_set(m, prefix, bark, inner, plank_color, leaf_color, tree_feature, tab='NATURE', fruit=None, leaf_extra_drop=None):
     """log, stripped log, wood, planks, stairs, slab, leaves, sapling (+ recipes, tags)."""
     mid = m.modid
     log, slog, wood, planks_n, leaves_n, sap = prefix + '_log', 'stripped_' + prefix + '_log', prefix + '_wood', prefix + '_planks', prefix + '_leaves', prefix + '_sapling'
@@ -970,10 +990,10 @@ def fuel_machine(m, name, kind_ref, inputs=1, outputs=1, tier='steam', glyph='fl
     m.field('public static final MachineSpec %s_SPEC = new MachineSpec(MachineLayout.fuel(%d, %d), RecipeSource.machine(() -> %s), 0, 0, 1.0f, %sf);'
             % (C, inputs, outputs, kind_ref, time_factor))
     return machine(m, name, 'new FuelProcessingBE(BE_TYPE, pos, state, Content.%s_SPEC)' % C, tier, glyph, desc=desc, lang=lang,
-                   be_class='FuelProcessingBE', tab='MACHINES')
+                   be_class='FuelProcessingBE', tab='INDUSTRY')
 
 
-def custom_machine(m, name, be_class, tier='basic', glyph='gear', desc=None, lang=None, tab='MACHINES', block_class='MachineBlock',
+def custom_machine(m, name, be_class, tier='basic', glyph='gear', desc=None, lang=None, tab='INDUSTRY', block_class='MachineBlock',
                    ctor_args=''):
     """Machine with a hand-written block entity class taking (type, pos, state[, args])."""
     extra = (', ' + ctor_args) if ctor_args else ''
@@ -982,7 +1002,7 @@ def custom_machine(m, name, be_class, tier='basic', glyph='gear', desc=None, lan
 
 
 def custom_model_machine(m, name, be_expr, be_class, textures, top=None, side=None, bottom=None, front=None, front_on=None,
-                         tab='MACHINES', desc=None, lang=None, block_class='MachineBlock', props='LSProps.machine()', level='stone'):
+                         tab='INDUSTRY', desc=None, lang=None, block_class='MachineBlock', props='LSProps.machine()', level='stone'):
     """MachineBlock whose model uses explicit texture names (e.g. solar panel top). textures: dict path->image."""
     C = const(name)
     t = lambda n: '%s:block/%s' % (m.modid, n)
@@ -994,6 +1014,55 @@ def custom_model_machine(m, name, be_expr, be_class, textures, top=None, side=No
     be = be_expr.replace('BE_TYPE', 'Content.%s_BE.get()' % C)
     m.field('public static final RegistryObject<BlockEntityType<%s>> %s_BE = REG.blockEntity("%s", (pos, state) -> %s, Content.%s);' % (be_class, C, name, be, C))
     return 'Content.' + C
+
+
+def entity_block(m, name, be_class, block_java, jtype='LSEntityBlock', tab=None, models=None, state=None, textures=None, item_model='block',
+                 desc=None, lang=None, mine='pickaxe', level=None, loot='self', ctor_args='', item_java=None):
+    """A block with a hand-written block entity class (constructor (type, pos, state[, args])); block_java may use BE_TYPE."""
+    C = const(name)
+    java = block_java.replace('BE_TYPE', '() -> Content.%s_BE.get()' % C)
+    m.block(name, java=java, jtype=jtype, tab=tab, models=models, state=state, textures=textures, item_model=item_model, desc=desc,
+            lang=lang, mine=mine, level=level, loot=loot, item_java=item_java)
+    extra = (', ' + ctor_args) if ctor_args else ''
+    m.field('public static final RegistryObject<BlockEntityType<%s>> %s_BE = REG.blockEntity("%s", (pos, state) -> new %s(Content.%s_BE.get(), pos, state%s), Content.%s);'
+            % (be_class, C, name, be_class, C, extra, C))
+    return 'Content.' + C
+
+
+def horizontal_model_state(m, model, lit_model=None):
+    """Blockstate for LSEntityBlock with HORIZONTAL facing (and LIT when lit_model is given)."""
+    rot = {'north': 0, 'east': 90, 'south': 180, 'west': 270}
+    v = {}
+    for f, r in rot.items():
+        base = {'model': '%s:block/%s' % (m.modid, model)}
+        if r:
+            base['y'] = r
+        if lit_model:
+            on = {'model': '%s:block/%s' % (m.modid, lit_model)}
+            if r:
+                on['y'] = r
+            v['facing=%s,lit=false' % f] = base
+            v['facing=%s,lit=true' % f] = on
+        else:
+            v['facing=%s' % f] = base
+    return {'variants': v}
+
+
+def faces_all(tex_ref='#all', cull=False):
+    return {d: dict({'texture': tex_ref}, **({'cullface': d} if cull else {})) for d in ('north', 'south', 'east', 'west', 'up', 'down')}
+
+
+def element_model(elements, textures, parent='minecraft:block/block', render=None):
+    """Model from (from, to, texture-or-face-dict) element tuples."""
+    els = []
+    for e in elements:
+        frm, to, t = e[0], e[1], e[2]
+        faces = t if isinstance(t, dict) else faces_all(t)
+        els.append({'from': frm, 'to': to, 'faces': faces})
+    mdl = {'parent': parent, 'textures': textures, 'elements': els}
+    if render:
+        mdl['render_type'] = 'minecraft:' + render
+    return mdl
 
 
 CONN_ROT = {'north': {}, 'east': {'y': 90}, 'south': {'y': 180}, 'west': {'y': 270}, 'up': {'x': 270}, 'down': {'x': 90}}
