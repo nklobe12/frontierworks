@@ -75,7 +75,8 @@ if client is not None:
     lines += ['## Client boot: %s' % ('reached title screen' if reached else 'DID NOT REACH TITLE SCREEN'), '']
     pats = ('Unable to load model', 'Missing textures', 'Exception loading blockstate', 'Unable to resolve texture',
             'missing model', 'Exception caught', 'Failed to load', 'Couldn\'t', 'Unknown', 'ERROR]', 'FATAL]', 'Exception')
-    probs = [l for l in cl if any(p in l for p in pats)]
+    noise = ('Narrator', 'ALSA lib', 'SoundEngine', 'OpenAL', 'RealmsClient', 'libflite', 'Suppressed: java.io.IOException: Native library')
+    probs = [l[:400] for l in cl if any(p in l for p in pats) and not any(n in l for n in noise)]
     lines += ['### Client problems (%d)' % len(probs), '```'] + probs[:400] + ['```', '']
 
 show = read('showcase.log')

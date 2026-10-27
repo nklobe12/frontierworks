@@ -6,4 +6,5 @@ ORDER = [
     'machina',
     'dynamos',
     'toolsmith',
+    'transmutation',
 ]
