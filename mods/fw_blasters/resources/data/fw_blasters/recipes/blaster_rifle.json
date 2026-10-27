@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPL",
+    "PCB",
+    "  P"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "L": {
+      "item": "fw_blasters:focusing_lens"
+    },
+    "C": {
+      "item": "fw_circuits:advanced_circuit"
+    },
+    "B": {
+      "item": "fw_batteries:battery_advanced"
+    }
+  },
+  "result": {
+    "item": "fw_blasters:blaster_rifle",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_batteries"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    }
+  ]
+}

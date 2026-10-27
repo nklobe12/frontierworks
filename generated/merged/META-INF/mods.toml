@@ -2654,3 +2654,171 @@ description='''Eleven new enchantments: Lifesteal, Frostbite, Venom, Thunderstri
     versionRange="[1.0.0,)"
     ordering="AFTER"
     side="BOTH"
+
+[[mods]]
+modId="fw_weapons"
+version="1.0.0"
+displayName="Frontierworks: Arsenal"
+authors="Klobe & Claude"
+description='''New weapon types in twelve materials: long-reach spears, backstabbing daggers, warhammers whose charged blows hit everything nearby, and shield-breaking battleaxes.'''
+
+[[dependencies.fw_weapons]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_weapons]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_weapons]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_blasters"
+version="1.0.0"
+displayName="Frontierworks: Blasters"
+authors="Klobe & Claude"
+description='''Energy weapons that run on Forge Energy: a quick blaster pistol, a hard-hitting rifle, a six-bolt scatter blaster and an explosive plasma cannon. Recharge them in any energy cell.'''
+
+[[dependencies.fw_blasters]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_blasters]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_blasters]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_explosives"
+version="1.0.0"
+displayName="Frontierworks: Demolitions"
+authors="Klobe & Claude"
+description='''Things that go boom: bouncing dynamite and bundles, mining charges that turn rock into drops, frag, incendiary and smoke grenades, and C4 you can detonate remotely.'''
+
+[[dependencies.fw_explosives]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_explosives]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_explosives]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_relics"
+version="1.0.0"
+displayName="Frontierworks: Relics"
+authors="Klobe & Claude"
+description='''Twelve rare trinkets hidden in dungeons, temples, towers and vanilla structures. Keep one anywhere in your inventory for its power: extra hearts, haste, speed, fire immunity, night vision, a second life and more.'''
+
+[[dependencies.fw_relics]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_relics]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_relics]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_hearts"
+version="1.0.0"
+displayName="Frontierworks: Heart Containers"
+authors="Klobe & Claude"
+description='''Heart Containers permanently add a heart to your maximum health (up to ten extra). Bosses drop them; dungeons and treasure hold heart fragments - four fragments make a container.'''
+
+[[dependencies.fw_hearts]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_hearts]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_hearts]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_coins"
+version="1.0.0"
+displayName="Frontierworks: Coinage"
+authors="Klobe & Claude"
+description='''A frontier currency: hostile mobs drop copper and silver coins (bosses drop gold and platinum). Nine of a coin make one of the next. Spend them with wandering traders, swap them for emeralds, or earn more from bounties.'''
+
+[[dependencies.fw_coins]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_coins]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_coins]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

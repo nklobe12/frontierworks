@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 40
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fw_relics:amulet_of_vigor",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fw_relics:ring_of_haste",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fw_relics:ring_of_swiftness",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fw_relics:featherfall_charm",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fw_relics:ember_heart",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fw_relics:tidal_pearl",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fw_relics:eye_of_the_owl",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fw_relics:phoenix_feather",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fw_relics:lucky_coin",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fw_relics:thorn_ring",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fw_relics:band_of_regeneration",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fw_relics:warding_amulet",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

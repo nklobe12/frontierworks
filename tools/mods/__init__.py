@@ -11,4 +11,5 @@ ORDER = [
     'ruins', 'dungeons', 'towers', 'skyislands', 'outposts', 'bunkers', 'temples', 'camps',
     'caves', 'flora', 'treasure', 'villagers',
     'glass', 'lamps', 'decor', 'food', 'potions', 'enchantments',
+    'weapons', 'blasters', 'explosives', 'relics', 'hearts', 'coins',
 ]

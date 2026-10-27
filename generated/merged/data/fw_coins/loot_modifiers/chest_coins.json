@@ -1,0 +1,59 @@
+{
+  "type": "fw_core:add_table",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:chests/simple_dungeon"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:chests/abandoned_mineshaft"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:chests/village/village_weaponsmith"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:chests/shipwreck_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:chests/pillager_outpost"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:chests/desert_pyramid"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "fw_dungeons:chests/treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "fw_ruins:chests/ruins"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "fw_camps:chests/bandit"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "fw_camps:chests/explorer"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "fw_outposts:chests/supplies"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "fw_bunkers:chests/storage"
+        }
+      ]
+    }
+  ],
+  "table": "fw_coins:inject/chest_coins"
+}

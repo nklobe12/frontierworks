@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "fw_weapons:iron_warhammer",
+    "fw_weapons:diamond_warhammer",
+    "fw_weapons:netherite_warhammer",
+    "fw_weapons:bronze_warhammer",
+    "fw_weapons:steel_warhammer",
+    "fw_weapons:silver_warhammer",
+    "fw_weapons:platinum_warhammer",
+    "fw_weapons:ruby_warhammer",
+    "fw_weapons:sapphire_warhammer",
+    "fw_weapons:onyx_warhammer",
+    "fw_weapons:meteoric_steel_warhammer",
+    "fw_weapons:titanium_warhammer"
+  ]
+}

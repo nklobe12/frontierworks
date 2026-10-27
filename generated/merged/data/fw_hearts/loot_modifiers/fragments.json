@@ -1,0 +1,75 @@
+{
+  "type": "fw_core:add_table",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "fw_dungeons:chests/treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "fw_dungeons:chests/crypt"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "fw_temples:chests/ziggurat"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "fw_towers:chests/wizard"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "fw_skyislands:chests/shrine"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "fw_treasure:chests/stash"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "fw_temples:chests/pyramid"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "fw_camps:chests/bandit_boss"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:chests/simple_dungeon"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:chests/ancient_city"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:chests/stronghold_corridor"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:chests/buried_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:chests/bastion_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:chests/end_city_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:chests/desert_pyramid"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:chests/jungle_temple"
+        }
+      ]
+    }
+  ],
+  "table": "fw_hearts:inject/fragments"
+}

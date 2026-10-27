@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-    "fw_treasure:gold_doubloon"
+    "fw_treasure:gold_doubloon",
+    "fw_coins:copper_coin",
+    "fw_coins:silver_coin",
+    "fw_coins:gold_coin",
+    "fw_coins:platinum_coin"
   ]
 }

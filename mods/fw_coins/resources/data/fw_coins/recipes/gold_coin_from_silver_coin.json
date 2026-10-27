@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_coins:silver_coin"
+    },
+    {
+      "item": "fw_coins:silver_coin"
+    },
+    {
+      "item": "fw_coins:silver_coin"
+    },
+    {
+      "item": "fw_coins:silver_coin"
+    },
+    {
+      "item": "fw_coins:silver_coin"
+    },
+    {
+      "item": "fw_coins:silver_coin"
+    },
+    {
+      "item": "fw_coins:silver_coin"
+    },
+    {
+      "item": "fw_coins:silver_coin"
+    },
+    {
+      "item": "fw_coins:silver_coin"
+    }
+  ],
+  "result": {
+    "item": "fw_coins:gold_coin",
+    "count": 1
+  }
+}

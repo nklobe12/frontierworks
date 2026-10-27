@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_explosives:dynamite"
+    },
+    {
+      "item": "fw_explosives:dynamite"
+    },
+    {
+      "item": "fw_explosives:dynamite"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "result": {
+    "item": "fw_explosives:bundled_dynamite",
+    "count": 1
+  }
+}

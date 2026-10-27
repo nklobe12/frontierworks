@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "fw_weapons:iron_battleaxe",
+    "fw_weapons:diamond_battleaxe",
+    "fw_weapons:netherite_battleaxe",
+    "fw_weapons:bronze_battleaxe",
+    "fw_weapons:steel_battleaxe",
+    "fw_weapons:silver_battleaxe",
+    "fw_weapons:platinum_battleaxe",
+    "fw_weapons:ruby_battleaxe",
+    "fw_weapons:sapphire_battleaxe",
+    "fw_weapons:onyx_battleaxe",
+    "fw_weapons:meteoric_steel_battleaxe",
+    "fw_weapons:titanium_battleaxe"
+  ]
+}

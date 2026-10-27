@@ -1,0 +1,16 @@
+{
+  "item.fw_blasters.bolt_red": "Red Bolt",
+  "item.fw_blasters.bolt_blue": "Blue Bolt",
+  "item.fw_blasters.bolt_orange": "Orange Bolt",
+  "item.fw_blasters.bolt_purple": "Purple Bolt",
+  "item.fw_blasters.blaster_pistol": "Blaster Pistol",
+  "item.fw_blasters.blaster_pistol.desc": "6 damage, 300 FE per shot",
+  "item.fw_blasters.blaster_rifle": "Blaster Rifle",
+  "item.fw_blasters.blaster_rifle.desc": "11 damage, 800 FE per shot",
+  "item.fw_blasters.scatter_blaster": "Scatter Blaster",
+  "item.fw_blasters.scatter_blaster.desc": "4 damage x6, 1200 FE per shot",
+  "item.fw_blasters.plasma_cannon": "Plasma Cannon",
+  "item.fw_blasters.plasma_cannon.desc": "14 damage + explosion, 5000 FE per shot",
+  "tooltip.fw_blasters.empty": "Out of energy - recharge in an energy cell",
+  "item.fw_blasters.focusing_lens": "Focusing Lens"
+}

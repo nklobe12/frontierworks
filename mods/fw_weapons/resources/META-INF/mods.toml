@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_weapons"
+version="1.0.0"
+displayName="Frontierworks: Arsenal"
+authors="Klobe & Claude"
+description='''New weapon types in twelve materials: long-reach spears, backstabbing daggers, warhammers whose charged blows hit everything nearby, and shield-breaking battleaxes.'''
+
+[[dependencies.fw_weapons]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_weapons]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_weapons]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

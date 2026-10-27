@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    "MMM",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "tag": "forge:gems/onyx"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "fw_weapons:onyx_warhammer",
+    "count": 1
+  }
+}

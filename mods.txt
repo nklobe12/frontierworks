@@ -94,3 +94,9 @@ fw_decor
 fw_food
 fw_potions
 fw_enchantments
+fw_weapons
+fw_blasters
+fw_explosives
+fw_relics
+fw_hearts
+fw_coins

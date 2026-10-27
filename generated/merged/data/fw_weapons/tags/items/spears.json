@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "fw_weapons:iron_spear",
+    "fw_weapons:diamond_spear",
+    "fw_weapons:netherite_spear",
+    "fw_weapons:bronze_spear",
+    "fw_weapons:steel_spear",
+    "fw_weapons:silver_spear",
+    "fw_weapons:platinum_spear",
+    "fw_weapons:ruby_spear",
+    "fw_weapons:sapphire_spear",
+    "fw_weapons:onyx_spear",
+    "fw_weapons:meteoric_steel_spear",
+    "fw_weapons:titanium_spear"
+  ]
+}

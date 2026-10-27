@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "entries": [
+    "fw_relics:dungeon_relics",
+    "fw_relics:vanilla_relics"
+  ]
+}

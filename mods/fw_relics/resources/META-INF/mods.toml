@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_relics"
+version="1.0.0"
+displayName="Frontierworks: Relics"
+authors="Klobe & Claude"
+description='''Twelve rare trinkets hidden in dungeons, temples, towers and vanilla structures. Keep one anywhere in your inventory for its power: extra hearts, haste, speed, fire immunity, night vision, a second life and more.'''
+
+[[dependencies.fw_relics]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_relics]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_relics]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

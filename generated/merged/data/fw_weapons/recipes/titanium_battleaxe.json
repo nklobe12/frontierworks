@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MSM",
+    "MSM",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "tag": "forge:ingots/titanium"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "fw_weapons:titanium_battleaxe",
+    "count": 1
+  }
+}

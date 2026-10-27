@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_coins"
+version="1.0.0"
+displayName="Frontierworks: Coinage"
+authors="Klobe & Claude"
+description='''A frontier currency: hostile mobs drop copper and silver coins (bosses drop gold and platinum). Nine of a coin make one of the next. Spend them with wandering traders, swap them for emeralds, or earn more from bounties.'''
+
+[[dependencies.fw_coins]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_coins]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_coins]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

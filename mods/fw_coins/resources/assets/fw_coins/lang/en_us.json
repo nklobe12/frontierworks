@@ -1,0 +1,8 @@
+{
+  "item.fw_coins.copper_coin": "Copper Coin",
+  "item.fw_coins.silver_coin": "Silver Coin",
+  "item.fw_coins.gold_coin": "Gold Coin",
+  "item.fw_coins.platinum_coin": "Platinum Coin",
+  "item.fw_coins.coin_pouch": "Coin Pouch",
+  "item.fw_coins.coin_pouch.desc": "Right-click: a handful of coins"
+}

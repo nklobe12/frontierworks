@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_hearts"
+version="1.0.0"
+displayName="Frontierworks: Heart Containers"
+authors="Klobe & Claude"
+description='''Heart Containers permanently add a heart to your maximum health (up to ten extra). Bosses drop them; dungeons and treasure hold heart fragments - four fragments make a container.'''
+
+[[dependencies.fw_hearts]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_hearts]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_hearts]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

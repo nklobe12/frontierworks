@@ -1,0 +1,12 @@
+{
+  "item.fw_hearts.heart_container": "Heart Container",
+  "item.fw_hearts.heart_container.desc": "Right-click: +1 maximum heart, permanently",
+  "item.fw_hearts.heart_fragment": "Heart Fragment",
+  "item.fw_hearts.heart_fragment.desc": "Four make a heart container",
+  "item.fw_hearts.cursed_heart": "Cursed Heart",
+  "item.fw_hearts.cursed_heart.desc": "Right-click: remove one extra heart (gives back a container)",
+  "msg.fw_hearts.gained": "Your maximum health grew! (+%s extra hearts)",
+  "msg.fw_hearts.max": "You can't hold any more hearts",
+  "msg.fw_hearts.removed": "Your heart grows lighter (+%s extra hearts)",
+  "msg.fw_hearts.none": "You have no extra hearts"
+}

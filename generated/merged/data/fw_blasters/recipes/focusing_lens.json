@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " G ",
+    "GRG",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass_panes"
+    },
+    "R": {
+      "tag": "forge:gems/ruby"
+    }
+  },
+  "result": {
+    "item": "fw_blasters:focusing_lens",
+    "count": 1
+  }
+}

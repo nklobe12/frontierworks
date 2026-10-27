@@ -8,6 +8,11 @@
     "fw_food:village_food",
     "fw_food:dungeon_rations",
     "fw_enchantments:smelting",
-    "fw_enchantments:treasure_books"
+    "fw_enchantments:treasure_books",
+    "fw_relics:dungeon_relics",
+    "fw_relics:vanilla_relics",
+    "fw_hearts:fragments",
+    "fw_hearts:boss_hearts",
+    "fw_coins:chest_coins"
   ]
 }

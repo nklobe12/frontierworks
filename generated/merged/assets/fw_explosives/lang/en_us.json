@@ -1,0 +1,22 @@
+{
+  "item.fw_explosives.dynamite": "Dynamite",
+  "item.fw_explosives.dynamite.desc": "Bounces, then blows. Breaks blocks.",
+  "item.fw_explosives.bundled_dynamite": "Bundled Dynamite",
+  "item.fw_explosives.bundled_dynamite.desc": "Three sticks, one very big bang",
+  "item.fw_explosives.mining_charge": "Mining Charge",
+  "item.fw_explosives.mining_charge.desc": "Shatters a 5x5x5 area of stone and ore into drops. Harmless to creatures.",
+  "item.fw_explosives.frag_grenade": "Frag Grenade",
+  "item.fw_explosives.frag_grenade.desc": "Damages creatures without breaking blocks",
+  "item.fw_explosives.incendiary_grenade": "Incendiary Grenade",
+  "item.fw_explosives.incendiary_grenade.desc": "Bursts into flames",
+  "item.fw_explosives.smoke_grenade": "Smoke Grenade",
+  "item.fw_explosives.smoke_grenade.desc": "Blinds and slows everything in a thick cloud",
+  "block.fw_explosives.c4": "C4 Charge",
+  "block.fw_explosives.c4.desc": "Link with a detonator (sneak + right-click), then detonate from up to 128 blocks away",
+  "item.fw_explosives.detonator": "Detonator",
+  "item.fw_explosives.detonator.desc": "Sneak + right-click C4 to link. Right-click to detonate everything linked.",
+  "msg.fw_explosives.linked": "Linked C4 (%s total)",
+  "msg.fw_explosives.boom": "Detonating %s charges",
+  "msg.fw_explosives.none": "No linked C4",
+  "tooltip.fw_explosives.links": "%s linked charges"
+}

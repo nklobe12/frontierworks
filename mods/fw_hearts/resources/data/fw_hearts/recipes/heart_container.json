@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_hearts:heart_fragment"
+    },
+    {
+      "item": "fw_hearts:heart_fragment"
+    },
+    {
+      "item": "fw_hearts:heart_fragment"
+    },
+    {
+      "item": "fw_hearts:heart_fragment"
+    }
+  ],
+  "result": {
+    "item": "fw_hearts:heart_container",
+    "count": 1
+  }
+}

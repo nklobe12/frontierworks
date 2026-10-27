@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PEL",
+    "PCB",
+    "PP "
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/titanium"
+    },
+    "L": {
+      "item": "fw_blasters:focusing_lens"
+    },
+    "E": {
+      "item": "fw_crystals:charged_energite"
+    },
+    "C": {
+      "item": "fw_circuits:elite_circuit"
+    },
+    "B": {
+      "item": "fw_batteries:battery_elite"
+    }
+  },
+  "result": {
+    "item": "fw_blasters:plasma_cannon",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_batteries"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_crystals"
+    }
+  ]
+}

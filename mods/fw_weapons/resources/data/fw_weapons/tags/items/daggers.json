@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "fw_weapons:iron_dagger",
+    "fw_weapons:diamond_dagger",
+    "fw_weapons:netherite_dagger",
+    "fw_weapons:bronze_dagger",
+    "fw_weapons:steel_dagger",
+    "fw_weapons:silver_dagger",
+    "fw_weapons:platinum_dagger",
+    "fw_weapons:ruby_dagger",
+    "fw_weapons:sapphire_dagger",
+    "fw_weapons:onyx_dagger",
+    "fw_weapons:meteoric_steel_dagger",
+    "fw_weapons:titanium_dagger"
+  ]
+}

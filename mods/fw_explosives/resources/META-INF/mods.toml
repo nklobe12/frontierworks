@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_explosives"
+version="1.0.0"
+displayName="Frontierworks: Demolitions"
+authors="Klobe & Claude"
+description='''Things that go boom: bouncing dynamite and bundles, mining charges that turn rock into drops, frag, incendiary and smoke grenades, and C4 you can detonate remotely.'''
+
+[[dependencies.fw_explosives]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_explosives]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_explosives]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

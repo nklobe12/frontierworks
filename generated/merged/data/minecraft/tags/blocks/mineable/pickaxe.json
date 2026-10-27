@@ -372,6 +372,7 @@
     "fw_decor:polished_slate_wall",
     "fw_decor:chiseled_slate",
     "fw_decor:steel_grate",
-    "fw_decor:steel_beam"
+    "fw_decor:steel_beam",
+    "fw_explosives:c4"
   ]
 }
