@@ -1,0 +1,118 @@
+plugins {
+    id 'eclipse'
+    id 'idea'
+    id 'net.minecraftforge.gradle' version '[6.0.24,6.2)'
+}
+
+// Every mod lives in mods/<modid>/ : hand-written Java in src/, generated Java in gen/,
+// generated + static resources in resources/. The list (in load order) is mods.txt,
+// written by tools/build.py. All Java compiles once; jar_<modid> tasks then split the
+// reobfuscated jar into one jar per mod.
+def modIds = file('mods.txt').readLines().collect { it.trim() }.findAll { it && !it.startsWith('#') }
+def pkgOf = { String id -> id.startsWith('ls_') ? id.substring(3) : id }
+
+version = project.pack_version
+group = 'com.lodestar'
+base { archivesName = 'lodestar-all' }
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+sourceSets {
+    main {
+        java { srcDirs = modIds.collectMany { ["mods/${it}/src", "mods/${it}/gen"] } }
+        resources { srcDirs = ['generated/merged'] }
+    }
+}
+
+minecraft {
+    mappings channel: mapping_channel, version: mapping_version
+    copyIdeResources = true
+
+    runs {
+        configureEach {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'info'
+            mods {
+                lodestar {
+                    source sourceSets.main
+                }
+            }
+        }
+        client {
+            if (project.hasProperty('lsSelftest')) {
+                property 'lodestar.selftest', 'client'
+            }
+            if (project.hasProperty('lsShowcase')) {
+                property 'lodestar.showcase', 'true'
+                args '--quickPlaySingleplayer', 'showcase', '--width', '1280', '--height', '720'
+            }
+        }
+        server {
+            args '--nogui'
+            if (project.hasProperty('lsSelftest')) {
+                property 'lodestar.selftest', 'server'
+            }
+        }
+    }
+}
+
+repositories {
+}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.compilerArgs << '-Xmaxerrs' << '2000'
+}
+
+tasks.named('jar', Jar).configure {
+    manifest {
+        attributes([
+            'Specification-Title'     : 'lodestar',
+            'Specification-Vendor'    : 'Lodestar',
+            'Specification-Version'   : '1',
+            'Implementation-Title'    : 'lodestar-all',
+            'Implementation-Version'  : project.version,
+            'Implementation-Vendor'   : 'Lodestar'
+        ])
+    }
+    finalizedBy 'reobfJar'
+}
+
+def splitTasks = []
+modIds.each { id ->
+    def pkg = pkgOf(id)
+    def t = tasks.register("jar_${id}", Jar) {
+        group = 'lodestar'
+        dependsOn 'reobfJar'
+        archiveFileName = "${id}-${project.minecraft_version}-${project.version}.jar"
+        destinationDirectory = layout.buildDirectory.dir('modjars')
+        from({ zipTree(tasks.named('jar', Jar).get().archiveFile.get().asFile) }) {
+            include "com/lodestar/${pkg}/**"
+        }
+        from("mods/${id}/resources")
+        manifest {
+            attributes([
+                'Specification-Title'     : id,
+                'Specification-Vendor'    : 'Lodestar',
+                'Specification-Version'   : '1',
+                'Implementation-Title'    : id,
+                'Implementation-Version'  : project.version,
+                'Implementation-Vendor'   : 'Lodestar'
+            ])
+        }
+    }
+    splitTasks << t
+}
+
+tasks.register('modJars') {
+    group = 'lodestar'
+    description = 'Builds one jar per Lodestar mod into build/modjars'
+    dependsOn splitTasks
+}
+
+tasks.named('build').configure { dependsOn 'modJars' }

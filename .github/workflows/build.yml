@@ -1,0 +1,153 @@
+name: build-and-test
+
+on:
+  push:
+    branches: [lodestar]
+  workflow_dispatch:
+    inputs:
+      client:
+        description: 'Run the client boot test'
+        required: false
+        default: 'true'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  FORGE: 1.20.1-47.3.0
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate mods
+        run: |
+          pip install -q pillow
+          python3 tools/build.py | tee ci-gen.log
+
+      - uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: '8.8'
+          cache-read-only: false
+
+      - name: Compile and build per-mod jars
+        id: compile
+        run: |
+          set -o pipefail
+          chmod +x gradlew
+          ./gradlew modJars --no-daemon --stacktrace 2>&1 | tee compile.log
+          ls -la build/modjars | tee jars.txt
+
+      - name: Cache Forge server
+        if: steps.compile.outcome == 'success'
+        uses: actions/cache@v4
+        with:
+          path: server-cache
+          key: forge-server-${{ env.FORGE }}
+
+      - name: Server self-test
+        id: server
+        if: steps.compile.outcome == 'success'
+        run: bash ci/server_test.sh
+
+      - name: Client self-test
+        id: client
+        if: always() && steps.compile.outcome == 'success' && (github.event_name == 'push' || github.event.inputs.client == 'true')
+        run: bash ci/client_test.sh
+
+      - name: Showcase screenshots
+        id: showcase
+        if: always() && steps.server.outcome == 'success' && hashFiles('ci/showcase.enabled') != ''
+        run: bash ci/showcase.sh
+
+      - name: Package modpacks
+        id: package
+        if: always() && steps.server.outcome == 'success'
+        run: |
+          python3 tools/package.py "${FORGE#1.20.1-}" build/modjars dist
+          cp MODS.md dist/ 2>/dev/null || true
+
+      - name: Publish release
+        if: always() && steps.package.outcome == 'success' && github.ref == 'refs/heads/lodestar'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VER=$(grep '^pack_version=' gradle.properties | cut -d= -f2)
+          TAG="lodestar-v${VER}"
+          NOTES="Lodestar ${VER} for Minecraft 1.20.1 + Forge ${FORGE#1.20.1-}. Built from ${GITHUB_SHA::7}. See MODS.md for the full mod list."
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" > /dev/null 2>&1; then
+            gh release upload "$TAG" dist/* --clobber --repo "$GITHUB_REPOSITORY"
+            gh release edit "$TAG" --notes "$NOTES" --repo "$GITHUB_REPOSITORY"
+          else
+            gh release create "$TAG" dist/* --title "Lodestar ${VER}" --prerelease --notes "$NOTES" --repo "$GITHUB_REPOSITORY"
+          fi
+
+      - name: Publish dist branch
+        if: always() && steps.package.outcome == 'success' && github.ref == 'refs/heads/lodestar'
+        run: |
+          set -e
+          cd dist
+          git init -q -b lodestar-dist
+          git config user.name "lodestar-ci"
+          git config user.email "ci@lodestar.invalid"
+          git add -A
+          git commit -q -m "Modpack build from ${GITHUB_SHA}"
+          git push -q --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" lodestar-dist
+
+      - name: Report
+        if: always()
+        run: python3 ci/report.py
+
+      - name: Publish report
+        if: always()
+        run: |
+          set -e
+          cd ci-report
+          git init -q -b lodestar-ci
+          git config user.name "lodestar-ci"
+          git config user.email "ci@lodestar.invalid"
+          git add -A
+          git commit -q -m "CI report for ${GITHUB_SHA} (run ${GITHUB_RUN_ID})"
+          git push -q --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" lodestar-ci
+
+      - name: Publish devkit (Gradle caches, JDK, Forge server) for offline local builds
+        if: always() && steps.compile.outcome == 'success' && contains(github.event.head_commit.message, '[devkit]')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          mkdir -p devkit
+          cp -r "$JAVA_HOME" devkit/jdk17
+          tar -C "$HOME" -cf - .gradle/caches/modules-2 .gradle/caches/forge_gradle .gradle/caches/jars-9 .gradle/wrapper/dists \
+              $(cd "$HOME" && ls -d .gradle/caches/transforms-* 2>/dev/null) 2>/dev/null | gzip -4 > devkit/gradle-home.tar.gz
+          tar -czf devkit/server-cache.tar.gz server-cache
+          tar -C devkit -czf devkit/jdk17.tar.gz jdk17
+          rm -rf devkit/jdk17
+          cd devkit && split -b 1900m gradle-home.tar.gz gradle-home.tar.gz.part- && rm gradle-home.tar.gz && ls -la && cd ..
+          gh release view devkit --repo "$GITHUB_REPOSITORY" > /dev/null 2>&1 || \
+            gh release create devkit --title "Lodestar devkit" --notes "Build caches for offline local builds. Not a modpack." --prerelease --repo "$GITHUB_REPOSITORY"
+          gh release upload devkit devkit/* --clobber --repo "$GITHUB_REPOSITORY"
+
+      - name: Upload jars
+        if: always() && steps.compile.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: lodestar-mods
+          path: build/modjars/*.jar
+          retention-days: 7

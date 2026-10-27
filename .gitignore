@@ -1,0 +1,15 @@
+build/
+.gradle/
+run/
+server/
+server-cache/
+generated/
+mods/*/gen/
+mods/*/resources/
+__pycache__/
+*.pyc
+dist/
+ci-report/
+*.log
+out/
+devkit/
