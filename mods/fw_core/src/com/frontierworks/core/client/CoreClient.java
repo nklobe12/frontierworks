@@ -27,6 +27,8 @@ public final class CoreClient {
     public static void init(IEventBus bus) {
         bus.addListener(CoreClient::setup);
         MinecraftForge.EVENT_BUS.addListener(CoreClient::onTooltip);
+        MinecraftForge.EVENT_BUS.addListener(CoreClient::onScreenInit);
+        MinecraftForge.EVENT_BUS.addListener(CoreClient::onSkipTick);
         if ("client".equals(System.getProperty("fwcore.selftest"))) {
             MinecraftForge.EVENT_BUS.addListener(CoreClient::onScreen);
             MinecraftForge.EVENT_BUS.addListener(CoreClient::onClientTick);
@@ -47,6 +49,31 @@ public final class CoreClient {
                 event.getToolTip().add(1, Component.literal(line).withStyle(ChatFormatting.GRAY));
             }
         }
+    }
+
+    private static net.minecraft.client.gui.components.Button pendingProceed;
+
+    /**
+     * Frontierworks adds dimensions through data packs, which makes vanilla warn about "experimental settings" every time a
+     * world is created or loaded. The warning is meaningless for this pack, so it is confirmed automatically.
+     */
+    private static void onScreenInit(ScreenEvent.Init.Post event) {
+        if (!(event.getScreen() instanceof net.minecraft.client.gui.screens.ConfirmScreen cs)) return;
+        if (!(cs.getTitle().getContents() instanceof net.minecraft.network.chat.contents.TranslatableContents tc) || !tc.getKey().contains("experimental")) return;
+        for (net.minecraft.client.gui.components.events.GuiEventListener l : event.getListenersList()) {
+            if (l instanceof net.minecraft.client.gui.components.Button b) {
+                pendingProceed = b;
+                LOG.info("Skipping the experimental-settings warning ({})", tc.getKey());
+                return;
+            }
+        }
+    }
+
+    private static void onSkipTick(TickEvent.ClientTickEvent event) {
+        if (event.phase != TickEvent.Phase.END || pendingProceed == null) return;
+        net.minecraft.client.gui.components.Button b = pendingProceed;
+        pendingProceed = null;
+        if (Minecraft.getInstance().screen instanceof net.minecraft.client.gui.screens.ConfirmScreen) b.onPress();
     }
 
     private static void onScreen(ScreenEvent.Init.Post event) {

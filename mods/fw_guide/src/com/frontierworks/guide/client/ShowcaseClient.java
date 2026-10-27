@@ -48,9 +48,8 @@ public final class ShowcaseClient {
     private static final Logger LOG = LogUtils.getLogger();
     private static final List<Step> steps = new ArrayList<>();
     private static int wait = -1;
+    private static int renderWait;   // >0: after the fixed wait, also wait (up to this many ticks) for chunks in view to be compiled
     private static boolean started;
-    private static Button pendingPress;
-    private static int pressDelay;
 
     private record Step(int waitAfter, Consumer<Minecraft> action) {}
 
@@ -59,22 +58,6 @@ public final class ShowcaseClient {
     public static void init() {
         if (!"true".equals(System.getProperty("fwcore.showcase"))) return;
         MinecraftForge.EVENT_BUS.addListener(ShowcaseClient::onTick);
-        MinecraftForge.EVENT_BUS.addListener(ShowcaseClient::onScreen);
-    }
-
-    /** Auto-confirm "experimental settings" / backup prompts when loading the test world. */
-    private static void onScreen(ScreenEvent.Init.Post event) {
-        Screen s = event.getScreen();
-        if (s instanceof ConfirmScreen || s.getClass().getSimpleName().contains("Backup") || s.getClass().getSimpleName().contains("Experimental")) {
-            for (var l : event.getListenersList()) {
-                if (l instanceof Button b) {
-                    pendingPress = b;
-                    pressDelay = 10;
-                    LOG.info("FWSHOWCASE auto-confirming {}", s.getClass().getSimpleName());
-                    return;
-                }
-            }
-        }
     }
 
     private static void server(Minecraft mc, Consumer<MinecraftServer> work) {
@@ -103,11 +86,6 @@ public final class ShowcaseClient {
     private static void onTick(TickEvent.ClientTickEvent event) {
         if (event.phase != TickEvent.Phase.END) return;
         Minecraft mc = Minecraft.getInstance();
-        if (pendingPress != null && --pressDelay <= 0) {
-            Button b = pendingPress;
-            pendingPress = null;
-            b.onPress();
-        }
         if (!started) {
             if (mc.level != null && mc.player != null && mc.getSingleplayerServer() != null) {
                 started = true;
@@ -119,6 +97,13 @@ public final class ShowcaseClient {
         }
         if (wait > 0) {
             wait--;
+            return;
+        }
+        if (renderWait > 0) {
+            renderWait--;
+            if (!viewCompiled(mc)) return;
+            renderWait = 0;
+            wait = 40;
             return;
         }
         if (steps.isEmpty()) {
@@ -135,7 +120,20 @@ public final class ShowcaseClient {
         } catch (Throwable t) {
             LOG.error("FWSHOWCASE step failed", t);
         }
-        wait = s.waitAfter;
+        wait = Math.min(s.waitAfter, 100);
+        renderWait = s.waitAfter > 100 ? 1200 : 0;
+    }
+
+    /** True once the chunks around the player and along the view direction have been meshed. */
+    private static boolean viewCompiled(Minecraft mc) {
+        if (mc.player == null || mc.levelRenderer == null) return true;
+        net.minecraft.world.phys.Vec3 eye = mc.player.getEyePosition();
+        net.minecraft.world.phys.Vec3 look = mc.player.getLookAngle();
+        for (int d = 0; d <= 32; d += 8) {
+            BlockPos p = BlockPos.containing(eye.add(look.scale(d)));
+            if (!mc.levelRenderer.isChunkCompiled(p)) return false;
+        }
+        return true;
     }
 
     private static void add(int waitAfter, Consumer<Minecraft> action) {
@@ -174,7 +172,8 @@ public final class ShowcaseClient {
             final List<Block> slice = blocks.subList(page * perPage, Math.min(blocks.size(), (page + 1) * perPage));
             add(140, mc -> server(mc, srv -> {
                 ServerLevel lvl = srv.overworld();
-                int x0 = 20000 + pg * 64, y0 = 200, z0 = 20000;
+                BlockPos sp = srv.overworld().getSharedSpawnPos();
+                int x0 = sp.getX() - 8, y0 = 236, z0 = sp.getZ() - 30;
                 for (int x = -2; x < 18; x++)
                     for (int y = -2; y < 10; y++) {
                         lvl.setBlock(new BlockPos(x0 + x, y0 + y, z0), Blocks.SMOOTH_QUARTZ.defaultBlockState(), 2 | 16);
@@ -195,7 +194,8 @@ public final class ShowcaseClient {
         }
         add(160, mc -> server(mc, srv -> {
             ServerLevel lvl = srv.overworld();
-            int x0 = 21000, y0 = 200, z0 = 21000;
+            BlockPos sp = srv.overworld().getSharedSpawnPos();
+            int x0 = sp.getX() + 40, y0 = 236, z0 = sp.getZ() - 30;
             for (int x = -4; x < 44; x++)
                 for (int z = -6; z < 20; z++) lvl.setBlock(new BlockPos(x0 + x, y0 - 1, z0 + z), Blocks.GRASS_BLOCK.defaultBlockState(), 2 | 16);
             int n = 0;
@@ -215,9 +215,10 @@ public final class ShowcaseClient {
             if (p != null) p.teleportTo(lvl, x0 + 18.0, y0 + 3.0, z0 + 16.0, 180f, 10f);
         }));
         add(10, mc -> shot(mc, "creatures"));
-        add(60, mc -> server(mc, srv -> {
+        add(140, mc -> server(mc, srv -> {
             ServerPlayer p = player(srv);
-            if (p != null) p.teleportTo(srv.overworld(), 21000 + 8.0, 202.0, 21000 + 9.0, 180f, 12f);
+            BlockPos sp = srv.overworld().getSharedSpawnPos();
+            if (p != null) p.teleportTo(srv.overworld(), sp.getX() + 48.0, 238.0, sp.getZ() - 21.0, 180f, 12f);
         }));
         add(10, mc -> shot(mc, "creatures_close"));
         // 3. structures from their templates on a flat platform
@@ -235,11 +236,12 @@ public final class ShowcaseClient {
                     return;
                 }
                 Vec3i size = tpl.get().getSize();
-                int x0 = 22000 + idx * 128, y0 = 120, z0 = 22000;
-                for (int x = -20; x < size.getX() + 20; x++)
-                    for (int z = -20; z < size.getZ() + 40; z++) {
-                        lvl.setBlock(new BlockPos(x0 + x, y0 - 1, z0 + z), Blocks.GRASS_BLOCK.defaultBlockState(), 2 | 16);
-                        for (int y = 0; y < size.getY() + 4; y++) lvl.setBlock(new BlockPos(x0 + x, y0 + y, z0 + z), Blocks.AIR.defaultBlockState(), 2 | 16);
+                BlockPos sp = srv.overworld().getSharedSpawnPos();
+                int x0 = sp.getX() - 70 - size.getX() / 2, y0 = 190, z0 = sp.getZ() - 40 - size.getZ() / 2;
+                for (int x = -24; x < 60; x++)
+                    for (int z = -24; z < 70; z++) {
+                        lvl.setBlock(new BlockPos(sp.getX() - 70 + x - 18, y0 - 1, sp.getZ() - 40 + z - 18), Blocks.GRASS_BLOCK.defaultBlockState(), 2 | 16);
+                        for (int y = 0; y < 48; y++) lvl.setBlock(new BlockPos(sp.getX() - 70 + x - 18, y0 + y, sp.getZ() - 40 + z - 18), Blocks.AIR.defaultBlockState(), 2 | 16);
                     }
                 command(srv, "place template " + id + " " + x0 + " " + y0 + " " + z0);
                 int span = Math.max(size.getX(), Math.max(size.getY(), size.getZ()));
@@ -251,7 +253,7 @@ public final class ShowcaseClient {
         // 4. other dimensions
         String[][] dims = {{"fw_moon:moon", "20"}, {"fw_mars:mars", "20"}, {"fw_skylands:skylands", "-10"}, {"fw_depths:depths", "0"}};
         for (String[] d : dims) {
-            add(400, mc -> server(mc, srv -> {
+            add(300, mc -> server(mc, srv -> {
                 ServerLevel lvl = srv.getLevel(ResourceKey.create(Registries.DIMENSION, new ResourceLocation(d[0])));
                 ServerPlayer p = player(srv);
                 if (lvl == null || p == null) return;
@@ -271,7 +273,8 @@ public final class ShowcaseClient {
         }
         add(40, mc -> server(mc, srv -> {
             ServerPlayer p = player(srv);
-            if (p != null) p.teleportTo(srv.overworld(), 20000.5, 220, 20000.5, 0f, 0f);
+            BlockPos sp = srv.overworld().getSharedSpawnPos();
+            if (p != null) p.teleportTo(srv.overworld(), sp.getX() + 0.5, 240, sp.getZ() + 0.5, 0f, 0f);
         }));
         // 5. guide pages (item art)
         String[] guidePages = {"fw_tools", "fw_weapons", "fw_relics", "fw_food", "fw_metals", "fw_machines", "fw_mobs", "fw_rocketry"};
