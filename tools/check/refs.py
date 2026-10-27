@@ -33,6 +33,8 @@ def main():
         src = '\n'.join(m.fields)
         for kind, n in REG_RE.findall(src):
             known.add('%s:%s' % (m.modid, n))
+        for n in re.findall(r'LSFluid(?:\.molten)?\(REG, "([a-z0-9_]+)"', src):
+            known.update({'%s:%s' % (m.modid, n), '%s:flowing_%s' % (m.modid, n), '%s:%s_bucket' % (m.modid, n)})
         # hand-written registrations (features, recipe types, menus, ...) in the mod's src folder
         for jf in (ROOT / 'mods' / m.modid / 'src').rglob('*.java'):
             for n in re.findall(r'\.(?:register|machineRecipe|menu|blockEntity|entity|item|block)\("([a-z0-9_/]+)"', jf.read_text()):

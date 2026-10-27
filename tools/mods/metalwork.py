@@ -147,7 +147,6 @@ def build():
     m.shaped('smithing_anvil', rl('smithing_anvil'), ['BBB', ' I ', 'III'], {'B': '#forge:storage_blocks/iron', 'I': '#forge:ingots/iron'})
 
     # forge (machine framework, fuel based)
-    m.field('public static final RegistryObject<BlockEntityType<ForgeBE>> SMITHS_FORGE_BE = REG.blockEntity("smiths_forge", (pos, state) -> new ForgeBE(Content.SMITHS_FORGE_BE.get(), pos, state), Content.SMITHS_FORGE);')
     m.block('smiths_forge', java='new com.lodestar.core.machine.MachineBlock(LSProps.stone(3.0f).lightLevel(s -> s.getValue(LSEntityBlock.LIT) ? 13 : 0), () -> Content.SMITHS_FORGE_BE.get())',
             jtype='com.lodestar.core.machine.MachineBlock', tab='MATERIALS',
             models=brick_block_models(m, 'smiths_forge', 'smiths_forge_front', t('smiths_forge_top')),
@@ -155,6 +154,7 @@ def build():
             textures={'block/smiths_forge_front': brick_front(m.modid + 'sf', False), 'block/smiths_forge_front_on': brick_front(m.modid + 'sf', True),
                       'block/smiths_forge_top': grate(m.modid + 'sft', True)},
             desc='Burns fuel to heat metal for the anvil.\nBellows make it hotter.', lang="Smith's Forge")
+    m.field('public static final RegistryObject<BlockEntityType<ForgeBE>> SMITHS_FORGE_BE = REG.blockEntity("smiths_forge", (pos, state) -> new ForgeBE(Content.SMITHS_FORGE_BE.get(), pos, state), Content.SMITHS_FORGE);')
     m.shaped('smiths_forge', rl('smiths_forge'), ['FFF', 'FCF', 'SSS'], {'F': rl('fire_brick'), 'C': 'minecraft:campfire', 'S': 'minecraft:stone_bricks'})
 
     bellows_model = element_model([
@@ -169,13 +169,13 @@ def build():
             desc='Use it or pulse it with redstone to blow air\ninto the forge or bloomery it faces')
     m.shaped('bellows', rl('bellows'), ['WWW', 'LLL', 'WIW'], {'W': '#minecraft:planks', 'L': 'minecraft:leather', 'I': '#forge:ingots/iron'})
 
-    m.field('public static final RegistryObject<BlockEntityType<BloomeryBE>> BLOOMERY_BE = REG.blockEntity("bloomery", (pos, state) -> new BloomeryBE(Content.BLOOMERY_BE.get(), pos, state), Content.BLOOMERY);')
     m.block('bloomery', java='new com.lodestar.core.machine.MachineBlock(LSProps.stone(3.0f).lightLevel(s -> s.getValue(LSEntityBlock.LIT) ? 11 : 0), () -> Content.BLOOMERY_BE.get())',
             jtype='com.lodestar.core.machine.MachineBlock', tab='MATERIALS',
             models=brick_block_models(m, 'bloomery', 'bloomery_front', t('fire_bricks')),
             state=horizontal_model_state(m, 'bloomery', 'bloomery_on'),
             textures={'block/bloomery_front': brick_front(m.modid + 'bm', False), 'block/bloomery_front_on': brick_front(m.modid + 'bm', True)},
             desc='Controller of the bloomery: build a 3x3 chimney\nof fire bricks four blocks tall behind it')
+    m.field('public static final RegistryObject<BlockEntityType<BloomeryBE>> BLOOMERY_BE = REG.blockEntity("bloomery", (pos, state) -> new BloomeryBE(Content.BLOOMERY_BE.get(), pos, state), Content.BLOOMERY);')
     m.shaped('bloomery', rl('bloomery'), ['FFF', 'F F', 'FUF'], {'F': rl('fire_bricks'), 'U': 'minecraft:furnace'})
     m.tag('items', 'ls_metalwork:bloomery_ore', 'minecraft:raw_iron', '#forge:ores/iron')
     m.tag('items', 'ls_metalwork:bloomery_fuel', 'minecraft:charcoal', 'minecraft:coal', '#forge:coal_coke')

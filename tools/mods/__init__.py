@@ -5,4 +5,5 @@ ORDER = [
     'metalwork',
     'machina',
     'dynamos',
+    'toolsmith',
 ]
