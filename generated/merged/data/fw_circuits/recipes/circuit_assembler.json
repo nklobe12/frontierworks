@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PCP",
+    "AFA",
+    "PWP"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "C": {
+      "item": "minecraft:crafting_table"
+    },
+    "A": {
+      "item": "fw_parts:servo"
+    },
+    "F": {
+      "item": "fw_parts:machine_frame"
+    },
+    "W": {
+      "item": "fw_circuits:basic_circuit"
+    }
+  },
+  "result": {
+    "item": "fw_circuits:circuit_assembler",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

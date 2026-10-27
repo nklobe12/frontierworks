@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RGR",
+    "CBC",
+    "RGR"
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:dusts/redstone"
+    },
+    "G": {
+      "tag": "forge:ender_pearls"
+    },
+    "C": {
+      "item": "fw_circuits:basic_circuit"
+    },
+    "B": {
+      "item": "fw_parts:blank_card"
+    }
+  },
+  "result": {
+    "item": "fw_core:range_upgrade",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

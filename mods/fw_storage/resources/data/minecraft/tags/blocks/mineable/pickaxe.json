@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "fw_storage:wooden_crate",
+    "fw_storage:iron_crate",
+    "fw_storage:steel_crate",
+    "fw_storage:reinforced_bulk_barrel",
+    "fw_storage:elite_bulk_barrel"
+  ]
+}

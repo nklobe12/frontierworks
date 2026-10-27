@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "fw_kiln:alloy_kiln",
+    "fw_kiln:coke_oven",
+    "fw_kiln:coal_coke_block"
+  ]
+}

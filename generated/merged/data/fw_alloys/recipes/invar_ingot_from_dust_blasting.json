@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "tag": "forge:dusts/invar"
+  },
+  "result": "fw_alloys:invar_ingot",
+  "experience": 0.4,
+  "cookingtime": 100
+}

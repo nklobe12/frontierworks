@@ -1,0 +1,38 @@
+{
+  "type": "fw_centrifuge:centrifuging",
+  "inputs": [
+    {
+      "item": "fw_mars:mars_dust",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_mars:titanium_dust",
+      "count": 1,
+      "chance": 0.15
+    },
+    {
+      "item": "fw_metals:iron_dust",
+      "count": 1,
+      "chance": 0.4
+    },
+    {
+      "item": "minecraft:red_sand",
+      "count": 1,
+      "chance": 0.5
+    }
+  ],
+  "time": 160,
+  "energy": 40,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_mars"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    }
+  ]
+}

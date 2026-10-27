@@ -1,0 +1,14 @@
+{
+  "block.fw_press.metal_press": "Metal Press",
+  "block.fw_press.metal_press.desc": "Insert a mold and metal ingots. The mold comes back out.",
+  "item.fw_press.blank_mold": "Blank Mold",
+  "item.fw_press.blank_mold.desc": "Shape it into a mold on a crafting table",
+  "item.fw_press.plate_mold": "Plate Mold",
+  "item.fw_press.plate_mold.desc": "Reusable press mold",
+  "item.fw_press.gear_mold": "Gear Mold",
+  "item.fw_press.gear_mold.desc": "Reusable press mold",
+  "item.fw_press.rod_mold": "Rod Mold",
+  "item.fw_press.rod_mold.desc": "Reusable press mold",
+  "item.fw_press.wire_mold": "Wire Mold",
+  "item.fw_press.wire_mold.desc": "Reusable press mold"
+}

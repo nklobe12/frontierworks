@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_freezer:cryotheum_dust"
+    }
+  },
+  "result": {
+    "item": "fw_freezer:cryotheum_block",
+    "count": 1
+  }
+}

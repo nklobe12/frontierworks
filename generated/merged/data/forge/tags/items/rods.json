@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "fw_parts:iron_rod",
+    "fw_parts:gold_rod",
+    "fw_parts:copper_rod",
+    "fw_parts:tin_rod",
+    "fw_parts:lead_rod",
+    "fw_parts:silver_rod",
+    "fw_parts:nickel_rod",
+    "fw_parts:zinc_rod",
+    "fw_parts:aluminum_rod",
+    "fw_parts:platinum_rod",
+    "fw_parts:bronze_rod",
+    "fw_parts:brass_rod",
+    "fw_parts:steel_rod",
+    "fw_parts:electrum_rod",
+    "fw_parts:invar_rod",
+    "fw_parts:constantan_rod",
+    "fw_parts:duralumin_rod"
+  ]
+}

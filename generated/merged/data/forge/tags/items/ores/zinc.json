@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fw_metals:zinc_ore",
+    "fw_metals:deepslate_zinc_ore"
+  ]
+}

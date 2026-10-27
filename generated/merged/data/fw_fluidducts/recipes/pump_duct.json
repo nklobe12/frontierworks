@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " R ",
+    "BDB"
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:dusts/redstone"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "D": {
+      "item": "fw_fluidducts:fluid_duct"
+    }
+  },
+  "result": {
+    "item": "fw_fluidducts:pump_duct",
+    "count": 2
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "fw_gems:ruby_ore",
+    "fw_gems:deepslate_ruby_ore",
+    "fw_gems:ruby_block",
+    "fw_gems:sapphire_ore",
+    "fw_gems:deepslate_sapphire_ore",
+    "fw_gems:sapphire_block",
+    "fw_gems:peridot_ore",
+    "fw_gems:deepslate_peridot_ore",
+    "fw_gems:peridot_block",
+    "fw_gems:topaz_ore",
+    "fw_gems:deepslate_topaz_ore",
+    "fw_gems:topaz_block"
+  ]
+}

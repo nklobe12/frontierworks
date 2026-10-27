@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_solar"
+version="1.0.0"
+displayName="Frontierworks: Solar Power"
+authors="Klobe & Claude"
+description='''Four tiers of solar panels, from an 8 FE/t starter panel to the 512 FE/t ultimate array. Hybrid and ultimate panels keep producing at night.'''
+
+[[dependencies.fw_solar]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_solar]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_solar]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

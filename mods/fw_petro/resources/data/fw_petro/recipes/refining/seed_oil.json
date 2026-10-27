@@ -1,0 +1,21 @@
+{
+  "type": "fw_petro:refining",
+  "inputs": [],
+  "outputs": [],
+  "time": 80,
+  "energy": 40,
+  "fluid_in": {
+    "fluid": "fw_food:seed_oil",
+    "amount": 500
+  },
+  "fluid_out": {
+    "fluid": "fw_petro:biodiesel",
+    "amount": 400
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_food"
+    }
+  ]
+}

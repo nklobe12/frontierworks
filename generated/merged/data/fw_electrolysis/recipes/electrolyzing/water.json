@@ -1,0 +1,19 @@
+{
+  "type": "fw_electrolysis:electrolyzing",
+  "inputs": [],
+  "outputs": [],
+  "time": 100,
+  "energy": 80,
+  "fluid_in": {
+    "fluid": "minecraft:water",
+    "amount": 500
+  },
+  "fluid_out": {
+    "fluid": "fw_electrolysis:hydrogen",
+    "amount": 500
+  },
+  "fluid_out2": {
+    "fluid": "fw_electrolysis:oxygen",
+    "amount": 250
+  }
+}

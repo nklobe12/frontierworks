@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "fw_metals:raw_tin",
+    "fw_metals:raw_lead",
+    "fw_metals:raw_silver",
+    "fw_metals:raw_nickel",
+    "fw_metals:raw_zinc",
+    "fw_metals:raw_aluminum",
+    "fw_metals:raw_platinum",
+    "fw_metals:raw_uranium"
+  ]
+}

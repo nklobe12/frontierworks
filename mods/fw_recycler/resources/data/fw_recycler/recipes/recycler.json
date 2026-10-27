@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PCP",
+    "DMD",
+    "PWP"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "C": {
+      "item": "fw_machines:compressor"
+    },
+    "D": {
+      "item": "minecraft:dirt"
+    },
+    "M": {
+      "item": "fw_parts:machine_frame"
+    },
+    "W": {
+      "item": "fw_circuits:basic_circuit"
+    }
+  },
+  "result": {
+    "item": "fw_recycler:recycler",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_machines"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

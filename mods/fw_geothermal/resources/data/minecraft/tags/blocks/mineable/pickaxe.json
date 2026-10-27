@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fw_geothermal:geothermal_generator",
+    "fw_geothermal:magma_dynamo"
+  ]
+}

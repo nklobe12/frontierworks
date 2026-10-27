@@ -1,0 +1,31 @@
+{
+  "type": "fw_alloysmelter:alloying",
+  "inputs": [
+    {
+      "tag": "forge:glass",
+      "count": 2
+    },
+    {
+      "item": "fw_metals:obsidian_dust",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_glass:hardened_glass",
+      "count": 2
+    }
+  ],
+  "time": 160,
+  "energy": 30,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_glass"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    }
+  ]
+}

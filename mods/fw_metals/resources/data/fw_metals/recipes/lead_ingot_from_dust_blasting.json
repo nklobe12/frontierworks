@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "tag": "forge:dusts/lead"
+  },
+  "result": "fw_metals:lead_ingot",
+  "experience": 0.3,
+  "cookingtime": 75
+}

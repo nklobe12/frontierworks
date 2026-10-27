@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PIP",
+    "PMP",
+    "CWC"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:piston"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "M": {
+      "item": "fw_parts:machine_frame"
+    },
+    "C": {
+      "item": "fw_parts:motor"
+    },
+    "W": {
+      "item": "fw_circuits:basic_circuit"
+    }
+  },
+  "result": {
+    "item": "fw_machines:compressor",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

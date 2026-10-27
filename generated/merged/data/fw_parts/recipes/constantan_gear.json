@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " P ",
+    "PIP",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/constantan"
+    },
+    "I": {
+      "tag": "forge:ingots/constantan"
+    }
+  },
+  "result": {
+    "item": "fw_parts:constantan_gear",
+    "count": 1
+  }
+}

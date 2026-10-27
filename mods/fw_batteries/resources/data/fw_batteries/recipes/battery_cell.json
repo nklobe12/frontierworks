@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " W ",
+    "ZAL",
+    "ZAL"
+  ],
+  "key": {
+    "W": {
+      "tag": "forge:wires/copper"
+    },
+    "Z": {
+      "tag": "forge:plates/zinc"
+    },
+    "A": {
+      "tag": "forge:dusts/redstone"
+    },
+    "L": {
+      "tag": "forge:plates/lead"
+    }
+  },
+  "result": {
+    "item": "fw_batteries:battery_cell",
+    "count": 1
+  }
+}

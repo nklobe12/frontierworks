@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " P ",
+    "PIP",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/tin"
+    },
+    "I": {
+      "tag": "forge:ingots/tin"
+    }
+  },
+  "result": {
+    "item": "fw_parts:tin_gear",
+    "count": 1
+  }
+}

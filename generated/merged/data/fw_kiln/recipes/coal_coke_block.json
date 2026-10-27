@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_kiln:coal_coke"
+    }
+  },
+  "result": {
+    "item": "fw_kiln:coal_coke_block",
+    "count": 1
+  }
+}

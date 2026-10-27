@@ -1,0 +1,6 @@
+{
+  "block.fw_orewasher.ore_washer": "Ore Washer",
+  "block.fw_orewasher.ore_washer.desc": "Ore + water = three dusts. Raw ore + water = two dusts.",
+  "item.fw_orewasher.slag": "Slag",
+  "item.fw_orewasher.slag.desc": "Washing residue. Centrifuge it for metal nuggets."
+}

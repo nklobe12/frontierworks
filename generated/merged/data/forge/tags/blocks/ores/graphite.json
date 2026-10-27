@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fw_minerals:graphite_ore",
+    "fw_minerals:deepslate_graphite_ore"
+  ]
+}

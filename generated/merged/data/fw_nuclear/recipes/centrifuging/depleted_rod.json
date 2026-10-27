@@ -1,0 +1,49 @@
+{
+  "type": "fw_centrifuge:centrifuging",
+  "inputs": [
+    {
+      "item": "fw_nuclear:depleted_fuel_rod",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_metals:uranium_dust",
+      "count": 1,
+      "chance": 0.6
+    },
+    {
+      "item": "fw_metals:lead_dust",
+      "count": 2
+    },
+    {
+      "item": "fw_parts:zinc_plate",
+      "count": 2
+    },
+    {
+      "item": "fw_minerals:graphite",
+      "count": 1,
+      "chance": 0.5
+    }
+  ],
+  "time": 400,
+  "energy": 80,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_centrifuge"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_minerals"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_alloysmelter"
+version="1.0.0"
+displayName="Frontierworks: Alloy Smelter"
+authors="Klobe & Claude"
+description='''An electric two-input furnace that fuses metals into alloys, bakes silicon and makes glass products.'''
+
+[[dependencies.fw_alloysmelter]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_alloysmelter]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_alloysmelter]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

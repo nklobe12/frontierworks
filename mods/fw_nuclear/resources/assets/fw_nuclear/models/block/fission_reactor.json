@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "fw_nuclear:block/casing_nuclear_top",
+    "bottom": "fw_nuclear:block/casing_nuclear_bottom",
+    "side": "fw_nuclear:block/casing_nuclear_side",
+    "front": "fw_nuclear:block/fission_reactor_front"
+  }
+}

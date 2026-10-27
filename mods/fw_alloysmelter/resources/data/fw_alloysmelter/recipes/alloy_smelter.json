@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PHP",
+    "FMF",
+    "CWC"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/invar"
+    },
+    "H": {
+      "item": "fw_parts:heating_coil"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "M": {
+      "item": "fw_parts:machine_frame"
+    },
+    "C": {
+      "tag": "forge:ingots/copper"
+    },
+    "W": {
+      "item": "fw_circuits:basic_circuit"
+    }
+  },
+  "result": {
+    "item": "fw_alloysmelter:alloy_smelter",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

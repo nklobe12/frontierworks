@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " R ",
+    "WIW",
+    " P "
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:rods/iron"
+    },
+    "W": {
+      "tag": "forge:wires/copper"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "P": {
+      "tag": "forge:plates/tin"
+    }
+  },
+  "result": {
+    "item": "fw_parts:motor",
+    "count": 1
+  }
+}

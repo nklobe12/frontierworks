@@ -1,0 +1,17 @@
+{
+  "type": "fw_machines:extracting",
+  "inputs": [
+    {
+      "item": "minecraft:cactus",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:green_dye",
+      "count": 2
+    }
+  ],
+  "time": 120,
+  "energy": 16
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "fw_metals:silver_ore",
+    "fw_metals:deepslate_silver_ore",
+    "fw_metals:silver_block",
+    "fw_metals:raw_silver_block",
+    "fw_metals:nickel_ore",
+    "fw_metals:deepslate_nickel_ore",
+    "fw_metals:nickel_block",
+    "fw_metals:raw_nickel_block"
+  ]
+}

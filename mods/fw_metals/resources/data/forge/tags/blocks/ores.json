@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "fw_metals:tin_ore",
+    "fw_metals:deepslate_tin_ore",
+    "fw_metals:lead_ore",
+    "fw_metals:deepslate_lead_ore",
+    "fw_metals:silver_ore",
+    "fw_metals:deepslate_silver_ore",
+    "fw_metals:nickel_ore",
+    "fw_metals:deepslate_nickel_ore",
+    "fw_metals:zinc_ore",
+    "fw_metals:deepslate_zinc_ore",
+    "fw_metals:aluminum_ore",
+    "fw_metals:deepslate_aluminum_ore",
+    "fw_metals:platinum_ore",
+    "fw_metals:deepslate_platinum_ore",
+    "fw_metals:uranium_ore",
+    "fw_metals:deepslate_uranium_ore"
+  ]
+}

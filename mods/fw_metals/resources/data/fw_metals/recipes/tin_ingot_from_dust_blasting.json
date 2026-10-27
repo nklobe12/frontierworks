@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "tag": "forge:dusts/tin"
+  },
+  "result": "fw_metals:tin_ingot",
+  "experience": 0.3,
+  "cookingtime": 75
+}

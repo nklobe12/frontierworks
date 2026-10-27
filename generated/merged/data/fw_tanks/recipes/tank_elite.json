@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PGP",
+    "GTG",
+    "PGP"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/platinum"
+    },
+    "G": {
+      "item": "fw_glass:hardened_glass"
+    },
+    "T": {
+      "item": "fw_tanks:tank_reinforced"
+    }
+  },
+  "result": {
+    "item": "fw_tanks:tank_elite",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_glass"
+    }
+  ]
+}

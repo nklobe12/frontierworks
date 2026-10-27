@@ -1,0 +1,18 @@
+{
+  "block.fw_storage.wooden_crate": "Wooden Crate",
+  "block.fw_storage.wooden_crate.desc": "27 slots. Keeps its contents when broken.",
+  "block.fw_storage.iron_crate": "Iron Crate",
+  "block.fw_storage.iron_crate.desc": "36 slots. Keeps its contents when broken.",
+  "block.fw_storage.steel_crate": "Steel Crate",
+  "block.fw_storage.steel_crate.desc": "54 slots. Keeps its contents when broken.",
+  "block.fw_storage.bulk_barrel": "Bulk Barrel",
+  "block.fw_storage.bulk_barrel.desc": "Holds 64 stacks of one item. Right-click insert, left-click take, sneak-right-click to lock.",
+  "block.fw_storage.reinforced_bulk_barrel": "Reinforced Bulk Barrel",
+  "block.fw_storage.reinforced_bulk_barrel.desc": "Holds 256 stacks of one item. Right-click insert, left-click take, sneak-right-click to lock.",
+  "block.fw_storage.elite_bulk_barrel": "Elite Bulk Barrel",
+  "block.fw_storage.elite_bulk_barrel.desc": "Holds 1024 stacks of one item. Right-click insert, left-click take, sneak-right-click to lock.",
+  "msg.fw_storage.locked": "Item type locked",
+  "msg.fw_storage.unlocked": "Item type unlocked",
+  "tooltip.fw_storage.barrel": "Capacity: %s stacks",
+  "tooltip.fw_storage.contains": "Contains %s items"
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PCP",
+    "SFS",
+    "PCP"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/platinum"
+    },
+    "S": {
+      "tag": "forge:ingots/electrum"
+    },
+    "C": {
+      "item": "fw_circuits:elite_circuit"
+    },
+    "F": {
+      "item": "fw_parts:advanced_frame"
+    }
+  },
+  "result": {
+    "item": "fw_parts:elite_frame",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    }
+  ]
+}

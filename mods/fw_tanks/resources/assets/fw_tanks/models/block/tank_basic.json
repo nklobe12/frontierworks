@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "top": "fw_tanks:block/tank_basic_top",
+    "bottom": "fw_tanks:block/tank_basic_top",
+    "side": "fw_tanks:block/tank_basic_side"
+  }
+}

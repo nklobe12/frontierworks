@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "fw_alloys:bronze_ingot",
+    "fw_alloys:brass_ingot",
+    "fw_alloys:steel_ingot",
+    "fw_alloys:electrum_ingot",
+    "fw_alloys:invar_ingot",
+    "fw_alloys:constantan_ingot",
+    "fw_alloys:duralumin_ingot"
+  ]
+}

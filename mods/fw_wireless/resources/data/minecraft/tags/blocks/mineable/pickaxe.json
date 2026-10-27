@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fw_wireless:wireless_transmitter",
+    "fw_wireless:wireless_receiver"
+  ]
+}

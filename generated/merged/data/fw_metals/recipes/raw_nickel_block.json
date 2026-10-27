@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_metals:raw_nickel"
+    }
+  },
+  "result": {
+    "item": "fw_metals:raw_nickel_block",
+    "count": 1
+  }
+}

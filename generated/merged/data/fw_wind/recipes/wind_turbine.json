@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " B ",
+    "BMB",
+    "CGC"
+  ],
+  "key": {
+    "B": {
+      "item": "fw_wind:turbine_blade"
+    },
+    "M": {
+      "item": "fw_parts:motor"
+    },
+    "C": {
+      "tag": "forge:ingots/copper"
+    },
+    "G": {
+      "item": "fw_parts:iron_gear"
+    }
+  },
+  "result": {
+    "item": "fw_wind:wind_turbine",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

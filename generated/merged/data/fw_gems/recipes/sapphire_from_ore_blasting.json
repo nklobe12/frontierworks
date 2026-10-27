@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "tag": "forge:ores/sapphire"
+  },
+  "result": "fw_gems:sapphire",
+  "experience": 1.0,
+  "cookingtime": 100
+}

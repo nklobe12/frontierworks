@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "tag": "forge:dusts/uranium"
+  },
+  "result": "fw_metals:uranium_ingot",
+  "experience": 0.3,
+  "cookingtime": 150
+}

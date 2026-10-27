@@ -1,0 +1,67 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "fw_pipes:block/elite_extraction_pipe",
+    "body": "fw_pipes:block/elite_extraction_pipe",
+    "end": "fw_pipes:block/elite_extraction_pipe_end"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        5,
+        0
+      ],
+      "to": [
+        11,
+        11,
+        5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#end",
+          "cullface": "north"
+        },
+        "east": {
+          "texture": "#body",
+          "uv": [
+            0,
+            5,
+            5,
+            11
+          ]
+        },
+        "west": {
+          "texture": "#body",
+          "uv": [
+            0,
+            5,
+            5,
+            11
+          ]
+        },
+        "up": {
+          "texture": "#body",
+          "uv": [
+            5,
+            0,
+            11,
+            5
+          ],
+          "rotation": 90
+        },
+        "down": {
+          "texture": "#body",
+          "uv": [
+            5,
+            0,
+            11,
+            5
+          ],
+          "rotation": 90
+        }
+      }
+    }
+  ]
+}

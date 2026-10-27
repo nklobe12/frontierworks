@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "I",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/duralumin"
+    }
+  },
+  "result": {
+    "item": "fw_parts:duralumin_rod",
+    "count": 2
+  }
+}

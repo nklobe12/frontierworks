@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fw_storage:wooden_crate",
+    "fw_storage:bulk_barrel"
+  ]
+}

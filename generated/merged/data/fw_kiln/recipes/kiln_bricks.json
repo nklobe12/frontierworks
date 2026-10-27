@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "fw_kiln:kiln_brick"
+    }
+  },
+  "result": {
+    "item": "fw_kiln:kiln_bricks",
+    "count": 1
+  }
+}

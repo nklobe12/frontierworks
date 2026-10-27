@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CEC"
+  ],
+  "key": {
+    "C": {
+      "item": "fw_circuits:advanced_circuit"
+    },
+    "E": {
+      "item": "fw_pipes:fast_extraction_pipe"
+    }
+  },
+  "result": {
+    "item": "fw_pipes:elite_extraction_pipe",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    }
+  ]
+}

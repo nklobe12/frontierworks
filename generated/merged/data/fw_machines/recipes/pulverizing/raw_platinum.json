@@ -1,0 +1,33 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "item": "fw_metals:raw_platinum",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_metals:platinum_dust",
+      "count": 1
+    },
+    {
+      "item": "fw_metals:platinum_dust",
+      "count": 1,
+      "chance": 0.5
+    },
+    {
+      "item": "fw_metals:nickel_dust",
+      "count": 1,
+      "chance": 0.05
+    }
+  ],
+  "time": 160,
+  "energy": 20,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    }
+  ]
+}

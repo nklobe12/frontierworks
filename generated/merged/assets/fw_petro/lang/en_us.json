@@ -1,0 +1,15 @@
+{
+  "block.fw_petro.refinery": "Refinery",
+  "block.fw_petro.refinery.desc": "Crude oil in, diesel and lubricant out",
+  "fluid_type.fw_petro.diesel": "Diesel",
+  "block.fw_petro.diesel": "Diesel",
+  "item.fw_petro.diesel_bucket": "Diesel Bucket",
+  "fluid_type.fw_petro.lubricant": "Lubricant",
+  "block.fw_petro.lubricant": "Lubricant",
+  "item.fw_petro.lubricant_bucket": "Lubricant Bucket",
+  "fluid_type.fw_petro.biodiesel": "Biodiesel",
+  "block.fw_petro.biodiesel": "Biodiesel",
+  "item.fw_petro.biodiesel_bucket": "Biodiesel Bucket",
+  "block.fw_petro.diesel_generator": "Diesel Generator",
+  "block.fw_petro.diesel_generator.desc": "Burns diesel (80 FE/t), biodiesel (60 FE/t) or rocket fuel (160 FE/t)"
+}

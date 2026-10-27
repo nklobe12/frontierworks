@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_chunkloader"
+version="1.0.0"
+displayName="Frontierworks: Chunk Loaders"
+authors="Klobe & Claude"
+description='''Keep your machines running while you explore: chunk loaders keep a 3x3 or 5x5 area of chunks loaded and ticking.'''
+
+[[dependencies.fw_chunkloader]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_chunkloader]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_chunkloader]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:ingots/duralumin"
+    }
+  },
+  "result": {
+    "item": "fw_alloys:duralumin_block",
+    "count": 1
+  }
+}

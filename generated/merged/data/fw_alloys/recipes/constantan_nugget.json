@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/constantan"
+    }
+  ],
+  "result": {
+    "item": "fw_alloys:constantan_nugget",
+    "count": 9
+  }
+}

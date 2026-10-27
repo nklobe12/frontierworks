@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:gems/sapphire"
+    }
+  },
+  "result": {
+    "item": "fw_gems:sapphire_block",
+    "count": 1
+  }
+}

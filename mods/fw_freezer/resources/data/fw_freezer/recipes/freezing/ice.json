@@ -1,0 +1,16 @@
+{
+  "type": "fw_freezer:freezing",
+  "inputs": [],
+  "outputs": [
+    {
+      "item": "minecraft:ice",
+      "count": 1
+    }
+  ],
+  "time": 60,
+  "energy": 20,
+  "fluid_in": {
+    "fluid": "minecraft:water",
+    "amount": 1000
+  }
+}

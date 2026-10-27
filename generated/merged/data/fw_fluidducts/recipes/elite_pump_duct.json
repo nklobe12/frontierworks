@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CPC"
+  ],
+  "key": {
+    "C": {
+      "item": "fw_circuits:advanced_circuit"
+    },
+    "P": {
+      "item": "fw_fluidducts:high_flow_pump_duct"
+    }
+  },
+  "result": {
+    "item": "fw_fluidducts:elite_pump_duct",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    }
+  ]
+}

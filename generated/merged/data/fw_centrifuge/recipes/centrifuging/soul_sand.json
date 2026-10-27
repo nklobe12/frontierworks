@@ -1,0 +1,33 @@
+{
+  "type": "fw_centrifuge:centrifuging",
+  "inputs": [
+    {
+      "item": "minecraft:soul_sand",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:sand",
+      "count": 1
+    },
+    {
+      "item": "fw_metals:coal_dust",
+      "count": 1,
+      "chance": 0.25
+    },
+    {
+      "item": "minecraft:quartz",
+      "count": 1,
+      "chance": 0.1
+    }
+  ],
+  "time": 160,
+  "energy": 40,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    }
+  ]
+}

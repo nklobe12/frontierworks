@@ -1,0 +1,17 @@
+{
+  "type": "fw_sawmill:sawing",
+  "inputs": [
+    {
+      "item": "minecraft:stick",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_sawmill:sawdust",
+      "count": 1
+    }
+  ],
+  "time": 40,
+  "energy": 8
+}

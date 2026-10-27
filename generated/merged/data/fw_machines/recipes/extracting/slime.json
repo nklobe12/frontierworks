@@ -1,0 +1,17 @@
+{
+  "type": "fw_machines:extracting",
+  "inputs": [
+    {
+      "item": "minecraft:slime_block",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:slime_ball",
+      "count": 9
+    }
+  ],
+  "time": 120,
+  "energy": 16
+}

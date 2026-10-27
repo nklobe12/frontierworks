@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_minerals:saltpeter"
+    },
+    {
+      "item": "fw_minerals:saltpeter"
+    },
+    {
+      "item": "fw_minerals:sulfur"
+    },
+    {
+      "item": "fw_metals:coal_dust"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gunpowder",
+    "count": 4
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    }
+  ]
+}

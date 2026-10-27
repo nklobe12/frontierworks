@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fw_chemistry:sulfuric_acid",
+    "fw_chemistry:flowing_sulfuric_acid"
+  ]
+}

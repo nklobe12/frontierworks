@@ -1,0 +1,17 @@
+{
+  "type": "fw_freezer:freezing",
+  "inputs": [
+    {
+      "item": "minecraft:ice",
+      "count": 2
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:packed_ice",
+      "count": 1
+    }
+  ],
+  "time": 80,
+  "energy": 20
+}

@@ -1,0 +1,6 @@
+{
+  "block.fw_vacuum.vacuum_hopper": "Vacuum Hopper",
+  "block.fw_vacuum.vacuum_hopper.desc": "Collects items and XP in a 4-block radius",
+  "gui.fw_vacuum.take_xp": "Take XP",
+  "gui.fw_vacuum.xp": "XP: %s"
+}

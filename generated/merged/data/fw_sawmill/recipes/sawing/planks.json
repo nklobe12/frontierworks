@@ -1,0 +1,22 @@
+{
+  "type": "fw_sawmill:sawing",
+  "inputs": [
+    {
+      "tag": "minecraft:planks",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:stick",
+      "count": 3
+    },
+    {
+      "item": "fw_sawmill:sawdust",
+      "count": 1,
+      "chance": 0.25
+    }
+  ],
+  "time": 60,
+  "energy": 12
+}

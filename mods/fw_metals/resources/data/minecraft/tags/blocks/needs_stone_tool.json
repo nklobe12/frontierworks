@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "fw_metals:tin_ore",
+    "fw_metals:deepslate_tin_ore",
+    "fw_metals:tin_block",
+    "fw_metals:raw_tin_block",
+    "fw_metals:lead_ore",
+    "fw_metals:deepslate_lead_ore",
+    "fw_metals:lead_block",
+    "fw_metals:raw_lead_block",
+    "fw_metals:zinc_ore",
+    "fw_metals:deepslate_zinc_ore",
+    "fw_metals:zinc_block",
+    "fw_metals:raw_zinc_block",
+    "fw_metals:aluminum_ore",
+    "fw_metals:deepslate_aluminum_ore",
+    "fw_metals:aluminum_block",
+    "fw_metals:raw_aluminum_block"
+  ]
+}

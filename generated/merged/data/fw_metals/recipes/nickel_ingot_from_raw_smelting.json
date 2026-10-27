@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "fw_metals:raw_nickel"
+  },
+  "result": "fw_metals:nickel_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}

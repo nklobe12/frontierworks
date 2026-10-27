@@ -1,0 +1,13 @@
+{
+  "fluid_type.fw_steam.steam": "Steam",
+  "block.fw_steam.boiler": "Boiler",
+  "block.fw_steam.boiler.desc": "Burns fuel to turn water into up to 40 mB/t of steam",
+  "block.fw_steam.high_pressure_boiler": "High Pressure Boiler",
+  "block.fw_steam.high_pressure_boiler.desc": "Burns fuel to turn water into up to 120 mB/t of steam",
+  "block.fw_steam.steam_engine": "Steam Engine",
+  "block.fw_steam.steam_engine.desc": "20 mB/t of steam into 40 FE/t",
+  "block.fw_steam.steam_turbine": "Steam Turbine",
+  "block.fw_steam.steam_turbine.desc": "60 mB/t of steam into 160 FE/t",
+  "gui.fw_steam.heat": "Heat: %s%%",
+  "gui.fw_steam.steam_rate": "Steam: %s mB/t"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "fw_sawmill:sawing",
+  "inputs": [
+    {
+      "item": "minecraft:bamboo_block",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:bamboo_planks",
+      "count": 3
+    },
+    {
+      "item": "fw_sawmill:sawdust",
+      "count": 1,
+      "chance": 0.25
+    }
+  ],
+  "time": 80,
+  "energy": 16
+}

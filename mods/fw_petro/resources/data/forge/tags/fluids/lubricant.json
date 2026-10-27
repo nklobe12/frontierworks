@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fw_petro:lubricant",
+    "fw_petro:flowing_lubricant"
+  ]
+}

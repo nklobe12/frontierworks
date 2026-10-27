@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "fw_centrifuge:block/casing_advanced_top",
+    "bottom": "fw_centrifuge:block/casing_advanced_bottom",
+    "side": "fw_centrifuge:block/casing_advanced_side",
+    "front": "fw_centrifuge:block/centrifuge_front_on"
+  }
+}

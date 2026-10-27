@@ -1,0 +1,6 @@
+{
+  "block.fw_sifting.sifter": "Sifter",
+  "block.fw_sifting.sifter.desc": "Right-click with gravel, sand, dirt or soul sand to sift it",
+  "block.fw_sifting.auto_sifter": "Auto Sifter",
+  "block.fw_sifting.auto_sifter.desc": "Sifts automatically with power - four output slots"
+}

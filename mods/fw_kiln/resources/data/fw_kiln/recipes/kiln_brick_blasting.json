@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "item": "fw_kiln:fire_clay"
+  },
+  "result": "fw_kiln:kiln_brick",
+  "experience": 0.2,
+  "cookingtime": 100
+}

@@ -1,0 +1,22 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "tag": "forge:ores/quartz",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:quartz",
+      "count": 2
+    },
+    {
+      "item": "minecraft:quartz",
+      "count": 1,
+      "chance": 0.5
+    }
+  ],
+  "time": 120,
+  "energy": 16
+}

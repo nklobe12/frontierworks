@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "fw_steam:block/casing_advanced_top",
+    "bottom": "fw_steam:block/casing_advanced_bottom",
+    "side": "fw_steam:block/casing_advanced_side",
+    "front": "fw_steam:block/steam_turbine_front_on"
+  }
+}

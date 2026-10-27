@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fw_metals:lead_ore",
+    "fw_metals:deepslate_lead_ore"
+  ]
+}

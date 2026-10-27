@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WWW",
+    "WRW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "tag": "forge:wires/constantan"
+    },
+    "R": {
+      "tag": "forge:rods/iron"
+    }
+  },
+  "result": {
+    "item": "fw_parts:heating_coil",
+    "count": 1
+  }
+}

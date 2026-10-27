@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PGP",
+    "IMI",
+    "CHC"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/invar"
+    },
+    "G": {
+      "tag": "forge:glass"
+    },
+    "I": {
+      "tag": "forge:ingots/copper"
+    },
+    "M": {
+      "item": "fw_parts:machine_frame"
+    },
+    "C": {
+      "item": "fw_circuits:basic_circuit"
+    },
+    "H": {
+      "item": "fw_parts:heating_coil"
+    }
+  },
+  "result": {
+    "item": "fw_geothermal:geothermal_generator",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

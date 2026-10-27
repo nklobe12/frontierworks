@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fw_meteors:block/meteoric_steel_block"
+    }
+  }
+}

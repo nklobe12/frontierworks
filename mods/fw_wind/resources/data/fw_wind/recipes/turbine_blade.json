@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  P",
+    " P ",
+    "P  "
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/aluminum"
+    }
+  },
+  "result": {
+    "item": "fw_wind:turbine_blade",
+    "count": 1
+  }
+}

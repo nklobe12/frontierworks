@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "fw_elevators:white_elevator",
+    "fw_elevators:orange_elevator",
+    "fw_elevators:magenta_elevator",
+    "fw_elevators:light_blue_elevator",
+    "fw_elevators:yellow_elevator",
+    "fw_elevators:lime_elevator",
+    "fw_elevators:pink_elevator",
+    "fw_elevators:gray_elevator",
+    "fw_elevators:light_gray_elevator",
+    "fw_elevators:cyan_elevator",
+    "fw_elevators:purple_elevator",
+    "fw_elevators:blue_elevator",
+    "fw_elevators:brown_elevator",
+    "fw_elevators:green_elevator",
+    "fw_elevators:red_elevator",
+    "fw_elevators:black_elevator"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_crystals:energite_shard"
+    }
+  },
+  "result": {
+    "item": "fw_crystals:energite_block",
+    "count": 1
+  }
+}

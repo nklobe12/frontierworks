@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_electrolysis"
+version="1.0.0"
+displayName="Frontierworks: Electrolysis"
+authors="Klobe & Claude"
+description='''The Electrolyzer splits water into hydrogen and oxygen, brine into chlorine and sodium, and heavy water into deuterium for fusion.'''
+
+[[dependencies.fw_electrolysis]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_electrolysis]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_electrolysis]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

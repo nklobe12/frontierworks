@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_petro"
+version="1.0.0"
+displayName="Frontierworks: Petrochemicals"
+authors="Klobe & Claude"
+description='''The Refinery splits crude oil into diesel and lubricant; the Diesel Generator burns diesel, biodiesel and rocket fuel for serious power.'''
+
+[[dependencies.fw_petro]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_petro]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_petro]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

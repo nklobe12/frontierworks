@@ -1,0 +1,14 @@
+{
+  "block.fw_kiln.alloy_kiln": "Alloy Kiln",
+  "block.fw_kiln.alloy_kiln.desc": "Burns fuel to smelt two metals into an alloy",
+  "block.fw_kiln.coke_oven": "Coke Oven",
+  "block.fw_kiln.coke_oven.desc": "Bakes coal into coal coke and logs into charcoal",
+  "item.fw_kiln.coal_coke": "Coal Coke",
+  "item.fw_kiln.coal_coke.desc": "Burns twice as long as coal",
+  "item.fw_kiln.coke_dust": "Coke Dust",
+  "block.fw_kiln.coal_coke_block": "Coal Coke Block",
+  "item.fw_kiln.fire_clay": "Fire Clay",
+  "item.fw_kiln.fire_clay.desc": "Mixed clay used for kiln bricks",
+  "item.fw_kiln.kiln_brick": "Kiln Brick",
+  "block.fw_kiln.kiln_bricks": "Kiln Bricks"
+}

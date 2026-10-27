@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "fw_machines:pulverizer",
+    "fw_machines:electric_furnace",
+    "fw_machines:compressor",
+    "fw_machines:extractor"
+  ]
+}

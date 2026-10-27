@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PBP",
+    "CFC",
+    "PWP"
+  ],
+  "key": {
+    "P": {
+      "item": "fw_mars:titanium_plate"
+    },
+    "B": {
+      "item": "fw_crystals:charged_energite"
+    },
+    "C": {
+      "item": "fw_batteries:energy_cell_elite"
+    },
+    "F": {
+      "item": "fw_parts:ultimate_frame"
+    },
+    "W": {
+      "item": "fw_circuits:quantum_circuit"
+    }
+  },
+  "result": {
+    "item": "fw_batteries:energy_cell_ultimate",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_crystals"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_mars"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

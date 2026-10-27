@@ -1,0 +1,17 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "tag": "minecraft:wool",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:string",
+      "count": 4
+    }
+  ],
+  "time": 120,
+  "energy": 16
+}

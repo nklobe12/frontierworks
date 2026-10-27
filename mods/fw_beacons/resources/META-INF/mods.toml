@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_beacons"
+version="1.0.0"
+displayName="Frontierworks: Field Projectors"
+authors="Klobe & Claude"
+description='''Powered beacons: a Field Projector bathes every player within 16 blocks in your choice of ten effects - speed, haste, regeneration, resistance, night vision and more - for FE.'''
+
+[[dependencies.fw_beacons]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_beacons]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_beacons]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

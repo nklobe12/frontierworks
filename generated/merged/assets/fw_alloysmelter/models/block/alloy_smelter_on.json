@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "fw_alloysmelter:block/casing_basic_top",
+    "bottom": "fw_alloysmelter:block/casing_basic_bottom",
+    "side": "fw_alloysmelter:block/casing_basic_side",
+    "front": "fw_alloysmelter:block/alloy_smelter_front_on"
+  }
+}

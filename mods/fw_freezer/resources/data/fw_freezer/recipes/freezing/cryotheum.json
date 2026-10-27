@@ -1,0 +1,25 @@
+{
+  "type": "fw_freezer:freezing",
+  "inputs": [
+    {
+      "item": "minecraft:snowball",
+      "count": 2
+    },
+    {
+      "tag": "forge:dusts/redstone",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_freezer:cryotheum_dust",
+      "count": 2
+    }
+  ],
+  "time": 160,
+  "energy": 60,
+  "fluid_in": {
+    "fluid": "minecraft:water",
+    "amount": 250
+  }
+}

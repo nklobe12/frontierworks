@@ -1,0 +1,21 @@
+{
+  "type": "fw_chemistry:reacting",
+  "inputs": [
+    {
+      "tag": "forge:dusts/saltpeter",
+      "count": 2
+    },
+    {
+      "tag": "forge:dusts/sulfur",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:gunpowder",
+      "count": 4
+    }
+  ],
+  "time": 100,
+  "energy": 30
+}

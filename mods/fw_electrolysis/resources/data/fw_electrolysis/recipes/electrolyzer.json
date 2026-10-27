@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GTG",
+    "WFW",
+    "CBC"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass"
+    },
+    "T": {
+      "item": "fw_tanks:tank_basic"
+    },
+    "W": {
+      "tag": "forge:wires/electrum"
+    },
+    "F": {
+      "item": "fw_parts:machine_frame"
+    },
+    "C": {
+      "item": "fw_circuits:advanced_circuit"
+    },
+    "B": {
+      "item": "fw_batteries:battery_basic"
+    }
+  },
+  "result": {
+    "item": "fw_electrolysis:electrolyzer",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_batteries"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_tanks"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CQC",
+    "PFP",
+    "CRC"
+  ],
+  "key": {
+    "C": {
+      "item": "fw_fusion:plasma_containment_coil"
+    },
+    "Q": {
+      "item": "fw_circuits:quantum_circuit"
+    },
+    "P": {
+      "item": "fw_mars:titanium_plate"
+    },
+    "F": {
+      "item": "fw_parts:ultimate_frame"
+    },
+    "R": {
+      "item": "fw_nuclear:reactor_plating"
+    }
+  },
+  "result": {
+    "item": "fw_fusion:fusion_reactor",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_mars"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_nuclear"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

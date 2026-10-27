@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_stone:polished_travertine"
+    }
+  },
+  "result": {
+    "item": "fw_stone:polished_travertine_slab",
+    "count": 6
+  }
+}

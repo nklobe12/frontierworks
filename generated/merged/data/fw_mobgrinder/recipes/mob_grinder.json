@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "PFP",
+    "CWC"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:iron_sword"
+    },
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "F": {
+      "item": "fw_parts:advanced_frame"
+    },
+    "C": {
+      "item": "fw_parts:motor"
+    },
+    "W": {
+      "item": "fw_circuits:advanced_circuit"
+    }
+  },
+  "result": {
+    "item": "fw_mobgrinder:mob_grinder",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

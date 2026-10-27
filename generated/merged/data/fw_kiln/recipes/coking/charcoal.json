@@ -1,0 +1,17 @@
+{
+  "type": "fw_kiln:coking",
+  "inputs": [
+    {
+      "tag": "minecraft:logs_that_burn",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:charcoal",
+      "count": 2
+    }
+  ],
+  "time": 400,
+  "energy": 0
+}

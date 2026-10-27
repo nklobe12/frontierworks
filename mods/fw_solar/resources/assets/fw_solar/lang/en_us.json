@@ -1,0 +1,11 @@
+{
+  "block.fw_solar.solar_panel_basic": "Solar Panel Basic",
+  "block.fw_solar.solar_panel_basic.desc": "Up to 8 FE/t in sunlight.",
+  "block.fw_solar.solar_panel_advanced": "Solar Panel Advanced",
+  "block.fw_solar.solar_panel_advanced.desc": "Up to 32 FE/t in sunlight.",
+  "block.fw_solar.solar_panel_hybrid": "Solar Panel Hybrid",
+  "block.fw_solar.solar_panel_hybrid.desc": "Up to 128 FE/t in sunlight. Works at 25% at night.",
+  "block.fw_solar.solar_panel_ultimate": "Solar Panel Ultimate",
+  "block.fw_solar.solar_panel_ultimate.desc": "Up to 512 FE/t in sunlight. Works at 50% at night.",
+  "gui.fw_solar.peak": "Peak: %s FE/t"
+}

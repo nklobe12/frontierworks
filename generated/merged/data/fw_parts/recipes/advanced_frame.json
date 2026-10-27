@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PCP",
+    "SFS",
+    "PCP"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "S": {
+      "tag": "forge:ingots/invar"
+    },
+    "C": {
+      "item": "fw_circuits:advanced_circuit"
+    },
+    "F": {
+      "item": "fw_parts:machine_frame"
+    }
+  },
+  "result": {
+    "item": "fw_parts:advanced_frame",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    }
+  ]
+}

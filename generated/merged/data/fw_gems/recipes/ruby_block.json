@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:gems/ruby"
+    }
+  },
+  "result": {
+    "item": "fw_gems:ruby_block",
+    "count": 1
+  }
+}

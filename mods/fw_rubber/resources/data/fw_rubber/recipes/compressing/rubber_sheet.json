@@ -1,0 +1,23 @@
+{
+  "type": "fw_machines:compressing",
+  "inputs": [
+    {
+      "item": "fw_rubber:rubber",
+      "count": 2
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_rubber:rubber_sheet",
+      "count": 1
+    }
+  ],
+  "time": 120,
+  "energy": 16,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_machines"
+    }
+  ]
+}

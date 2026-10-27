@@ -1,0 +1,27 @@
+{
+  "type": "fw_chemistry:reacting",
+  "inputs": [
+    {
+      "item": "fw_minerals:graphite",
+      "count": 2
+    },
+    {
+      "item": "fw_chemistry:plastic_sheet",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_chemistry:carbon_fiber",
+      "count": 1
+    }
+  ],
+  "time": 200,
+  "energy": 80,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_minerals"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "G",
+    "G",
+    "G"
+  ],
+  "key": {
+    "G": {
+      "item": "fw_minerals:graphite"
+    }
+  },
+  "result": {
+    "item": "fw_minerals:graphite_rod",
+    "count": 2
+  }
+}

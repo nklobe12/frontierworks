@@ -1,0 +1,13 @@
+{
+  "fluid_type.fw_oil.crude_oil": "Crude Oil",
+  "block.fw_oil.crude_oil": "Crude Oil",
+  "item.fw_oil.crude_oil_bucket": "Crude Oil Bucket",
+  "block.fw_oil.oil_sand": "Oil Sand",
+  "block.fw_oil.oil_sand.desc": "Oily sand that yields bitumen",
+  "item.fw_oil.bitumen": "Bitumen",
+  "item.fw_oil.bitumen.desc": "Sticky tar from oil sand. Makes asphalt.",
+  "block.fw_oil.asphalt": "Asphalt",
+  "block.fw_oil.asphalt.desc": "Smooth road surface - walk 35% faster",
+  "block.fw_oil.asphalt_lined": "Asphalt Lined",
+  "block.fw_oil.asphalt_lined.desc": "Road surface with a lane marking"
+}

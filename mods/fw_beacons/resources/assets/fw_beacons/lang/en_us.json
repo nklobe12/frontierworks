@@ -1,0 +1,7 @@
+{
+  "block.fw_beacons.field_projector": "Field Projector",
+  "block.fw_beacons.field_projector.desc": "Gives nearby players a chosen effect. Range Upgrades extend it; Speed Upgrades raise the level.",
+  "gui.fw_beacons.next": "Next effect",
+  "gui.fw_beacons.range": "Range: %s",
+  "gui.fw_beacons.cost": "%s FE / pulse"
+}

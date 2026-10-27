@@ -1,0 +1,17 @@
+{
+  "type": "fw_machines:compressing",
+  "inputs": [
+    {
+      "item": "minecraft:snowball",
+      "count": 4
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:snow_block",
+      "count": 1
+    }
+  ],
+  "time": 160,
+  "energy": 20
+}

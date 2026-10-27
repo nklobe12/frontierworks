@@ -1,0 +1,22 @@
+{
+  "item.fw_crystals.energite_shard": "Energite Shard",
+  "item.fw_crystals.energite_dust": "Energite Dust",
+  "block.fw_crystals.energite_block": "Energite Block",
+  "block.fw_crystals.small_energite_bud": "Small Energite Bud",
+  "block.fw_crystals.medium_energite_bud": "Medium Energite Bud",
+  "block.fw_crystals.large_energite_bud": "Large Energite Bud",
+  "block.fw_crystals.energite_cluster": "Energite Cluster",
+  "block.fw_crystals.budding_energite": "Budding Energite",
+  "block.fw_crystals.budding_energite.desc": "Grows Energite crystals on its faces. Breaks when mined.",
+  "item.fw_crystals.voidite_shard": "Voidite Shard",
+  "item.fw_crystals.voidite_dust": "Voidite Dust",
+  "block.fw_crystals.voidite_block": "Voidite Block",
+  "block.fw_crystals.small_voidite_bud": "Small Voidite Bud",
+  "block.fw_crystals.medium_voidite_bud": "Medium Voidite Bud",
+  "block.fw_crystals.large_voidite_bud": "Large Voidite Bud",
+  "block.fw_crystals.voidite_cluster": "Voidite Cluster",
+  "block.fw_crystals.budding_voidite": "Budding Voidite",
+  "block.fw_crystals.budding_voidite.desc": "Grows Voidite crystals on its faces. Breaks when mined.",
+  "item.fw_crystals.charged_energite": "Charged Energite",
+  "item.fw_crystals.charged_energite.desc": "Energite saturated with power - used in elite circuits"
+}

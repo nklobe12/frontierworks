@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RRR",
+    "IMI"
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:rubber"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "M": {
+      "item": "fw_parts:motor"
+    }
+  },
+  "result": {
+    "item": "fw_conveyors:conveyor_belt",
+    "count": 8
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

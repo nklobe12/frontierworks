@@ -1,0 +1,17 @@
+{
+  "type": "fw_machines:extracting",
+  "inputs": [
+    {
+      "item": "minecraft:poppy",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:red_dye",
+      "count": 3
+    }
+  ],
+  "time": 120,
+  "energy": 16
+}

@@ -1,0 +1,26 @@
+{
+  "type": "fw_orewasher:washing",
+  "inputs": [
+    {
+      "item": "minecraft:dirt",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:clay_ball",
+      "count": 2
+    },
+    {
+      "item": "minecraft:sand",
+      "count": 1,
+      "chance": 0.3
+    }
+  ],
+  "time": 100,
+  "energy": 20,
+  "fluid_in": {
+    "fluid": "minecraft:water",
+    "amount": 250
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_parts:engineers_hammer"
+    },
+    {
+      "item": "fw_rubber:rubber"
+    },
+    {
+      "item": "fw_rubber:rubber"
+    }
+  ],
+  "result": {
+    "item": "fw_rubber:rubber_sheet",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

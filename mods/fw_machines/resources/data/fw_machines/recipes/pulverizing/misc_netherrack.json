@@ -1,0 +1,22 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "item": "minecraft:netherrack",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:gravel",
+      "count": 1
+    },
+    {
+      "item": "minecraft:glowstone_dust",
+      "count": 1,
+      "chance": 0.05
+    }
+  ],
+  "time": 120,
+  "energy": 16
+}

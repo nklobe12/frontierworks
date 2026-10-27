@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_chemistry"
+version="1.0.0"
+displayName="Frontierworks: Chemistry"
+authors="Klobe & Claude"
+description='''The Chemical Reactor combines solids and fluids: sulfuric acid, vulcanized rubber, gunpowder, fertilizer, plastic and rocket-grade chemicals.'''
+
+[[dependencies.fw_chemistry]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_chemistry]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_chemistry]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

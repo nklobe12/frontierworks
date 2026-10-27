@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fw_stone:block/travertine_slab"
+    },
+    "type=top": {
+      "model": "fw_stone:block/travertine_slab_top"
+    },
+    "type=double": {
+      "model": "fw_stone:block/travertine_slab_double"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_parts:engineers_hammer"
+    },
+    {
+      "tag": "forge:ingots/platinum"
+    }
+  ],
+  "result": {
+    "item": "fw_parts:platinum_plate",
+    "count": 1
+  }
+}

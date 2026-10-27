@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:nuggets/bronze"
+    }
+  },
+  "result": {
+    "item": "fw_alloys:bronze_ingot",
+    "count": 1
+  }
+}

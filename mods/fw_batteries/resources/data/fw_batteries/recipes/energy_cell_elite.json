@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PBP",
+    "CFC",
+    "PWP"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/platinum"
+    },
+    "B": {
+      "item": "fw_batteries:battery_elite"
+    },
+    "C": {
+      "item": "fw_batteries:energy_cell_advanced"
+    },
+    "F": {
+      "item": "fw_parts:elite_frame"
+    },
+    "W": {
+      "item": "fw_circuits:elite_circuit"
+    }
+  },
+  "result": {
+    "item": "fw_batteries:energy_cell_elite",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

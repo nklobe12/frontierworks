@@ -1,0 +1,32 @@
+{
+  "type": "fw_centrifuge:centrifuging",
+  "inputs": [
+    {
+      "item": "fw_oil:oil_sand",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:sand",
+      "count": 1
+    },
+    {
+      "item": "fw_oil:bitumen",
+      "count": 1
+    },
+    {
+      "item": "fw_oil:bitumen",
+      "count": 1,
+      "chance": 0.5
+    }
+  ],
+  "time": 160,
+  "energy": 30,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_centrifuge"
+    }
+  ]
+}

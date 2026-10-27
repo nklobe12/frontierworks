@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "fw_freezer:block/casing_advanced_top",
+    "bottom": "fw_freezer:block/casing_advanced_bottom",
+    "side": "fw_freezer:block/casing_advanced_side",
+    "front": "fw_freezer:block/cryo_freezer_front_on"
+  }
+}

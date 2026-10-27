@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " P ",
+    "PIP",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/electrum"
+    },
+    "I": {
+      "tag": "forge:ingots/electrum"
+    }
+  },
+  "result": {
+    "item": "fw_parts:electrum_gear",
+    "count": 1
+  }
+}

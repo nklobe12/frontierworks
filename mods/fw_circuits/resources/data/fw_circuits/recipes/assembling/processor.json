@@ -1,0 +1,25 @@
+{
+  "type": "fw_circuits:assembling",
+  "inputs": [
+    {
+      "item": "fw_circuits:silicon_wafer",
+      "count": 2
+    },
+    {
+      "tag": "forge:wires/gold",
+      "count": 2
+    },
+    {
+      "tag": "forge:gems/quartz",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_circuits:processor",
+      "count": 1
+    }
+  ],
+  "time": 160,
+  "energy": 60
+}

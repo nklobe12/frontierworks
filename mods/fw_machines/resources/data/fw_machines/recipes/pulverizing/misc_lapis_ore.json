@@ -1,0 +1,17 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "tag": "forge:ores/lapis",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:lapis_lazuli",
+      "count": 10
+    }
+  ],
+  "time": 120,
+  "energy": 16
+}

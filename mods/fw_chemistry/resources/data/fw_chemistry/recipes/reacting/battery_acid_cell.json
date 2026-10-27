@@ -1,0 +1,31 @@
+{
+  "type": "fw_chemistry:reacting",
+  "inputs": [
+    {
+      "tag": "forge:plates/lead",
+      "count": 2
+    },
+    {
+      "tag": "forge:plates/zinc",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_batteries:battery_cell",
+      "count": 2
+    }
+  ],
+  "time": 160,
+  "energy": 60,
+  "fluid_in": {
+    "fluid": "fw_chemistry:sulfuric_acid",
+    "amount": 250
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_batteries"
+    }
+  ]
+}

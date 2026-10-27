@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_mobgrinder"
+version="1.0.0"
+displayName="Frontierworks: Mob Grinder"
+authors="Klobe & Claude"
+description='''Automated mob farming: the Mob Grinder strikes mobs above it like a player would (rare drops included), uses the weapon you give it, and banks the XP. Pets, villagers, golems, named mobs and bosses are always safe.'''
+
+[[dependencies.fw_mobgrinder]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_mobgrinder]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_mobgrinder]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

@@ -1,0 +1,27 @@
+{
+  "type": "fw_alloysmelter:alloying",
+  "inputs": [
+    {
+      "tag": "forge:ingots/aluminum",
+      "count": 3
+    },
+    {
+      "tag": "forge:ingots/copper",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_alloys:duralumin_ingot",
+      "count": 4
+    }
+  ],
+  "time": 200,
+  "energy": 30,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_alloysmelter"
+    }
+  ]
+}

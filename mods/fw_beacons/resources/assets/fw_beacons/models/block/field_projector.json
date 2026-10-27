@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "fw_beacons:block/casing_elite_top",
+    "bottom": "fw_beacons:block/casing_elite_bottom",
+    "side": "fw_beacons:block/casing_elite_side",
+    "front": "fw_beacons:block/field_projector_front"
+  }
+}

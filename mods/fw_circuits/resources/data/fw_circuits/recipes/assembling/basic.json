@@ -1,0 +1,25 @@
+{
+  "type": "fw_circuits:assembling",
+  "inputs": [
+    {
+      "tag": "forge:wires/copper",
+      "count": 3
+    },
+    {
+      "tag": "forge:dusts/redstone",
+      "count": 2
+    },
+    {
+      "tag": "forge:plates/tin",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_circuits:basic_circuit",
+      "count": 2
+    }
+  ],
+  "time": 100,
+  "energy": 40
+}

@@ -1,0 +1,5 @@
+{
+  "block.fw_farming.crop_harvester": "Crop Harvester",
+  "block.fw_farming.crop_harvester.desc": "Place at crop level in the middle of your field. Feed bone meal or fertilizer to grow faster.",
+  "gui.fw_farming.fert": "<- fertilizer"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " P ",
+    "PIP",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/brass"
+    },
+    "I": {
+      "tag": "forge:ingots/brass"
+    }
+  },
+  "result": {
+    "item": "fw_parts:brass_gear",
+    "count": 1
+  }
+}

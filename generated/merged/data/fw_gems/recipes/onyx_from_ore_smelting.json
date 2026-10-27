@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "tag": "forge:ores/onyx"
+  },
+  "result": "fw_gems:onyx",
+  "experience": 1.0,
+  "cookingtime": 200
+}

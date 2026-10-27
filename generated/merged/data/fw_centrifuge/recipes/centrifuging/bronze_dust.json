@@ -1,0 +1,27 @@
+{
+  "type": "fw_centrifuge:centrifuging",
+  "inputs": [
+    {
+      "tag": "forge:dusts/bronze",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_metals:copper_dust",
+      "count": 3
+    },
+    {
+      "item": "fw_metals:tin_dust",
+      "count": 1
+    }
+  ],
+  "time": 160,
+  "energy": 40,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    }
+  ]
+}

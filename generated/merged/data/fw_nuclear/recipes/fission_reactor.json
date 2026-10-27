@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RCR",
+    "GFG",
+    "RTR"
+  ],
+  "key": {
+    "R": {
+      "item": "fw_nuclear:reactor_plating"
+    },
+    "C": {
+      "item": "fw_circuits:elite_circuit"
+    },
+    "G": {
+      "item": "fw_minerals:graphite_rod"
+    },
+    "F": {
+      "item": "fw_parts:advanced_frame"
+    },
+    "T": {
+      "item": "fw_tanks:tank_basic"
+    }
+  },
+  "result": {
+    "item": "fw_nuclear:fission_reactor",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_minerals"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_tanks"
+    }
+  ]
+}

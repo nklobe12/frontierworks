@@ -1,0 +1,22 @@
+{
+  "type": "fw_freezer:freezing",
+  "inputs": [],
+  "outputs": [
+    {
+      "item": "fw_electrolysis:salt",
+      "count": 1
+    }
+  ],
+  "time": 200,
+  "energy": 40,
+  "fluid_in": {
+    "fluid": "minecraft:water",
+    "amount": 1000
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_freezer"
+    }
+  ]
+}

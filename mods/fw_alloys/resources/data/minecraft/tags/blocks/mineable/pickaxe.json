@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "fw_alloys:bronze_block",
+    "fw_alloys:brass_block",
+    "fw_alloys:steel_block",
+    "fw_alloys:electrum_block",
+    "fw_alloys:invar_block",
+    "fw_alloys:constantan_block",
+    "fw_alloys:duralumin_block"
+  ]
+}

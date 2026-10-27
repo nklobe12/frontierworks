@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_teleporters"
+version="1.0.0"
+displayName="Frontierworks: Teleporters"
+authors="Klobe & Claude"
+description='''Powered teleport pads: record one pad on a Coordinate Card, link another to it, then crouch on the pad to jump - across the world or even between dimensions.'''
+
+[[dependencies.fw_teleporters]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_teleporters]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_teleporters]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

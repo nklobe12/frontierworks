@@ -1,0 +1,39 @@
+{
+  "type": "fw_sifting:sifting",
+  "inputs": [
+    {
+      "item": "minecraft:dirt",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:wheat_seeds",
+      "count": 1,
+      "chance": 0.30000000000000004
+    },
+    {
+      "item": "minecraft:bone_meal",
+      "count": 1,
+      "chance": 0.15000000000000002
+    },
+    {
+      "item": "minecraft:beetroot_seeds",
+      "count": 1,
+      "chance": 0.09
+    },
+    {
+      "item": "fw_minerals:apatite",
+      "count": 1,
+      "chance": 0.09
+    }
+  ],
+  "time": 100,
+  "energy": 20,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_minerals"
+    }
+  ]
+}

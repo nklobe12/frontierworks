@@ -1,0 +1,17 @@
+{
+  "type": "fw_kiln:coking",
+  "inputs": [
+    {
+      "item": "minecraft:coal",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_kiln:coal_coke",
+      "count": 1
+    }
+  ],
+  "time": 600,
+  "energy": 0
+}

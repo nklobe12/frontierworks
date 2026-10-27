@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fw_wind:wind_turbine",
+    "fw_wind:large_wind_turbine"
+  ]
+}

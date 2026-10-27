@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_orewasher"
+version="1.0.0"
+displayName="Frontierworks: Ore Washer"
+authors="Klobe & Claude"
+description='''Tier-two ore processing: the Ore Washer scrubs ores and raw ores with water for triple yields, leaving slag that a Centrifuge can reclaim.'''
+
+[[dependencies.fw_orewasher]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_orewasher]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_orewasher]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

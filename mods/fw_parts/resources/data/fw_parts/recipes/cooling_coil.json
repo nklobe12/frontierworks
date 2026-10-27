@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WWW",
+    "WRW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "tag": "forge:wires/aluminum"
+    },
+    "R": {
+      "item": "minecraft:packed_ice"
+    }
+  },
+  "result": {
+    "item": "fw_parts:cooling_coil",
+    "count": 1
+  }
+}

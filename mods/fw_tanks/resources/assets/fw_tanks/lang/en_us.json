@@ -1,0 +1,10 @@
+{
+  "block.fw_tanks.tank_basic": "Tank Basic",
+  "block.fw_tanks.tank_basic.desc": "Holds 16 buckets. Keeps its contents when broken.",
+  "block.fw_tanks.tank_reinforced": "Tank Reinforced",
+  "block.fw_tanks.tank_reinforced.desc": "Holds 64 buckets. Keeps its contents when broken.",
+  "block.fw_tanks.tank_elite": "Tank Elite",
+  "block.fw_tanks.tank_elite.desc": "Holds 256 buckets. Keeps its contents when broken.",
+  "block.fw_tanks.tank_ultimate": "Tank Ultimate",
+  "block.fw_tanks.tank_ultimate.desc": "Holds 1024 buckets. Keeps its contents when broken."
+}

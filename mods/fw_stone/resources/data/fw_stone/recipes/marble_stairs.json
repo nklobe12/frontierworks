@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_stone:marble"
+    }
+  },
+  "result": {
+    "item": "fw_stone:marble_stairs",
+    "count": 4
+  }
+}

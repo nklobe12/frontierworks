@@ -1,0 +1,14 @@
+{
+  "block.fw_meteors.scorched_stone": "Scorched Stone",
+  "block.fw_meteors.meteorite": "Meteorite",
+  "block.fw_meteors.meteorite.desc": "A chunk of space rock, still warm",
+  "block.fw_meteors.meteoric_iron_ore": "Meteoric Iron Ore",
+  "block.fw_meteors.star_fragment_ore": "Star Fragment Ore",
+  "item.fw_meteors.raw_meteoric_iron": "Raw Meteoric Iron",
+  "item.fw_meteors.meteoric_iron_ingot": "Meteoric Iron Ingot",
+  "item.fw_meteors.meteoric_steel_ingot": "Meteoric Steel Ingot",
+  "item.fw_meteors.meteoric_steel_ingot.desc": "The toughest metal on this world",
+  "item.fw_meteors.star_fragment": "Star Fragment",
+  "item.fw_meteors.star_fragment.desc": "A splinter of a fallen star. Hums with energy.",
+  "block.fw_meteors.meteoric_steel_block": "Meteoric Steel Block"
+}

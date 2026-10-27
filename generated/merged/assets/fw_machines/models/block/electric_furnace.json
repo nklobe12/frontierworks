@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "fw_machines:block/casing_basic_top",
+    "bottom": "fw_machines:block/casing_basic_bottom",
+    "side": "fw_machines:block/casing_basic_side",
+    "front": "fw_machines:block/electric_furnace_front"
+  }
+}

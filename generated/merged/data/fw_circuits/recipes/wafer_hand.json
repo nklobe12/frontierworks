@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_parts:engineers_hammer"
+    },
+    {
+      "item": "fw_circuits:silicon"
+    }
+  ],
+  "result": {
+    "item": "fw_circuits:silicon_wafer",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

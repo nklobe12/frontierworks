@@ -1,0 +1,1424 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_core"
+version="1.0.0"
+displayName="Frontierworks: Core"
+authors="Klobe & Claude"
+description='''Shared framework for every Frontierworks mod: Forge Energy, the machine system, data-driven machine recipes, loot injection and the creative tabs.'''
+
+[[dependencies.fw_core]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_core]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[mods]]
+modId="fw_metals"
+version="1.0.0"
+displayName="Frontierworks: Metals"
+authors="Klobe & Claude"
+description='''Eight new ores - tin, lead, silver, nickel, zinc, aluminum, platinum and uranium - with raw ores, ingots, nuggets, dusts and storage blocks, plus dusts for vanilla metals.'''
+
+[[dependencies.fw_metals]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_metals]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_metals]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_alloys"
+version="1.0.0"
+displayName="Frontierworks: Alloys"
+authors="Klobe & Claude"
+description='''Bronze, brass, steel, electrum, invar, constantan and duralumin - the alloys every Frontierworks machine is built from. Mix dusts by hand early on, then use the Alloy Kiln or Alloy Smelter.'''
+
+[[dependencies.fw_alloys]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_alloys]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_alloys]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_parts"
+version="1.0.0"
+displayName="Frontierworks: Parts"
+authors="Klobe & Claude"
+description='''Plates, gears, rods and wires for every metal, hand crafting tools, and the machine frames, motors and coils that all Frontierworks machines are assembled from.'''
+
+[[dependencies.fw_parts]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_parts]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_parts]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_gems"
+version="1.0.0"
+displayName="Frontierworks: Gems"
+authors="Klobe & Claude"
+description='''Ruby, sapphire, peridot, topaz and onyx: deep ores, gem blocks, and the gems used for jewellery, relics and high-tier tools.'''
+
+[[dependencies.fw_gems]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_gems]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_gems]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_minerals"
+version="1.0.0"
+displayName="Frontierworks: Minerals"
+authors="Klobe & Claude"
+description='''Sulfur, saltpeter, graphite, fluorite and apatite ores - the raw chemistry behind explosives, fertilizer, batteries and reactor parts.'''
+
+[[dependencies.fw_minerals]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_minerals]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_minerals]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_stone"
+version="1.0.0"
+displayName="Frontierworks: Stoneworks"
+authors="Klobe & Claude"
+description='''Five new natural stones - marble, limestone, slate, gabbro and travertine - generating in large underground veins, each with polished, brick, chiseled, stair, slab and wall variants.'''
+
+[[dependencies.fw_stone]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_stone]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_stone]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_rubber"
+version="1.0.0"
+displayName="Frontierworks: Rubber"
+authors="Klobe & Claude"
+description='''Rubber trees grow in jungles, forests and swamps. Tap their logs with a Treetap (or use an Extractor) for latex, then smelt it into rubber for cables, belts and seals.'''
+
+[[dependencies.fw_rubber]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_rubber]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_rubber]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_crystals"
+version="1.0.0"
+displayName="Frontierworks: Crystals"
+authors="Klobe & Claude"
+description='''Crystal geodes deep underground: Energite powers advanced circuits and batteries, Voidite bends space for teleporters. Budding blocks regrow crystals over time.'''
+
+[[dependencies.fw_crystals]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_crystals]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_crystals]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_oil"
+version="1.0.0"
+displayName="Frontierworks: Oil"
+authors="Klobe & Claude"
+description='''Crude oil lakes in deserts, badlands and plains, plus oil sand deposits. Refine crude into diesel, lubricant and plastics, and pave roads with fast-walking asphalt.'''
+
+[[dependencies.fw_oil]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_oil]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_oil]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_meteors"
+version="1.0.0"
+displayName="Frontierworks: Meteors"
+authors="Klobe & Claude"
+description='''Meteor craters scar the overworld. Their cores hold meteorite, meteoric iron and rare star fragments - the key to meteoric steel tools and late-game tech.'''
+
+[[dependencies.fw_meteors]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_meteors]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_meteors]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_kiln"
+version="1.0.0"
+displayName="Frontierworks: Kilns"
+authors="Klobe & Claude"
+description='''Fuel-fired early-game machines: the Alloy Kiln makes bronze, brass and steel before you have power, and the Coke Oven turns coal into high-energy coal coke.'''
+
+[[dependencies.fw_kiln]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_kiln]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_kiln]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_machines"
+version="1.0.0"
+displayName="Frontierworks: Machines"
+authors="Klobe & Claude"
+description='''The first electric machines: Pulverizer (ore doubling), Electric Furnace, Compressor and Extractor. All accept Speed, Efficiency and Capacity upgrades.'''
+
+[[dependencies.fw_machines]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_machines]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_machines]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_alloysmelter"
+version="1.0.0"
+displayName="Frontierworks: Alloy Smelter"
+authors="Klobe & Claude"
+description='''An electric two-input furnace that fuses metals into alloys, bakes silicon and makes glass products.'''
+
+[[dependencies.fw_alloysmelter]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_alloysmelter]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_alloysmelter]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_sifting"
+version="1.0.0"
+displayName="Frontierworks: Sifting"
+authors="Klobe & Claude"
+description='''Early-game resource gathering: sift gravel, sand, dirt and soul sand by hand for nuggets, gems and seeds, then automate it with the powered Auto-Sifter.'''
+
+[[dependencies.fw_sifting]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_sifting]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_sifting]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_sawmill"
+version="1.0.0"
+displayName="Frontierworks: Sawmill"
+authors="Klobe & Claude"
+description='''An electric Sawmill that cuts logs into six planks plus sawdust, and planks into sticks. Sawdust becomes paper, particle board and fuel briquettes.'''
+
+[[dependencies.fw_sawmill]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_sawmill]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_sawmill]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_centrifuge"
+version="1.0.0"
+displayName="Frontierworks: Centrifuge"
+authors="Klobe & Claude"
+description='''The Centrifuge spins materials apart into their components: slag into metals, dirt into clay and sand, magma cream into slime and blaze powder, and moon dust into helium-3.'''
+
+[[dependencies.fw_centrifuge]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_centrifuge]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_centrifuge]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_orewasher"
+version="1.0.0"
+displayName="Frontierworks: Ore Washer"
+authors="Klobe & Claude"
+description='''Tier-two ore processing: the Ore Washer scrubs ores and raw ores with water for triple yields, leaving slag that a Centrifuge can reclaim.'''
+
+[[dependencies.fw_orewasher]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_orewasher]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_orewasher]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_press"
+version="1.0.0"
+displayName="Frontierworks: Metal Press"
+authors="Klobe & Claude"
+description='''A powered Metal Press that stamps ingots into plates, gears, rods and wires using reusable steel molds.'''
+
+[[dependencies.fw_press]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_press]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_press]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_circuits"
+version="1.0.0"
+displayName="Frontierworks: Circuits"
+authors="Klobe & Claude"
+description='''Silicon, wafers and the four circuit tiers - basic, advanced, elite and quantum - plus the Circuit Assembler that builds them efficiently.'''
+
+[[dependencies.fw_circuits]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_circuits]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_circuits]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_chemistry"
+version="1.0.0"
+displayName="Frontierworks: Chemistry"
+authors="Klobe & Claude"
+description='''The Chemical Reactor combines solids and fluids: sulfuric acid, vulcanized rubber, gunpowder, fertilizer, plastic and rocket-grade chemicals.'''
+
+[[dependencies.fw_chemistry]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_chemistry]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_chemistry]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_electrolysis"
+version="1.0.0"
+displayName="Frontierworks: Electrolysis"
+authors="Klobe & Claude"
+description='''The Electrolyzer splits water into hydrogen and oxygen, brine into chlorine and sodium, and heavy water into deuterium for fusion.'''
+
+[[dependencies.fw_electrolysis]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_electrolysis]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_electrolysis]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_petro"
+version="1.0.0"
+displayName="Frontierworks: Petrochemicals"
+authors="Klobe & Claude"
+description='''The Refinery splits crude oil into diesel and lubricant; the Diesel Generator burns diesel, biodiesel and rocket fuel for serious power.'''
+
+[[dependencies.fw_petro]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_petro]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_petro]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_freezer"
+version="1.0.0"
+displayName="Frontierworks: Cryogenics"
+authors="Klobe & Claude"
+description='''The Cryo Freezer turns water into ice and lava into obsidian, and makes cryotheum - a super-coolant used by reactors and cooling coils.'''
+
+[[dependencies.fw_freezer]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_freezer]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_freezer]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_recycler"
+version="1.0.0"
+displayName="Frontierworks: Recycler"
+authors="Klobe & Claude"
+description='''Turn junk into opportunity: the Recycler grinds any item into scrap, and scrap boxes hold random useful loot - from nuggets to circuits to the occasional diamond.'''
+
+[[dependencies.fw_recycler]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_recycler]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_recycler]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_generators"
+version="1.0.0"
+displayName="Frontierworks: Generators"
+authors="Klobe & Claude"
+description='''Your first power: the Combustion Generator burns any furnace fuel, the Reinforced Generator burns it hotter, and the Lava Generator drinks lava for steady energy.'''
+
+[[dependencies.fw_generators]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_generators]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_generators]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_steam"
+version="1.0.0"
+displayName="Frontierworks: Steam Power"
+authors="Klobe & Claude"
+description='''Steam-age power: Boilers burn fuel to boil water, Steam Engines and the advanced Steam Turbine turn that steam into Forge Energy. Boilers heat up over time and push steam to neighbours.'''
+
+[[dependencies.fw_steam]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_steam]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_steam]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_solar"
+version="1.0.0"
+displayName="Frontierworks: Solar Power"
+authors="Klobe & Claude"
+description='''Four tiers of solar panels, from an 8 FE/t starter panel to the 512 FE/t ultimate array. Hybrid and ultimate panels keep producing at night.'''
+
+[[dependencies.fw_solar]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_solar]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_solar]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_wind"
+version="1.0.0"
+displayName="Frontierworks: Wind Power"
+authors="Klobe & Claude"
+description='''Wind turbines that love altitude and storms: build them high, give them open air, and they pay you back with free energy.'''
+
+[[dependencies.fw_wind]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_wind]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_wind]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_hydro"
+version="1.0.0"
+displayName="Frontierworks: Hydro Power"
+authors="Klobe & Claude"
+description='''Water wheels and hydro turbines that turn rivers and waterfalls into energy - flowing water on each side adds power.'''
+
+[[dependencies.fw_hydro]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_hydro]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_hydro]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_geothermal"
+version="1.0.0"
+displayName="Frontierworks: Geothermal Power"
+authors="Klobe & Claude"
+description='''Geothermal generators that draw heat from lava pools and magma - 50% stronger in the Nether.'''
+
+[[dependencies.fw_geothermal]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_geothermal]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_geothermal]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_batteries"
+version="1.0.0"
+displayName="Frontierworks: Batteries"
+authors="Klobe & Claude"
+description='''Energy cells from 1M to 512M FE that keep their charge when broken, plus portable batteries that power your gadgets and machines.'''
+
+[[dependencies.fw_batteries]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_batteries]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_batteries]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_cables"
+version="1.0.0"
+displayName="Frontierworks: Energy Cables"
+authors="Klobe & Claude"
+description='''Four tiers of energy cables - copper, gold, electrum and superconductor - that link generators, batteries and machines into one network with no losses.'''
+
+[[dependencies.fw_cables]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_cables]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_cables]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_wireless"
+version="1.0.0"
+displayName="Frontierworks: Wireless Energy"
+authors="Klobe & Claude"
+description='''Beam power anywhere: feed a Wireless Transmitter, link a Receiver to it with a Link Card, and energy flows across any distance - even between dimensions.'''
+
+[[dependencies.fw_wireless]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_wireless]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_wireless]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_nuclear"
+version="1.0.0"
+displayName="Frontierworks: Nuclear Power"
+authors="Klobe & Claude"
+description='''A fission reactor: load uranium fuel rods, keep it fed with water, and manage the heat. More rods mean more efficiency - and more risk. Auto-SCRAM can save you from a meltdown.'''
+
+[[dependencies.fw_nuclear]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_nuclear]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_nuclear]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_fusion"
+version="1.0.0"
+displayName="Frontierworks: Fusion Power"
+authors="Klobe & Claude"
+description='''The end-game power source: ignite a fusion plasma with 2 million FE, then feed it deuterium and helium-3 from the Moon for 10,000 FE/t.'''
+
+[[dependencies.fw_fusion]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_fusion]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_fusion]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_pipes"
+version="1.0.0"
+displayName="Frontierworks: Item Pipes"
+authors="Klobe & Claude"
+description='''Instant item logistics: extraction pipes pull from inventories and deliver to the nearest inventory on the network. Right-click an extraction pipe with an item to filter it; redstone pauses it.'''
+
+[[dependencies.fw_pipes]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_pipes]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_pipes]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_fluidducts"
+version="1.0.0"
+displayName="Frontierworks: Fluid Ducts"
+authors="Klobe & Claude"
+description='''Move water, lava, oil, steam and every other fluid: pump ducts drain adjacent tanks and machines and fill everything else on the network.'''
+
+[[dependencies.fw_fluidducts]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_fluidducts]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_fluidducts]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_tanks"
+version="1.0.0"
+displayName="Frontierworks: Tanks"
+authors="Klobe & Claude"
+description='''Portable fluid tanks from 16 to 1,024 buckets that keep their contents when broken. Stack them and they drain downwards.'''
+
+[[dependencies.fw_tanks]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_tanks]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_tanks]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_storage"
+version="1.0.0"
+displayName="Frontierworks: Storage"
+authors="Klobe & Claude"
+description='''Crates that keep their contents when picked up, and bulk barrels that hold up to 1,024 stacks of a single item and show it on their face.'''
+
+[[dependencies.fw_storage]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_storage]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_storage]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_conveyors"
+version="1.0.0"
+displayName="Frontierworks: Conveyors"
+authors="Klobe & Claude"
+description='''Conveyor belts in three speeds that carry items, mobs and players - and drop items straight into any inventory at the end of the line. Sneak to stand still.'''
+
+[[dependencies.fw_conveyors]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_conveyors]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_conveyors]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_vacuum"
+version="1.0.0"
+displayName="Frontierworks: Vacuum Hopper"
+authors="Klobe & Claude"
+description='''A hopper with ambition: pulls in every item and experience orb within 4 blocks (more with Range Upgrades) and feeds them to the inventory below.'''
+
+[[dependencies.fw_vacuum]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_vacuum]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_vacuum]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_quarry"
+version="1.0.0"
+displayName="Frontierworks: Quarry"
+authors="Klobe & Claude"
+description='''An automatic Quarry that strips a 9x9 area (up to 41x41 with Range Upgrades) all the way to bedrock, replacing liquids with stone and sending everything to a chest on top.'''
+
+[[dependencies.fw_quarry]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_quarry]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_quarry]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_pump"
+version="1.0.0"
+displayName="Frontierworks: Electric Pump"
+authors="Klobe & Claude"
+description='''An electric pump that drains lakes of lava, oil or any fluid below it (water is infinite), and pushes the fluid into tanks and ducts around it.'''
+
+[[dependencies.fw_pump]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_pump]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_pump]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_farming"
+version="1.0.0"
+displayName="Frontierworks: Farm Automation"
+authors="Klobe & Claude"
+description='''The Crop Harvester tends a 9x9 field around itself: harvests and replants crops and nether wart, cuts sugar cane, picks melons and pumpkins, and applies fertilizer.'''
+
+[[dependencies.fw_farming]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_farming]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_farming]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_mobgrinder"
+version="1.0.0"
+displayName="Frontierworks: Mob Grinder"
+authors="Klobe & Claude"
+description='''Automated mob farming: the Mob Grinder strikes mobs above it like a player would (rare drops included), uses the weapon you give it, and banks the XP. Pets, villagers, golems, named mobs and bosses are always safe.'''
+
+[[dependencies.fw_mobgrinder]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_mobgrinder]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_mobgrinder]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_chunkloader"
+version="1.0.0"
+displayName="Frontierworks: Chunk Loaders"
+authors="Klobe & Claude"
+description='''Keep your machines running while you explore: chunk loaders keep a 3x3 or 5x5 area of chunks loaded and ticking.'''
+
+[[dependencies.fw_chunkloader]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_chunkloader]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_chunkloader]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_redstone"
+version="1.0.0"
+displayName="Frontierworks: Redstone Devices"
+authors="Klobe & Claude"
+description='''Automation helpers: Block Breaker, Block Placer, Player Detector and an adjustable Redstone Clock.'''
+
+[[dependencies.fw_redstone]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_redstone]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_redstone]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_teleporters"
+version="1.0.0"
+displayName="Frontierworks: Teleporters"
+authors="Klobe & Claude"
+description='''Powered teleport pads: record one pad on a Coordinate Card, link another to it, then crouch on the pad to jump - across the world or even between dimensions.'''
+
+[[dependencies.fw_teleporters]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_teleporters]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_teleporters]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_elevators"
+version="1.0.0"
+displayName="Frontierworks: Elevators"
+authors="Klobe & Claude"
+description='''Elevator blocks in all 16 colours: jump to rise to the next elevator above, sneak to drop to the one below. Up to 24 blocks apart.'''
+
+[[dependencies.fw_elevators]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_elevators]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_elevators]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_beacons"
+version="1.0.0"
+displayName="Frontierworks: Field Projectors"
+authors="Klobe & Claude"
+description='''Powered beacons: a Field Projector bathes every player within 16 blocks in your choice of ten effects - speed, haste, regeneration, resistance, night vision and more - for FE.'''
+
+[[dependencies.fw_beacons]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_beacons]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_beacons]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

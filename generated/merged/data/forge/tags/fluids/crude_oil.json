@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fw_oil:crude_oil",
+    "fw_oil:flowing_crude_oil"
+  ]
+}

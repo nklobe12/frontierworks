@@ -1,0 +1,36 @@
+{
+  "type": "fw_orewasher:washing",
+  "inputs": [
+    {
+      "item": "fw_meteors:raw_meteoric_iron",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_meteors:raw_meteoric_iron",
+      "count": 1
+    },
+    {
+      "item": "fw_metals:nickel_dust",
+      "count": 1,
+      "chance": 0.5
+    }
+  ],
+  "time": 160,
+  "energy": 40,
+  "fluid_in": {
+    "fluid": "minecraft:water",
+    "amount": 250
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_meteors"
+    }
+  ]
+}

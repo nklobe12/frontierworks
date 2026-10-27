@@ -1,0 +1,21 @@
+{
+  "type": "fw_freezer:freezing",
+  "inputs": [
+    {
+      "item": "minecraft:magma_block",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:basalt",
+      "count": 1
+    }
+  ],
+  "time": 80,
+  "energy": 20,
+  "fluid_in": {
+    "fluid": "minecraft:water",
+    "amount": 100
+  }
+}

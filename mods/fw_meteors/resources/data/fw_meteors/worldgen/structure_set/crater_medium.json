@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "fw_meteors:crater_medium",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 52,
+    "separation": 18,
+    "salt": 350463264
+  }
+}

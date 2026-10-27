@@ -1,0 +1,23 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "item": "minecraft:diamond",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_metals:diamond_dust",
+      "count": 1
+    }
+  ],
+  "time": 120,
+  "energy": 16,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    }
+  ]
+}

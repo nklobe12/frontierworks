@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BBB",
+    "GRG"
+  ],
+  "key": {
+    "B": {
+      "item": "fw_conveyors:conveyor_belt"
+    },
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "R": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "result": {
+    "item": "fw_conveyors:fast_conveyor_belt",
+    "count": 3
+  }
+}

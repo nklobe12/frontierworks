@@ -1,0 +1,17 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "tag": "forge:ores/emerald",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:emerald",
+      "count": 2
+    }
+  ],
+  "time": 120,
+  "energy": 16
+}

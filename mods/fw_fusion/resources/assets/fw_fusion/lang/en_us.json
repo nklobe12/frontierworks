@@ -1,0 +1,10 @@
+{
+  "block.fw_fusion.fusion_reactor": "Fusion Reactor",
+  "block.fw_fusion.fusion_reactor.desc": "Ignite with 2M FE. Burns deuterium + helium-3 crystals for 10,000 FE/t.",
+  "item.fw_fusion.plasma_containment_coil": "Plasma Containment Coil",
+  "gui.fw_fusion.ignite": "Ignite",
+  "gui.fw_fusion.plasma": "Plasma stable",
+  "gui.fw_fusion.cold": "Reactor cold",
+  "gui.fw_fusion.needs": "Needs 2M FE, D2, He-3",
+  "msg.fw_fusion.cannot_ignite": "Ignition needs 2,000,000 FE, 100 mB deuterium and a helium-3 crystal"
+}

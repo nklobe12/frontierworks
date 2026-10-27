@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SPS"
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:plates/steel"
+    },
+    "P": {
+      "item": "fw_fluidducts:pump_duct"
+    }
+  },
+  "result": {
+    "item": "fw_fluidducts:high_flow_pump_duct",
+    "count": 1
+  }
+}

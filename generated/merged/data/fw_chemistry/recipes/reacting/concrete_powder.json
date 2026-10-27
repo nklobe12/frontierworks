@@ -1,0 +1,21 @@
+{
+  "type": "fw_chemistry:reacting",
+  "inputs": [
+    {
+      "item": "minecraft:sand",
+      "count": 4
+    },
+    {
+      "item": "minecraft:gravel",
+      "count": 4
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:white_concrete_powder",
+      "count": 8
+    }
+  ],
+  "time": 80,
+  "energy": 20
+}

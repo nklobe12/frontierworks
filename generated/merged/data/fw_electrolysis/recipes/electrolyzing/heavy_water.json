@@ -1,0 +1,19 @@
+{
+  "type": "fw_electrolysis:electrolyzing",
+  "inputs": [],
+  "outputs": [],
+  "time": 200,
+  "energy": 200,
+  "fluid_in": {
+    "fluid": "fw_electrolysis:heavy_water",
+    "amount": 500
+  },
+  "fluid_out": {
+    "fluid": "fw_electrolysis:deuterium",
+    "amount": 500
+  },
+  "fluid_out2": {
+    "fluid": "fw_electrolysis:oxygen",
+    "amount": 250
+  }
+}

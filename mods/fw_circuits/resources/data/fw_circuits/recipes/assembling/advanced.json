@@ -1,0 +1,25 @@
+{
+  "type": "fw_circuits:assembling",
+  "inputs": [
+    {
+      "item": "fw_circuits:basic_circuit",
+      "count": 2
+    },
+    {
+      "tag": "forge:wires/gold",
+      "count": 2
+    },
+    {
+      "item": "fw_circuits:silicon_wafer",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_circuits:advanced_circuit",
+      "count": 1
+    }
+  ],
+  "time": 160,
+  "energy": 60
+}

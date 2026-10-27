@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "fw_rubber:block/stripped_rubber_log"
+    },
+    "axis=z": {
+      "model": "fw_rubber:block/stripped_rubber_log_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "fw_rubber:block/stripped_rubber_log_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

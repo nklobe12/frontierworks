@@ -1,0 +1,43 @@
+{
+  "type": "fw_sifting:sifting",
+  "inputs": [
+    {
+      "tag": "minecraft:sand",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_metals:aluminum_nugget",
+      "count": 1,
+      "chance": 0.18
+    },
+    {
+      "item": "fw_minerals:saltpeter",
+      "count": 1,
+      "chance": 0.12
+    },
+    {
+      "item": "fw_metals:nickel_nugget",
+      "count": 1,
+      "chance": 0.09
+    },
+    {
+      "item": "minecraft:gold_nugget",
+      "count": 1,
+      "chance": 0.09
+    }
+  ],
+  "time": 100,
+  "energy": 20,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_minerals"
+    }
+  ]
+}

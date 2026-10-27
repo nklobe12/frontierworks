@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "fw_kiln:block/casing_steam_top",
+    "bottom": "fw_kiln:block/casing_steam_bottom",
+    "side": "fw_kiln:block/casing_steam_side",
+    "front": "fw_kiln:block/coke_oven_front_on"
+  }
+}

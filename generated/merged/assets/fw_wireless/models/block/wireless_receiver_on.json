@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "fw_wireless:block/wireless_receiver_top",
+    "bottom": "fw_wireless:block/wireless_receiver_top",
+    "side": "fw_wireless:block/wireless_receiver_side",
+    "front": "fw_wireless:block/wireless_receiver_front_on"
+  }
+}

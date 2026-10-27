@@ -1,0 +1,15 @@
+{
+  "block.fw_circuits.circuit_assembler": "Circuit Assembler",
+  "block.fw_circuits.circuit_assembler.desc": "Assembles circuits and processors from components",
+  "item.fw_circuits.silicon": "Silicon",
+  "item.fw_circuits.silicon.desc": "Made in an Alloy Smelter from sand and coal dust",
+  "item.fw_circuits.silicon_wafer": "Silicon Wafer",
+  "item.fw_circuits.basic_circuit": "Basic Circuit",
+  "item.fw_circuits.advanced_circuit": "Advanced Circuit",
+  "item.fw_circuits.elite_circuit": "Elite Circuit",
+  "item.fw_circuits.quantum_circuit": "Quantum Circuit",
+  "item.fw_circuits.quantum_circuit.desc": "The pinnacle of Frontierworks electronics",
+  "item.fw_circuits.processor": "Processor",
+  "item.fw_circuits.solar_cell": "Solar Cell",
+  "item.fw_circuits.solar_cell.desc": "Photovoltaic cell for solar panels"
+}

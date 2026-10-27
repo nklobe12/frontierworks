@@ -1,0 +1,28 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "tag": "forge:ores/coal",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:coal",
+      "count": 2
+    },
+    {
+      "item": "fw_metals:coal_dust",
+      "count": 1,
+      "chance": 0.25
+    }
+  ],
+  "time": 120,
+  "energy": 16,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    }
+  ]
+}

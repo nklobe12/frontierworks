@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "fw_solar:solar_panel_basic",
+    "fw_solar:solar_panel_advanced",
+    "fw_solar:solar_panel_hybrid",
+    "fw_solar:solar_panel_ultimate"
+  ]
+}

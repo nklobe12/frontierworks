@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "fw_gems:ruby",
+    "fw_gems:sapphire",
+    "fw_gems:peridot",
+    "fw_gems:topaz",
+    "fw_gems:onyx"
+  ]
+}

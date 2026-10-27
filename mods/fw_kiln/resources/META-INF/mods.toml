@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_kiln"
+version="1.0.0"
+displayName="Frontierworks: Kilns"
+authors="Klobe & Claude"
+description='''Fuel-fired early-game machines: the Alloy Kiln makes bronze, brass and steel before you have power, and the Coke Oven turns coal into high-energy coal coke.'''
+
+[[dependencies.fw_kiln]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_kiln]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_kiln]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

@@ -1,0 +1,17 @@
+{
+  "type": "fw_machines:compressing",
+  "inputs": [
+    {
+      "item": "minecraft:sugar_cane",
+      "count": 3
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:paper",
+      "count": 1
+    }
+  ],
+  "time": 160,
+  "energy": 20
+}

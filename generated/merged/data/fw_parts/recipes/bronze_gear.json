@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " P ",
+    "PIP",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/bronze"
+    },
+    "I": {
+      "tag": "forge:ingots/bronze"
+    }
+  },
+  "result": {
+    "item": "fw_parts:bronze_gear",
+    "count": 1
+  }
+}

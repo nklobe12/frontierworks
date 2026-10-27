@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_metals"
+version="1.0.0"
+displayName="Frontierworks: Metals"
+authors="Klobe & Claude"
+description='''Eight new ores - tin, lead, silver, nickel, zinc, aluminum, platinum and uranium - with raw ores, ingots, nuggets, dusts and storage blocks, plus dusts for vanilla metals.'''
+
+[[dependencies.fw_metals]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_metals]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_metals]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

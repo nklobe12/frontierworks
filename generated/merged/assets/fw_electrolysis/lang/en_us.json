@@ -1,0 +1,13 @@
+{
+  "block.fw_electrolysis.electrolyzer": "Electrolyzer",
+  "block.fw_electrolysis.electrolyzer.desc": "Splits fluids into their elements with electricity",
+  "fluid_type.fw_electrolysis.hydrogen": "Hydrogen",
+  "fluid_type.fw_electrolysis.oxygen": "Oxygen",
+  "fluid_type.fw_electrolysis.chlorine": "Chlorine",
+  "fluid_type.fw_electrolysis.deuterium": "Deuterium",
+  "fluid_type.fw_electrolysis.heavy_water": "Heavy Water",
+  "block.fw_electrolysis.heavy_water": "Heavy Water",
+  "item.fw_electrolysis.heavy_water_bucket": "Heavy Water Bucket",
+  "item.fw_electrolysis.salt": "Salt",
+  "item.fw_electrolysis.sodium": "Sodium"
+}

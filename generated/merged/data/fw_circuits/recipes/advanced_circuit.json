@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GRG",
+    "BSB",
+    "GRG"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:wires/gold"
+    },
+    "R": {
+      "tag": "forge:dusts/redstone"
+    },
+    "B": {
+      "item": "fw_circuits:basic_circuit"
+    },
+    "S": {
+      "item": "fw_circuits:silicon_wafer"
+    }
+  },
+  "result": {
+    "item": "fw_circuits:advanced_circuit",
+    "count": 1
+  }
+}

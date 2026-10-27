@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "fw_metals:ore_tin",
+    "fw_metals:ore_lead",
+    "fw_metals:ore_silver",
+    "fw_metals:ore_nickel",
+    "fw_metals:ore_zinc",
+    "fw_metals:ore_aluminum",
+    "fw_metals:ore_platinum",
+    "fw_metals:ore_uranium"
+  ],
+  "step": "underground_ores"
+}

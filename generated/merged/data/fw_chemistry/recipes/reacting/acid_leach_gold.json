@@ -1,0 +1,27 @@
+{
+  "type": "fw_chemistry:reacting",
+  "inputs": [
+    {
+      "item": "minecraft:gold_ore",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_metals:gold_dust",
+      "count": 4
+    }
+  ],
+  "time": 200,
+  "energy": 60,
+  "fluid_in": {
+    "fluid": "fw_chemistry:sulfuric_acid",
+    "amount": 250
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    }
+  ]
+}

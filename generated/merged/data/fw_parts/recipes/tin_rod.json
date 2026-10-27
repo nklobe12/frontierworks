@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "I",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/tin"
+    }
+  },
+  "result": {
+    "item": "fw_parts:tin_rod",
+    "count": 2
+  }
+}

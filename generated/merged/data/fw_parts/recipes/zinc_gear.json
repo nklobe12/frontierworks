@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " P ",
+    "PIP",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/zinc"
+    },
+    "I": {
+      "tag": "forge:ingots/zinc"
+    }
+  },
+  "result": {
+    "item": "fw_parts:zinc_gear",
+    "count": 1
+  }
+}

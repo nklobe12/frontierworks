@@ -1,0 +1,31 @@
+{
+  "type": "fw_circuits:assembling",
+  "inputs": [
+    {
+      "item": "fw_circuits:advanced_circuit",
+      "count": 2
+    },
+    {
+      "item": "fw_circuits:processor",
+      "count": 1
+    },
+    {
+      "item": "fw_crystals:charged_energite",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_circuits:elite_circuit",
+      "count": 1
+    }
+  ],
+  "time": 240,
+  "energy": 120,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_crystals"
+    }
+  ]
+}

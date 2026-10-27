@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fw_stone:block/gabbro_brick_slab"
+    },
+    "type=top": {
+      "model": "fw_stone:block/gabbro_brick_slab_top"
+    },
+    "type=double": {
+      "model": "fw_stone:block/gabbro_brick_slab_double"
+    }
+  }
+}

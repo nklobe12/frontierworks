@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "fw_alloys:bronze_dust",
+    "fw_alloys:brass_dust",
+    "fw_alloys:steel_dust",
+    "fw_alloys:electrum_dust",
+    "fw_alloys:invar_dust",
+    "fw_alloys:constantan_dust",
+    "fw_alloys:duralumin_dust"
+  ]
+}

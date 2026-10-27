@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "PWP",
+    "PRP"
+  ],
+  "key": {
+    "C": {
+      "item": "fw_circuits:solar_cell"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "W": {
+      "tag": "forge:wires/copper"
+    },
+    "R": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "result": {
+    "item": "fw_solar:solar_panel_basic",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    }
+  ]
+}

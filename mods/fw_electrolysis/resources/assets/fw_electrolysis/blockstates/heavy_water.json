@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fw_electrolysis:block/heavy_water"
+    }
+  }
+}

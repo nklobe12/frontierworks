@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_conveyors"
+version="1.0.0"
+displayName="Frontierworks: Conveyors"
+authors="Klobe & Claude"
+description='''Conveyor belts in three speeds that carry items, mobs and players - and drop items straight into any inventory at the end of the line. Sneak to stand still.'''
+
+[[dependencies.fw_conveyors]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_conveyors]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_conveyors]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

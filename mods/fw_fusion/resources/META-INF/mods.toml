@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_fusion"
+version="1.0.0"
+displayName="Frontierworks: Fusion Power"
+authors="Klobe & Claude"
+description='''The end-game power source: ignite a fusion plasma with 2 million FE, then feed it deuterium and helium-3 from the Moon for 10,000 FE/t.'''
+
+[[dependencies.fw_fusion]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_fusion]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_fusion]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_rubber:rubber_log"
+    }
+  },
+  "result": {
+    "item": "fw_rubber:rubber_wood",
+    "count": 3
+  }
+}

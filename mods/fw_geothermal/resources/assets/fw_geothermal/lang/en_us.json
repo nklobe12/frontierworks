@@ -1,0 +1,7 @@
+{
+  "block.fw_geothermal.geothermal_generator": "Geothermal Generator",
+  "block.fw_geothermal.geothermal_generator.desc": "16 FE/t per adjacent lava source block",
+  "block.fw_geothermal.magma_dynamo": "Magma Dynamo",
+  "block.fw_geothermal.magma_dynamo.desc": "48 FE/t per adjacent lava source block",
+  "gui.fw_geothermal.tip": "Surround with lava"
+}

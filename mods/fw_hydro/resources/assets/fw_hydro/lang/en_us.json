@@ -1,0 +1,7 @@
+{
+  "block.fw_hydro.water_wheel": "Water Wheel",
+  "block.fw_hydro.water_wheel.desc": "6 FE/t per side touching flowing water",
+  "block.fw_hydro.hydro_turbine": "Hydro Turbine",
+  "block.fw_hydro.hydro_turbine.desc": "24 FE/t per side touching flowing water",
+  "gui.fw_hydro.tip": "Place next to flowing water"
+}

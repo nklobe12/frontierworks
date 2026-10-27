@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fw_storage:block/bulk_barrel"
+    },
+    "facing=east": {
+      "model": "fw_storage:block/bulk_barrel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fw_storage:block/bulk_barrel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fw_storage:block/bulk_barrel",
+      "y": 270
+    }
+  }
+}

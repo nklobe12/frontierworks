@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:gems/onyx"
+    }
+  },
+  "result": {
+    "item": "fw_gems:onyx_block",
+    "count": 1
+  }
+}

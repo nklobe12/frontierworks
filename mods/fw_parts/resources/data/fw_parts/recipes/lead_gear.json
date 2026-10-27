@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " P ",
+    "PIP",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/lead"
+    },
+    "I": {
+      "tag": "forge:ingots/lead"
+    }
+  },
+  "result": {
+    "item": "fw_parts:lead_gear",
+    "count": 1
+  }
+}

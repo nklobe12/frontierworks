@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:or",
+    "values": [
+      "#forge:is_desert",
+      "#minecraft:is_badlands",
+      "#forge:is_plains"
+    ]
+  },
+  "features": [
+    "fw_oil:oil_lake"
+  ],
+  "step": "lakes"
+}

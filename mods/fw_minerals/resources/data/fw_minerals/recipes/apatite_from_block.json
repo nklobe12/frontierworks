@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_minerals:apatite_block"
+    }
+  ],
+  "result": {
+    "item": "fw_minerals:apatite",
+    "count": 9
+  }
+}

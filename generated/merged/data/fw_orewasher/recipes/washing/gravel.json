@@ -1,0 +1,31 @@
+{
+  "type": "fw_orewasher:washing",
+  "inputs": [
+    {
+      "item": "minecraft:gravel",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:flint",
+      "count": 1
+    },
+    {
+      "item": "minecraft:iron_nugget",
+      "count": 1,
+      "chance": 0.3
+    },
+    {
+      "item": "fw_orewasher:slag",
+      "count": 1,
+      "chance": 0.2
+    }
+  ],
+  "time": 100,
+  "energy": 20,
+  "fluid_in": {
+    "fluid": "minecraft:water",
+    "amount": 100
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RRR",
+    "WWW",
+    "RRR"
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:rubber"
+    },
+    "W": {
+      "tag": "forge:wires/gold"
+    }
+  },
+  "result": {
+    "item": "fw_cables:gold_cable",
+    "count": 6
+  }
+}

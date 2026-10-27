@@ -1,0 +1,38 @@
+{
+  "type": "fw_centrifuge:centrifuging",
+  "inputs": [
+    {
+      "item": "fw_moon:moon_dust",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_moon:helium3_crystal",
+      "count": 1,
+      "chance": 0.2
+    },
+    {
+      "item": "fw_metals:aluminum_dust",
+      "count": 1,
+      "chance": 0.3
+    },
+    {
+      "item": "fw_metals:iron_dust",
+      "count": 1,
+      "chance": 0.2
+    }
+  ],
+  "time": 160,
+  "energy": 40,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_moon"
+    }
+  ]
+}

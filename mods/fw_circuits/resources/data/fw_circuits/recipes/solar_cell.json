@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GGG",
+    "WWW",
+    "PCP"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass_panes"
+    },
+    "W": {
+      "item": "fw_circuits:silicon_wafer"
+    },
+    "P": {
+      "tag": "forge:plates/aluminum"
+    },
+    "C": {
+      "tag": "forge:wires/copper"
+    }
+  },
+  "result": {
+    "item": "fw_circuits:solar_cell",
+    "count": 1
+  }
+}

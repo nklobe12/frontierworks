@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "fw_stone:marble_slab",
+    "fw_stone:polished_marble_slab",
+    "fw_stone:marble_brick_slab",
+    "fw_stone:limestone_slab",
+    "fw_stone:polished_limestone_slab",
+    "fw_stone:limestone_brick_slab",
+    "fw_stone:slate_slab",
+    "fw_stone:polished_slate_slab",
+    "fw_stone:slate_brick_slab",
+    "fw_stone:gabbro_slab",
+    "fw_stone:polished_gabbro_slab",
+    "fw_stone:gabbro_brick_slab",
+    "fw_stone:travertine_slab",
+    "fw_stone:polished_travertine_slab",
+    "fw_stone:travertine_brick_slab",
+    "fw_rubber:rubber_slab"
+  ]
+}

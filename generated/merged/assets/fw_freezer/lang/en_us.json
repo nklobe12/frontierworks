@@ -1,0 +1,8 @@
+{
+  "block.fw_freezer.cryo_freezer": "Cryo Freezer",
+  "block.fw_freezer.cryo_freezer.desc": "Freezes fluids and items",
+  "item.fw_freezer.cryotheum_dust": "Cryotheum Dust",
+  "item.fw_freezer.cryotheum_dust.desc": "Absurdly cold. Reactor coolant.",
+  "block.fw_freezer.cryotheum_block": "Cryotheum Block",
+  "block.fw_freezer.cryotheum_block.desc": "Slippery as ice"
+}

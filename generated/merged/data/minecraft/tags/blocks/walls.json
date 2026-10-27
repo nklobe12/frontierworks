@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "fw_stone:marble_wall",
+    "fw_stone:polished_marble_wall",
+    "fw_stone:marble_brick_wall",
+    "fw_stone:limestone_wall",
+    "fw_stone:polished_limestone_wall",
+    "fw_stone:limestone_brick_wall",
+    "fw_stone:slate_wall",
+    "fw_stone:polished_slate_wall",
+    "fw_stone:slate_brick_wall",
+    "fw_stone:gabbro_wall",
+    "fw_stone:polished_gabbro_wall",
+    "fw_stone:gabbro_brick_wall",
+    "fw_stone:travertine_wall",
+    "fw_stone:polished_travertine_wall",
+    "fw_stone:travertine_brick_wall"
+  ]
+}

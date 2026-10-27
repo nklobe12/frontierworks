@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_stone:polished_gabbro"
+    }
+  },
+  "result": {
+    "item": "fw_stone:gabbro_bricks",
+    "count": 4
+  }
+}

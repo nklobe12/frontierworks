@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "E",
+    "B"
+  ],
+  "key": {
+    "E": {
+      "item": "fw_crystals:voidite_shard"
+    },
+    "B": {
+      "item": "fw_parts:blank_card"
+    }
+  },
+  "result": {
+    "item": "fw_teleporters:coordinate_card",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_crystals"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

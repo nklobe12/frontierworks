@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PFP",
+    "WMW",
+    "CGC"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "F": {
+      "item": "fw_parts:fan"
+    },
+    "W": {
+      "item": "fw_hydro:water_wheel"
+    },
+    "M": {
+      "item": "fw_parts:advanced_frame"
+    },
+    "C": {
+      "item": "fw_parts:motor"
+    },
+    "G": {
+      "item": "fw_circuits:advanced_circuit"
+    }
+  },
+  "result": {
+    "item": "fw_hydro:hydro_turbine",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

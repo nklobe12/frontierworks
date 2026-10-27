@@ -1,0 +1,27 @@
+{
+  "type": "fw_kiln:kiln_alloying",
+  "inputs": [
+    {
+      "tag": "forge:ingots/copper",
+      "count": 3
+    },
+    {
+      "tag": "forge:ingots/zinc",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_alloys:brass_ingot",
+      "count": 4
+    }
+  ],
+  "time": 400,
+  "energy": 0,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_kiln"
+    }
+  ]
+}

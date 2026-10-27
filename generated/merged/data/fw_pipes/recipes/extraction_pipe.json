@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " R ",
+    "HPH"
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:dusts/redstone"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    },
+    "P": {
+      "item": "fw_pipes:item_pipe"
+    }
+  },
+  "result": {
+    "item": "fw_pipes:extraction_pipe",
+    "count": 2
+  }
+}

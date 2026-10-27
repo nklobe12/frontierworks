@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fw_metals:tin_ore",
+    "fw_metals:deepslate_tin_ore"
+  ]
+}

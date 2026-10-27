@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_farming"
+version="1.0.0"
+displayName="Frontierworks: Farm Automation"
+authors="Klobe & Claude"
+description='''The Crop Harvester tends a 9x9 field around itself: harvests and replants crops and nether wart, cuts sugar cane, picks melons and pumpkins, and applies fertilizer.'''
+
+[[dependencies.fw_farming]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_farming]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_farming]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

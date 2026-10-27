@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_stone:polished_gabbro"
+    }
+  },
+  "result": {
+    "item": "fw_stone:polished_gabbro_slab",
+    "count": 6
+  }
+}

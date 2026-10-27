@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/constantan"
+    }
+  ],
+  "result": {
+    "item": "fw_alloys:constantan_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " P ",
+    "PIP",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/platinum"
+    },
+    "I": {
+      "tag": "forge:ingots/platinum"
+    }
+  },
+  "result": {
+    "item": "fw_parts:platinum_gear",
+    "count": 1
+  }
+}

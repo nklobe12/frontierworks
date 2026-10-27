@@ -1,0 +1,31 @@
+{
+  "type": "fw_press:pressing",
+  "inputs": [
+    {
+      "tag": "forge:ingots/constantan",
+      "count": 1
+    },
+    {
+      "item": "fw_press:rod_mold",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_parts:constantan_rod",
+      "count": 2
+    },
+    {
+      "item": "fw_press:rod_mold",
+      "count": 1
+    }
+  ],
+  "time": 80,
+  "energy": 30,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_press"
+    }
+  ]
+}

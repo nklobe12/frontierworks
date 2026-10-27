@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "fw_gems:ore_ruby",
+    "fw_gems:ore_sapphire",
+    "fw_gems:ore_peridot",
+    "fw_gems:ore_topaz",
+    "fw_gems:ore_onyx"
+  ],
+  "step": "underground_ores"
+}

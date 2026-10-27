@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_sawmill"
+version="1.0.0"
+displayName="Frontierworks: Sawmill"
+authors="Klobe & Claude"
+description='''An electric Sawmill that cuts logs into six planks plus sawdust, and planks into sticks. Sawdust becomes paper, particle board and fuel briquettes.'''
+
+[[dependencies.fw_sawmill]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_sawmill]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_sawmill]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "fw_orewasher:block/casing_advanced_top",
+    "bottom": "fw_orewasher:block/casing_advanced_bottom",
+    "side": "fw_orewasher:block/casing_advanced_side",
+    "front": "fw_orewasher:block/ore_washer_front"
+  }
+}

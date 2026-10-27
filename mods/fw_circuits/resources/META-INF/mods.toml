@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_circuits"
+version="1.0.0"
+displayName="Frontierworks: Circuits"
+authors="Klobe & Claude"
+description='''Silicon, wafers and the four circuit tiers - basic, advanced, elite and quantum - plus the Circuit Assembler that builds them efficiently.'''
+
+[[dependencies.fw_circuits]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_circuits]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_circuits]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

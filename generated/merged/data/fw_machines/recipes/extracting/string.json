@@ -1,0 +1,17 @@
+{
+  "type": "fw_machines:extracting",
+  "inputs": [
+    {
+      "item": "minecraft:cobweb",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:string",
+      "count": 3
+    }
+  ],
+  "time": 120,
+  "energy": 16
+}

@@ -1,0 +1,8 @@
+{
+  "block.fw_wind.wind_turbine": "Wind Turbine",
+  "block.fw_wind.wind_turbine.desc": "Up to 24 FE/t (more in storms). Higher is better; keep the space above clear.",
+  "block.fw_wind.large_wind_turbine": "Large Wind Turbine",
+  "block.fw_wind.large_wind_turbine.desc": "Up to 96 FE/t (more in storms). Higher is better; keep the space above clear.",
+  "item.fw_wind.turbine_blade": "Turbine Blade",
+  "gui.fw_wind.tip": "Higher = stronger wind"
+}

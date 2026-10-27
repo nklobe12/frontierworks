@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/invar"
+    }
+  ],
+  "result": {
+    "item": "fw_alloys:invar_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "fw_freezer:freezing",
+  "inputs": [],
+  "outputs": [
+    {
+      "item": "minecraft:obsidian",
+      "count": 1
+    }
+  ],
+  "time": 120,
+  "energy": 40,
+  "fluid_in": {
+    "fluid": "minecraft:lava",
+    "amount": 1000
+  }
+}

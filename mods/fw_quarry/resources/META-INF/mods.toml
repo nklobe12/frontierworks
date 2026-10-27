@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_quarry"
+version="1.0.0"
+displayName="Frontierworks: Quarry"
+authors="Klobe & Claude"
+description='''An automatic Quarry that strips a 9x9 area (up to 41x41 with Range Upgrades) all the way to bedrock, replacing liquids with stone and sending everything to a chest on top.'''
+
+[[dependencies.fw_quarry]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_quarry]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_quarry]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

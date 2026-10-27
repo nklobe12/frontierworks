@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_cables"
+version="1.0.0"
+displayName="Frontierworks: Energy Cables"
+authors="Klobe & Claude"
+description='''Four tiers of energy cables - copper, gold, electrum and superconductor - that link generators, batteries and machines into one network with no losses.'''
+
+[[dependencies.fw_cables]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_cables]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_cables]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

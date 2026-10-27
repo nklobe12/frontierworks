@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "fw_parts:iron_plate",
+    "fw_parts:gold_plate",
+    "fw_parts:copper_plate",
+    "fw_parts:tin_plate",
+    "fw_parts:lead_plate",
+    "fw_parts:silver_plate",
+    "fw_parts:nickel_plate",
+    "fw_parts:zinc_plate",
+    "fw_parts:aluminum_plate",
+    "fw_parts:platinum_plate",
+    "fw_parts:bronze_plate",
+    "fw_parts:brass_plate",
+    "fw_parts:steel_plate",
+    "fw_parts:electrum_plate",
+    "fw_parts:invar_plate",
+    "fw_parts:constantan_plate",
+    "fw_parts:duralumin_plate"
+  ]
+}

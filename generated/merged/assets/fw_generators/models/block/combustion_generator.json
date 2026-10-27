@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "fw_generators:block/casing_basic_top",
+    "bottom": "fw_generators:block/casing_basic_bottom",
+    "side": "fw_generators:block/casing_basic_side",
+    "front": "fw_generators:block/combustion_generator_front"
+  }
+}

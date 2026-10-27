@@ -1,0 +1,23 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "tag": "forge:ingots/uranium",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_metals:uranium_dust",
+      "count": 1
+    }
+  ],
+  "time": 100,
+  "energy": 16,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    }
+  ]
+}

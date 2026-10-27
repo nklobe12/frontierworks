@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "fw_redstone:block_breaker",
+    "fw_redstone:block_placer",
+    "fw_redstone:player_detector",
+    "fw_redstone:redstone_clock"
+  ]
+}

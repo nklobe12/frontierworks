@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "fw_metals:raw_lead"
+  },
+  "result": "fw_metals:lead_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}

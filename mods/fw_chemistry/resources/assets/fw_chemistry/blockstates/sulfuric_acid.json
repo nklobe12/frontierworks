@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fw_chemistry:block/sulfuric_acid"
+    }
+  }
+}

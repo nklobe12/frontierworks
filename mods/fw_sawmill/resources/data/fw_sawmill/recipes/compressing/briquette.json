@@ -1,0 +1,23 @@
+{
+  "type": "fw_machines:compressing",
+  "inputs": [
+    {
+      "item": "fw_sawmill:sawdust",
+      "count": 4
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_sawmill:sawdust_briquette",
+      "count": 1
+    }
+  ],
+  "time": 80,
+  "energy": 12,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_machines"
+    }
+  ]
+}

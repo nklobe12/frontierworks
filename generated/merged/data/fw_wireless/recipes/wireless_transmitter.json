@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " E ",
+    "PFP",
+    "CWC"
+  ],
+  "key": {
+    "E": {
+      "item": "fw_crystals:voidite_shard"
+    },
+    "P": {
+      "tag": "forge:plates/electrum"
+    },
+    "F": {
+      "item": "fw_parts:advanced_frame"
+    },
+    "C": {
+      "item": "fw_circuits:advanced_circuit"
+    },
+    "W": {
+      "item": "fw_cables:gold_cable"
+    }
+  },
+  "result": {
+    "item": "fw_wireless:wireless_transmitter",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_cables"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_crystals"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "PBP",
+    "HFH"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "B": {
+      "item": "fw_steam:boiler"
+    },
+    "H": {
+      "item": "fw_parts:heating_coil"
+    },
+    "F": {
+      "item": "fw_parts:machine_frame"
+    }
+  },
+  "result": {
+    "item": "fw_steam:high_pressure_boiler",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "fw_press:pressing",
+  "inputs": [
+    {
+      "tag": "forge:ingots/constantan",
+      "count": 4
+    },
+    {
+      "item": "fw_press:gear_mold",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_parts:constantan_gear",
+      "count": 1
+    },
+    {
+      "item": "fw_press:gear_mold",
+      "count": 1
+    }
+  ],
+  "time": 120,
+  "energy": 30,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_press"
+    }
+  ]
+}

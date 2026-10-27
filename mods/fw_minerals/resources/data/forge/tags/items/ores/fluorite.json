@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fw_minerals:fluorite_ore",
+    "fw_minerals:deepslate_fluorite_ore"
+  ]
+}

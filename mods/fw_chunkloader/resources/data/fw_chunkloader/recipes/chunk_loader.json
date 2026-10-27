@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PEP",
+    "EFE",
+    "PCP"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "E": {
+      "tag": "forge:ender_pearls"
+    },
+    "F": {
+      "item": "fw_parts:advanced_frame"
+    },
+    "C": {
+      "item": "fw_circuits:advanced_circuit"
+    }
+  },
+  "result": {
+    "item": "fw_chunkloader:chunk_loader",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

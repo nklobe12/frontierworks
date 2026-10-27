@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WWW",
+    "RPR",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "tag": "forge:wires/copper"
+    },
+    "R": {
+      "tag": "forge:dusts/redstone"
+    },
+    "P": {
+      "tag": "forge:plates/tin"
+    }
+  },
+  "result": {
+    "item": "fw_circuits:basic_circuit",
+    "count": 1
+  }
+}

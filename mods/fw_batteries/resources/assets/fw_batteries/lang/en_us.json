@@ -1,0 +1,18 @@
+{
+  "block.fw_batteries.energy_cell_basic": "Energy Cell Basic",
+  "block.fw_batteries.energy_cell_basic.desc": "Stores 1,000,000 FE. Outputs from the front, accepts on other sides. Keeps charge when broken.",
+  "block.fw_batteries.energy_cell_advanced": "Energy Cell Advanced",
+  "block.fw_batteries.energy_cell_advanced.desc": "Stores 8,000,000 FE. Outputs from the front, accepts on other sides. Keeps charge when broken.",
+  "block.fw_batteries.energy_cell_elite": "Energy Cell Elite",
+  "block.fw_batteries.energy_cell_elite.desc": "Stores 64,000,000 FE. Outputs from the front, accepts on other sides. Keeps charge when broken.",
+  "block.fw_batteries.energy_cell_ultimate": "Energy Cell Ultimate",
+  "block.fw_batteries.energy_cell_ultimate.desc": "Stores 512,000,000 FE. Outputs from the front, accepts on other sides. Keeps charge when broken.",
+  "item.fw_batteries.battery_cell": "Battery Cell",
+  "item.fw_batteries.battery_basic": "Battery Basic",
+  "item.fw_batteries.battery_basic.desc": "Portable energy. Put it in a machine battery slot or charge it in an energy cell.",
+  "item.fw_batteries.battery_advanced": "Battery Advanced",
+  "item.fw_batteries.battery_advanced.desc": "Portable energy. Put it in a machine battery slot or charge it in an energy cell.",
+  "item.fw_batteries.battery_elite": "Battery Elite",
+  "item.fw_batteries.battery_elite.desc": "Portable energy. Put it in a machine battery slot or charge it in an energy cell.",
+  "gui.fw_batteries.io": "Max I/O: %s FE/t"
+}

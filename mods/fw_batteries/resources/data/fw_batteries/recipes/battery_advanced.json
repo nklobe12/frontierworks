@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GBG",
+    "BCB",
+    "GBG"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:wires/gold"
+    },
+    "B": {
+      "item": "fw_batteries:battery_basic"
+    },
+    "C": {
+      "item": "fw_circuits:advanced_circuit"
+    }
+  },
+  "result": {
+    "item": "fw_batteries:battery_advanced",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "fw_meteors:scorched_stone",
+    "fw_meteors:meteorite",
+    "fw_meteors:meteoric_iron_ore",
+    "fw_meteors:star_fragment_ore",
+    "fw_meteors:meteoric_steel_block"
+  ]
+}

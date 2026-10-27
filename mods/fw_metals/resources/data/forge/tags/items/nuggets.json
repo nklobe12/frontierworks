@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "fw_metals:tin_nugget",
+    "#forge:nuggets/tin",
+    "fw_metals:lead_nugget",
+    "#forge:nuggets/lead",
+    "fw_metals:silver_nugget",
+    "#forge:nuggets/silver",
+    "fw_metals:nickel_nugget",
+    "#forge:nuggets/nickel",
+    "fw_metals:zinc_nugget",
+    "#forge:nuggets/zinc",
+    "fw_metals:aluminum_nugget",
+    "#forge:nuggets/aluminum",
+    "fw_metals:platinum_nugget",
+    "#forge:nuggets/platinum",
+    "fw_metals:uranium_nugget",
+    "#forge:nuggets/uranium"
+  ]
+}

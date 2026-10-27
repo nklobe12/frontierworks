@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "I",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/nickel"
+    }
+  },
+  "result": {
+    "item": "fw_parts:nickel_rod",
+    "count": 2
+  }
+}

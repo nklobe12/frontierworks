@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PHP",
+    "GFG",
+    "CWC"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "H": {
+      "item": "fw_parts:heating_coil"
+    },
+    "G": {
+      "item": "fw_generators:combustion_generator"
+    },
+    "F": {
+      "item": "fw_parts:machine_frame"
+    },
+    "C": {
+      "tag": "forge:ingots/invar"
+    },
+    "W": {
+      "item": "fw_circuits:basic_circuit"
+    }
+  },
+  "result": {
+    "item": "fw_generators:reinforced_generator",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

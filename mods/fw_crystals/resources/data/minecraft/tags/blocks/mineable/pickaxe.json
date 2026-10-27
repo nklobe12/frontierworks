@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "fw_crystals:energite_block",
+    "fw_crystals:small_energite_bud",
+    "fw_crystals:medium_energite_bud",
+    "fw_crystals:large_energite_bud",
+    "fw_crystals:energite_cluster",
+    "fw_crystals:budding_energite",
+    "fw_crystals:voidite_block",
+    "fw_crystals:small_voidite_bud",
+    "fw_crystals:medium_voidite_bud",
+    "fw_crystals:large_voidite_bud",
+    "fw_crystals:voidite_cluster",
+    "fw_crystals:budding_voidite"
+  ]
+}

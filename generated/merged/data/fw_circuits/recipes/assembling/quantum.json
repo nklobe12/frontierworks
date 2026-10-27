@@ -1,0 +1,35 @@
+{
+  "type": "fw_circuits:assembling",
+  "inputs": [
+    {
+      "item": "fw_circuits:elite_circuit",
+      "count": 2
+    },
+    {
+      "item": "fw_moon:helium3_crystal",
+      "count": 2
+    },
+    {
+      "item": "fw_crystals:voidite_shard",
+      "count": 2
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_circuits:quantum_circuit",
+      "count": 1
+    }
+  ],
+  "time": 400,
+  "energy": 400,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_crystals"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_moon"
+    }
+  ]
+}

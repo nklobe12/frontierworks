@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/bronze"
+    }
+  ],
+  "result": {
+    "item": "fw_alloys:bronze_ingot",
+    "count": 9
+  }
+}

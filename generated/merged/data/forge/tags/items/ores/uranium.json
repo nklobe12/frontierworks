@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fw_metals:uranium_ore",
+    "fw_metals:deepslate_uranium_ore"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "fw_vacuum:block/casing_basic_top",
+    "bottom": "fw_vacuum:block/casing_basic_bottom",
+    "side": "fw_vacuum:block/casing_basic_side",
+    "front": "fw_vacuum:block/vacuum_hopper_front_on"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/peridot"
+    }
+  ],
+  "result": {
+    "item": "fw_gems:peridot",
+    "count": 9
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "tag": "forge:ores/peridot"
+  },
+  "result": "fw_gems:peridot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

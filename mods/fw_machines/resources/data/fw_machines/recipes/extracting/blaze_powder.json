@@ -1,0 +1,17 @@
+{
+  "type": "fw_machines:extracting",
+  "inputs": [
+    {
+      "item": "minecraft:magma_cream",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:blaze_powder",
+      "count": 2
+    }
+  ],
+  "time": 120,
+  "energy": 16
+}

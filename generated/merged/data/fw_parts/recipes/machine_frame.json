@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PIP",
+    "I I",
+    "PIP"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "I": {
+      "tag": "forge:ingots/tin"
+    }
+  },
+  "result": {
+    "item": "fw_parts:machine_frame",
+    "count": 1
+  }
+}

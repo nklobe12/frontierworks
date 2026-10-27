@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "fw_batteries:block/energy_cell_advanced_top",
+    "bottom": "fw_batteries:block/energy_cell_advanced_top",
+    "side": "fw_batteries:block/energy_cell_advanced_side",
+    "front": "fw_batteries:block/energy_cell_advanced_front_on"
+  }
+}

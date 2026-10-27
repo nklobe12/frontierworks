@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "fw_tanks:tank_basic",
+    "fw_tanks:tank_reinforced",
+    "fw_tanks:tank_elite",
+    "fw_tanks:tank_ultimate"
+  ]
+}

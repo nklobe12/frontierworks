@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "fw_batteries:energy_cell_basic",
+    "fw_batteries:energy_cell_advanced",
+    "fw_batteries:energy_cell_elite",
+    "fw_batteries:energy_cell_ultimate"
+  ]
+}

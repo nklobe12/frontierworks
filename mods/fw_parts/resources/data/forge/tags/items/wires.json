@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "fw_parts:copper_wire",
+    "fw_parts:gold_wire",
+    "fw_parts:electrum_wire",
+    "fw_parts:aluminum_wire",
+    "fw_parts:constantan_wire"
+  ]
+}

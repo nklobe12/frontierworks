@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "fw_pipes:item_pipe",
+    "fw_pipes:extraction_pipe",
+    "fw_pipes:fast_extraction_pipe",
+    "fw_pipes:elite_extraction_pipe"
+  ]
+}

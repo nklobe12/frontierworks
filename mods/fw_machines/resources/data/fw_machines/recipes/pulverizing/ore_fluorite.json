@@ -1,0 +1,23 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "tag": "forge:ores/fluorite",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_minerals:fluorite",
+      "count": 4
+    }
+  ],
+  "time": 200,
+  "energy": 20,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_minerals"
+    }
+  ]
+}

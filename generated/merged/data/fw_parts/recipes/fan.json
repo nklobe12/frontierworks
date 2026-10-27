@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " P ",
+    "PRP",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/aluminum"
+    },
+    "R": {
+      "tag": "forge:rods/iron"
+    }
+  },
+  "result": {
+    "item": "fw_parts:fan",
+    "count": 1
+  }
+}

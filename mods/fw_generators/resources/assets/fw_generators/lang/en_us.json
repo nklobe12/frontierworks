@@ -1,0 +1,8 @@
+{
+  "block.fw_generators.combustion_generator": "Combustion Generator",
+  "block.fw_generators.combustion_generator.desc": "Burns furnace fuel for 20 FE/t",
+  "block.fw_generators.reinforced_generator": "Reinforced Generator",
+  "block.fw_generators.reinforced_generator.desc": "Burns furnace fuel for 60 FE/t",
+  "block.fw_generators.lava_generator": "Lava Generator",
+  "block.fw_generators.lava_generator.desc": "Burns lava for 60 FE/t (20 mB per second)"
+}

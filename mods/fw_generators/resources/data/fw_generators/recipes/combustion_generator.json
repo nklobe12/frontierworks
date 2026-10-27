@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "PFP",
+    "CWC"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "C": {
+      "tag": "forge:ingots/copper"
+    },
+    "W": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "result": {
+    "item": "fw_generators:combustion_generator",
+    "count": 1
+  }
+}

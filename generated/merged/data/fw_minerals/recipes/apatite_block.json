@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_minerals:apatite"
+    }
+  },
+  "result": {
+    "item": "fw_minerals:apatite_block",
+    "count": 1
+  }
+}

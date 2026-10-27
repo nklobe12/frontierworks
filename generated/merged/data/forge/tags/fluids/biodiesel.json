@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fw_petro:biodiesel",
+    "fw_petro:flowing_biodiesel"
+  ]
+}

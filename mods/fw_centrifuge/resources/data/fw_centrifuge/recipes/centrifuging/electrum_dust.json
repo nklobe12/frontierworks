@@ -1,0 +1,27 @@
+{
+  "type": "fw_centrifuge:centrifuging",
+  "inputs": [
+    {
+      "tag": "forge:dusts/electrum",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_metals:gold_dust",
+      "count": 1
+    },
+    {
+      "item": "fw_metals:silver_dust",
+      "count": 1
+    }
+  ],
+  "time": 160,
+  "energy": 40,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    }
+  ]
+}

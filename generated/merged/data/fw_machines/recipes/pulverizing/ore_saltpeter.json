@@ -1,0 +1,23 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "tag": "forge:ores/saltpeter",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_minerals:saltpeter",
+      "count": 5
+    }
+  ],
+  "time": 200,
+  "energy": 20,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_minerals"
+    }
+  ]
+}

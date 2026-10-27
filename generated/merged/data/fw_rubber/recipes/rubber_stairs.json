@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_rubber:rubber_planks"
+    }
+  },
+  "result": {
+    "item": "fw_rubber:rubber_stairs",
+    "count": 4
+  }
+}

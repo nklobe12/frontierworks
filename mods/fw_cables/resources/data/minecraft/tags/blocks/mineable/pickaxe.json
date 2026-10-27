@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "fw_cables:copper_cable",
+    "fw_cables:gold_cable",
+    "fw_cables:electrum_cable",
+    "fw_cables:superconductor_cable"
+  ]
+}

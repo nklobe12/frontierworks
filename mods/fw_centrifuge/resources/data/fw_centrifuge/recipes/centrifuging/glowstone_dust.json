@@ -1,0 +1,29 @@
+{
+  "type": "fw_centrifuge:centrifuging",
+  "inputs": [
+    {
+      "item": "minecraft:glowstone_dust",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:redstone",
+      "count": 1,
+      "chance": 0.5
+    },
+    {
+      "item": "fw_metals:gold_dust",
+      "count": 1,
+      "chance": 0.25
+    }
+  ],
+  "time": 160,
+  "energy": 40,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "fw_sawmill:sawing",
+  "inputs": [
+    {
+      "tag": "minecraft:acacia_logs",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:acacia_planks",
+      "count": 6
+    },
+    {
+      "item": "fw_sawmill:sawdust",
+      "count": 1,
+      "chance": 0.5
+    }
+  ],
+  "time": 100,
+  "energy": 16
+}

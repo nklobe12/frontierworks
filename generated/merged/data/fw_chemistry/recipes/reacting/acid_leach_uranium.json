@@ -1,0 +1,27 @@
+{
+  "type": "fw_chemistry:reacting",
+  "inputs": [
+    {
+      "tag": "forge:ores/uranium",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_metals:uranium_dust",
+      "count": 4
+    }
+  ],
+  "time": 240,
+  "energy": 80,
+  "fluid_in": {
+    "fluid": "fw_chemistry:sulfuric_acid",
+    "amount": 250
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    }
+  ]
+}

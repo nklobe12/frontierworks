@@ -1,0 +1,10 @@
+{
+  "block.fw_machines.pulverizer": "Pulverizer",
+  "block.fw_machines.pulverizer.desc": "Grinds ores into two dusts, with a chance of a bonus byproduct",
+  "block.fw_machines.electric_furnace": "Electric Furnace",
+  "block.fw_machines.electric_furnace.desc": "Smelts anything a furnace can, faster and without fuel",
+  "block.fw_machines.compressor": "Compressor",
+  "block.fw_machines.compressor.desc": "Compresses ingots into plates and more",
+  "block.fw_machines.extractor": "Extractor",
+  "block.fw_machines.extractor.desc": "Extracts latex, dyes and sugars from plants"
+}

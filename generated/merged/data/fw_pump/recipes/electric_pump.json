@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PBP",
+    "MFM",
+    "PDP"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "M": {
+      "item": "fw_parts:motor"
+    },
+    "F": {
+      "item": "fw_parts:machine_frame"
+    },
+    "D": {
+      "item": "fw_fluidducts:fluid_duct"
+    }
+  },
+  "result": {
+    "item": "fw_pump:electric_pump",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_fluidducts"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

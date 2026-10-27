@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_core"
+version="1.0.0"
+displayName="Frontierworks: Core"
+authors="Klobe & Claude"
+description='''Shared framework for every Frontierworks mod: Forge Energy, the machine system, data-driven machine recipes, loot injection and the creative tabs.'''
+
+[[dependencies.fw_core]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_core]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"

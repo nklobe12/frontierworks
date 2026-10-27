@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_stone:gabbro"
+    }
+  },
+  "result": {
+    "item": "fw_stone:gabbro_wall",
+    "count": 6
+  }
+}

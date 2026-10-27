@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " W ",
+    "PCP",
+    "PCP"
+  ],
+  "key": {
+    "W": {
+      "tag": "forge:wires/copper"
+    },
+    "P": {
+      "tag": "forge:plates/tin"
+    },
+    "C": {
+      "item": "fw_batteries:battery_cell"
+    }
+  },
+  "result": {
+    "item": "fw_batteries:battery_basic",
+    "count": 1
+  }
+}

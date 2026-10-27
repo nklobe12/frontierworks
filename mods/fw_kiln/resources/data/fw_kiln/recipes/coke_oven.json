@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BCB",
+    "BFB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "fw_kiln:kiln_brick"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "C": {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "result": {
+    "item": "fw_kiln:coke_oven",
+    "count": 1
+  }
+}

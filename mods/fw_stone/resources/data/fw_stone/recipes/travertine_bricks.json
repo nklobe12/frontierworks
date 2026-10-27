@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_stone:polished_travertine"
+    }
+  },
+  "result": {
+    "item": "fw_stone:travertine_bricks",
+    "count": 4
+  }
+}

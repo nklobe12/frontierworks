@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BTB",
+    "TFT",
+    "CWC"
+  ],
+  "key": {
+    "B": {
+      "item": "fw_wind:turbine_blade"
+    },
+    "T": {
+      "item": "fw_wind:wind_turbine"
+    },
+    "F": {
+      "item": "fw_parts:advanced_frame"
+    },
+    "C": {
+      "item": "fw_parts:steel_gear"
+    },
+    "W": {
+      "item": "fw_circuits:advanced_circuit"
+    }
+  },
+  "result": {
+    "item": "fw_wind:large_wind_turbine",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

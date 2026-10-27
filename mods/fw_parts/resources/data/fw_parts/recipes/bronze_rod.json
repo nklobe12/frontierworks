@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "I",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/bronze"
+    }
+  },
+  "result": {
+    "item": "fw_parts:bronze_rod",
+    "count": 2
+  }
+}

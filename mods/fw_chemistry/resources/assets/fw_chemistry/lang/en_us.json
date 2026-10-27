@@ -1,0 +1,14 @@
+{
+  "block.fw_chemistry.chemical_reactor": "Chemical Reactor",
+  "block.fw_chemistry.chemical_reactor.desc": "Two items plus a fluid in, an item and/or fluid out",
+  "fluid_type.fw_chemistry.sulfuric_acid": "Sulfuric Acid",
+  "block.fw_chemistry.sulfuric_acid": "Sulfuric Acid",
+  "item.fw_chemistry.sulfuric_acid_bucket": "Sulfuric Acid Bucket",
+  "item.fw_chemistry.vulcanized_rubber": "Vulcanized Rubber",
+  "item.fw_chemistry.vulcanized_rubber.desc": "Heat-resistant rubber for advanced cables and seals",
+  "item.fw_chemistry.plastic_sheet": "Plastic Sheet",
+  "item.fw_chemistry.fertilizer": "Fertilizer",
+  "item.fw_chemistry.fertilizer.desc": "Use on crops like bone meal. Works twice as well.",
+  "item.fw_chemistry.carbon_fiber": "Carbon Fiber",
+  "item.fw_chemistry.carbon_fiber.desc": "Light, strong composite for gear and rockets"
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fw_freezer:block/cryotheum_block"
+    }
+  }
+}

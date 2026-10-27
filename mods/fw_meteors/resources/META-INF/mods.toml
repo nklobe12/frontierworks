@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_meteors"
+version="1.0.0"
+displayName="Frontierworks: Meteors"
+authors="Klobe & Claude"
+description='''Meteor craters scar the overworld. Their cores hold meteorite, meteoric iron and rare star fragments - the key to meteoric steel tools and late-game tech.'''
+
+[[dependencies.fw_meteors]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_meteors]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_meteors]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PGP",
+    "GTG",
+    "PGP"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "G": {
+      "tag": "forge:glass"
+    },
+    "T": {
+      "item": "fw_tanks:tank_basic"
+    }
+  },
+  "result": {
+    "item": "fw_tanks:tank_reinforced",
+    "count": 1
+  }
+}

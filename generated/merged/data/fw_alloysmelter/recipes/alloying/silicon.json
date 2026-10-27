@@ -1,0 +1,31 @@
+{
+  "type": "fw_alloysmelter:alloying",
+  "inputs": [
+    {
+      "tag": "minecraft:sand",
+      "count": 2
+    },
+    {
+      "item": "fw_metals:coal_dust",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_circuits:silicon",
+      "count": 1
+    }
+  ],
+  "time": 200,
+  "energy": 30,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    }
+  ]
+}

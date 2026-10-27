@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fw_stone:block/limestone_slab"
+    },
+    "type=top": {
+      "model": "fw_stone:block/limestone_slab_top"
+    },
+    "type=double": {
+      "model": "fw_stone:block/limestone_slab_double"
+    }
+  }
+}

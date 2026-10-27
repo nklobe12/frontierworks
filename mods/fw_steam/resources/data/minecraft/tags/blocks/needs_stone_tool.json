@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "fw_steam:boiler",
+    "fw_steam:high_pressure_boiler",
+    "fw_steam:steam_engine",
+    "fw_steam:steam_turbine"
+  ]
+}

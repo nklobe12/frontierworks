@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "fw_hydro:block/hydro_turbine_top",
+    "bottom": "fw_hydro:block/hydro_turbine_top",
+    "side": "fw_hydro:block/hydro_turbine_side",
+    "front": "fw_hydro:block/hydro_turbine_side"
+  }
+}

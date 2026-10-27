@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_stone:slate"
+    }
+  },
+  "result": {
+    "item": "fw_stone:polished_slate",
+    "count": 4
+  }
+}

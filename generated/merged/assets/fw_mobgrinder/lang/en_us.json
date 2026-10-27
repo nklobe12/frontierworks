@@ -1,0 +1,6 @@
+{
+  "block.fw_mobgrinder.mob_grinder": "Mob Grinder",
+  "block.fw_mobgrinder.mob_grinder.desc": "Hits mobs in a 5x5x3 area above. Put a sword in the weapon slot for Looting and more damage.",
+  "gui.fw_mobgrinder.take_xp": "Take XP",
+  "gui.fw_mobgrinder.xp": "XP: %s"
+}

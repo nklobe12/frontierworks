@@ -1,0 +1,31 @@
+{
+  "type": "fw_chemistry:reacting",
+  "inputs": [
+    {
+      "item": "fw_metals:coal_dust",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_chemistry:plastic_sheet",
+      "count": 2
+    }
+  ],
+  "time": 160,
+  "energy": 60,
+  "fluid_in": {
+    "fluid": "fw_petro:lubricant",
+    "amount": 250
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_petro"
+    }
+  ]
+}

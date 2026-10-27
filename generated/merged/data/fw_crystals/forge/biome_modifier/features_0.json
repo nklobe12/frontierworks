@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "fw_crystals:energite_geode",
+    "fw_crystals:voidite_geode"
+  ],
+  "step": "local_modifications"
+}

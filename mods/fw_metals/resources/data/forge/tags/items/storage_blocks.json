@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "fw_metals:tin_block",
+    "fw_metals:lead_block",
+    "fw_metals:silver_block",
+    "fw_metals:nickel_block",
+    "fw_metals:zinc_block",
+    "fw_metals:aluminum_block",
+    "fw_metals:platinum_block",
+    "fw_metals:uranium_block"
+  ]
+}

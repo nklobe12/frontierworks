@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "SCS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:ingots/steel"
+    },
+    "C": {
+      "item": "fw_storage:iron_crate"
+    }
+  },
+  "result": {
+    "item": "fw_storage:steel_crate",
+    "count": 1
+  }
+}

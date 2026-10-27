@@ -1,0 +1,8 @@
+{
+  "block.fw_sawmill.sawmill": "Sawmill",
+  "block.fw_sawmill.sawmill.desc": "Logs into 6 planks and sawdust",
+  "item.fw_sawmill.sawdust": "Sawdust",
+  "item.fw_sawmill.sawdust_briquette": "Sawdust Briquette",
+  "item.fw_sawmill.sawdust_briquette.desc": "Compressed sawdust. Decent furnace fuel.",
+  "block.fw_sawmill.particle_board": "Particle Board"
+}

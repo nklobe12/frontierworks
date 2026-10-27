@@ -1,0 +1,14 @@
+{
+  "block.fw_teleporters.teleport_pad": "Teleport Pad",
+  "block.fw_teleporters.teleport_pad.desc": "Crouch on it for a second to teleport to its linked pad",
+  "item.fw_teleporters.coordinate_card": "Coordinate Card",
+  "item.fw_teleporters.coordinate_card.desc": "Sneak-right-click a pad to record it. Right-click another pad to link it.",
+  "gui.fw_teleporters.unlinked": "Not linked",
+  "gui.fw_teleporters.linked": "Linked",
+  "gui.fw_teleporters.cost": "Cost: %s FE",
+  "gui.fw_teleporters.howto": "Crouch on the pad to go",
+  "msg.fw_teleporters.no_power": "Not enough power (%s FE needed)",
+  "msg.fw_teleporters.recorded": "Pad recorded",
+  "msg.fw_teleporters.linked": "Pad linked",
+  "msg.fw_teleporters.empty": "Sneak-right-click a pad first to record it"
+}

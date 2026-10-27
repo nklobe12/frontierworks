@@ -1,0 +1,5 @@
+{
+  "block.fw_pump.electric_pump": "Electric Pump",
+  "block.fw_pump.electric_pump.desc": "Place above a fluid. Water is never used up.",
+  "gui.fw_pump.tip": "Pumps from below"
+}

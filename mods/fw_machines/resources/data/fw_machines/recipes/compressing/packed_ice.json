@@ -1,0 +1,17 @@
+{
+  "type": "fw_machines:compressing",
+  "inputs": [
+    {
+      "item": "minecraft:ice",
+      "count": 4
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:packed_ice",
+      "count": 1
+    }
+  ],
+  "time": 160,
+  "energy": 20
+}

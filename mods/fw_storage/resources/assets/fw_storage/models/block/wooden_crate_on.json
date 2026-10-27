@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "fw_storage:block/wooden_crate",
+    "bottom": "fw_storage:block/wooden_crate",
+    "side": "fw_storage:block/wooden_crate",
+    "front": "fw_storage:block/wooden_crate"
+  }
+}

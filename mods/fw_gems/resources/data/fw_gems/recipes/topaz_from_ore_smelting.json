@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "tag": "forge:ores/topaz"
+  },
+  "result": "fw_gems:topaz",
+  "experience": 1.0,
+  "cookingtime": 200
+}

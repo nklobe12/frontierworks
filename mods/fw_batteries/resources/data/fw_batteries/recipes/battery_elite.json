@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EBE",
+    "BCB",
+    "EBE"
+  ],
+  "key": {
+    "E": {
+      "item": "fw_crystals:charged_energite"
+    },
+    "B": {
+      "item": "fw_batteries:battery_advanced"
+    },
+    "C": {
+      "item": "fw_circuits:elite_circuit"
+    }
+  },
+  "result": {
+    "item": "fw_batteries:battery_elite",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_crystals"
+    }
+  ]
+}

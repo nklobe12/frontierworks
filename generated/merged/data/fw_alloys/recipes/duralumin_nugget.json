@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/duralumin"
+    }
+  ],
+  "result": {
+    "item": "fw_alloys:duralumin_nugget",
+    "count": 9
+  }
+}

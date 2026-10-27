@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:ingots/zinc"
+    }
+  },
+  "result": {
+    "item": "fw_metals:zinc_block",
+    "count": 1
+  }
+}

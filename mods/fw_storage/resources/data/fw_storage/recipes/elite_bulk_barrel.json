@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PDP",
+    "DBD",
+    "PDP"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "B": {
+      "item": "fw_storage:reinforced_bulk_barrel"
+    }
+  },
+  "result": {
+    "item": "fw_storage:elite_bulk_barrel",
+    "count": 1
+  }
+}

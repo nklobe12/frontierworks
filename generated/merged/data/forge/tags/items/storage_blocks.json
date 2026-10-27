@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "fw_metals:tin_block",
+    "fw_metals:lead_block",
+    "fw_metals:silver_block",
+    "fw_metals:nickel_block",
+    "fw_metals:zinc_block",
+    "fw_metals:aluminum_block",
+    "fw_metals:platinum_block",
+    "fw_metals:uranium_block",
+    "fw_alloys:bronze_block",
+    "fw_alloys:brass_block",
+    "fw_alloys:steel_block",
+    "fw_alloys:electrum_block",
+    "fw_alloys:invar_block",
+    "fw_alloys:constantan_block",
+    "fw_alloys:duralumin_block"
+  ]
+}

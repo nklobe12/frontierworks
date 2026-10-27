@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_minerals:saltpeter_block"
+    }
+  ],
+  "result": {
+    "item": "fw_minerals:saltpeter",
+    "count": 9
+  }
+}

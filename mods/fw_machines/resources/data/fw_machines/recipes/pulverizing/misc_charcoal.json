@@ -1,0 +1,23 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "item": "minecraft:charcoal",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_metals:coal_dust",
+      "count": 1
+    }
+  ],
+  "time": 120,
+  "energy": 16,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    }
+  ]
+}

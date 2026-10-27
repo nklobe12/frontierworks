@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_metals:raw_zinc"
+    }
+  },
+  "result": {
+    "item": "fw_metals:raw_zinc_block",
+    "count": 1
+  }
+}

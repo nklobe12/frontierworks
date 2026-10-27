@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "fw_conveyors:conveyor_belt",
+    "fw_conveyors:fast_conveyor_belt",
+    "fw_conveyors:express_conveyor_belt"
+  ]
+}

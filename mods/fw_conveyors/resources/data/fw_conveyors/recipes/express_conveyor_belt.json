@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BBB",
+    "CSC"
+  ],
+  "key": {
+    "B": {
+      "item": "fw_conveyors:fast_conveyor_belt"
+    },
+    "C": {
+      "item": "fw_circuits:basic_circuit"
+    },
+    "S": {
+      "item": "fw_parts:servo"
+    }
+  },
+  "result": {
+    "item": "fw_conveyors:express_conveyor_belt",
+    "count": 3
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

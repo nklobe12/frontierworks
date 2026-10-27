@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fw_petro:refinery",
+    "fw_petro:diesel_generator"
+  ]
+}

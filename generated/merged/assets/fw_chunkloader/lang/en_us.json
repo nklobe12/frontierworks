@@ -1,0 +1,5 @@
+{
+  "block.fw_chunkloader.chunk_loader": "Chunk Loader",
+  "block.fw_chunkloader.advanced_chunk_loader": "Advanced Chunk Loader",
+  "tooltip.fw_chunkloader.area": "Keeps %sx%s chunks loaded"
+}

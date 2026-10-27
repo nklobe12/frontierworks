@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "ICI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "C": {
+      "item": "fw_storage:wooden_crate"
+    }
+  },
+  "result": {
+    "item": "fw_storage:iron_crate",
+    "count": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "tag": "forge:ores/peridot",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_gems:peridot",
+      "count": 2
+    },
+    {
+      "item": "fw_gems:peridot",
+      "count": 1,
+      "chance": 0.25
+    }
+  ],
+  "time": 200,
+  "energy": 20,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_gems"
+    }
+  ]
+}

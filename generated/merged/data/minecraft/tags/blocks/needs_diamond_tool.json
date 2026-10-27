@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "fw_metals:platinum_ore",
+    "fw_metals:deepslate_platinum_ore",
+    "fw_metals:platinum_block",
+    "fw_metals:raw_platinum_block",
+    "fw_metals:uranium_ore",
+    "fw_metals:deepslate_uranium_ore",
+    "fw_metals:uranium_block",
+    "fw_metals:raw_uranium_block",
+    "fw_gems:onyx_ore",
+    "fw_gems:deepslate_onyx_ore",
+    "fw_gems:onyx_block",
+    "fw_meteors:star_fragment_ore"
+  ]
+}

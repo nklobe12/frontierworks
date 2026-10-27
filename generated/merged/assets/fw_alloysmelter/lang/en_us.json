@@ -1,0 +1,6 @@
+{
+  "block.fw_alloysmelter.alloy_smelter": "Alloy Smelter",
+  "block.fw_alloysmelter.alloy_smelter.desc": "Fuses two ingredients into one - alloys, silicon, hardened glass",
+  "item.fw_alloysmelter.redstone_alloy_ingot": "Redstone Alloy Ingot",
+  "item.fw_alloysmelter.redstone_alloy_ingot.desc": "Conductive alloy used in circuits and cables"
+}

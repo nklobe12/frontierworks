@@ -1,0 +1,22 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "item": "minecraft:gravel",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:sand",
+      "count": 1
+    },
+    {
+      "item": "minecraft:flint",
+      "count": 1,
+      "chance": 0.15
+    }
+  ],
+  "time": 120,
+  "energy": 16
+}

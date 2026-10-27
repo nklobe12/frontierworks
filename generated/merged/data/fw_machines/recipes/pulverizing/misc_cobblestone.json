@@ -1,0 +1,17 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "tag": "forge:cobblestone",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:gravel",
+      "count": 1
+    }
+  ],
+  "time": 120,
+  "energy": 16
+}

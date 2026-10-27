@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GBG",
+    "PFP",
+    "CWC"
+  ],
+  "key": {
+    "G": {
+      "item": "fw_glass:hardened_glass"
+    },
+    "B": {
+      "item": "minecraft:beacon"
+    },
+    "P": {
+      "tag": "forge:plates/platinum"
+    },
+    "F": {
+      "item": "fw_parts:elite_frame"
+    },
+    "C": {
+      "item": "fw_crystals:charged_energite"
+    },
+    "W": {
+      "item": "fw_circuits:elite_circuit"
+    }
+  },
+  "result": {
+    "item": "fw_beacons:field_projector",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_crystals"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_glass"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "fw_chemistry:reacting",
+  "inputs": [
+    {
+      "item": "fw_minerals:apatite",
+      "count": 1
+    },
+    {
+      "item": "minecraft:bone_meal",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_chemistry:fertilizer",
+      "count": 4
+    }
+  ],
+  "time": 100,
+  "energy": 20,
+  "fluid_in": {
+    "fluid": "minecraft:water",
+    "amount": 250
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_minerals"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_machines"
+version="1.0.0"
+displayName="Frontierworks: Machines"
+authors="Klobe & Claude"
+description='''The first electric machines: Pulverizer (ore doubling), Electric Furnace, Compressor and Extractor. All accept Speed, Efficiency and Capacity upgrades.'''
+
+[[dependencies.fw_machines]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_machines]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_machines]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

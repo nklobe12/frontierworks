@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_fluidducts"
+version="1.0.0"
+displayName="Frontierworks: Fluid Ducts"
+authors="Klobe & Claude"
+description='''Move water, lava, oil, steam and every other fluid: pump ducts drain adjacent tanks and machines and fill everything else on the network.'''
+
+[[dependencies.fw_fluidducts]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_fluidducts]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_fluidducts]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

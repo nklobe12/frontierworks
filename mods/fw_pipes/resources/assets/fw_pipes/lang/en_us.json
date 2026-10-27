@@ -1,0 +1,12 @@
+{
+  "block.fw_pipes.item_pipe": "Item Pipe",
+  "block.fw_pipes.extraction_pipe": "Extraction Pipe",
+  "block.fw_pipes.fast_extraction_pipe": "Fast Extraction Pipe",
+  "block.fw_pipes.elite_extraction_pipe": "Elite Extraction Pipe",
+  "tooltip.fw_pipes.extract": "Pulls %s items every %ss from adjacent inventories",
+  "tooltip.fw_pipes.filter": "Right-click with an item to filter. Sneak + empty hand clears. Redstone pauses.",
+  "tooltip.fw_pipes.transport": "Carries items between extraction pipes and inventories",
+  "msg.fw_pipes.filter_set": "Filter: %s",
+  "msg.fw_pipes.filter_cleared": "Filter cleared",
+  "msg.fw_pipes.no_filter": "No filter"
+}

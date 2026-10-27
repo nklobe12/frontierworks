@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "fw_crystals:energite_block",
+    "fw_crystals:budding_energite",
+    "fw_crystals:voidite_block",
+    "fw_crystals:budding_voidite"
+  ]
+}

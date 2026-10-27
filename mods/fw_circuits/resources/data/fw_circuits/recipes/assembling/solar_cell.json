@@ -1,0 +1,25 @@
+{
+  "type": "fw_circuits:assembling",
+  "inputs": [
+    {
+      "item": "fw_circuits:silicon_wafer",
+      "count": 3
+    },
+    {
+      "tag": "forge:glass_panes",
+      "count": 2
+    },
+    {
+      "tag": "forge:wires/copper",
+      "count": 2
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_circuits:solar_cell",
+      "count": 2
+    }
+  ],
+  "time": 120,
+  "energy": 40
+}

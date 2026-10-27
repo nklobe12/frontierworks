@@ -1,0 +1,23 @@
+{
+  "type": "fw_machines:compressing",
+  "inputs": [
+    {
+      "item": "fw_metals:coal_dust",
+      "count": 2
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:coal",
+      "count": 1
+    }
+  ],
+  "time": 160,
+  "energy": 20,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    }
+  ]
+}

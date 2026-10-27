@@ -1,0 +1,17 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "item": "minecraft:bone",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:bone_meal",
+      "count": 6
+    }
+  ],
+  "time": 120,
+  "energy": 16
+}

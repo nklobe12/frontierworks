@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "fw_minerals:sulfur_ore",
+    "fw_minerals:deepslate_sulfur_ore",
+    "fw_minerals:saltpeter_ore",
+    "fw_minerals:deepslate_saltpeter_ore",
+    "fw_minerals:graphite_ore",
+    "fw_minerals:deepslate_graphite_ore",
+    "fw_minerals:fluorite_ore",
+    "fw_minerals:deepslate_fluorite_ore",
+    "fw_minerals:apatite_ore",
+    "fw_minerals:deepslate_apatite_ore"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "fw_petro:block/casing_advanced_top",
+    "bottom": "fw_petro:block/casing_advanced_bottom",
+    "side": "fw_petro:block/casing_advanced_side",
+    "front": "fw_petro:block/refinery_front"
+  }
+}

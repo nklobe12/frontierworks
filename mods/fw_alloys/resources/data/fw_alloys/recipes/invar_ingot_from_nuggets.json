@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:nuggets/invar"
+    }
+  },
+  "result": {
+    "item": "fw_alloys:invar_ingot",
+    "count": 1
+  }
+}

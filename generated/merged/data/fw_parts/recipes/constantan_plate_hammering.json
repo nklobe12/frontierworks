@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_parts:engineers_hammer"
+    },
+    {
+      "tag": "forge:ingots/constantan"
+    }
+  ],
+  "result": {
+    "item": "fw_parts:constantan_plate",
+    "count": 1
+  }
+}

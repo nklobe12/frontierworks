@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "fw_stone:blob_marble",
+    "fw_stone:blob_limestone",
+    "fw_stone:blob_slate",
+    "fw_stone:blob_gabbro",
+    "fw_stone:blob_travertine"
+  ],
+  "step": "underground_ores"
+}

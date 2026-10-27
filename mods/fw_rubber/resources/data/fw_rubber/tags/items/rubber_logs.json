@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "fw_rubber:rubber_log",
+    "fw_rubber:rubber_wood",
+    "fw_rubber:stripped_rubber_log"
+  ]
+}

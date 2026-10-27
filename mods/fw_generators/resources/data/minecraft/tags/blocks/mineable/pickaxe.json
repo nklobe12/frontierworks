@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "fw_generators:combustion_generator",
+    "fw_generators:reinforced_generator",
+    "fw_generators:lava_generator"
+  ]
+}

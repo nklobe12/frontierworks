@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "fw_parts:iron_gear",
+    "fw_parts:gold_gear",
+    "fw_parts:copper_gear",
+    "fw_parts:tin_gear",
+    "fw_parts:lead_gear",
+    "fw_parts:silver_gear",
+    "fw_parts:nickel_gear",
+    "fw_parts:zinc_gear",
+    "fw_parts:aluminum_gear",
+    "fw_parts:platinum_gear",
+    "fw_parts:bronze_gear",
+    "fw_parts:brass_gear",
+    "fw_parts:steel_gear",
+    "fw_parts:electrum_gear",
+    "fw_parts:invar_gear",
+    "fw_parts:constantan_gear",
+    "fw_parts:duralumin_gear"
+  ]
+}

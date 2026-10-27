@@ -1,0 +1,14 @@
+{
+  "block.fw_wireless.wireless_transmitter": "Wireless Transmitter",
+  "block.fw_wireless.wireless_transmitter.desc": "Accepts power from cables",
+  "block.fw_wireless.wireless_receiver": "Wireless Receiver",
+  "block.fw_wireless.wireless_receiver.desc": "Pulls power from its linked transmitter (2048 FE/t, more with Speed Upgrades)",
+  "item.fw_wireless.link_card": "Link Card",
+  "item.fw_wireless.link_card.desc": "Right-click a transmitter to store it, then a receiver to link",
+  "gui.fw_wireless.transmitter": "Transmitter",
+  "gui.fw_wireless.linked": "Linked",
+  "gui.fw_wireless.unlinked": "Not linked",
+  "msg.fw_wireless.stored": "Transmitter stored on card",
+  "msg.fw_wireless.linked": "Receiver linked",
+  "msg.fw_wireless.empty": "Card is empty - use it on a transmitter first"
+}

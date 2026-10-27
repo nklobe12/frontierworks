@@ -1,0 +1,15 @@
+{
+  "block.fw_rubber.stripped_rubber_log": "Stripped Rubber Log",
+  "block.fw_rubber.rubber_log": "Rubber Log",
+  "block.fw_rubber.rubber_wood": "Rubber Wood",
+  "block.fw_rubber.rubber_planks": "Rubber Planks",
+  "block.fw_rubber.rubber_stairs": "Rubber Stairs",
+  "block.fw_rubber.rubber_slab": "Rubber Slab",
+  "block.fw_rubber.rubber_leaves": "Rubber Leaves",
+  "block.fw_rubber.rubber_sapling": "Rubber Sapling",
+  "item.fw_rubber.treetap": "Treetap",
+  "item.fw_rubber.treetap.desc": "Right-click a rubber log to collect latex",
+  "item.fw_rubber.latex": "Latex",
+  "item.fw_rubber.rubber": "Rubber",
+  "item.fw_rubber.rubber_sheet": "Rubber Sheet"
+}

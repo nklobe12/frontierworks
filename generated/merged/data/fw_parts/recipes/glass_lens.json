@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " G ",
+    "GDG",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass_panes"
+    },
+    "D": {
+      "tag": "forge:dusts/glowstone"
+    }
+  },
+  "result": {
+    "item": "fw_parts:glass_lens",
+    "count": 1
+  }
+}

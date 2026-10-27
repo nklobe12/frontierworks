@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_freezer"
+version="1.0.0"
+displayName="Frontierworks: Cryogenics"
+authors="Klobe & Claude"
+description='''The Cryo Freezer turns water into ice and lava into obsidian, and makes cryotheum - a super-coolant used by reactors and cooling coils.'''
+
+[[dependencies.fw_freezer]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_freezer]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_freezer]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

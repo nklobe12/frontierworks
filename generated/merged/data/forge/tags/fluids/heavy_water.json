@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fw_electrolysis:heavy_water",
+    "fw_electrolysis:flowing_heavy_water"
+  ]
+}

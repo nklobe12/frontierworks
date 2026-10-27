@@ -1,0 +1,8 @@
+{
+  "block.fw_fluidducts.fluid_duct": "Fluid Duct",
+  "block.fw_fluidducts.pump_duct": "Pump Duct",
+  "block.fw_fluidducts.high_flow_pump_duct": "High Flow Pump Duct",
+  "block.fw_fluidducts.elite_pump_duct": "Elite Pump Duct",
+  "tooltip.fw_fluidducts.pump": "Pumps up to %s mB/t out of adjacent tanks. Redstone pauses.",
+  "tooltip.fw_fluidducts.duct": "Carries fluids between pump ducts and tanks"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "fw_wind:block/wind_turbine_top",
+    "bottom": "fw_wind:block/wind_turbine_top",
+    "side": "fw_wind:block/wind_turbine_side",
+    "front": "fw_wind:block/wind_turbine_front_on"
+  }
+}

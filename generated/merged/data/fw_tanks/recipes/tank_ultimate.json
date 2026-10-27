@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PGP",
+    "GTG",
+    "PGP"
+  ],
+  "key": {
+    "P": {
+      "item": "fw_mars:titanium_plate"
+    },
+    "G": {
+      "item": "fw_glass:hardened_glass"
+    },
+    "T": {
+      "item": "fw_tanks:tank_elite"
+    }
+  },
+  "result": {
+    "item": "fw_tanks:tank_ultimate",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_glass"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_mars"
+    }
+  ]
+}

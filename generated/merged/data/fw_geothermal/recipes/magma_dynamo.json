@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PHP",
+    "GMG",
+    "CWC"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/platinum"
+    },
+    "H": {
+      "item": "fw_parts:heating_coil"
+    },
+    "G": {
+      "item": "fw_geothermal:geothermal_generator"
+    },
+    "M": {
+      "item": "fw_parts:elite_frame"
+    },
+    "C": {
+      "item": "fw_parts:servo"
+    },
+    "W": {
+      "item": "fw_circuits:elite_circuit"
+    }
+  },
+  "result": {
+    "item": "fw_geothermal:magma_dynamo",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

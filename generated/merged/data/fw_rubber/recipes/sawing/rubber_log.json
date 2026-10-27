@@ -1,0 +1,33 @@
+{
+  "type": "fw_sawmill:sawing",
+  "inputs": [
+    {
+      "tag": "fw_rubber:rubber_logs",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_rubber:rubber_planks",
+      "count": 6
+    },
+    {
+      "item": "fw_sawmill:sawdust",
+      "count": 1,
+      "chance": 0.5
+    },
+    {
+      "item": "fw_rubber:latex",
+      "count": 1,
+      "chance": 0.25
+    }
+  ],
+  "time": 100,
+  "energy": 16,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_sawmill"
+    }
+  ]
+}

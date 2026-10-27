@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "fw_sifting:block/casing_basic_top",
+    "bottom": "fw_sifting:block/casing_basic_bottom",
+    "side": "fw_sifting:block/casing_basic_side",
+    "front": "fw_sifting:block/auto_sifter_front"
+  }
+}

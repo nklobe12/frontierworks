@@ -1,0 +1,15 @@
+{
+  "block.fw_nuclear.fission_reactor": "Fission Reactor",
+  "block.fw_nuclear.fission_reactor.desc": "1 rod: 150 FE/t. 4 rods: 1140 FE/t but 16x the heat. Needs water. Redstone signal = shutdown.",
+  "item.fw_nuclear.uranium_fuel_rod": "Uranium Fuel Rod",
+  "item.fw_nuclear.depleted_fuel_rod": "Depleted Fuel Rod",
+  "item.fw_nuclear.depleted_fuel_rod.desc": "Reprocess it in a Centrifuge",
+  "item.fw_nuclear.reactor_plating": "Reactor Plating",
+  "gui.fw_nuclear.toggle": "Start",
+  "gui.fw_nuclear.scram": "SCRAM",
+  "gui.fw_nuclear.scram_on": "Auto-SCRAM",
+  "gui.fw_nuclear.scram_off": "Manual",
+  "gui.fw_nuclear.heat": "Heat: %s%%",
+  "tooltip.fw_nuclear.rod_life": "Fuel left: %s s",
+  "tooltip.fw_nuclear.radioactive": "Radioactive"
+}

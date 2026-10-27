@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_pipes"
+version="1.0.0"
+displayName="Frontierworks: Item Pipes"
+authors="Klobe & Claude"
+description='''Instant item logistics: extraction pipes pull from inventories and deliver to the nearest inventory on the network. Right-click an extraction pipe with an item to filter it; redstone pauses it.'''
+
+[[dependencies.fw_pipes]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_pipes]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_pipes]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

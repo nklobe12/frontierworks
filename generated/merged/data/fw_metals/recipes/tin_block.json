@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:ingots/tin"
+    }
+  },
+  "result": {
+    "item": "fw_metals:tin_block",
+    "count": 1
+  }
+}

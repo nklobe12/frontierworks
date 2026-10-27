@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fw_freezer:cryo_freezer",
+    "fw_freezer:cryotheum_block"
+  ]
+}

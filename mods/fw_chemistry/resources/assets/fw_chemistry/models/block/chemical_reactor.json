@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "fw_chemistry:block/casing_advanced_top",
+    "bottom": "fw_chemistry:block/casing_advanced_bottom",
+    "side": "fw_chemistry:block/casing_advanced_side",
+    "front": "fw_chemistry:block/chemical_reactor_front"
+  }
+}

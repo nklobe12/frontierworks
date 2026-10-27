@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "SCS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "fw_solar:solar_panel_advanced"
+    },
+    "C": {
+      "item": "fw_circuits:elite_circuit"
+    }
+  },
+  "result": {
+    "item": "fw_solar:solar_panel_hybrid",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    }
+  ]
+}

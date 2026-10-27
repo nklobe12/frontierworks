@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "fw_stone:marble",
+    "fw_stone:limestone",
+    "fw_stone:slate",
+    "fw_stone:gabbro",
+    "fw_stone:travertine"
+  ]
+}

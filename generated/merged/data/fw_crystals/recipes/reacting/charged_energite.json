@@ -1,0 +1,27 @@
+{
+  "type": "fw_chemistry:reacting",
+  "inputs": [
+    {
+      "item": "fw_crystals:energite_shard",
+      "count": 1
+    },
+    {
+      "tag": "forge:dusts/redstone",
+      "count": 4
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_crystals:charged_energite",
+      "count": 1
+    }
+  ],
+  "time": 200,
+  "energy": 60,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_chemistry"
+    }
+  ]
+}

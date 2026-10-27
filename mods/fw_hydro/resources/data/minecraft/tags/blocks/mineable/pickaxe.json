@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fw_hydro:water_wheel",
+    "fw_hydro:hydro_turbine"
+  ]
+}

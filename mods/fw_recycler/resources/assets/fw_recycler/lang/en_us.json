@@ -1,0 +1,8 @@
+{
+  "item.fw_recycler.scrap": "Scrap",
+  "item.fw_recycler.scrap.desc": "Recycled junk. Nine make a scrap box.",
+  "item.fw_recycler.scrap_box": "Scrap Box",
+  "item.fw_recycler.scrap_box.desc": "Right-click to open. Sneak to open the whole stack.",
+  "block.fw_recycler.recycler": "Recycler",
+  "block.fw_recycler.recycler.desc": "Grinds anything into scrap (1 in 8 chance)"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_stone:polished_limestone"
+    }
+  },
+  "result": {
+    "item": "fw_stone:limestone_bricks",
+    "count": 4
+  }
+}

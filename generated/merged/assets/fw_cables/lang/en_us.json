@@ -1,0 +1,7 @@
+{
+  "block.fw_cables.copper_cable": "Copper Cable",
+  "block.fw_cables.gold_cable": "Gold Cable",
+  "block.fw_cables.electrum_cable": "Electrum Cable",
+  "block.fw_cables.superconductor_cable": "Superconductor Cable",
+  "tooltip.fw_cables.rate": "Transfers up to %s FE/t"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "tag": "forge:ores/platinum"
+  },
+  "result": "fw_metals:platinum_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}

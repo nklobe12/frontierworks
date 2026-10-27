@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CPC",
+    "EEE",
+    "CPC"
+  ],
+  "key": {
+    "C": {
+      "item": "fw_freezer:cryotheum_dust"
+    },
+    "P": {
+      "tag": "forge:plates/platinum"
+    },
+    "E": {
+      "item": "fw_crystals:charged_energite"
+    }
+  },
+  "result": {
+    "item": "fw_cables:superconductor_cable",
+    "count": 8
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_crystals"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_freezer"
+    }
+  ]
+}

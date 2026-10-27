@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/invar"
+    }
+  ],
+  "result": {
+    "item": "fw_alloys:invar_nugget",
+    "count": 9
+  }
+}

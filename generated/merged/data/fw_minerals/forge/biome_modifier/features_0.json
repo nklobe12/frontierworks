@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "fw_minerals:ore_sulfur",
+    "fw_minerals:ore_saltpeter",
+    "fw_minerals:ore_graphite",
+    "fw_minerals:ore_fluorite",
+    "fw_minerals:ore_apatite"
+  ],
+  "step": "underground_ores"
+}

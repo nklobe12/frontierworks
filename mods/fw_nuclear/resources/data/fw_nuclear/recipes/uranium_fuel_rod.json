@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ZUZ",
+    "ZGZ",
+    "ZUZ"
+  ],
+  "key": {
+    "Z": {
+      "tag": "forge:plates/zinc"
+    },
+    "U": {
+      "tag": "forge:ingots/uranium"
+    },
+    "G": {
+      "item": "fw_minerals:graphite_rod"
+    }
+  },
+  "result": {
+    "item": "fw_nuclear:uranium_fuel_rod",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_minerals"
+    }
+  ]
+}

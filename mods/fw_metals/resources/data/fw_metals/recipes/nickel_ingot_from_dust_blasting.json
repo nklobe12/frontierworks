@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "tag": "forge:dusts/nickel"
+  },
+  "result": "fw_metals:nickel_ingot",
+  "experience": 0.3,
+  "cookingtime": 75
+}

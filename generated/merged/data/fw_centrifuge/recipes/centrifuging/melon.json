@@ -1,0 +1,27 @@
+{
+  "type": "fw_centrifuge:centrifuging",
+  "inputs": [
+    {
+      "item": "minecraft:melon_slice",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:melon_seeds",
+      "count": 1,
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:sugar",
+      "count": 1,
+      "chance": 0.3
+    }
+  ],
+  "time": 160,
+  "energy": 40,
+  "fluid_out": {
+    "fluid": "minecraft:water",
+    "amount": 100
+  }
+}

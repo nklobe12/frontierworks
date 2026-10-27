@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_steam"
+version="1.0.0"
+displayName="Frontierworks: Steam Power"
+authors="Klobe & Claude"
+description='''Steam-age power: Boilers burn fuel to boil water, Steam Engines and the advanced Steam Turbine turn that steam into Forge Energy. Boilers heat up over time and push steam to neighbours.'''
+
+[[dependencies.fw_steam]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_steam]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_steam]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

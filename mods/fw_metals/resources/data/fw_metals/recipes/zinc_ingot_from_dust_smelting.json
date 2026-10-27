@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "tag": "forge:dusts/zinc"
+  },
+  "result": "fw_metals:zinc_ingot",
+  "experience": 0.3,
+  "cookingtime": 150
+}

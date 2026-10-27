@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "tag": "forge:dusts/silver"
+  },
+  "result": "fw_metals:silver_ingot",
+  "experience": 0.3,
+  "cookingtime": 75
+}

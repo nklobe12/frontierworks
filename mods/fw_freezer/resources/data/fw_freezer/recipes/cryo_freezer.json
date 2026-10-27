@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PCP",
+    "IFI",
+    "CWC"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/aluminum"
+    },
+    "C": {
+      "item": "fw_parts:cooling_coil"
+    },
+    "I": {
+      "item": "minecraft:packed_ice"
+    },
+    "F": {
+      "item": "fw_parts:machine_frame"
+    },
+    "W": {
+      "item": "fw_circuits:advanced_circuit"
+    }
+  },
+  "result": {
+    "item": "fw_freezer:cryo_freezer",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

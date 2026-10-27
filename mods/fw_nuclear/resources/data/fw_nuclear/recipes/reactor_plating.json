@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LPL",
+    "PGP",
+    "LPL"
+  ],
+  "key": {
+    "L": {
+      "tag": "forge:plates/lead"
+    },
+    "P": {
+      "item": "fw_parts:reinforced_plate"
+    },
+    "G": {
+      "item": "fw_minerals:graphite"
+    }
+  },
+  "result": {
+    "item": "fw_nuclear:reactor_plating",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_minerals"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

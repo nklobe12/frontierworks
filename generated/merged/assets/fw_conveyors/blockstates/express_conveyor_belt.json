@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fw_conveyors:block/express_conveyor_belt"
+    },
+    "facing=east": {
+      "model": "fw_conveyors:block/express_conveyor_belt",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fw_conveyors:block/express_conveyor_belt",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fw_conveyors:block/express_conveyor_belt",
+      "y": 270
+    }
+  }
+}

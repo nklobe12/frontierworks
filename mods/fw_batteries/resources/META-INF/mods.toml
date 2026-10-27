@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_batteries"
+version="1.0.0"
+displayName="Frontierworks: Batteries"
+authors="Klobe & Claude"
+description='''Energy cells from 1M to 512M FE that keep their charge when broken, plus portable batteries that power your gadgets and machines.'''
+
+[[dependencies.fw_batteries]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_batteries]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_batteries]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

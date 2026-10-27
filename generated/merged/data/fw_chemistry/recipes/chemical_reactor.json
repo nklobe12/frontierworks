@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GTG",
+    "PFP",
+    "CWC"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass"
+    },
+    "T": {
+      "item": "fw_tanks:tank_basic"
+    },
+    "P": {
+      "tag": "forge:plates/lead"
+    },
+    "F": {
+      "item": "fw_parts:machine_frame"
+    },
+    "C": {
+      "item": "fw_parts:motor"
+    },
+    "W": {
+      "item": "fw_circuits:advanced_circuit"
+    }
+  },
+  "result": {
+    "item": "fw_chemistry:chemical_reactor",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_tanks"
+    }
+  ]
+}

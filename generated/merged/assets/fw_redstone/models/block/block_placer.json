@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "fw_redstone:block/device_side",
+    "bottom": "fw_redstone:block/device_side",
+    "side": "fw_redstone:block/device_side",
+    "front": "fw_redstone:block/block_placer_front"
+  }
+}

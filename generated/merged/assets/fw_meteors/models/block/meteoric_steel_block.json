@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "fw_meteors:block/meteoric_steel_block"
+  }
+}

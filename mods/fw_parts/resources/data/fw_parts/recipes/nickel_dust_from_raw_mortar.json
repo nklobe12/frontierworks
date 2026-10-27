@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_parts:hand_mortar"
+    },
+    {
+      "item": "fw_metals:raw_nickel"
+    }
+  ],
+  "result": {
+    "item": "fw_metals:nickel_dust",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    }
+  ]
+}

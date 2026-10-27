@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_vacuum"
+version="1.0.0"
+displayName="Frontierworks: Vacuum Hopper"
+authors="Klobe & Claude"
+description='''A hopper with ambition: pulls in every item and experience orb within 4 blocks (more with Range Upgrades) and feeds them to the inventory below.'''
+
+[[dependencies.fw_vacuum]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_vacuum]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_vacuum]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

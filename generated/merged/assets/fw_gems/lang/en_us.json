@@ -1,0 +1,22 @@
+{
+  "block.fw_gems.ruby_ore": "Ruby Ore",
+  "block.fw_gems.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "item.fw_gems.ruby": "Ruby",
+  "block.fw_gems.ruby_block": "Block of Ruby",
+  "block.fw_gems.sapphire_ore": "Sapphire Ore",
+  "block.fw_gems.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "item.fw_gems.sapphire": "Sapphire",
+  "block.fw_gems.sapphire_block": "Block of Sapphire",
+  "block.fw_gems.peridot_ore": "Peridot Ore",
+  "block.fw_gems.deepslate_peridot_ore": "Deepslate Peridot Ore",
+  "item.fw_gems.peridot": "Peridot",
+  "block.fw_gems.peridot_block": "Block of Peridot",
+  "block.fw_gems.topaz_ore": "Topaz Ore",
+  "block.fw_gems.deepslate_topaz_ore": "Deepslate Topaz Ore",
+  "item.fw_gems.topaz": "Topaz",
+  "block.fw_gems.topaz_block": "Block of Topaz",
+  "block.fw_gems.onyx_ore": "Onyx Ore",
+  "block.fw_gems.deepslate_onyx_ore": "Deepslate Onyx Ore",
+  "item.fw_gems.onyx": "Onyx",
+  "block.fw_gems.onyx_block": "Block of Onyx"
+}

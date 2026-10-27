@@ -1,0 +1,25 @@
+{
+  "type": "fw_petro:refining",
+  "inputs": [],
+  "outputs": [],
+  "time": 60,
+  "energy": 60,
+  "fluid_in": {
+    "fluid": "fw_oil:crude_oil",
+    "amount": 500
+  },
+  "fluid_out": {
+    "fluid": "fw_petro:diesel",
+    "amount": 300
+  },
+  "fluid_out2": {
+    "fluid": "fw_petro:lubricant",
+    "amount": 150
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_oil"
+    }
+  ]
+}

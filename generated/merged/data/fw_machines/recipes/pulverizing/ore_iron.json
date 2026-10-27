@@ -1,0 +1,28 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "tag": "forge:ores/iron",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_metals:iron_dust",
+      "count": 2
+    },
+    {
+      "item": "fw_metals:nickel_dust",
+      "count": 1,
+      "chance": 0.1
+    }
+  ],
+  "time": 200,
+  "energy": 20,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    }
+  ]
+}

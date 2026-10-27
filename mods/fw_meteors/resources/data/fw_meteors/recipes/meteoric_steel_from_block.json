@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_meteors:meteoric_steel_block"
+    }
+  ],
+  "result": {
+    "item": "fw_meteors:meteoric_steel_ingot",
+    "count": 9
+  }
+}

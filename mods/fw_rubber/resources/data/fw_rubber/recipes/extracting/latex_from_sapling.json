@@ -1,0 +1,23 @@
+{
+  "type": "fw_machines:extracting",
+  "inputs": [
+    {
+      "item": "fw_rubber:rubber_sapling",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_rubber:latex",
+      "count": 1
+    }
+  ],
+  "time": 100,
+  "energy": 16,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_machines"
+    }
+  ]
+}

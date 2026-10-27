@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "fw_press:plate_mold",
+    "fw_press:gear_mold",
+    "fw_press:rod_mold",
+    "fw_press:wire_mold"
+  ]
+}

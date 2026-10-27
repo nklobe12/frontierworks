@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fw_electrolysis:deuterium",
+    "fw_electrolysis:flowing_deuterium"
+  ]
+}

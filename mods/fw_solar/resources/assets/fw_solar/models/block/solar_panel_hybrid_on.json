@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "fw_solar:block/solar_panel_hybrid_top",
+    "bottom": "fw_solar:block/solar_panel_hybrid_bottom",
+    "side": "fw_solar:block/solar_panel_hybrid_side",
+    "front": "fw_solar:block/solar_panel_hybrid_side"
+  }
+}

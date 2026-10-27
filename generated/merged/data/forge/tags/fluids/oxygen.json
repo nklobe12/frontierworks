@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fw_electrolysis:oxygen",
+    "fw_electrolysis:flowing_oxygen"
+  ]
+}

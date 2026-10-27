@@ -1,0 +1,25 @@
+{
+  "type": "fw_electrolysis:electrolyzing",
+  "inputs": [
+    {
+      "item": "fw_electrolysis:salt",
+      "count": 2
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_electrolysis:sodium",
+      "count": 1
+    }
+  ],
+  "time": 160,
+  "energy": 120,
+  "fluid_in": {
+    "fluid": "minecraft:water",
+    "amount": 250
+  },
+  "fluid_out": {
+    "fluid": "fw_electrolysis:chlorine",
+    "amount": 250
+  }
+}

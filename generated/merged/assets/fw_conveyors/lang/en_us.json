@@ -1,0 +1,8 @@
+{
+  "block.fw_conveyors.conveyor_belt": "Conveyor Belt",
+  "block.fw_conveyors.conveyor_belt.desc": "Moves things at 2 blocks/second",
+  "block.fw_conveyors.fast_conveyor_belt": "Fast Conveyor Belt",
+  "block.fw_conveyors.fast_conveyor_belt.desc": "Moves things at 4 blocks/second",
+  "block.fw_conveyors.express_conveyor_belt": "Express Conveyor Belt",
+  "block.fw_conveyors.express_conveyor_belt.desc": "Moves things at 7 blocks/second"
+}

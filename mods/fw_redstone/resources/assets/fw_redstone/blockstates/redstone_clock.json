@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "delay=0,powered=false": {
+      "model": "fw_redstone:block/redstone_clock"
+    },
+    "delay=0,powered=true": {
+      "model": "fw_redstone:block/redstone_clock_on"
+    },
+    "delay=1,powered=false": {
+      "model": "fw_redstone:block/redstone_clock"
+    },
+    "delay=1,powered=true": {
+      "model": "fw_redstone:block/redstone_clock_on"
+    },
+    "delay=2,powered=false": {
+      "model": "fw_redstone:block/redstone_clock"
+    },
+    "delay=2,powered=true": {
+      "model": "fw_redstone:block/redstone_clock_on"
+    },
+    "delay=3,powered=false": {
+      "model": "fw_redstone:block/redstone_clock"
+    },
+    "delay=3,powered=true": {
+      "model": "fw_redstone:block/redstone_clock_on"
+    },
+    "delay=4,powered=false": {
+      "model": "fw_redstone:block/redstone_clock"
+    },
+    "delay=4,powered=true": {
+      "model": "fw_redstone:block/redstone_clock_on"
+    }
+  }
+}

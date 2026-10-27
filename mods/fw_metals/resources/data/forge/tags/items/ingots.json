@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "fw_metals:tin_ingot",
+    "#forge:ingots/tin",
+    "fw_metals:lead_ingot",
+    "#forge:ingots/lead",
+    "fw_metals:silver_ingot",
+    "#forge:ingots/silver",
+    "fw_metals:nickel_ingot",
+    "#forge:ingots/nickel",
+    "fw_metals:zinc_ingot",
+    "#forge:ingots/zinc",
+    "fw_metals:aluminum_ingot",
+    "#forge:ingots/aluminum",
+    "fw_metals:platinum_ingot",
+    "#forge:ingots/platinum",
+    "fw_metals:uranium_ingot",
+    "#forge:ingots/uranium"
+  ]
+}

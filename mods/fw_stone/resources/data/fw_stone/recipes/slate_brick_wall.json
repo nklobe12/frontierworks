@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_stone:slate_bricks"
+    }
+  },
+  "result": {
+    "item": "fw_stone:slate_brick_wall",
+    "count": 6
+  }
+}

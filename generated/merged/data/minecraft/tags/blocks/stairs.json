@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "fw_stone:marble_stairs",
+    "fw_stone:polished_marble_stairs",
+    "fw_stone:marble_brick_stairs",
+    "fw_stone:limestone_stairs",
+    "fw_stone:polished_limestone_stairs",
+    "fw_stone:limestone_brick_stairs",
+    "fw_stone:slate_stairs",
+    "fw_stone:polished_slate_stairs",
+    "fw_stone:slate_brick_stairs",
+    "fw_stone:gabbro_stairs",
+    "fw_stone:polished_gabbro_stairs",
+    "fw_stone:gabbro_brick_stairs",
+    "fw_stone:travertine_stairs",
+    "fw_stone:polished_travertine_stairs",
+    "fw_stone:travertine_brick_stairs",
+    "fw_rubber:rubber_stairs"
+  ]
+}

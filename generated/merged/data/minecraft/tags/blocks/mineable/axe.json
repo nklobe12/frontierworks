@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "fw_rubber:stripped_rubber_log",
+    "fw_rubber:rubber_log",
+    "fw_rubber:rubber_wood",
+    "fw_rubber:rubber_planks",
+    "fw_rubber:rubber_stairs",
+    "fw_rubber:rubber_slab",
+    "fw_sifting:sifter",
+    "fw_sawmill:particle_board",
+    "fw_storage:wooden_crate",
+    "fw_storage:bulk_barrel"
+  ]
+}

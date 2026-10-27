@@ -1,0 +1,39 @@
+{
+  "type": "fw_sifting:sifting",
+  "inputs": [
+    {
+      "item": "minecraft:gravel",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:flint",
+      "count": 1,
+      "chance": 0.375
+    },
+    {
+      "item": "minecraft:iron_nugget",
+      "count": 1,
+      "chance": 0.22499999999999998
+    },
+    {
+      "item": "fw_metals:tin_nugget",
+      "count": 1,
+      "chance": 0.22499999999999998
+    },
+    {
+      "item": "fw_metals:lead_nugget",
+      "count": 1,
+      "chance": 0.12
+    }
+  ],
+  "time": 100,
+  "energy": 20,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_metals"
+    }
+  ]
+}

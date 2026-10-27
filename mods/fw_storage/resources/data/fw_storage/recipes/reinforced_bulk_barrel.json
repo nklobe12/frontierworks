@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PIP",
+    "IBI",
+    "PIP"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "B": {
+      "item": "fw_storage:bulk_barrel"
+    }
+  },
+  "result": {
+    "item": "fw_storage:reinforced_bulk_barrel",
+    "count": 1
+  }
+}

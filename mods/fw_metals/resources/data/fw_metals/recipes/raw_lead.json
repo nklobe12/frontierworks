@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_metals:raw_lead_block"
+    }
+  ],
+  "result": {
+    "item": "fw_metals:raw_lead",
+    "count": 9
+  }
+}

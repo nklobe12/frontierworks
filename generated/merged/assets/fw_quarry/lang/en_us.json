@@ -1,0 +1,6 @@
+{
+  "block.fw_quarry.quarry": "Quarry",
+  "block.fw_quarry.quarry.desc": "Mines the area below it down to bedrock. Put a chest on top for the output.",
+  "gui.fw_quarry.done": "Finished!",
+  "gui.fw_quarry.layer": "Layer: Y=%s"
+}

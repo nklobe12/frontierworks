@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_crystals:voidite_shard"
+    }
+  },
+  "result": {
+    "item": "fw_crystals:voidite_block",
+    "count": 1
+  }
+}

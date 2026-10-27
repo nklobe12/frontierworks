@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "fw_geothermal:block/magma_dynamo_top",
+    "bottom": "fw_geothermal:block/magma_dynamo_top",
+    "side": "fw_geothermal:block/magma_dynamo_side",
+    "front": "fw_geothermal:block/magma_dynamo_side"
+  }
+}

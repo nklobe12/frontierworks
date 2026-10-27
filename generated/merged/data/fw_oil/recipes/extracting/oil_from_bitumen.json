@@ -1,0 +1,23 @@
+{
+  "type": "fw_machines:extracting",
+  "inputs": [
+    {
+      "item": "fw_oil:bitumen",
+      "count": 4
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:black_dye",
+      "count": 2
+    }
+  ],
+  "time": 120,
+  "energy": 16,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_machines"
+    }
+  ]
+}

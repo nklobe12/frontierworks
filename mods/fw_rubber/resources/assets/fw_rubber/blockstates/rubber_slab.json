@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fw_rubber:block/rubber_slab"
+    },
+    "type=top": {
+      "model": "fw_rubber:block/rubber_slab_top"
+    },
+    "type=double": {
+      "model": "fw_rubber:block/rubber_slab_double"
+    }
+  }
+}

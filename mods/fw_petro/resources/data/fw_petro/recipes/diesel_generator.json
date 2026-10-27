@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PTP",
+    "GFG",
+    "CWC"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "T": {
+      "item": "fw_tanks:tank_basic"
+    },
+    "G": {
+      "item": "fw_parts:steel_gear"
+    },
+    "F": {
+      "item": "fw_parts:machine_frame"
+    },
+    "C": {
+      "tag": "forge:ingots/copper"
+    },
+    "W": {
+      "item": "fw_circuits:basic_circuit"
+    }
+  },
+  "result": {
+    "item": "fw_petro:diesel_generator",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_tanks"
+    }
+  ]
+}

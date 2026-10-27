@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/ruby"
+    }
+  ],
+  "result": {
+    "item": "fw_gems:ruby",
+    "count": 9
+  }
+}

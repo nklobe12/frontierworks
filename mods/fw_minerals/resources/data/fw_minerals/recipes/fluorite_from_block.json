@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_minerals:fluorite_block"
+    }
+  ],
+  "result": {
+    "item": "fw_minerals:fluorite",
+    "count": 9
+  }
+}

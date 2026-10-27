@@ -1,0 +1,17 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "item": "minecraft:sandstone",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "minecraft:sand",
+      "count": 2
+    }
+  ],
+  "time": 120,
+  "energy": 16
+}

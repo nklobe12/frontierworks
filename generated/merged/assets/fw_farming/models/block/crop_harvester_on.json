@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "fw_farming:block/casing_basic_top",
+    "bottom": "fw_farming:block/casing_basic_bottom",
+    "side": "fw_farming:block/casing_basic_side",
+    "front": "fw_farming:block/crop_harvester_front_on"
+  }
+}

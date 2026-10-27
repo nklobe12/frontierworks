@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "fw_fluidducts:fluid_duct",
+    "fw_fluidducts:pump_duct",
+    "fw_fluidducts:high_flow_pump_duct",
+    "fw_fluidducts:elite_pump_duct"
+  ]
+}

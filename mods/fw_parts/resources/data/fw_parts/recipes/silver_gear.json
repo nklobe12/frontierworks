@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " P ",
+    "PIP",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/silver"
+    },
+    "I": {
+      "tag": "forge:ingots/silver"
+    }
+  },
+  "result": {
+    "item": "fw_parts:silver_gear",
+    "count": 1
+  }
+}

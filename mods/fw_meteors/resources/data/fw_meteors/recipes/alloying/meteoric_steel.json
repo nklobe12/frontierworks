@@ -1,0 +1,27 @@
+{
+  "type": "fw_alloysmelter:alloying",
+  "inputs": [
+    {
+      "item": "fw_meteors:meteoric_iron_ingot",
+      "count": 1
+    },
+    {
+      "tag": "forge:ingots/steel",
+      "count": 2
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_meteors:meteoric_steel_ingot",
+      "count": 2
+    }
+  ],
+  "time": 300,
+  "energy": 60,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_alloysmelter"
+    }
+  ]
+}

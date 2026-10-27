@@ -1,0 +1,23 @@
+{
+  "type": "fw_machines:compressing",
+  "inputs": [
+    {
+      "item": "fw_circuits:silicon",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_circuits:silicon_wafer",
+      "count": 2
+    }
+  ],
+  "time": 100,
+  "energy": 20,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_machines"
+    }
+  ]
+}

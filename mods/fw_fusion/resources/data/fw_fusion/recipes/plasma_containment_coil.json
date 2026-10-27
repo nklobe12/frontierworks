@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SES",
+    "ECE",
+    "SES"
+  ],
+  "key": {
+    "S": {
+      "item": "fw_cables:superconductor_cable"
+    },
+    "E": {
+      "item": "fw_crystals:charged_energite"
+    },
+    "C": {
+      "item": "fw_parts:cooling_coil"
+    }
+  },
+  "result": {
+    "item": "fw_fusion:plasma_containment_coil",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_cables"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_crystals"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

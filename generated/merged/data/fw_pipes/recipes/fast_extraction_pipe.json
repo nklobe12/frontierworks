@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GEG"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "E": {
+      "item": "fw_pipes:extraction_pipe"
+    }
+  },
+  "result": {
+    "item": "fw_pipes:fast_extraction_pipe",
+    "count": 1
+  }
+}

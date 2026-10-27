@@ -1,0 +1,27 @@
+{
+  "type": "fw_kiln:kiln_alloying",
+  "inputs": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 2
+    },
+    {
+      "tag": "forge:ingots/nickel",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_alloys:invar_ingot",
+      "count": 3
+    }
+  ],
+  "time": 400,
+  "energy": 0,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_kiln"
+    }
+  ]
+}

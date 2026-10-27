@@ -1,0 +1,20 @@
+{
+  "type": "fw_chemistry:reacting",
+  "inputs": [
+    {
+      "tag": "forge:dusts/sulfur",
+      "count": 2
+    }
+  ],
+  "outputs": [],
+  "time": 120,
+  "energy": 40,
+  "fluid_in": {
+    "fluid": "minecraft:water",
+    "amount": 1000
+  },
+  "fluid_out": {
+    "fluid": "fw_chemistry:sulfuric_acid",
+    "amount": 1000
+  }
+}

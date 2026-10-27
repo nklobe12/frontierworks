@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "fw_stone:block/gabbro",
+    "top": "fw_stone:block/gabbro",
+    "side": "fw_stone:block/gabbro"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "fw_kiln:kiln_alloying",
+  "inputs": [
+    {
+      "tag": "forge:ingots/gold",
+      "count": 1
+    },
+    {
+      "tag": "forge:ingots/silver",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_alloys:electrum_ingot",
+      "count": 2
+    }
+  ],
+  "time": 400,
+  "energy": 0,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_kiln"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "block.fw_redstone.block_breaker": "Block Breaker",
+  "block.fw_redstone.block_placer": "Block Placer",
+  "block.fw_redstone.player_detector": "Player Detector",
+  "block.fw_redstone.player_detector.desc": "Emits redstone while a player is within 8 blocks",
+  "block.fw_redstone.redstone_clock": "Redstone Clock",
+  "block.fw_redstone.redstone_clock.desc": "Pulses redstone. Right-click to change speed. Pauses while powered.",
+  "msg.fw_redstone.clock": "Interval: %ss"
+}

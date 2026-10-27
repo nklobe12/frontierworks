@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_parts"
+version="1.0.0"
+displayName="Frontierworks: Parts"
+authors="Klobe & Claude"
+description='''Plates, gears, rods and wires for every metal, hand crafting tools, and the machine frames, motors and coils that all Frontierworks machines are assembled from.'''
+
+[[dependencies.fw_parts]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_parts]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_parts]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

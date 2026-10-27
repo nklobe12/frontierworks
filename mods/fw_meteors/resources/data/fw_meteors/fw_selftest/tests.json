@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "id": "fw_meteors:crater_small",
+      "dim": "minecraft:overworld"
+    },
+    {
+      "id": "fw_meteors:crater_medium",
+      "dim": "minecraft:overworld"
+    },
+    {
+      "id": "fw_meteors:crater_large",
+      "dim": "minecraft:overworld"
+    }
+  ]
+}
