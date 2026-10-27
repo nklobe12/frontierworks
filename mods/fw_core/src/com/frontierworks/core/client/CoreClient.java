@@ -60,12 +60,19 @@ public final class CoreClient {
     private static void onScreenInit(ScreenEvent.Init.Post event) {
         if (!(event.getScreen() instanceof net.minecraft.client.gui.screens.ConfirmScreen cs)) return;
         if (!(cs.getTitle().getContents() instanceof net.minecraft.network.chat.contents.TranslatableContents tc) || !tc.getKey().contains("experimental")) return;
+        net.minecraft.client.gui.components.Button first = null;
         for (net.minecraft.client.gui.components.events.GuiEventListener l : event.getListenersList()) {
-            if (l instanceof net.minecraft.client.gui.components.Button b) {
-                pendingProceed = b;
-                LOG.info("Skipping the experimental-settings warning ({})", tc.getKey());
-                return;
+            if (!(l instanceof net.minecraft.client.gui.components.Button b)) continue;
+            if (first == null) first = b;
+            // the backup prompt offers "Create Backup and Load" / "I know what I'm doing!" - load without making a backup every time
+            if (b.getMessage().getContents() instanceof net.minecraft.network.chat.contents.TranslatableContents bt && bt.getKey().equals("selectWorld.backupJoinSkipButton")) {
+                first = b;
+                break;
             }
+        }
+        if (first != null && pendingProceed == null) {
+            pendingProceed = first;
+            LOG.info("Skipping the experimental-settings warning ({})", tc.getKey());
         }
     }
 

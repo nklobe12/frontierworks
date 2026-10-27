@@ -120,7 +120,7 @@ public final class ShowcaseClient {
         } catch (Throwable t) {
             LOG.error("FWSHOWCASE step failed", t);
         }
-        wait = Math.min(s.waitAfter, 100);
+        wait = s.waitAfter;
         renderWait = s.waitAfter > 100 ? 1200 : 0;
     }
 
@@ -170,7 +170,7 @@ public final class ShowcaseClient {
         for (int page = 0; page < pages; page++) {
             final int pg = page;
             final List<Block> slice = blocks.subList(page * perPage, Math.min(blocks.size(), (page + 1) * perPage));
-            add(140, mc -> server(mc, srv -> {
+            add(400, mc -> server(mc, srv -> {
                 ServerLevel lvl = srv.overworld();
                 BlockPos sp = srv.overworld().getSharedSpawnPos();
                 int x0 = sp.getX() - 8, y0 = 236, z0 = sp.getZ() - 30;
@@ -192,7 +192,7 @@ public final class ShowcaseClient {
         for (Map.Entry<ResourceKey<EntityType<?>>, EntityType<?>> e : ForgeRegistries.ENTITY_TYPES.getEntries()) {
             if (e.getKey().location().getNamespace().startsWith("fw_")) mobs.add(e.getValue());
         }
-        add(160, mc -> server(mc, srv -> {
+        add(300, mc -> server(mc, srv -> {
             ServerLevel lvl = srv.overworld();
             BlockPos sp = srv.overworld().getSharedSpawnPos();
             int x0 = sp.getX() + 40, y0 = 236, z0 = sp.getZ() - 30;
@@ -215,7 +215,7 @@ public final class ShowcaseClient {
             if (p != null) p.teleportTo(lvl, x0 + 18.0, y0 + 3.0, z0 + 16.0, 180f, 10f);
         }));
         add(10, mc -> shot(mc, "creatures"));
-        add(140, mc -> server(mc, srv -> {
+        add(200, mc -> server(mc, srv -> {
             ServerPlayer p = player(srv);
             BlockPos sp = srv.overworld().getSharedSpawnPos();
             if (p != null) p.teleportTo(srv.overworld(), sp.getX() + 48.0, 238.0, sp.getZ() - 21.0, 180f, 12f);
@@ -228,7 +228,7 @@ public final class ShowcaseClient {
         for (int i = 0; i < templates.length; i++) {
             final String id = templates[i];
             final int idx = i;
-            add(160, mc -> server(mc, srv -> {
+            add(320, mc -> server(mc, srv -> {
                 ServerLevel lvl = srv.overworld();
                 Optional<StructureTemplate> tpl = srv.getStructureManager().get(new ResourceLocation(id));
                 if (tpl.isEmpty()) {
