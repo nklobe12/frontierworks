@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:glowstone"
+    },
+    {
+      "item": "minecraft:purple_dye"
+    },
+    {
+      "tag": "forge:glass/colorless"
+    }
+  ],
+  "result": {
+    "item": "fw_lamps:lamp_purple",
+    "count": 2
+  }
+}

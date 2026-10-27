@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "fw_lamps:block/redstone_lamp_light_gray"
+    },
+    "lit=true": {
+      "model": "fw_lamps:block/redstone_lamp_light_gray_on"
+    }
+  }
+}

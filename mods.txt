@@ -88,3 +88,9 @@ fw_caves
 fw_flora
 fw_treasure
 fw_villagers
+fw_glass
+fw_lamps
+fw_decor
+fw_food
+fw_potions
+fw_enchantments

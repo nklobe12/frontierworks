@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "fw_decor:steel_plating_stairs",
+    "fw_decor:rusted_plating_stairs",
+    "fw_decor:hazard_block_stairs",
+    "fw_decor:concrete_tiles_stairs",
+    "fw_decor:dark_tiles_stairs",
+    "fw_decor:checkered_tiles_stairs",
+    "fw_decor:industrial_brick_stairs",
+    "fw_decor:frontier_brick_stairs",
+    "fw_decor:polished_slate_stairs",
+    "fw_decor:framed_stairs"
+  ]
+}

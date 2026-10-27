@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "fw_food:chili_pepper"
+    },
+    {
+      "item": "fw_food:chili_pepper"
+    },
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "item": "fw_food:tomato"
+    }
+  ],
+  "result": {
+    "item": "fw_food:chili_con_carne",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "fw_food:tomato"
+    },
+    {
+      "item": "fw_food:tomato"
+    },
+    {
+      "item": "fw_food:onion"
+    }
+  ],
+  "result": {
+    "item": "fw_food:tomato_soup",
+    "count": 1
+  }
+}

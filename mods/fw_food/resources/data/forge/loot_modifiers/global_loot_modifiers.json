@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "entries": [
+    "fw_food:grass_seeds",
+    "fw_food:village_food",
+    "fw_food:dungeon_rations"
+  ]
+}

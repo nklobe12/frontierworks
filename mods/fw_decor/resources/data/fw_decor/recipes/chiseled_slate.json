@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S",
+    "S"
+  ],
+  "key": {
+    "S": {
+      "item": "fw_decor:polished_slate_slab"
+    }
+  },
+  "result": {
+    "item": "fw_decor:chiseled_slate",
+    "count": 1
+  }
+}

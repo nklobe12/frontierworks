@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_food:corn"
+    },
+    {
+      "item": "fw_food:corn"
+    },
+    {
+      "item": "fw_food:corn"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "result": {
+    "item": "fw_food:cornbread",
+    "count": 3
+  }
+}

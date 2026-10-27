@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_glass:hardened_glass"
+    }
+  },
+  "result": {
+    "item": "fw_glass:hardened_glass_pane",
+    "count": 16
+  }
+}

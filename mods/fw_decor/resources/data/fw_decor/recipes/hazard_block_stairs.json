@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_decor:hazard_block"
+    }
+  },
+  "result": {
+    "item": "fw_decor:hazard_block_stairs",
+    "count": 4
+  }
+}

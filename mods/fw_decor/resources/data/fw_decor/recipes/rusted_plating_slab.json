@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_decor:rusted_plating"
+    }
+  },
+  "result": {
+    "item": "fw_decor:rusted_plating_slab",
+    "count": 6
+  }
+}

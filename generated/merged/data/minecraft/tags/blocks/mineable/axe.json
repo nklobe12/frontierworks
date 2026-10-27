@@ -33,6 +33,10 @@
     "fw_villagers:engineering_bench",
     "fw_villagers:survey_table",
     "fw_villagers:ore_cart",
-    "fw_villagers:potting_bench"
+    "fw_villagers:potting_bench",
+    "fw_decor:framed_planks",
+    "fw_decor:framed_stairs",
+    "fw_decor:framed_slab",
+    "fw_decor:cargo_crate"
   ]
 }

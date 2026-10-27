@@ -2486,3 +2486,171 @@ description='''Four new village professions - the Engineer, Surveyor, Miner and 
     versionRange="[1.0.0,)"
     ordering="AFTER"
     side="BOTH"
+
+[[mods]]
+modId="fw_glass"
+version="1.0.0"
+displayName="Frontierworks: Glassworks"
+authors="Klobe & Claude"
+description='''Better glass: blast-proof hardened glass, frameless clear glass, glowing glass, light-blocking dark glass and steel-framed glass, plus panes.'''
+
+[[dependencies.fw_glass]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_glass]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_glass]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_lamps"
+version="1.0.0"
+displayName="Frontierworks: Lamps & Lights"
+authors="Klobe & Claude"
+description='''Colourful lighting: always-on lamps and redstone-controlled lamps in all sixteen dye colours, and compact cage lights for industrial builds.'''
+
+[[dependencies.fw_lamps]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_lamps]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_lamps]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_decor"
+version="1.0.0"
+displayName="Frontierworks: Frontier Decor"
+authors="Klobe & Claude"
+description='''Building blocks for bases and homesteads: steel plating, rusted panels, hazard stripes, vents, grates, tiles, bricks, slate, steel beams and cargo crates, with stairs, slabs and walls.'''
+
+[[dependencies.fw_decor]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_decor]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_decor]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_food"
+version="1.0.0"
+displayName="Frontierworks: Frontier Kitchen"
+authors="Klobe & Claude"
+description='''Tomatoes, corn, onions and chili peppers (seeds drop from grass), plus sixteen hearty frontier meals: burgers, chili con carne, salsa, cornbread, beef jerky, energy bars, MRE rations and more. Seeds can also be spun into seed oil for biodiesel.'''
+
+[[dependencies.fw_food]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_food]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_food]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_potions"
+version="1.0.0"
+displayName="Frontierworks: Alchemy+"
+authors="Klobe & Claude"
+description='''Five new status effects - Vitality, Fortitude, Berserk, Purity and Magnetism - and twenty new potions (including Haste, Resistance, Absorption and Luck) brewed from awkward potions in the vanilla brewing stand.'''
+
+[[dependencies.fw_potions]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_potions]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_potions]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_enchantments"
+version="1.0.0"
+displayName="Frontierworks: Enchantments+"
+authors="Klobe & Claude"
+description='''Eleven new enchantments: Lifesteal, Frostbite, Venom, Thunderstrike, Beheading and Wisdom for weapons; Smelting and Long Reach for tools; Swiftstep and Leaping for boots; and the treasure enchantment Soulbound.'''
+
+[[dependencies.fw_enchantments]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_enchantments]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_enchantments]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PBP",
+    "B B",
+    "PBP"
+  ],
+  "key": {
+    "P": {
+      "item": "fw_decor:steel_plating"
+    },
+    "B": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "result": {
+    "item": "fw_decor:vent_block",
+    "count": 4
+  }
+}

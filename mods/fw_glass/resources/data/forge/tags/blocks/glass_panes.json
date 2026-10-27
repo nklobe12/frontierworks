@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "fw_glass:hardened_glass_pane",
+    "fw_glass:clear_glass_pane",
+    "fw_glass:glowing_glass_pane",
+    "fw_glass:framed_glass_pane"
+  ]
+}

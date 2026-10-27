@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_enchantments"
+version="1.0.0"
+displayName="Frontierworks: Enchantments+"
+authors="Klobe & Claude"
+description='''Eleven new enchantments: Lifesteal, Frostbite, Venom, Thunderstrike, Beheading and Wisdom for weapons; Smelting and Long Reach for tools; Swiftstep and Leaping for boots; and the treasure enchantment Soulbound.'''
+
+[[dependencies.fw_enchantments]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_enchantments]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_enchantments]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

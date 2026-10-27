@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "item": "fw_food:tomato"
+    },
+    {
+      "item": "fw_food:onion"
+    }
+  ],
+  "result": {
+    "item": "fw_food:burger",
+    "count": 1
+  }
+}

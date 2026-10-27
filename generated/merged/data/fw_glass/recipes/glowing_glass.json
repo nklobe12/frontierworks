@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GGG",
+    "GDG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass/colorless"
+    },
+    "D": {
+      "tag": "forge:dusts/glowstone"
+    }
+  },
+  "result": {
+    "item": "fw_glass:glowing_glass",
+    "count": 8
+  }
+}

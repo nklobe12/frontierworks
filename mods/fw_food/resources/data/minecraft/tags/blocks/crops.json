@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "fw_food:tomato_crop",
+    "fw_food:corn_crop",
+    "fw_food:onion_crop",
+    "fw_food:chili_pepper_crop"
+  ]
+}

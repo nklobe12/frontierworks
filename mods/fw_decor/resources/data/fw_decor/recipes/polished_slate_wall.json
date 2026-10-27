@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_decor:polished_slate"
+    }
+  },
+  "result": {
+    "item": "fw_decor:polished_slate_wall",
+    "count": 6
+  }
+}

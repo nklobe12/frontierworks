@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BPB",
+    "PBP",
+    "BPB"
+  ],
+  "key": {
+    "P": {
+      "item": "fw_decor:steel_plating"
+    },
+    "B": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "result": {
+    "item": "fw_decor:steel_grate",
+    "count": 8
+  }
+}

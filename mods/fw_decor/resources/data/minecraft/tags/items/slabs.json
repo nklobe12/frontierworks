@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "fw_decor:steel_plating_slab",
+    "fw_decor:rusted_plating_slab",
+    "fw_decor:hazard_block_slab",
+    "fw_decor:concrete_tiles_slab",
+    "fw_decor:dark_tiles_slab",
+    "fw_decor:checkered_tiles_slab",
+    "fw_decor:industrial_brick_slab",
+    "fw_decor:frontier_brick_slab",
+    "fw_decor:polished_slate_slab",
+    "fw_decor:framed_slab"
+  ]
+}

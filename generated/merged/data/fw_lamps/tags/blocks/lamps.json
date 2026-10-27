@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "fw_lamps:lamp_white",
+    "fw_lamps:lamp_orange",
+    "fw_lamps:lamp_magenta",
+    "fw_lamps:lamp_light_blue",
+    "fw_lamps:lamp_yellow",
+    "fw_lamps:lamp_lime",
+    "fw_lamps:lamp_pink",
+    "fw_lamps:lamp_gray",
+    "fw_lamps:lamp_light_gray",
+    "fw_lamps:lamp_cyan",
+    "fw_lamps:lamp_purple",
+    "fw_lamps:lamp_blue",
+    "fw_lamps:lamp_brown",
+    "fw_lamps:lamp_green",
+    "fw_lamps:lamp_red",
+    "fw_lamps:lamp_black"
+  ]
+}

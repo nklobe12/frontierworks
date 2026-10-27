@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_decor:industrial_bricks"
+    }
+  },
+  "result": {
+    "item": "fw_decor:industrial_brick_slab",
+    "count": 6
+  }
+}

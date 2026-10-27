@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_food:onion"
+    }
+  ],
+  "result": {
+    "item": "fw_food:onion_seeds",
+    "count": 2
+  }
+}

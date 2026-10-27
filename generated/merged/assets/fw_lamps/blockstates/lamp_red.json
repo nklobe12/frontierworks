@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fw_lamps:block/lamp_red"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "fw_lamps:block/redstone_lamp_cyan"
+  }
+}

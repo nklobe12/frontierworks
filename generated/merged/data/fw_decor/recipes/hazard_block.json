@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "YPB",
+    "PPP",
+    "BPY"
+  ],
+  "key": {
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    },
+    "B": {
+      "item": "minecraft:black_dye"
+    },
+    "P": {
+      "item": "fw_decor:steel_plating"
+    }
+  },
+  "result": {
+    "item": "fw_decor:hazard_block",
+    "count": 6
+  }
+}

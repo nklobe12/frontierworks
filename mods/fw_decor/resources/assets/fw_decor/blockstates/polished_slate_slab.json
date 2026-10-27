@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fw_decor:block/polished_slate_slab"
+    },
+    "type=top": {
+      "model": "fw_decor:block/polished_slate_slab_top"
+    },
+    "type=double": {
+      "model": "fw_decor:block/polished_slate_slab_double"
+    }
+  }
+}

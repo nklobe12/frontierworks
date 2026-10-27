@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "fw_decor:steel_plating"
+  },
+  "result": "fw_decor:hazard_block",
+  "count": 1
+}

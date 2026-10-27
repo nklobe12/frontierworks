@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "fw_decor:block/checkered_tiles",
+    "top": "fw_decor:block/checkered_tiles",
+    "side": "fw_decor:block/checkered_tiles"
+  }
+}

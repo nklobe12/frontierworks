@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_glass:clear_glass"
+    }
+  },
+  "result": {
+    "item": "fw_glass:clear_glass_pane",
+    "count": 16
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": {
+    "item": "fw_food:corn"
+  },
+  "result": "fw_food:roasted_corn",
+  "experience": 0.35,
+  "cookingtime": 600
+}

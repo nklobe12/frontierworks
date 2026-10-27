@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " N ",
+    "NLN",
+    " N "
+  ],
+  "key": {
+    "N": {
+      "tag": "forge:nuggets/iron"
+    },
+    "L": {
+      "item": "fw_lamps:lamp_white"
+    }
+  },
+  "result": {
+    "item": "fw_lamps:cage_light_white",
+    "count": 4
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "fw_decor:industrial_brick_wall",
+    "fw_decor:frontier_brick_wall",
+    "fw_decor:polished_slate_wall"
+  ]
+}

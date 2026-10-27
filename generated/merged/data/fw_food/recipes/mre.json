@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_food:beef_jerky"
+    },
+    {
+      "item": "fw_food:cornbread"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "fw_food:energy_bar"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "result": {
+    "item": "fw_food:mre",
+    "count": 1
+  }
+}

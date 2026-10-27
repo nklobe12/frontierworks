@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_potions"
+version="1.0.0"
+displayName="Frontierworks: Alchemy+"
+authors="Klobe & Claude"
+description='''Five new status effects - Vitality, Fortitude, Berserk, Purity and Magnetism - and twenty new potions (including Haste, Resistance, Absorption and Luck) brewed from awkward potions in the vanilla brewing stand.'''
+
+[[dependencies.fw_potions]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_potions]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_potions]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_food"
+version="1.0.0"
+displayName="Frontierworks: Frontier Kitchen"
+authors="Klobe & Claude"
+description='''Tomatoes, corn, onions and chili peppers (seeds drop from grass), plus sixteen hearty frontier meals: burgers, chili con carne, salsa, cornbread, beef jerky, energy bars, MRE rations and more. Seeds can also be spun into seed oil for biodiesel.'''
+
+[[dependencies.fw_food]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_food]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_food]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

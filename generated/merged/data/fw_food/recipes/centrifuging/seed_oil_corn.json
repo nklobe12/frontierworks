@@ -1,0 +1,22 @@
+{
+  "type": "fw_centrifuge:centrifuging",
+  "inputs": [
+    {
+      "item": "fw_food:corn_seeds",
+      "count": 8
+    }
+  ],
+  "outputs": [],
+  "time": 120,
+  "energy": 20,
+  "fluid_out": {
+    "fluid": "fw_food:seed_oil",
+    "amount": 250
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_centrifuge"
+    }
+  ]
+}

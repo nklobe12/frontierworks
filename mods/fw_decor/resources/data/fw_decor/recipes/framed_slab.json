@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fw_decor:framed_planks"
+    }
+  },
+  "result": {
+    "item": "fw_decor:framed_slab",
+    "count": 6
+  }
+}

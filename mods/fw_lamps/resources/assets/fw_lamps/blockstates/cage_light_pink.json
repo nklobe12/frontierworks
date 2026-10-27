@@ -1,0 +1,29 @@
+{
+  "variants": {
+    "face=floor": {
+      "model": "fw_lamps:block/cage_light_pink"
+    },
+    "face=ceiling": {
+      "model": "fw_lamps:block/cage_light_pink",
+      "x": 180
+    },
+    "face=wall_north": {
+      "model": "fw_lamps:block/cage_light_pink",
+      "x": 270
+    },
+    "face=wall_south": {
+      "model": "fw_lamps:block/cage_light_pink",
+      "x": 90
+    },
+    "face=wall_west": {
+      "model": "fw_lamps:block/cage_light_pink",
+      "x": 270,
+      "y": 270
+    },
+    "face=wall_east": {
+      "model": "fw_lamps:block/cage_light_pink",
+      "x": 270,
+      "y": 90
+    }
+  }
+}

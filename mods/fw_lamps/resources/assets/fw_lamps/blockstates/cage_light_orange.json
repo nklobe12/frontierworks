@@ -1,0 +1,29 @@
+{
+  "variants": {
+    "face=floor": {
+      "model": "fw_lamps:block/cage_light_orange"
+    },
+    "face=ceiling": {
+      "model": "fw_lamps:block/cage_light_orange",
+      "x": 180
+    },
+    "face=wall_north": {
+      "model": "fw_lamps:block/cage_light_orange",
+      "x": 270
+    },
+    "face=wall_south": {
+      "model": "fw_lamps:block/cage_light_orange",
+      "x": 90
+    },
+    "face=wall_west": {
+      "model": "fw_lamps:block/cage_light_orange",
+      "x": 270,
+      "y": 270
+    },
+    "face=wall_east": {
+      "model": "fw_lamps:block/cage_light_orange",
+      "x": 270,
+      "y": 90
+    }
+  }
+}

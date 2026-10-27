@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "fw_glass:hardened_glass",
+    "fw_glass:clear_glass",
+    "fw_glass:glowing_glass",
+    "fw_glass:dark_glass",
+    "fw_glass:framed_glass"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "fw_food:onion"
+  },
+  "result": "fw_food:onion_rings",
+  "experience": 0.35,
+  "cookingtime": 200
+}

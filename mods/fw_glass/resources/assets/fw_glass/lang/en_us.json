@@ -1,0 +1,16 @@
+{
+  "block.fw_glass.hardened_glass": "Hardened Glass",
+  "block.fw_glass.hardened_glass.desc": "Blast-proof. Withers and creepers can't break it.",
+  "block.fw_glass.hardened_glass_pane": "Hardened Glass Pane",
+  "block.fw_glass.clear_glass": "Clear Glass",
+  "block.fw_glass.clear_glass.desc": "Frameless glass for seamless windows",
+  "block.fw_glass.clear_glass_pane": "Clear Glass Pane",
+  "block.fw_glass.glowing_glass": "Glowing Glass",
+  "block.fw_glass.glowing_glass.desc": "Glass that glows as bright as glowstone",
+  "block.fw_glass.glowing_glass_pane": "Glowing Glass Pane",
+  "block.fw_glass.dark_glass": "Dark Glass",
+  "block.fw_glass.dark_glass.desc": "See through it, but light can't pass",
+  "block.fw_glass.framed_glass": "Framed Glass",
+  "block.fw_glass.framed_glass.desc": "Glass in a steel frame",
+  "block.fw_glass.framed_glass_pane": "Framed Glass Pane"
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "fw_decor:block/steel_beam"
+    },
+    "axis=z": {
+      "model": "fw_decor:block/steel_beam_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "fw_decor:block/steel_beam_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

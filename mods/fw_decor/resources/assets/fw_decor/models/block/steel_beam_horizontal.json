@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "side": "fw_decor:block/steel_beam_side",
+    "end": "fw_decor:block/steel_beam_end"
+  }
+}

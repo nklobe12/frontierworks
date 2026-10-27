@@ -30,6 +30,7 @@
     "fw_meteors:meteoric_steel_block",
     "fw_chunkloader:chunk_loader",
     "fw_chunkloader:advanced_chunk_loader",
-    "fw_skyislands:aether_crystal_ore"
+    "fw_skyislands:aether_crystal_ore",
+    "fw_glass:hardened_glass"
   ]
 }
