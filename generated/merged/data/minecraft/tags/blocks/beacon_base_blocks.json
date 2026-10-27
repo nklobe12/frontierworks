@@ -21,6 +21,7 @@
     "fw_gems:peridot_block",
     "fw_gems:topaz_block",
     "fw_gems:onyx_block",
-    "fw_meteors:meteoric_steel_block"
+    "fw_meteors:meteoric_steel_block",
+    "fw_mars:titanium_block"
   ]
 }

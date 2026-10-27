@@ -21,6 +21,9 @@
     "fw_skyislands:skystone_brick_wall",
     "fw_decor:industrial_brick_wall",
     "fw_decor:frontier_brick_wall",
-    "fw_decor:polished_slate_wall"
+    "fw_decor:polished_slate_wall",
+    "fw_depths:depthstone_brick_wall",
+    "fw_moon:moon_rock_brick_wall",
+    "fw_mars:mars_rock_brick_wall"
   ]
 }

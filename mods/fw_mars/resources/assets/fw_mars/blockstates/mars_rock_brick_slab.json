@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fw_mars:block/mars_rock_brick_slab"
+    },
+    "type=top": {
+      "model": "fw_mars:block/mars_rock_brick_slab_top"
+    },
+    "type=double": {
+      "model": "fw_mars:block/mars_rock_brick_slab_double"
+    }
+  }
+}

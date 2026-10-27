@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "HEH",
+    "CRC",
+    "HEH"
+  ],
+  "key": {
+    "H": {
+      "item": "fw_moon:helium3_crystal"
+    },
+    "E": {
+      "item": "fw_rocketry:rocket_engine"
+    },
+    "C": {
+      "item": "fw_circuits:elite_circuit"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "fw_rocketry:fusion_engine",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_moon"
+    }
+  ]
+}

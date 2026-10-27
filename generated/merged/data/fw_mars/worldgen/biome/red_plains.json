@@ -1,0 +1,36 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.4,
+  "downfall": 0.0,
+  "effects": {
+    "sky_color": 14195298,
+    "fog_color": 12614224,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "particle": {
+      "options": {
+        "type": "minecraft:white_ash"
+      },
+      "probability": 0.004
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "fw_mars:titanium_ore",
+      "fw_mars:martian_ice"
+    ],
+    [],
+    [],
+    [],
+    []
+  ]
+}

@@ -8,6 +8,7 @@
     "fw_metals:raw_zinc",
     "fw_metals:raw_aluminum",
     "fw_metals:raw_platinum",
-    "fw_metals:raw_uranium"
+    "fw_metals:raw_uranium",
+    "fw_mars:raw_titanium"
   ]
 }

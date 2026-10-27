@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fw_depths:block/depthstone_bricks"
+    }
+  }
+}

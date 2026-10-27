@@ -1,0 +1,16 @@
+{
+  "block.fw_moon.lunar_regolith": "Lunar Regolith",
+  "block.fw_moon.moon_rock": "Moon Rock",
+  "block.fw_moon.polished_moon_rock": "Polished Moon Rock",
+  "block.fw_moon.moon_rock_bricks": "Moon Rock Bricks",
+  "block.fw_moon.moon_rock_brick_stairs": "Moon Rock Brick Stairs",
+  "block.fw_moon.moon_rock_brick_slab": "Moon Rock Brick Slab",
+  "block.fw_moon.moon_rock_brick_wall": "Moon Rock Brick Wall",
+  "block.fw_moon.helium3_ore": "Helium3 Ore",
+  "block.fw_moon.lunar_iron_ore": "Lunar Iron Ore",
+  "item.fw_moon.helium3_crystal": "Helium-3 Crystal",
+  "item.fw_moon.helium3_crystal.desc": "Fusion fuel and quantum circuitry",
+  "item.fw_moon.moon_dust": "Moon Dust",
+  "biome.fw_moon.lunar_highlands": "Lunar Highlands",
+  "dimension.fw_moon.moon": "The Moon"
+}

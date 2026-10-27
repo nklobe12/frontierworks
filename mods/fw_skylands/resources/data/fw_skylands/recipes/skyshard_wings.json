@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SFS",
+    "FPF",
+    "SFS"
+  ],
+  "key": {
+    "S": {
+      "item": "fw_skylands:skyshard"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "P": {
+      "item": "minecraft:phantom_membrane"
+    }
+  },
+  "result": {
+    "item": "fw_skylands:skyshard_wings",
+    "count": 1
+  }
+}

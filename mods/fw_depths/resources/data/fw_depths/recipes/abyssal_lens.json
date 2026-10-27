@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " A ",
+    "AGA",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "fw_depths:abyssal_shard"
+    },
+    "G": {
+      "tag": "forge:glass_panes"
+    }
+  },
+  "result": {
+    "item": "fw_depths:abyssal_lens",
+    "count": 1
+  }
+}

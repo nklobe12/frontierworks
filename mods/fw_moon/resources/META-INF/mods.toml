@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_moon"
+version="1.0.0"
+displayName="Frontierworks: The Moon"
+authors="Klobe & Claude"
+description='''A grey, airless world with one-third gravity, reached by a Tier 1 rocket. Bring a space suit (or an oxygen generator). Mine helium-3 crystals for advanced circuits and fusion, and collect moon dust and moon rock.'''
+
+[[dependencies.fw_moon]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_moon]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_moon]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

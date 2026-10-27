@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "fw_mars:block/mars_rock_bricks",
+    "top": "fw_mars:block/mars_rock_bricks",
+    "side": "fw_mars:block/mars_rock_bricks"
+  }
+}

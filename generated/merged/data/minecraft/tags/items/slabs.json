@@ -34,6 +34,9 @@
     "fw_decor:industrial_brick_slab",
     "fw_decor:frontier_brick_slab",
     "fw_decor:polished_slate_slab",
-    "fw_decor:framed_slab"
+    "fw_decor:framed_slab",
+    "fw_depths:depthstone_brick_slab",
+    "fw_moon:moon_rock_brick_slab",
+    "fw_mars:mars_rock_brick_slab"
   ]
 }

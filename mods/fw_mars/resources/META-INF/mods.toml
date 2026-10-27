@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_mars"
+version="1.0.0"
+displayName="Frontierworks: Mars"
+authors="Klobe & Claude"
+description='''The red planet, reached by a Tier 2 rocket: rust-red dunes and canyons under an orange sky, low gravity and no breathable air. Mars is the only source of titanium - the strongest metal in the pack - and martian dust.'''
+
+[[dependencies.fw_mars]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_mars]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_mars]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

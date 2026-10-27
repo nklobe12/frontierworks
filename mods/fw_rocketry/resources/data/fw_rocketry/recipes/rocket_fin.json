@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  P",
+    " PP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "result": {
+    "item": "fw_rocketry:rocket_fin",
+    "count": 2
+  }
+}

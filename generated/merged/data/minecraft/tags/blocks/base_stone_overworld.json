@@ -5,6 +5,7 @@
     "fw_stone:limestone",
     "fw_stone:slate",
     "fw_stone:gabbro",
-    "fw_stone:travertine"
+    "fw_stone:travertine",
+    "fw_depths:depthstone"
   ]
 }

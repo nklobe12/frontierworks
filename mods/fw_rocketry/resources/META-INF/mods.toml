@@ -1,0 +1,45 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_rocketry"
+version="1.0.0"
+displayName="Frontierworks: Rocketry"
+authors="Klobe & Claude"
+description='''Build a rocket, place it on a launch pad, fill it with rocket fuel, climb in and press jump. Tier 1 rockets fly to the Moon, Tier 2 rockets to Mars - and either will bring you home again. Bring a space suit!'''
+
+[[dependencies.fw_rocketry]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_rocketry]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_rocketry]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fw_rocketry]]
+    modId="fw_moon"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fw_rocketry]]
+    modId="fw_mars"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

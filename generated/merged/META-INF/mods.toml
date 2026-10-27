@@ -2962,3 +2962,276 @@ description='''A boss of the high skies: blow a Wyvern Lure above y=140 (or anyw
     versionRange="[1.0.0,)"
     ordering="AFTER"
     side="BOTH"
+
+[[mods]]
+modId="fw_bounties"
+version="1.0.0"
+displayName="Frontierworks: Bounty Board"
+authors="Klobe & Claude"
+description='''Craft a bounty board and right-click it for a hunting contract: slay a number of a given monster (vanilla or Frontierworks), then hand the finished contract back for coins and a loot roll. Harder targets pay more.'''
+
+[[dependencies.fw_bounties]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_bounties]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_bounties]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fw_bounties]]
+    modId="fw_coins"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_arena"
+version="1.0.0"
+displayName="Frontierworks: Trial Grounds"
+authors="Klobe & Claude"
+description='''Place a Trial Altar, feed it a Trial Sigil and fight off waves of monsters that spawn around it. Clear every wave for a treasure hoard; a Greater Sigil brings five tougher waves and better loot. Leave and the trial fails.'''
+
+[[dependencies.fw_arena]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_arena]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_arena]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_depths"
+version="1.0.0"
+displayName="Frontierworks: The Depths"
+authors="Klobe & Claude"
+description='''A vast underground dimension reached through a Depths Gate: fungal hollows lit by glowcaps, dripstone chasms and lush verdant grottos, an underground sea, new depthstone and the rare abyssal ore.'''
+
+[[dependencies.fw_depths]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_depths]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_depths]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fw_depths]]
+    modId="fw_caves"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fw_depths]]
+    modId="fw_mobs"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_skylands"
+version="1.0.0"
+displayName="Frontierworks: The Skylands"
+authors="Klobe & Claude"
+description='''A sunny dimension of floating islands drifting over the void, reached through a Skylands Gate: flowery meadows and forests in the sky, soft clouds that break your fall, skyshard ore, and the lair of the Sky Wyvern. Fall off and you tumble back to the overworld.'''
+
+[[dependencies.fw_skylands]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_skylands]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_skylands]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_moon"
+version="1.0.0"
+displayName="Frontierworks: The Moon"
+authors="Klobe & Claude"
+description='''A grey, airless world with one-third gravity, reached by a Tier 1 rocket. Bring a space suit (or an oxygen generator). Mine helium-3 crystals for advanced circuits and fusion, and collect moon dust and moon rock.'''
+
+[[dependencies.fw_moon]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_moon]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_moon]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_mars"
+version="1.0.0"
+displayName="Frontierworks: Mars"
+authors="Klobe & Claude"
+description='''The red planet, reached by a Tier 2 rocket: rust-red dunes and canyons under an orange sky, low gravity and no breathable air. Mars is the only source of titanium - the strongest metal in the pack - and martian dust.'''
+
+[[dependencies.fw_mars]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_mars]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_mars]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_rocketry"
+version="1.0.0"
+displayName="Frontierworks: Rocketry"
+authors="Klobe & Claude"
+description='''Build a rocket, place it on a launch pad, fill it with rocket fuel, climb in and press jump. Tier 1 rockets fly to the Moon, Tier 2 rockets to Mars - and either will bring you home again. Bring a space suit!'''
+
+[[dependencies.fw_rocketry]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_rocketry]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_rocketry]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fw_rocketry]]
+    modId="fw_moon"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fw_rocketry]]
+    modId="fw_mars"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[mods]]
+modId="fw_spacesuit"
+version="1.0.0"
+displayName="Frontierworks: Space Suit"
+authors="Klobe & Claude"
+description='''Space has no air. Wear the full space suit to breathe on the Moon and Mars - its tank holds 30 minutes of oxygen - and build Oxygen Generators (powered by Forge Energy) to make an 8-block breathable bubble around your base and refill your suit.'''
+
+[[dependencies.fw_spacesuit]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_spacesuit]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_spacesuit]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fw_spacesuit]]
+    modId="fw_moon"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fw_spacesuit]]
+    modId="fw_mars"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

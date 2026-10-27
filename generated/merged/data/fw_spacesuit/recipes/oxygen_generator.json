@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PFP",
+    "TMT",
+    "PCP"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "F": {
+      "item": "fw_parts:fan"
+    },
+    "T": {
+      "item": "fw_spacesuit:oxygen_tank"
+    },
+    "M": {
+      "item": "fw_parts:machine_frame"
+    },
+    "C": {
+      "item": "fw_circuits:advanced_circuit"
+    }
+  },
+  "result": {
+    "item": "fw_spacesuit:oxygen_generator",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

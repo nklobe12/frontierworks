@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "OOO",
+    "PPP"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "P": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "result": {
+    "item": "fw_rocketry:heat_shield",
+    "count": 2
+  }
+}

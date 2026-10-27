@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PHP",
+    "PCP",
+    "B B"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "H": {
+      "item": "fw_parts:heating_coil"
+    },
+    "C": {
+      "item": "fw_circuits:advanced_circuit"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "fw_rocketry:rocket_engine",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_parts"
+    }
+  ]
+}

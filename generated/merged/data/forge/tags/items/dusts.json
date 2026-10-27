@@ -32,6 +32,7 @@
     "fw_alloys:invar_dust",
     "fw_alloys:constantan_dust",
     "fw_alloys:duralumin_dust",
-    "fw_kiln:coke_dust"
+    "fw_kiln:coke_dust",
+    "fw_mars:titanium_dust"
   ]
 }

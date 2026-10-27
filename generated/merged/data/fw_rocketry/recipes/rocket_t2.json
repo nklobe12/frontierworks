@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " N ",
+    "SRS",
+    "FEF"
+  ],
+  "key": {
+    "N": {
+      "item": "fw_rocketry:nose_cone"
+    },
+    "S": {
+      "item": "fw_rocketry:heat_shield"
+    },
+    "R": {
+      "item": "fw_rocketry:rocket_t1"
+    },
+    "F": {
+      "item": "fw_rocketry:rocket_fin"
+    },
+    "E": {
+      "item": "fw_rocketry:fusion_engine"
+    }
+  },
+  "result": {
+    "item": "fw_rocketry:rocket_t2",
+    "count": 1
+  }
+}

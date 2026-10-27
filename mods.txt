@@ -104,3 +104,11 @@ fw_mobs
 fw_colossus
 fw_wraithking
 fw_wyvern
+fw_bounties
+fw_arena
+fw_depths
+fw_skylands
+fw_moon
+fw_mars
+fw_rocketry
+fw_spacesuit

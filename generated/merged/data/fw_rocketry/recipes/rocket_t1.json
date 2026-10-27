@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " N ",
+    "PCP",
+    "FEF"
+  ],
+  "key": {
+    "N": {
+      "item": "fw_rocketry:nose_cone"
+    },
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "C": {
+      "item": "fw_circuits:advanced_circuit"
+    },
+    "F": {
+      "item": "fw_rocketry:rocket_fin"
+    },
+    "E": {
+      "item": "fw_rocketry:rocket_engine"
+    }
+  },
+  "result": {
+    "item": "fw_rocketry:rocket_t1",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_circuits"
+    }
+  ]
+}

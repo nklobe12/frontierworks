@@ -13,4 +13,6 @@ ORDER = [
     'glass', 'lamps', 'decor', 'food', 'potions', 'enchantments',
     'weapons', 'blasters', 'explosives', 'relics', 'hearts', 'coins',
     'mobs', 'colossus', 'wraithking', 'wyvern',
+    'bounties', 'arena',
+    'depths', 'skylands', 'moon', 'mars', 'rocketry', 'spacesuit',
 ]

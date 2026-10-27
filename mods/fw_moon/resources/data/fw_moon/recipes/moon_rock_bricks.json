@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "fw_moon:polished_moon_rock"
+    }
+  },
+  "result": {
+    "item": "fw_moon:moon_rock_bricks",
+    "count": 4
+  }
+}

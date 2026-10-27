@@ -1,0 +1,16 @@
+{
+  "type": "fw_depths:depths",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:caves",
+    "biome_source": {
+      "type": "minecraft:checkerboard",
+      "biomes": [
+        "fw_depths:fungal_hollows",
+        "fw_depths:dripstone_chasms",
+        "fw_depths:verdant_grotto"
+      ],
+      "scale": 3
+    }
+  }
+}

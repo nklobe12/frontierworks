@@ -1,0 +1,28 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "item": "fw_moon:lunar_regolith",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_moon:moon_dust",
+      "count": 2
+    },
+    {
+      "item": "fw_moon:helium3_crystal",
+      "count": 1,
+      "chance": 0.05
+    }
+  ],
+  "time": 80,
+  "energy": 20,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_machines"
+    }
+  ]
+}

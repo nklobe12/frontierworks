@@ -1,0 +1,23 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "item": "fw_mars:mars_sand",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_mars:mars_dust",
+      "count": 2
+    }
+  ],
+  "time": 60,
+  "energy": 20,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_machines"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:white_wool"
+    },
+    {
+      "item": "fw_skylands:skyshard"
+    }
+  ],
+  "result": {
+    "item": "fw_skylands:cloud",
+    "count": 4
+  }
+}

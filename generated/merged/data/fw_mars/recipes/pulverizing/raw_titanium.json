@@ -1,0 +1,28 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "item": "fw_mars:raw_titanium",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_mars:titanium_dust",
+      "count": 2
+    },
+    {
+      "item": "fw_mars:titanium_dust",
+      "count": 1,
+      "chance": 0.15
+    }
+  ],
+  "time": 160,
+  "energy": 20,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_machines"
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "fw_oil:oil_sand"
+    "fw_oil:oil_sand",
+    "fw_moon:lunar_regolith",
+    "fw_mars:mars_sand"
   ]
 }

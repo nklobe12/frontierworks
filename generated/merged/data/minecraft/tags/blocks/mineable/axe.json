@@ -37,6 +37,7 @@
     "fw_decor:framed_planks",
     "fw_decor:framed_stairs",
     "fw_decor:framed_slab",
-    "fw_decor:cargo_crate"
+    "fw_decor:cargo_crate",
+    "fw_bounties:bounty_board"
   ]
 }

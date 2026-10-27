@@ -1,0 +1,45 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_depths"
+version="1.0.0"
+displayName="Frontierworks: The Depths"
+authors="Klobe & Claude"
+description='''A vast underground dimension reached through a Depths Gate: fungal hollows lit by glowcaps, dripstone chasms and lush verdant grottos, an underground sea, new depthstone and the rare abyssal ore.'''
+
+[[dependencies.fw_depths]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_depths]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_depths]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fw_depths]]
+    modId="fw_caves"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fw_depths]]
+    modId="fw_mobs"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

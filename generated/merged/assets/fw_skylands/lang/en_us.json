@@ -1,0 +1,15 @@
+{
+  "block.fw_skylands.cloud": "Cloud",
+  "block.fw_skylands.cloud.desc": "Soft: you take no fall damage landing on it",
+  "block.fw_skylands.skystone": "Skystone",
+  "block.fw_skylands.skyshard_ore": "Skyshard Ore",
+  "item.fw_skylands.skyshard": "Skyshard",
+  "item.fw_skylands.skyshard.desc": "Light as air",
+  "block.fw_skylands.skylands_gate": "Skylands Gate",
+  "block.fw_skylands.skylands_gate.desc": "Right-click to travel to the Skylands (and back). Builds a return gate on arrival.",
+  "item.fw_skylands.skyshard_wings": "Skyshard Wings",
+  "item.fw_skylands.skyshard_wings.desc": "Carry it: slow falling while sneaking in the air",
+  "biome.fw_skylands.sky_meadow": "Sky Meadow",
+  "biome.fw_skylands.cloud_forest": "Cloud Forest",
+  "dimension.fw_skylands.skylands": "The Skylands"
+}

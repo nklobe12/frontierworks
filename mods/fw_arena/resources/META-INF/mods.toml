@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_arena"
+version="1.0.0"
+displayName="Frontierworks: Trial Grounds"
+authors="Klobe & Claude"
+description='''Place a Trial Altar, feed it a Trial Sigil and fight off waves of monsters that spawn around it. Clear every wave for a treasure hoard; a Greater Sigil brings five tougher waves and better loot. Leave and the trial fails.'''
+
+[[dependencies.fw_arena]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_arena]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_arena]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

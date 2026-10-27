@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "fw_depths:depthstone"
+    }
+  },
+  "result": {
+    "item": "fw_depths:polished_depthstone",
+    "count": 4
+  }
+}

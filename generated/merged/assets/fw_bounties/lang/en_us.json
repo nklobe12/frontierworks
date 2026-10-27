@@ -1,0 +1,16 @@
+{
+  "block.fw_bounties.bounty_board": "Bounty Board",
+  "block.fw_bounties.bounty_board.desc": "Right-click for a contract; right-click with a finished contract for your reward",
+  "item.fw_bounties.bounty_contract": "Bounty Contract",
+  "tooltip.fw_bounties.target": "Slay %s: %s / %s",
+  "tooltip.fw_bounties.done": "Complete! Return to a bounty board.",
+  "tooltip.fw_bounties.tier": "Reward tier: %s",
+  "msg.fw_bounties.new": "New contract: slay %s %s",
+  "msg.fw_bounties.progress": "Bounty: %s / %s",
+  "msg.fw_bounties.complete": "Bounty complete! Return to a bounty board.",
+  "msg.fw_bounties.have": "Finish your current contract first",
+  "msg.fw_bounties.paid": "Bounty paid!",
+  "tier.fw_bounties.1": "Common",
+  "tier.fw_bounties.2": "Dangerous",
+  "tier.fw_bounties.3": "Deadly"
+}

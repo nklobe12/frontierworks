@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_skylands"
+version="1.0.0"
+displayName="Frontierworks: The Skylands"
+authors="Klobe & Claude"
+description='''A sunny dimension of floating islands drifting over the void, reached through a Skylands Gate: flowery meadows and forests in the sky, soft clouds that break your fall, skyshard ore, and the lair of the Sky Wyvern. Fall off and you tumble back to the overworld.'''
+
+[[dependencies.fw_skylands]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_skylands]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_skylands]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

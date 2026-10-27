@@ -23,6 +23,7 @@
     "fw_alloys:electrum_nugget",
     "fw_alloys:invar_nugget",
     "fw_alloys:constantan_nugget",
-    "fw_alloys:duralumin_nugget"
+    "fw_alloys:duralumin_nugget",
+    "fw_mars:titanium_nugget"
   ]
 }

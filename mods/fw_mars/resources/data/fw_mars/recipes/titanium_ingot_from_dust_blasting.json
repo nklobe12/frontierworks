@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "item": "fw_mars:titanium_dust"
+  },
+  "result": "fw_mars:titanium_ingot",
+  "experience": 0.5,
+  "cookingtime": 100
+}

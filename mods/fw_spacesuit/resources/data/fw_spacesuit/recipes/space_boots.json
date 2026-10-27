@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P P",
+    "R R"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "R": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "fw_spacesuit:space_boots",
+    "count": 1
+  }
+}

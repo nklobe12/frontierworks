@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "fw_moon:moon_rock",
+    "fw_moon:polished_moon_rock",
+    "fw_moon:moon_rock_bricks",
+    "fw_moon:moon_rock_brick_stairs",
+    "fw_moon:moon_rock_brick_slab",
+    "fw_moon:moon_rock_brick_wall",
+    "fw_moon:helium3_ore",
+    "fw_moon:lunar_iron_ore"
+  ]
+}

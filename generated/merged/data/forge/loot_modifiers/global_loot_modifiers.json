@@ -13,6 +13,7 @@
     "fw_relics:vanilla_relics",
     "fw_hearts:fragments",
     "fw_hearts:boss_hearts",
-    "fw_coins:chest_coins"
+    "fw_coins:chest_coins",
+    "fw_arena:sigils"
   ]
 }

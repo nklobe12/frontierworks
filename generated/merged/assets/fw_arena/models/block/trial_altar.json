@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "fw_arena:block/trial_altar_top",
+    "side": "fw_arena:block/trial_altar_side",
+    "bottom": "fw_arena:block/trial_altar_side"
+  }
+}

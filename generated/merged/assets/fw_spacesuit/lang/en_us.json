@@ -1,0 +1,21 @@
+{
+  "item.fw_spacesuit.space_helmet": "Space Helmet",
+  "item.fw_spacesuit.space_helmet.desc": "Full suit: breathe in space",
+  "item.fw_spacesuit.space_suit": "Space Suit",
+  "item.fw_spacesuit.space_suit.desc": "Full suit: breathe in space. Holds 30 minutes of oxygen.",
+  "item.fw_spacesuit.space_leggings": "Space Leggings",
+  "item.fw_spacesuit.space_leggings.desc": "Full suit: breathe in space",
+  "item.fw_spacesuit.space_boots": "Space Boots",
+  "item.fw_spacesuit.space_boots.desc": "Full suit: breathe in space",
+  "item.fw_spacesuit.oxygen_tank": "Oxygen Tank",
+  "block.fw_spacesuit.oxygen_generator": "Oxygen Generator",
+  "block.fw_spacesuit.oxygen_generator.desc": "Uses 40 FE/t. Makes air within 8 blocks and refills space suits (right-click while wearing one).",
+  "msg.fw_spacesuit.no_air": "No air! Wear a full space suit or stand near an oxygen generator.",
+  "msg.fw_spacesuit.low": "Oxygen low: %s seconds left",
+  "msg.fw_spacesuit.refilled": "Suit oxygen refilled",
+  "msg.fw_spacesuit.empty": "The generator has no oxygen stored",
+  "hud.fw_spacesuit.oxygen": "O2 %s%%",
+  "hud.fw_spacesuit.bubble": "O2 bubble",
+  "tooltip.fw_spacesuit.oxygen": "Oxygen: %s / %s",
+  "tooltip.fw_spacesuit.generator": "Energy %s FE, oxygen %s"
+}

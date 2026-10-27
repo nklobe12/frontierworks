@@ -1,0 +1,21 @@
+{
+  "block.fw_depths.depthstone": "Depthstone",
+  "block.fw_depths.polished_depthstone": "Polished Depthstone",
+  "block.fw_depths.depthstone_bricks": "Depthstone Bricks",
+  "block.fw_depths.depthstone_brick_stairs": "Depthstone Brick Stairs",
+  "block.fw_depths.depthstone_brick_slab": "Depthstone Brick Slab",
+  "block.fw_depths.depthstone_brick_wall": "Depthstone Brick Wall",
+  "block.fw_depths.abyssal_ore": "Abyssal Ore",
+  "item.fw_depths.abyssal_shard": "Abyssal Shard",
+  "item.fw_depths.abyssal_shard.desc": "Pulses with deep energy",
+  "item.fw_depths.abyssal_lens": "Abyssal Lens",
+  "item.fw_depths.abyssal_lens.desc": "Hold in your off-hand in the Depths for night vision",
+  "block.fw_depths.abyssal_block": "Abyssal Block",
+  "block.fw_depths.depths_gate": "Depths Gate",
+  "block.fw_depths.depths_gate.desc": "Right-click to travel to the Depths (and back). Builds a return gate on arrival.",
+  "msg.fw_core.destination_unavailable": "The way is closed",
+  "biome.fw_depths.fungal_hollows": "Fungal Hollows",
+  "biome.fw_depths.dripstone_chasms": "Dripstone Chasms",
+  "biome.fw_depths.verdant_grotto": "Verdant Grotto",
+  "dimension.fw_depths.depths": "The Depths"
+}

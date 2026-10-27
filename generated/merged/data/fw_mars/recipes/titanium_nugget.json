@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_mars:titanium_ingot"
+    }
+  ],
+  "result": {
+    "item": "fw_mars:titanium_nugget",
+    "count": 9
+  }
+}

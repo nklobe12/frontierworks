@@ -1,0 +1,23 @@
+{
+  "type": "fw_machines:pulverizing",
+  "inputs": [
+    {
+      "item": "fw_mars:titanium_ingot",
+      "count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "item": "fw_mars:titanium_dust",
+      "count": 1
+    }
+  ],
+  "time": 100,
+  "energy": 20,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fw_machines"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "block.fw_mars.mars_sand": "Mars Sand",
+  "block.fw_mars.mars_rock": "Mars Rock",
+  "block.fw_mars.mars_rock_bricks": "Mars Rock Bricks",
+  "block.fw_mars.mars_rock_brick_stairs": "Mars Rock Brick Stairs",
+  "block.fw_mars.mars_rock_brick_slab": "Mars Rock Brick Slab",
+  "block.fw_mars.mars_rock_brick_wall": "Mars Rock Brick Wall",
+  "block.fw_mars.titanium_ore": "Titanium Ore",
+  "item.fw_mars.raw_titanium": "Raw Titanium",
+  "item.fw_mars.titanium_ingot": "Titanium Ingot",
+  "item.fw_mars.titanium_nugget": "Titanium Nugget",
+  "item.fw_mars.titanium_dust": "Titanium Dust",
+  "item.fw_mars.titanium_plate": "Titanium Plate",
+  "item.fw_mars.mars_dust": "Mars Dust",
+  "block.fw_mars.titanium_block": "Titanium Block",
+  "biome.fw_mars.red_plains": "Red Plains",
+  "dimension.fw_mars.mars": "Mars"
+}

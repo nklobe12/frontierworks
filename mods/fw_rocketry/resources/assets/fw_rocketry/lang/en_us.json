@@ -1,0 +1,23 @@
+{
+  "entity.fw_rocketry.rocket": "Rocket",
+  "block.fw_rocketry.launch_pad": "Launch Pad",
+  "block.fw_rocketry.launch_pad.desc": "Place a rocket on top of this",
+  "item.fw_rocketry.rocket_t1": "Tier 1 Rocket",
+  "item.fw_rocketry.rocket_t1.desc": "Flies to the Moon. Place on a launch pad, fuel it (4 rocket fuel) and press jump while seated.",
+  "item.fw_rocketry.rocket_t2": "Tier 2 Rocket",
+  "item.fw_rocketry.rocket_t2.desc": "Flies to Mars. Place on a launch pad, fuel it (8 rocket fuel) and press jump while seated.",
+  "item.fw_rocketry.rocket_fuel": "Rocket Fuel",
+  "item.fw_rocketry.rocket_fuel.desc": "Right-click a rocket to fuel it",
+  "item.fw_rocketry.nose_cone": "Nose Cone",
+  "item.fw_rocketry.rocket_fin": "Rocket Fin",
+  "item.fw_rocketry.rocket_engine": "Rocket Engine",
+  "item.fw_rocketry.heat_shield": "Heat Shield",
+  "item.fw_rocketry.fusion_engine": "Fusion Engine",
+  "msg.fw_rocketry.fuel": "Fuel: %s / %s",
+  "msg.fw_rocketry.need_fuel": "Not enough fuel (%s / %s)",
+  "msg.fw_rocketry.launch": "Launch in 3... 2... 1...",
+  "msg.fw_rocketry.no_dest": "The destination is unreachable",
+  "msg.fw_rocketry.pad": "Rockets must be placed on a launch pad",
+  "msg.fw_rocketry.board": "Press jump to launch. Sneak to get out.",
+  "tooltip.fw_rocketry.fuel": "Fuel: %s / %s"
+}

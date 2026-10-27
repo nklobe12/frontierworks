@@ -17,6 +17,7 @@
     "fw_parts:electrum_plate",
     "fw_parts:invar_plate",
     "fw_parts:constantan_plate",
-    "fw_parts:duralumin_plate"
+    "fw_parts:duralumin_plate",
+    "fw_mars:titanium_plate"
   ]
 }

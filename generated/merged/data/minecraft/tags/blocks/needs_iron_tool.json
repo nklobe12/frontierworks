@@ -31,6 +31,12 @@
     "fw_chunkloader:chunk_loader",
     "fw_chunkloader:advanced_chunk_loader",
     "fw_skyislands:aether_crystal_ore",
-    "fw_glass:hardened_glass"
+    "fw_glass:hardened_glass",
+    "fw_arena:trial_altar",
+    "fw_depths:abyssal_block",
+    "fw_depths:depths_gate",
+    "fw_skylands:skyshard_ore",
+    "fw_skylands:skylands_gate",
+    "fw_moon:helium3_ore"
   ]
 }

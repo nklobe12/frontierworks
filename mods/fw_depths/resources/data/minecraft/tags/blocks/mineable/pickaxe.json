@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "fw_depths:depthstone",
+    "fw_depths:polished_depthstone",
+    "fw_depths:depthstone_bricks",
+    "fw_depths:depthstone_brick_stairs",
+    "fw_depths:depthstone_brick_slab",
+    "fw_depths:depthstone_brick_wall",
+    "fw_depths:abyssal_ore",
+    "fw_depths:abyssal_block",
+    "fw_depths:depths_gate"
+  ]
+}

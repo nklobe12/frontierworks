@@ -1,0 +1,14 @@
+{
+  "block.fw_arena.trial_altar": "Trial Altar",
+  "block.fw_arena.trial_altar.desc": "Right-click with a Trial Sigil to begin a trial",
+  "item.fw_arena.trial_sigil": "Trial Sigil",
+  "item.fw_arena.trial_sigil.desc": "Starts a trial: three waves",
+  "item.fw_arena.greater_trial_sigil": "Greater Trial Sigil",
+  "item.fw_arena.greater_trial_sigil.desc": "Starts a greater trial: five deadly waves",
+  "msg.fw_arena.started": "The trial begins!",
+  "msg.fw_arena.wave": "Wave %s of %s",
+  "msg.fw_arena.cleared": "Trial complete! Claim your reward.",
+  "msg.fw_arena.failed": "The trial failed - nobody stood their ground",
+  "msg.fw_arena.busy": "A trial is already underway",
+  "bossbar.fw_arena.trial": "Trial - wave %s of %s"
+}

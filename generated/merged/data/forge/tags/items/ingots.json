@@ -23,6 +23,7 @@
     "fw_alloys:electrum_ingot",
     "fw_alloys:invar_ingot",
     "fw_alloys:constantan_ingot",
-    "fw_alloys:duralumin_ingot"
+    "fw_alloys:duralumin_ingot",
+    "fw_mars:titanium_ingot"
   ]
 }

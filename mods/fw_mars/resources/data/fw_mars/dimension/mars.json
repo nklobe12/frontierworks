@@ -1,0 +1,11 @@
+{
+  "type": "fw_mars:mars",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "fw_mars:mars",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "fw_mars:red_plains"
+    }
+  }
+}

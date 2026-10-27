@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "fw_mars:mars_rock",
+    "fw_mars:mars_rock_bricks",
+    "fw_mars:mars_rock_brick_stairs",
+    "fw_mars:mars_rock_brick_slab",
+    "fw_mars:mars_rock_brick_wall",
+    "fw_mars:titanium_ore",
+    "fw_mars:titanium_block"
+  ]
+}

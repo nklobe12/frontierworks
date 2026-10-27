@@ -1,0 +1,45 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_spacesuit"
+version="1.0.0"
+displayName="Frontierworks: Space Suit"
+authors="Klobe & Claude"
+description='''Space has no air. Wear the full space suit to breathe on the Moon and Mars - its tank holds 30 minutes of oxygen - and build Oxygen Generators (powered by Forge Energy) to make an 8-block breathable bubble around your base and refill your suit.'''
+
+[[dependencies.fw_spacesuit]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_spacesuit]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_spacesuit]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fw_spacesuit]]
+    modId="fw_moon"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fw_spacesuit]]
+    modId="fw_mars"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

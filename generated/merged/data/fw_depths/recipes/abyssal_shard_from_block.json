@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fw_depths:abyssal_block"
+    }
+  ],
+  "result": {
+    "item": "fw_depths:abyssal_shard",
+    "count": 9
+  }
+}

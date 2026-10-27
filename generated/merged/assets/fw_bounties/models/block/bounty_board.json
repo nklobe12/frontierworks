@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "fw_bounties:block/bounty_board_side",
+    "side": "fw_bounties:block/bounty_board_side",
+    "front": "fw_bounties:block/bounty_board_front"
+  }
+}

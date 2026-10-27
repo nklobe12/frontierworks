@@ -1,0 +1,15 @@
+{
+  "type": "fw_skylands:skylands",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:floating_islands",
+    "biome_source": {
+      "type": "minecraft:checkerboard",
+      "biomes": [
+        "fw_skylands:sky_meadow",
+        "fw_skylands:cloud_forest"
+      ],
+      "scale": 4
+    }
+  }
+}

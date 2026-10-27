@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fw_bounties"
+version="1.0.0"
+displayName="Frontierworks: Bounty Board"
+authors="Klobe & Claude"
+description='''Craft a bounty board and right-click it for a hunting contract: slay a number of a given monster (vanilla or Frontierworks), then hand the finished contract back for coins and a loot roll. Harder targets pay more.'''
+
+[[dependencies.fw_bounties]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_bounties]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fw_bounties]]
+    modId="fw_core"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fw_bounties]]
+    modId="fw_coins"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
