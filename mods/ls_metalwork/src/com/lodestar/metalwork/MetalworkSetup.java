@@ -41,6 +41,7 @@ public final class MetalworkSetup {
         MinecraftForge.EVENT_BUS.addListener(MetalworkSetup::playerTick);
         MinecraftForge.EVENT_BUS.addListener(MetalworkSetup::quench);
         LensRegistry.machine(Content.ALLOYING, () -> new ItemStack(Content.ALLOY_KILN.get()), 120);
+        com.lodestar.core.multiblock.MultiblockPattern.registerPreview("ls_metalwork:bloomery", BloomeryBE::pattern, () -> Content.BLOOMERY.get());
 
         ResourceLocation smithing = new ResourceLocation("ls_metalwork", "smithing");
         LensRegistry.register(new RecipeCategory(smithing, Component.translatable("lens.category.ls_metalwork.smithing"),

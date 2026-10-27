@@ -190,6 +190,20 @@ public class MultiblockPattern {
         return new Builder(id);
     }
 
+    /** A structure that guides (Codex) can preview: its pattern and the controller block it is built around. */
+    public record Preview(java.util.function.Supplier<MultiblockPattern> pattern, java.util.function.Supplier<? extends Block> controller) {}
+
+    private static final Map<String, Preview> PREVIEWS = new java.util.concurrent.ConcurrentHashMap<>();
+
+    public static void registerPreview(String id, java.util.function.Supplier<MultiblockPattern> pattern, java.util.function.Supplier<? extends Block> controller) {
+        PREVIEWS.put(id, new Preview(pattern, controller));
+    }
+
+    @Nullable
+    public static Preview preview(String id) {
+        return PREVIEWS.get(id);
+    }
+
     public static final class Builder {
         private final String id;
         private final List<String[]> layers = new ArrayList<>();

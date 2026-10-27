@@ -100,7 +100,8 @@ public final class AetherValues {
                 if (out.isEmpty() || map.containsKey(out.getItem())) continue;
                 long cost = 0;
                 boolean known = true;
-                for (Ingredient ing : r.getIngredients()) {
+                List<Ingredient> ings = r.getType() == RecipeType.SMITHING ? com.lodestar.core.recipe.RecipeUtil.smithingInputs(r) : r.getIngredients();
+                for (Ingredient ing : ings) {
                     if (ing.isEmpty()) continue;
                     long best = -1;
                     for (ItemStack s : ing.getItems()) {
