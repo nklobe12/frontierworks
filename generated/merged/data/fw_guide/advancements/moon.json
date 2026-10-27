@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "fw_moon:moon_rock"
+    },
+    "title": {
+      "translate": "advancements.fw_guide.moon.title"
+    },
+    "description": {
+      "translate": "advancements.fw_guide.moon.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arrived": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "fw_moon:moon"
+      }
+    }
+  },
+  "parent": "fw_guide:rocket"
+}

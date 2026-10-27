@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "fw_generators:combustion_generator"
+    },
+    "title": {
+      "translate": "advancements.fw_guide.power.title"
+    },
+    "description": {
+      "translate": "advancements.fw_guide.power.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fw_generators:combustion_generator",
+              "fw_solar:solar_panel_basic",
+              "fw_wind:wind_turbine",
+              "fw_hydro:water_wheel",
+              "fw_steam:steam_engine",
+              "fw_geothermal:geothermal_generator"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "fw_guide:kiln"
+}

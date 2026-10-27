@@ -112,3 +112,4 @@ fw_moon
 fw_mars
 fw_rocketry
 fw_spacesuit
+fw_guide

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "fw_machines:pulverizer"
+    },
+    "title": {
+      "translate": "advancements.fw_guide.pulverizer.title"
+    },
+    "description": {
+      "translate": "advancements.fw_guide.pulverizer.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fw_machines:pulverizer"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "fw_guide:power"
+}

@@ -1,0 +1,1902 @@
+{
+  "categories": [
+    {
+      "id": "materials",
+      "title": "Materials",
+      "icon": "fw_metals:tin_ingot",
+      "intro": "Ores, metals, alloys, gems and crafting parts - the foundation of everything you build.",
+      "mods": [
+        {
+          "id": "fw_metals",
+          "name": "Metals",
+          "desc": "Eight new ores - tin, lead, silver, nickel, zinc, aluminum, platinum and uranium - with raw ores, ingots, nuggets, dusts and storage blocks, plus dusts for vanilla metals.",
+          "items": [
+            "fw_metals:tin_ore",
+            "fw_metals:deepslate_tin_ore",
+            "fw_metals:raw_tin",
+            "fw_metals:tin_ingot",
+            "fw_metals:tin_nugget",
+            "fw_metals:tin_dust",
+            "fw_metals:tin_block",
+            "fw_metals:raw_tin_block",
+            "fw_metals:lead_ore",
+            "fw_metals:deepslate_lead_ore",
+            "fw_metals:raw_lead",
+            "fw_metals:lead_ingot",
+            "fw_metals:lead_nugget",
+            "fw_metals:lead_dust",
+            "fw_metals:lead_block",
+            "fw_metals:raw_lead_block",
+            "fw_metals:silver_ore",
+            "fw_metals:deepslate_silver_ore",
+            "fw_metals:raw_silver",
+            "fw_metals:silver_ingot",
+            "fw_metals:silver_nugget",
+            "fw_metals:silver_dust",
+            "fw_metals:silver_block",
+            "fw_metals:raw_silver_block",
+            "fw_metals:nickel_ore",
+            "fw_metals:deepslate_nickel_ore",
+            "fw_metals:raw_nickel",
+            "fw_metals:nickel_ingot",
+            "fw_metals:nickel_nugget",
+            "fw_metals:nickel_dust",
+            "fw_metals:nickel_block",
+            "fw_metals:raw_nickel_block",
+            "fw_metals:zinc_ore",
+            "fw_metals:deepslate_zinc_ore",
+            "fw_metals:raw_zinc",
+            "fw_metals:zinc_ingot",
+            "fw_metals:zinc_nugget",
+            "fw_metals:zinc_dust",
+            "fw_metals:zinc_block",
+            "fw_metals:raw_zinc_block",
+            "fw_metals:aluminum_ore",
+            "fw_metals:deepslate_aluminum_ore",
+            "fw_metals:raw_aluminum",
+            "fw_metals:aluminum_ingot",
+            "fw_metals:aluminum_nugget",
+            "fw_metals:aluminum_dust",
+            "fw_metals:aluminum_block",
+            "fw_metals:raw_aluminum_block",
+            "fw_metals:platinum_ore",
+            "fw_metals:deepslate_platinum_ore",
+            "fw_metals:raw_platinum",
+            "fw_metals:platinum_ingot",
+            "fw_metals:platinum_nugget",
+            "fw_metals:platinum_dust",
+            "fw_metals:platinum_block",
+            "fw_metals:raw_platinum_block",
+            "fw_metals:uranium_ore",
+            "fw_metals:deepslate_uranium_ore",
+            "fw_metals:raw_uranium",
+            "fw_metals:uranium_ingot",
+            "fw_metals:uranium_nugget",
+            "fw_metals:uranium_dust",
+            "fw_metals:uranium_block",
+            "fw_metals:raw_uranium_block",
+            "fw_metals:iron_dust",
+            "fw_metals:gold_dust",
+            "fw_metals:copper_dust",
+            "fw_metals:coal_dust",
+            "fw_metals:diamond_dust",
+            "fw_metals:obsidian_dust",
+            "fw_metals:ender_dust",
+            "fw_metals:stone_dust"
+          ]
+        },
+        {
+          "id": "fw_alloys",
+          "name": "Alloys",
+          "desc": "Bronze, brass, steel, electrum, invar, constantan and duralumin - the alloys every Frontierworks machine is built from. Mix dusts by hand early on, then use the Alloy Kiln or Alloy Smelter.",
+          "items": [
+            "fw_alloys:bronze_ingot",
+            "fw_alloys:bronze_nugget",
+            "fw_alloys:bronze_dust",
+            "fw_alloys:bronze_block",
+            "fw_alloys:brass_ingot",
+            "fw_alloys:brass_nugget",
+            "fw_alloys:brass_dust",
+            "fw_alloys:brass_block",
+            "fw_alloys:steel_ingot",
+            "fw_alloys:steel_nugget",
+            "fw_alloys:steel_dust",
+            "fw_alloys:steel_block",
+            "fw_alloys:electrum_ingot",
+            "fw_alloys:electrum_nugget",
+            "fw_alloys:electrum_dust",
+            "fw_alloys:electrum_block",
+            "fw_alloys:invar_ingot",
+            "fw_alloys:invar_nugget",
+            "fw_alloys:invar_dust",
+            "fw_alloys:invar_block",
+            "fw_alloys:constantan_ingot",
+            "fw_alloys:constantan_nugget",
+            "fw_alloys:constantan_dust",
+            "fw_alloys:constantan_block",
+            "fw_alloys:duralumin_ingot",
+            "fw_alloys:duralumin_nugget",
+            "fw_alloys:duralumin_dust",
+            "fw_alloys:duralumin_block"
+          ]
+        },
+        {
+          "id": "fw_parts",
+          "name": "Parts",
+          "desc": "Plates, gears, rods and wires for every metal, hand crafting tools, and the machine frames, motors and coils that all Frontierworks machines are assembled from.",
+          "items": [
+            "fw_parts:engineers_hammer",
+            "fw_parts:wire_cutters",
+            "fw_parts:hand_mortar",
+            "fw_parts:iron_plate",
+            "fw_parts:iron_gear",
+            "fw_parts:iron_rod",
+            "fw_parts:gold_plate",
+            "fw_parts:gold_gear",
+            "fw_parts:gold_rod",
+            "fw_parts:copper_plate",
+            "fw_parts:copper_gear",
+            "fw_parts:copper_rod",
+            "fw_parts:tin_plate",
+            "fw_parts:tin_gear",
+            "fw_parts:tin_rod",
+            "fw_parts:lead_plate",
+            "fw_parts:lead_gear",
+            "fw_parts:lead_rod",
+            "fw_parts:silver_plate",
+            "fw_parts:silver_gear",
+            "fw_parts:silver_rod",
+            "fw_parts:nickel_plate",
+            "fw_parts:nickel_gear",
+            "fw_parts:nickel_rod",
+            "fw_parts:zinc_plate",
+            "fw_parts:zinc_gear",
+            "fw_parts:zinc_rod",
+            "fw_parts:aluminum_plate",
+            "fw_parts:aluminum_gear",
+            "fw_parts:aluminum_rod",
+            "fw_parts:platinum_plate",
+            "fw_parts:platinum_gear",
+            "fw_parts:platinum_rod",
+            "fw_parts:bronze_plate",
+            "fw_parts:bronze_gear",
+            "fw_parts:bronze_rod",
+            "fw_parts:brass_plate",
+            "fw_parts:brass_gear",
+            "fw_parts:brass_rod",
+            "fw_parts:steel_plate",
+            "fw_parts:steel_gear",
+            "fw_parts:steel_rod",
+            "fw_parts:electrum_plate",
+            "fw_parts:electrum_gear",
+            "fw_parts:electrum_rod",
+            "fw_parts:invar_plate",
+            "fw_parts:invar_gear",
+            "fw_parts:invar_rod",
+            "fw_parts:constantan_plate",
+            "fw_parts:constantan_gear",
+            "fw_parts:constantan_rod",
+            "fw_parts:duralumin_plate",
+            "fw_parts:duralumin_gear",
+            "fw_parts:duralumin_rod",
+            "fw_parts:copper_wire",
+            "fw_parts:gold_wire",
+            "fw_parts:electrum_wire",
+            "fw_parts:aluminum_wire",
+            "fw_parts:constantan_wire",
+            "fw_parts:machine_frame",
+            "fw_parts:advanced_frame",
+            "fw_parts:elite_frame",
+            "fw_parts:ultimate_frame",
+            "fw_parts:motor",
+            "fw_parts:heating_coil",
+            "fw_parts:cooling_coil",
+            "fw_parts:blank_card",
+            "fw_parts:fan",
+            "fw_parts:glass_lens",
+            "fw_parts:servo",
+            "fw_parts:reinforced_plate"
+          ]
+        },
+        {
+          "id": "fw_gems",
+          "name": "Gems",
+          "desc": "Ruby, sapphire, peridot, topaz and onyx: deep ores, gem blocks, and the gems used for jewellery, relics and high-tier tools.",
+          "items": [
+            "fw_gems:ruby_ore",
+            "fw_gems:deepslate_ruby_ore",
+            "fw_gems:ruby",
+            "fw_gems:ruby_block",
+            "fw_gems:sapphire_ore",
+            "fw_gems:deepslate_sapphire_ore",
+            "fw_gems:sapphire",
+            "fw_gems:sapphire_block",
+            "fw_gems:peridot_ore",
+            "fw_gems:deepslate_peridot_ore",
+            "fw_gems:peridot",
+            "fw_gems:peridot_block",
+            "fw_gems:topaz_ore",
+            "fw_gems:deepslate_topaz_ore",
+            "fw_gems:topaz",
+            "fw_gems:topaz_block",
+            "fw_gems:onyx_ore",
+            "fw_gems:deepslate_onyx_ore",
+            "fw_gems:onyx",
+            "fw_gems:onyx_block"
+          ]
+        },
+        {
+          "id": "fw_minerals",
+          "name": "Minerals",
+          "desc": "Sulfur, saltpeter, graphite, fluorite and apatite ores - the raw chemistry behind explosives, fertilizer, batteries and reactor parts.",
+          "items": [
+            "fw_minerals:sulfur_ore",
+            "fw_minerals:deepslate_sulfur_ore",
+            "fw_minerals:sulfur",
+            "fw_minerals:sulfur_block",
+            "fw_minerals:saltpeter_ore",
+            "fw_minerals:deepslate_saltpeter_ore",
+            "fw_minerals:saltpeter",
+            "fw_minerals:saltpeter_block",
+            "fw_minerals:graphite_ore",
+            "fw_minerals:deepslate_graphite_ore",
+            "fw_minerals:graphite",
+            "fw_minerals:graphite_block",
+            "fw_minerals:fluorite_ore",
+            "fw_minerals:deepslate_fluorite_ore",
+            "fw_minerals:fluorite",
+            "fw_minerals:fluorite_block",
+            "fw_minerals:apatite_ore",
+            "fw_minerals:deepslate_apatite_ore",
+            "fw_minerals:apatite",
+            "fw_minerals:apatite_block",
+            "fw_minerals:graphite_rod"
+          ]
+        },
+        {
+          "id": "fw_crystals",
+          "name": "Crystals",
+          "desc": "Crystal geodes deep underground: Energite powers advanced circuits and batteries, Voidite bends space for teleporters. Budding blocks regrow crystals over time.",
+          "items": [
+            "fw_crystals:energite_shard",
+            "fw_crystals:energite_dust",
+            "fw_crystals:energite_block",
+            "fw_crystals:small_energite_bud",
+            "fw_crystals:medium_energite_bud",
+            "fw_crystals:large_energite_bud",
+            "fw_crystals:energite_cluster",
+            "fw_crystals:budding_energite",
+            "fw_crystals:voidite_shard",
+            "fw_crystals:voidite_dust",
+            "fw_crystals:voidite_block",
+            "fw_crystals:small_voidite_bud",
+            "fw_crystals:medium_voidite_bud",
+            "fw_crystals:large_voidite_bud",
+            "fw_crystals:voidite_cluster",
+            "fw_crystals:budding_voidite",
+            "fw_crystals:charged_energite"
+          ]
+        },
+        {
+          "id": "fw_oil",
+          "name": "Oil",
+          "desc": "Crude oil lakes in deserts, badlands and plains, plus oil sand deposits. Refine crude into diesel, lubricant and plastics, and pave roads with fast-walking asphalt.",
+          "items": [
+            "fw_oil:crude_oil",
+            "fw_oil:crude_oil_bucket",
+            "fw_oil:oil_sand",
+            "fw_oil:bitumen",
+            "fw_oil:asphalt",
+            "fw_oil:asphalt_lined"
+          ]
+        },
+        {
+          "id": "fw_circuits",
+          "name": "Circuits",
+          "desc": "Silicon, wafers and the four circuit tiers - basic, advanced, elite and quantum - plus the Circuit Assembler that builds them efficiently.",
+          "items": [
+            "fw_circuits:circuit_assembler",
+            "fw_circuits:silicon",
+            "fw_circuits:silicon_wafer",
+            "fw_circuits:basic_circuit",
+            "fw_circuits:advanced_circuit",
+            "fw_circuits:elite_circuit",
+            "fw_circuits:quantum_circuit",
+            "fw_circuits:processor",
+            "fw_circuits:solar_cell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "machines",
+      "title": "Machines & Power",
+      "icon": "fw_machines:pulverizer",
+      "intro": "Generators, batteries and processing machines. Start with the kiln and a combustion generator, then work up to fusion.",
+      "mods": [
+        {
+          "id": "fw_core",
+          "name": "Core",
+          "desc": "Shared framework for every Frontierworks mod: Forge Energy, the machine system, data-driven machine recipes, loot injection and the creative tabs.",
+          "items": [
+            "fw_core:speed_upgrade",
+            "fw_core:efficiency_upgrade",
+            "fw_core:capacity_upgrade",
+            "fw_core:range_upgrade",
+            "fw_core:wrench"
+          ]
+        },
+        {
+          "id": "fw_kiln",
+          "name": "Kilns",
+          "desc": "Fuel-fired early-game machines: the Alloy Kiln makes bronze, brass and steel before you have power, and the Coke Oven turns coal into high-energy coal coke.",
+          "items": [
+            "fw_kiln:alloy_kiln",
+            "fw_kiln:coke_oven",
+            "fw_kiln:coal_coke",
+            "fw_kiln:coke_dust",
+            "fw_kiln:coal_coke_block",
+            "fw_kiln:fire_clay",
+            "fw_kiln:kiln_brick",
+            "fw_kiln:kiln_bricks"
+          ]
+        },
+        {
+          "id": "fw_machines",
+          "name": "Machines",
+          "desc": "The first electric machines: Pulverizer (ore doubling), Electric Furnace, Compressor and Extractor. All accept Speed, Efficiency and Capacity upgrades.",
+          "items": [
+            "fw_machines:pulverizer",
+            "fw_machines:electric_furnace",
+            "fw_machines:compressor",
+            "fw_machines:extractor"
+          ]
+        },
+        {
+          "id": "fw_alloysmelter",
+          "name": "Alloy Smelter",
+          "desc": "An electric two-input furnace that fuses metals into alloys, bakes silicon and makes glass products.",
+          "items": [
+            "fw_alloysmelter:alloy_smelter",
+            "fw_alloysmelter:redstone_alloy_ingot"
+          ]
+        },
+        {
+          "id": "fw_sifting",
+          "name": "Sifting",
+          "desc": "Early-game resource gathering: sift gravel, sand, dirt and soul sand by hand for nuggets, gems and seeds, then automate it with the powered Auto-Sifter.",
+          "items": [
+            "fw_sifting:sifter",
+            "fw_sifting:auto_sifter"
+          ]
+        },
+        {
+          "id": "fw_sawmill",
+          "name": "Sawmill",
+          "desc": "An electric Sawmill that cuts logs into six planks plus sawdust, and planks into sticks. Sawdust becomes paper, particle board and fuel briquettes.",
+          "items": [
+            "fw_sawmill:sawmill",
+            "fw_sawmill:sawdust",
+            "fw_sawmill:sawdust_briquette",
+            "fw_sawmill:particle_board"
+          ]
+        },
+        {
+          "id": "fw_centrifuge",
+          "name": "Centrifuge",
+          "desc": "The Centrifuge spins materials apart into their components: slag into metals, dirt into clay and sand, magma cream into slime and blaze powder, and moon dust into helium-3.",
+          "items": [
+            "fw_centrifuge:centrifuge"
+          ]
+        },
+        {
+          "id": "fw_orewasher",
+          "name": "Ore Washer",
+          "desc": "Tier-two ore processing: the Ore Washer scrubs ores and raw ores with water for triple yields, leaving slag that a Centrifuge can reclaim.",
+          "items": [
+            "fw_orewasher:ore_washer",
+            "fw_orewasher:slag"
+          ]
+        },
+        {
+          "id": "fw_press",
+          "name": "Metal Press",
+          "desc": "A powered Metal Press that stamps ingots into plates, gears, rods and wires using reusable steel molds.",
+          "items": [
+            "fw_press:metal_press",
+            "fw_press:blank_mold",
+            "fw_press:plate_mold",
+            "fw_press:gear_mold",
+            "fw_press:rod_mold",
+            "fw_press:wire_mold"
+          ]
+        },
+        {
+          "id": "fw_chemistry",
+          "name": "Chemistry",
+          "desc": "The Chemical Reactor combines solids and fluids: sulfuric acid, vulcanized rubber, gunpowder, fertilizer, plastic and rocket-grade chemicals.",
+          "items": [
+            "fw_chemistry:chemical_reactor",
+            "fw_chemistry:sulfuric_acid",
+            "fw_chemistry:sulfuric_acid_bucket",
+            "fw_chemistry:vulcanized_rubber",
+            "fw_chemistry:plastic_sheet",
+            "fw_chemistry:fertilizer",
+            "fw_chemistry:carbon_fiber"
+          ]
+        },
+        {
+          "id": "fw_electrolysis",
+          "name": "Electrolysis",
+          "desc": "The Electrolyzer splits water into hydrogen and oxygen, brine into chlorine and sodium, and heavy water into deuterium for fusion.",
+          "items": [
+            "fw_electrolysis:electrolyzer",
+            "fw_electrolysis:heavy_water",
+            "fw_electrolysis:heavy_water_bucket",
+            "fw_electrolysis:salt",
+            "fw_electrolysis:sodium"
+          ]
+        },
+        {
+          "id": "fw_petro",
+          "name": "Petrochemicals",
+          "desc": "The Refinery splits crude oil into diesel and lubricant; the Diesel Generator burns diesel, biodiesel and rocket fuel for serious power.",
+          "items": [
+            "fw_petro:refinery",
+            "fw_petro:diesel",
+            "fw_petro:diesel_bucket",
+            "fw_petro:lubricant",
+            "fw_petro:lubricant_bucket",
+            "fw_petro:biodiesel",
+            "fw_petro:biodiesel_bucket",
+            "fw_petro:diesel_generator"
+          ]
+        },
+        {
+          "id": "fw_freezer",
+          "name": "Cryogenics",
+          "desc": "The Cryo Freezer turns water into ice and lava into obsidian, and makes cryotheum - a super-coolant used by reactors and cooling coils.",
+          "items": [
+            "fw_freezer:cryo_freezer",
+            "fw_freezer:cryotheum_dust",
+            "fw_freezer:cryotheum_block"
+          ]
+        },
+        {
+          "id": "fw_recycler",
+          "name": "Recycler",
+          "desc": "Turn junk into opportunity: the Recycler grinds any item into scrap, and scrap boxes hold random useful loot - from nuggets to circuits to the occasional diamond.",
+          "items": [
+            "fw_recycler:scrap",
+            "fw_recycler:scrap_box",
+            "fw_recycler:recycler"
+          ]
+        },
+        {
+          "id": "fw_generators",
+          "name": "Generators",
+          "desc": "Your first power: the Combustion Generator burns any furnace fuel, the Reinforced Generator burns it hotter, and the Lava Generator drinks lava for steady energy.",
+          "items": [
+            "fw_generators:combustion_generator",
+            "fw_generators:reinforced_generator",
+            "fw_generators:lava_generator"
+          ]
+        },
+        {
+          "id": "fw_steam",
+          "name": "Steam Power",
+          "desc": "Steam-age power: Boilers burn fuel to boil water, Steam Engines and the advanced Steam Turbine turn that steam into Forge Energy. Boilers heat up over time and push steam to neighbours.",
+          "items": [
+            "fw_steam:boiler",
+            "fw_steam:high_pressure_boiler",
+            "fw_steam:steam_engine",
+            "fw_steam:steam_turbine"
+          ]
+        },
+        {
+          "id": "fw_solar",
+          "name": "Solar Power",
+          "desc": "Four tiers of solar panels, from an 8 FE/t starter panel to the 512 FE/t ultimate array. Hybrid and ultimate panels keep producing at night.",
+          "items": [
+            "fw_solar:solar_panel_basic",
+            "fw_solar:solar_panel_advanced",
+            "fw_solar:solar_panel_hybrid",
+            "fw_solar:solar_panel_ultimate"
+          ]
+        },
+        {
+          "id": "fw_wind",
+          "name": "Wind Power",
+          "desc": "Wind turbines that love altitude and storms: build them high, give them open air, and they pay you back with free energy.",
+          "items": [
+            "fw_wind:wind_turbine",
+            "fw_wind:large_wind_turbine",
+            "fw_wind:turbine_blade"
+          ]
+        },
+        {
+          "id": "fw_hydro",
+          "name": "Hydro Power",
+          "desc": "Water wheels and hydro turbines that turn rivers and waterfalls into energy - flowing water on each side adds power.",
+          "items": [
+            "fw_hydro:water_wheel",
+            "fw_hydro:hydro_turbine"
+          ]
+        },
+        {
+          "id": "fw_geothermal",
+          "name": "Geothermal Power",
+          "desc": "Geothermal generators that draw heat from lava pools and magma - 50% stronger in the Nether.",
+          "items": [
+            "fw_geothermal:geothermal_generator",
+            "fw_geothermal:magma_dynamo"
+          ]
+        },
+        {
+          "id": "fw_batteries",
+          "name": "Batteries",
+          "desc": "Energy cells from 1M to 512M FE that keep their charge when broken, plus portable batteries that power your gadgets and machines.",
+          "items": [
+            "fw_batteries:energy_cell_basic",
+            "fw_batteries:energy_cell_advanced",
+            "fw_batteries:energy_cell_elite",
+            "fw_batteries:energy_cell_ultimate",
+            "fw_batteries:battery_cell",
+            "fw_batteries:battery_basic",
+            "fw_batteries:battery_advanced",
+            "fw_batteries:battery_elite"
+          ]
+        },
+        {
+          "id": "fw_cables",
+          "name": "Energy Cables",
+          "desc": "Four tiers of energy cables - copper, gold, electrum and superconductor - that link generators, batteries and machines into one network with no losses.",
+          "items": [
+            "fw_cables:copper_cable",
+            "fw_cables:gold_cable",
+            "fw_cables:electrum_cable",
+            "fw_cables:superconductor_cable"
+          ]
+        },
+        {
+          "id": "fw_wireless",
+          "name": "Wireless Energy",
+          "desc": "Beam power anywhere: feed a Wireless Transmitter, link a Receiver to it with a Link Card, and energy flows across any distance - even between dimensions.",
+          "items": [
+            "fw_wireless:wireless_transmitter",
+            "fw_wireless:wireless_receiver",
+            "fw_wireless:link_card"
+          ]
+        },
+        {
+          "id": "fw_nuclear",
+          "name": "Nuclear Power",
+          "desc": "A fission reactor: load uranium fuel rods, keep it fed with water, and manage the heat. More rods mean more efficiency - and more risk. Auto-SCRAM can save you from a meltdown.",
+          "items": [
+            "fw_nuclear:fission_reactor",
+            "fw_nuclear:uranium_fuel_rod",
+            "fw_nuclear:depleted_fuel_rod",
+            "fw_nuclear:reactor_plating"
+          ]
+        },
+        {
+          "id": "fw_fusion",
+          "name": "Fusion Power",
+          "desc": "The end-game power source: ignite a fusion plasma with 2 million FE, then feed it deuterium and helium-3 from the Moon for 10,000 FE/t.",
+          "items": [
+            "fw_fusion:fusion_reactor",
+            "fw_fusion:plasma_containment_coil"
+          ]
+        },
+        {
+          "id": "fw_beacons",
+          "name": "Field Projectors",
+          "desc": "Powered beacons: a Field Projector bathes every player within 16 blocks in your choice of ten effects - speed, haste, regeneration, resistance, night vision and more - for FE.",
+          "items": [
+            "fw_beacons:field_projector"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "logistics",
+      "title": "Logistics",
+      "icon": "fw_pipes:item_pipe",
+      "intro": "Move items, fluids and energy around, store them, and automate farms and mining.",
+      "mods": [
+        {
+          "id": "fw_pipes",
+          "name": "Item Pipes",
+          "desc": "Instant item logistics: extraction pipes pull from inventories and deliver to the nearest inventory on the network. Right-click an extraction pipe with an item to filter it; redstone pauses it.",
+          "items": [
+            "fw_pipes:item_pipe",
+            "fw_pipes:extraction_pipe",
+            "fw_pipes:fast_extraction_pipe",
+            "fw_pipes:elite_extraction_pipe"
+          ]
+        },
+        {
+          "id": "fw_fluidducts",
+          "name": "Fluid Ducts",
+          "desc": "Move water, lava, oil, steam and every other fluid: pump ducts drain adjacent tanks and machines and fill everything else on the network.",
+          "items": [
+            "fw_fluidducts:fluid_duct",
+            "fw_fluidducts:pump_duct",
+            "fw_fluidducts:high_flow_pump_duct",
+            "fw_fluidducts:elite_pump_duct"
+          ]
+        },
+        {
+          "id": "fw_tanks",
+          "name": "Tanks",
+          "desc": "Portable fluid tanks from 16 to 1,024 buckets that keep their contents when broken. Stack them and they drain downwards.",
+          "items": [
+            "fw_tanks:tank_basic",
+            "fw_tanks:tank_reinforced",
+            "fw_tanks:tank_elite",
+            "fw_tanks:tank_ultimate"
+          ]
+        },
+        {
+          "id": "fw_storage",
+          "name": "Storage",
+          "desc": "Crates that keep their contents when picked up, and bulk barrels that hold up to 1,024 stacks of a single item and show it on their face.",
+          "items": [
+            "fw_storage:wooden_crate",
+            "fw_storage:iron_crate",
+            "fw_storage:steel_crate",
+            "fw_storage:bulk_barrel",
+            "fw_storage:reinforced_bulk_barrel",
+            "fw_storage:elite_bulk_barrel"
+          ]
+        },
+        {
+          "id": "fw_conveyors",
+          "name": "Conveyors",
+          "desc": "Conveyor belts in three speeds that carry items, mobs and players - and drop items straight into any inventory at the end of the line. Sneak to stand still.",
+          "items": [
+            "fw_conveyors:conveyor_belt",
+            "fw_conveyors:fast_conveyor_belt",
+            "fw_conveyors:express_conveyor_belt"
+          ]
+        },
+        {
+          "id": "fw_vacuum",
+          "name": "Vacuum Hopper",
+          "desc": "A hopper with ambition: pulls in every item and experience orb within 4 blocks (more with Range Upgrades) and feeds them to the inventory below.",
+          "items": [
+            "fw_vacuum:vacuum_hopper"
+          ]
+        },
+        {
+          "id": "fw_quarry",
+          "name": "Quarry",
+          "desc": "An automatic Quarry that strips a 9x9 area (up to 41x41 with Range Upgrades) all the way to bedrock, replacing liquids with stone and sending everything to a chest on top.",
+          "items": [
+            "fw_quarry:quarry"
+          ]
+        },
+        {
+          "id": "fw_pump",
+          "name": "Electric Pump",
+          "desc": "An electric pump that drains lakes of lava, oil or any fluid below it (water is infinite), and pushes the fluid into tanks and ducts around it.",
+          "items": [
+            "fw_pump:electric_pump"
+          ]
+        },
+        {
+          "id": "fw_farming",
+          "name": "Farm Automation",
+          "desc": "The Crop Harvester tends a 9x9 field around itself: harvests and replants crops and nether wart, cuts sugar cane, picks melons and pumpkins, and applies fertilizer.",
+          "items": [
+            "fw_farming:crop_harvester"
+          ]
+        },
+        {
+          "id": "fw_mobgrinder",
+          "name": "Mob Grinder",
+          "desc": "Automated mob farming: the Mob Grinder strikes mobs above it like a player would (rare drops included), uses the weapon you give it, and banks the XP. Pets, villagers, golems, named mobs and bosses are always safe.",
+          "items": [
+            "fw_mobgrinder:mob_grinder"
+          ]
+        },
+        {
+          "id": "fw_chunkloader",
+          "name": "Chunk Loaders",
+          "desc": "Keep your machines running while you explore: chunk loaders keep a 3x3 or 5x5 area of chunks loaded and ticking.",
+          "items": [
+            "fw_chunkloader:chunk_loader",
+            "fw_chunkloader:advanced_chunk_loader"
+          ]
+        },
+        {
+          "id": "fw_redstone",
+          "name": "Redstone Devices",
+          "desc": "Automation helpers: Block Breaker, Block Placer, Player Detector and an adjustable Redstone Clock.",
+          "items": [
+            "fw_redstone:block_breaker",
+            "fw_redstone:block_placer",
+            "fw_redstone:player_detector",
+            "fw_redstone:redstone_clock"
+          ]
+        },
+        {
+          "id": "fw_teleporters",
+          "name": "Teleporters",
+          "desc": "Powered teleport pads: record one pad on a Coordinate Card, link another to it, then crouch on the pad to jump - across the world or even between dimensions.",
+          "items": [
+            "fw_teleporters:teleport_pad",
+            "fw_teleporters:coordinate_card"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "title": "Tools & Gear",
+      "icon": "fw_jetpack:jetpack_basic",
+      "intro": "Tools, weapons, armor and gadgets for getting around the frontier.",
+      "mods": [
+        {
+          "id": "fw_tools",
+          "name": "Toolsmith",
+          "desc": "Full tool sets in thirteen materials, from early bronze to space-age titanium: swords, pickaxes, axes, shovels and hoes.",
+          "items": [
+            "fw_tools:bronze_sword",
+            "fw_tools:bronze_pickaxe",
+            "fw_tools:bronze_axe",
+            "fw_tools:bronze_shovel",
+            "fw_tools:bronze_hoe",
+            "fw_tools:steel_sword",
+            "fw_tools:steel_pickaxe",
+            "fw_tools:steel_axe",
+            "fw_tools:steel_shovel",
+            "fw_tools:steel_hoe",
+            "fw_tools:invar_sword",
+            "fw_tools:invar_pickaxe",
+            "fw_tools:invar_axe",
+            "fw_tools:invar_shovel",
+            "fw_tools:invar_hoe",
+            "fw_tools:silver_sword",
+            "fw_tools:silver_pickaxe",
+            "fw_tools:silver_axe",
+            "fw_tools:silver_shovel",
+            "fw_tools:silver_hoe",
+            "fw_tools:electrum_sword",
+            "fw_tools:electrum_pickaxe",
+            "fw_tools:electrum_axe",
+            "fw_tools:electrum_shovel",
+            "fw_tools:electrum_hoe",
+            "fw_tools:platinum_sword",
+            "fw_tools:platinum_pickaxe",
+            "fw_tools:platinum_axe",
+            "fw_tools:platinum_shovel",
+            "fw_tools:platinum_hoe",
+            "fw_tools:ruby_sword",
+            "fw_tools:ruby_pickaxe",
+            "fw_tools:ruby_axe",
+            "fw_tools:ruby_shovel",
+            "fw_tools:ruby_hoe",
+            "fw_tools:sapphire_sword",
+            "fw_tools:sapphire_pickaxe",
+            "fw_tools:sapphire_axe",
+            "fw_tools:sapphire_shovel",
+            "fw_tools:sapphire_hoe",
+            "fw_tools:peridot_sword",
+            "fw_tools:peridot_pickaxe",
+            "fw_tools:peridot_axe",
+            "fw_tools:peridot_shovel",
+            "fw_tools:peridot_hoe",
+            "fw_tools:topaz_sword",
+            "fw_tools:topaz_pickaxe",
+            "fw_tools:topaz_axe",
+            "fw_tools:topaz_shovel",
+            "fw_tools:topaz_hoe",
+            "fw_tools:onyx_sword",
+            "fw_tools:onyx_pickaxe",
+            "fw_tools:onyx_axe",
+            "fw_tools:onyx_shovel",
+            "fw_tools:onyx_hoe",
+            "fw_tools:meteoric_steel_sword",
+            "fw_tools:meteoric_steel_pickaxe",
+            "fw_tools:meteoric_steel_axe",
+            "fw_tools:meteoric_steel_shovel",
+            "fw_tools:meteoric_steel_hoe",
+            "fw_tools:titanium_sword",
+            "fw_tools:titanium_pickaxe",
+            "fw_tools:titanium_axe",
+            "fw_tools:titanium_shovel",
+            "fw_tools:titanium_hoe"
+          ]
+        },
+        {
+          "id": "fw_armor",
+          "name": "Armory",
+          "desc": "Armor sets in eleven materials. Wear a full gem or space-metal set for a bonus: strength, water breathing, luck, haste, fire resistance, resistance, speed and more.",
+          "items": [
+            "fw_armor:bronze_helmet",
+            "fw_armor:bronze_chestplate",
+            "fw_armor:bronze_leggings",
+            "fw_armor:bronze_boots",
+            "fw_armor:steel_helmet",
+            "fw_armor:steel_chestplate",
+            "fw_armor:steel_leggings",
+            "fw_armor:steel_boots",
+            "fw_armor:silver_helmet",
+            "fw_armor:silver_chestplate",
+            "fw_armor:silver_leggings",
+            "fw_armor:silver_boots",
+            "fw_armor:platinum_helmet",
+            "fw_armor:platinum_chestplate",
+            "fw_armor:platinum_leggings",
+            "fw_armor:platinum_boots",
+            "fw_armor:ruby_helmet",
+            "fw_armor:ruby_chestplate",
+            "fw_armor:ruby_leggings",
+            "fw_armor:ruby_boots",
+            "fw_armor:sapphire_helmet",
+            "fw_armor:sapphire_chestplate",
+            "fw_armor:sapphire_leggings",
+            "fw_armor:sapphire_boots",
+            "fw_armor:peridot_helmet",
+            "fw_armor:peridot_chestplate",
+            "fw_armor:peridot_leggings",
+            "fw_armor:peridot_boots",
+            "fw_armor:topaz_helmet",
+            "fw_armor:topaz_chestplate",
+            "fw_armor:topaz_leggings",
+            "fw_armor:topaz_boots",
+            "fw_armor:onyx_helmet",
+            "fw_armor:onyx_chestplate",
+            "fw_armor:onyx_leggings",
+            "fw_armor:onyx_boots",
+            "fw_armor:meteoric_steel_helmet",
+            "fw_armor:meteoric_steel_chestplate",
+            "fw_armor:meteoric_steel_leggings",
+            "fw_armor:meteoric_steel_boots",
+            "fw_armor:titanium_helmet",
+            "fw_armor:titanium_chestplate",
+            "fw_armor:titanium_leggings",
+            "fw_armor:titanium_boots"
+          ]
+        },
+        {
+          "id": "fw_hammers",
+          "name": "Hammers",
+          "desc": "Hammers and excavators that dig a 3x3 area at once, in eight materials. They mine a little slower and last three times longer. Sneak to dig a single block.",
+          "items": [
+            "fw_hammers:iron_hammer",
+            "fw_hammers:iron_excavator",
+            "fw_hammers:diamond_hammer",
+            "fw_hammers:diamond_excavator",
+            "fw_hammers:bronze_hammer",
+            "fw_hammers:bronze_excavator",
+            "fw_hammers:steel_hammer",
+            "fw_hammers:steel_excavator",
+            "fw_hammers:platinum_hammer",
+            "fw_hammers:platinum_excavator",
+            "fw_hammers:onyx_hammer",
+            "fw_hammers:onyx_excavator",
+            "fw_hammers:meteoric_steel_hammer",
+            "fw_hammers:meteoric_steel_excavator",
+            "fw_hammers:titanium_hammer",
+            "fw_hammers:titanium_excavator"
+          ]
+        },
+        {
+          "id": "fw_drills",
+          "name": "Power Tools",
+          "desc": "Electric drills and chainsaws that run on Forge Energy instead of durability. The advanced drill can switch to 3x3 mining. Charge them in any energy cell.",
+          "items": [
+            "fw_drills:electric_drill",
+            "fw_drills:advanced_drill",
+            "fw_drills:chainsaw",
+            "fw_drills:advanced_chainsaw",
+            "fw_drills:drill_head"
+          ]
+        },
+        {
+          "id": "fw_jetpack",
+          "name": "Jetpacks",
+          "desc": "Energy-powered jetpacks in three tiers. Hold jump to fly, sprint for a horizontal boost (reinforced and flux), and press H to toggle hover mode for gentle descents.",
+          "items": [
+            "fw_jetpack:jetpack_basic",
+            "fw_jetpack:jetpack_reinforced",
+            "fw_jetpack:jetpack_flux",
+            "fw_jetpack:thruster"
+          ]
+        },
+        {
+          "id": "fw_grapple",
+          "name": "Grappling Hooks",
+          "desc": "Grappling hooks for explorers: fire at any surface, keep holding to be reeled in, sneak to let go. Three tiers with longer reach and faster pulls.",
+          "items": [
+            "fw_grapple:grappling_hook",
+            "fw_grapple:steel_grappling_hook",
+            "fw_grapple:ender_grappling_hook"
+          ]
+        },
+        {
+          "id": "fw_backpacks",
+          "name": "Backpacks",
+          "desc": "Leather, iron, steel and explorer backpacks with up to 54 extra slots. Right-click to open; contents travel with the backpack. Backpacks and shulker boxes cannot be nested.",
+          "items": [
+            "fw_backpacks:leather_backpack",
+            "fw_backpacks:iron_backpack",
+            "fw_backpacks:steel_backpack",
+            "fw_backpacks:explorer_backpack"
+          ]
+        },
+        {
+          "id": "fw_sleepingbags",
+          "name": "Sleeping Bags",
+          "desc": "Roll out a sleeping bag anywhere to skip the night without moving your spawn point - perfect for long expeditions.",
+          "items": [
+            "fw_sleepingbags:red_sleeping_bag",
+            "fw_sleepingbags:blue_sleeping_bag",
+            "fw_sleepingbags:green_sleeping_bag",
+            "fw_sleepingbags:orange_sleeping_bag",
+            "fw_sleepingbags:gray_sleeping_bag"
+          ]
+        },
+        {
+          "id": "fw_compass",
+          "name": "Explorer's Compass",
+          "desc": "The Explorer's Compass finds every Frontierworks structure: sneak-right-click to choose a target (ruins, dungeons, towers, craters...), right-click to locate it.",
+          "items": [
+            "fw_compass:explorers_compass"
+          ]
+        },
+        {
+          "id": "fw_rope",
+          "name": "Rope",
+          "desc": "Climbable rope for cave diving and cliff faces. Right-click a hanging rope with more rope to extend it, or throw down a whole rope coil at once.",
+          "items": [
+            "fw_rope:rope",
+            "fw_rope:rope_coil",
+            "fw_rope:plant_fiber"
+          ]
+        },
+        {
+          "id": "fw_flares",
+          "name": "Flares & Glowsticks",
+          "desc": "Light the dark: throw flares that light up caves for two minutes, or place glowsticks that glow forever.",
+          "items": [
+            "fw_flares:flare_light",
+            "fw_flares:flare",
+            "fw_flares:green_glowstick",
+            "fw_flares:blue_glowstick",
+            "fw_flares:pink_glowstick",
+            "fw_flares:yellow_glowstick"
+          ]
+        },
+        {
+          "id": "fw_scanner",
+          "name": "Ore Scanner",
+          "desc": "Handheld ore scanners that outline every ore around you through solid rock for 15 seconds and list what they found. Runs on Forge Energy.",
+          "items": [
+            "fw_scanner:ore_scanner",
+            "fw_scanner:advanced_ore_scanner"
+          ]
+        },
+        {
+          "id": "fw_glider",
+          "name": "Hang Gliders",
+          "desc": "Hang gliders for soaring off cliffs and sky islands: hold one while falling to glide in the direction you look. Sneak to drop.",
+          "items": [
+            "fw_glider:hang_glider",
+            "fw_glider:reinforced_glider"
+          ]
+        },
+        {
+          "id": "fw_goggles",
+          "name": "Goggles",
+          "desc": "Powered goggles: night vision goggles light up caves, and tactical goggles also reveal every creature within 24 blocks through walls.",
+          "items": [
+            "fw_goggles:night_vision_goggles",
+            "fw_goggles:tactical_goggles"
+          ]
+        },
+        {
+          "id": "fw_buildingtools",
+          "name": "Builder's Wands",
+          "desc": "Builder's wands that extend a whole surface of matching blocks by one layer in a single click, pulling the blocks from your inventory.",
+          "items": [
+            "fw_buildingtools:stone_wand",
+            "fw_buildingtools:iron_wand",
+            "fw_buildingtools:diamond_wand",
+            "fw_buildingtools:voidite_wand"
+          ]
+        },
+        {
+          "id": "fw_magnet",
+          "name": "Magnets",
+          "desc": "Item magnets: switch one on and every item and experience orb nearby flies to you. Sneak to pause it.",
+          "items": [
+            "fw_magnet:item_magnet",
+            "fw_magnet:advanced_magnet"
+          ]
+        },
+        {
+          "id": "fw_veinminer",
+          "name": "Vein Miner",
+          "desc": "Sneak while mining an ore with the right tool to mine the whole connected vein (up to 64 blocks). Costs durability and a little hunger per block.",
+          "items": []
+        },
+        {
+          "id": "fw_treefeller",
+          "name": "Tree Feller",
+          "desc": "Chop the base of a natural tree with any axe and the whole trunk comes down. Sneak to chop just one log.",
+          "items": []
+        },
+        {
+          "id": "fw_harvest",
+          "name": "Right-Click Harvest",
+          "desc": "Right-click fully grown crops, nether wart and cocoa to harvest and replant them in one go.",
+          "items": []
+        },
+        {
+          "id": "fw_hud",
+          "name": "Explorer HUD",
+          "desc": "A compact HUD with coordinates, facing, biome, day and time, and block light level. Press F7 to move or hide it.",
+          "items": []
+        },
+        {
+          "id": "fw_sorting",
+          "name": "Inventory Sorting",
+          "desc": "Press R in any chest, crate or your inventory to merge and sort its contents.",
+          "items": []
+        },
+        {
+          "id": "fw_weapons",
+          "name": "Arsenal",
+          "desc": "New weapon types in twelve materials: long-reach spears, backstabbing daggers, warhammers whose charged blows hit everything nearby, and shield-breaking battleaxes.",
+          "items": [
+            "fw_weapons:iron_spear",
+            "fw_weapons:iron_dagger",
+            "fw_weapons:iron_warhammer",
+            "fw_weapons:iron_battleaxe",
+            "fw_weapons:diamond_spear",
+            "fw_weapons:diamond_dagger",
+            "fw_weapons:diamond_warhammer",
+            "fw_weapons:diamond_battleaxe",
+            "fw_weapons:netherite_spear",
+            "fw_weapons:netherite_dagger",
+            "fw_weapons:netherite_warhammer",
+            "fw_weapons:netherite_battleaxe",
+            "fw_weapons:bronze_spear",
+            "fw_weapons:bronze_dagger",
+            "fw_weapons:bronze_warhammer",
+            "fw_weapons:bronze_battleaxe",
+            "fw_weapons:steel_spear",
+            "fw_weapons:steel_dagger",
+            "fw_weapons:steel_warhammer",
+            "fw_weapons:steel_battleaxe",
+            "fw_weapons:silver_spear",
+            "fw_weapons:silver_dagger",
+            "fw_weapons:silver_warhammer",
+            "fw_weapons:silver_battleaxe",
+            "fw_weapons:platinum_spear",
+            "fw_weapons:platinum_dagger",
+            "fw_weapons:platinum_warhammer",
+            "fw_weapons:platinum_battleaxe",
+            "fw_weapons:ruby_spear",
+            "fw_weapons:ruby_dagger",
+            "fw_weapons:ruby_warhammer",
+            "fw_weapons:ruby_battleaxe",
+            "fw_weapons:sapphire_spear",
+            "fw_weapons:sapphire_dagger",
+            "fw_weapons:sapphire_warhammer",
+            "fw_weapons:sapphire_battleaxe",
+            "fw_weapons:onyx_spear",
+            "fw_weapons:onyx_dagger",
+            "fw_weapons:onyx_warhammer",
+            "fw_weapons:onyx_battleaxe",
+            "fw_weapons:meteoric_steel_spear",
+            "fw_weapons:meteoric_steel_dagger",
+            "fw_weapons:meteoric_steel_warhammer",
+            "fw_weapons:meteoric_steel_battleaxe",
+            "fw_weapons:titanium_spear",
+            "fw_weapons:titanium_dagger",
+            "fw_weapons:titanium_warhammer",
+            "fw_weapons:titanium_battleaxe"
+          ]
+        },
+        {
+          "id": "fw_blasters",
+          "name": "Blasters",
+          "desc": "Energy weapons that run on Forge Energy: a quick blaster pistol, a hard-hitting rifle, a six-bolt scatter blaster and an explosive plasma cannon. Recharge them in any energy cell.",
+          "items": [
+            "fw_blasters:bolt_red",
+            "fw_blasters:bolt_blue",
+            "fw_blasters:bolt_orange",
+            "fw_blasters:bolt_purple",
+            "fw_blasters:blaster_pistol",
+            "fw_blasters:blaster_rifle",
+            "fw_blasters:scatter_blaster",
+            "fw_blasters:plasma_cannon",
+            "fw_blasters:focusing_lens"
+          ]
+        },
+        {
+          "id": "fw_explosives",
+          "name": "Demolitions",
+          "desc": "Things that go boom: bouncing dynamite and bundles, mining charges that turn rock into drops, frag, incendiary and smoke grenades, and C4 you can detonate remotely.",
+          "items": [
+            "fw_explosives:dynamite",
+            "fw_explosives:bundled_dynamite",
+            "fw_explosives:mining_charge",
+            "fw_explosives:frag_grenade",
+            "fw_explosives:incendiary_grenade",
+            "fw_explosives:smoke_grenade",
+            "fw_explosives:c4",
+            "fw_explosives:detonator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adventure",
+      "title": "Adventure",
+      "icon": "fw_relics:amulet_of_vigor",
+      "intro": "Creatures, bosses, relics, bounties, trials and treasure.",
+      "mods": [
+        {
+          "id": "fw_graves",
+          "name": "Graves",
+          "desc": "When you die, a grave keeps all of your items safe at the spot. Only you can open it.",
+          "items": [
+            "fw_graves:grave"
+          ]
+        },
+        {
+          "id": "fw_xpbank",
+          "name": "Experience Bank",
+          "desc": "Bank your experience so you never lose it to death or lava: deposit and withdraw levels at the XP Bank.",
+          "items": [
+            "fw_xpbank:xp_bank"
+          ]
+        },
+        {
+          "id": "fw_dungeons",
+          "name": "Deep Dungeons",
+          "desc": "A ruined shaft leads down into sprawling dungeons: spawner halls, crypts, libraries, prisons and armories, with spike traps in the corridors and a locked vault in the treasure room. Find a Dungeon Key in the dungeon's chests to open it.",
+          "items": [
+            "fw_dungeons:dungeon_bricks",
+            "fw_dungeons:cracked_dungeon_bricks",
+            "fw_dungeons:mossy_dungeon_bricks",
+            "fw_dungeons:dungeon_tiles",
+            "fw_dungeons:dungeon_pillar",
+            "fw_dungeons:dungeon_brick_stairs",
+            "fw_dungeons:dungeon_brick_slab",
+            "fw_dungeons:dungeon_brick_wall",
+            "fw_dungeons:dungeon_tiles_stairs",
+            "fw_dungeons:dungeon_tiles_slab",
+            "fw_dungeons:spike_trap",
+            "fw_dungeons:dungeon_key",
+            "fw_dungeons:vault"
+          ]
+        },
+        {
+          "id": "fw_outposts",
+          "name": "Tech Outposts",
+          "desc": "Abandoned research stations, radio relays and supply depots left behind by earlier engineers. Salvage their machines and decode their data drives for rare technology.",
+          "items": [
+            "fw_outposts:salvaged_circuit",
+            "fw_outposts:encrypted_data_drive",
+            "fw_outposts:supply_crate"
+          ]
+        },
+        {
+          "id": "fw_bunkers",
+          "name": "Bunkers",
+          "desc": "Sealed concrete shelters lie buried under the plains, marked only by a hatch and a rusty mast. Inside: bunks, stores, a dead generator and a command room with the bunker's secrets.",
+          "items": [
+            "fw_bunkers:ration_pack",
+            "fw_bunkers:bunker_keycard"
+          ]
+        },
+        {
+          "id": "fw_temples",
+          "name": "Lost Temples",
+          "desc": "Stepped sun pyramids in the deserts, moss-eaten ziggurats in the jungles and frost shrines in the snow. Mind the pressure plates.",
+          "items": [
+            "fw_temples:sun_idol",
+            "fw_temples:jade_idol",
+            "fw_temples:frost_idol"
+          ]
+        },
+        {
+          "id": "fw_camps",
+          "name": "Camps",
+          "desc": "Explorer camps with tents, maps and supplies to share, and fenced bandit hideouts guarded by pillagers with a boss chest full of stolen goods.",
+          "items": [
+            "fw_camps:bandit_mask",
+            "fw_camps:trail_mix"
+          ]
+        },
+        {
+          "id": "fw_treasure",
+          "name": "Treasure Hunting",
+          "desc": "Treasure maps that lead to dungeons, ruins, salvage sites and buried stashes, a treasure detector that beeps its way to unopened chests, and new treasure in vanilla loot.",
+          "items": [
+            "fw_treasure:explorers_map",
+            "fw_treasure:dungeon_map",
+            "fw_treasure:ruins_map",
+            "fw_treasure:tech_map",
+            "fw_treasure:stash_map",
+            "fw_treasure:treasure_detector",
+            "fw_treasure:gold_doubloon",
+            "fw_treasure:treasure_pouch"
+          ]
+        },
+        {
+          "id": "fw_food",
+          "name": "Frontier Kitchen",
+          "desc": "Tomatoes, corn, onions and chili peppers (seeds drop from grass), plus sixteen hearty frontier meals: burgers, chili con carne, salsa, cornbread, beef jerky, energy bars, MRE rations and more. Seeds can also be spun into seed oil for biodiesel.",
+          "items": [
+            "fw_food:tomato_crop",
+            "fw_food:tomato_seeds",
+            "fw_food:tomato",
+            "fw_food:corn_crop",
+            "fw_food:corn_seeds",
+            "fw_food:corn",
+            "fw_food:onion_crop",
+            "fw_food:onion_seeds",
+            "fw_food:onion",
+            "fw_food:chili_pepper_crop",
+            "fw_food:chili_pepper_seeds",
+            "fw_food:chili_pepper",
+            "fw_food:roasted_corn",
+            "fw_food:popcorn",
+            "fw_food:cornbread",
+            "fw_food:onion_rings",
+            "fw_food:tomato_soup",
+            "fw_food:salsa",
+            "fw_food:burger",
+            "fw_food:chili_con_carne",
+            "fw_food:pizza_slice",
+            "fw_food:beef_jerky",
+            "fw_food:trail_mix",
+            "fw_food:energy_bar",
+            "fw_food:mre",
+            "fw_food:stuffed_pepper",
+            "fw_food:fried_egg",
+            "fw_food:corn_chowder",
+            "fw_food:seed_oil",
+            "fw_food:seed_oil_bucket"
+          ]
+        },
+        {
+          "id": "fw_potions",
+          "name": "Alchemy+",
+          "desc": "Five new status effects - Vitality, Fortitude, Berserk, Purity and Magnetism - and twenty new potions (including Haste, Resistance, Absorption and Luck) brewed from awkward potions in the vanilla brewing stand.",
+          "items": []
+        },
+        {
+          "id": "fw_enchantments",
+          "name": "Enchantments+",
+          "desc": "Eleven new enchantments: Lifesteal, Frostbite, Venom, Thunderstrike, Beheading and Wisdom for weapons; Smelting and Long Reach for tools; Swiftstep and Leaping for boots; and the treasure enchantment Soulbound.",
+          "items": []
+        },
+        {
+          "id": "fw_relics",
+          "name": "Relics",
+          "desc": "Twelve rare trinkets hidden in dungeons, temples, towers and vanilla structures. Keep one anywhere in your inventory for its power: extra hearts, haste, speed, fire immunity, night vision, a second life and more.",
+          "items": [
+            "fw_relics:amulet_of_vigor",
+            "fw_relics:ring_of_haste",
+            "fw_relics:ring_of_swiftness",
+            "fw_relics:featherfall_charm",
+            "fw_relics:ember_heart",
+            "fw_relics:tidal_pearl",
+            "fw_relics:eye_of_the_owl",
+            "fw_relics:phoenix_feather",
+            "fw_relics:lucky_coin",
+            "fw_relics:thorn_ring",
+            "fw_relics:band_of_regeneration",
+            "fw_relics:warding_amulet"
+          ]
+        },
+        {
+          "id": "fw_hearts",
+          "name": "Heart Containers",
+          "desc": "Heart Containers permanently add a heart to your maximum health (up to ten extra). Bosses drop them; dungeons and treasure hold heart fragments - four fragments make a container.",
+          "items": [
+            "fw_hearts:heart_container",
+            "fw_hearts:heart_fragment",
+            "fw_hearts:cursed_heart"
+          ]
+        },
+        {
+          "id": "fw_coins",
+          "name": "Coinage",
+          "desc": "A frontier currency: hostile mobs drop copper and silver coins (bosses drop gold and platinum). Nine of a coin make one of the next. Spend them with wandering traders, swap them for emeralds, or earn more from bounties.",
+          "items": [
+            "fw_coins:copper_coin",
+            "fw_coins:silver_coin",
+            "fw_coins:gold_coin",
+            "fw_coins:platinum_coin",
+            "fw_coins:coin_pouch"
+          ]
+        },
+        {
+          "id": "fw_mobs",
+          "name": "Frontier Bestiary",
+          "desc": "New creatures for the frontier: deer and wild boars in the forests, rust beetles and venomous cave crawlers underground, scrap drones patrolling the plains at night, bog lurkers in swamps, sand mummies in deserts, frost wraiths in the snow and ember imps in the Nether.",
+          "items": [
+            "fw_mobs:raw_venison",
+            "fw_mobs:cooked_venison",
+            "fw_mobs:boar_tusk",
+            "fw_mobs:beetle_carapace",
+            "fw_mobs:drone_core",
+            "fw_mobs:frost_essence",
+            "fw_mobs:ember_core",
+            "fw_mobs:mummy_wrap",
+            "fw_mobs:bog_moss",
+            "fw_mobs:spark_bolt",
+            "fw_mobs:frost_bolt"
+          ]
+        },
+        {
+          "id": "fw_colossus",
+          "name": "The Iron Colossus",
+          "desc": "A boss: a four-block-tall war machine awakened with a Colossus Core. It smashes the ground, flings you skyward and calls scrap drones when damaged. Defeat it for a Heart Container, colossus plating and the ground-shaking Colossus Maul.",
+          "items": [
+            "fw_colossus:colossus_core",
+            "fw_colossus:colossus_plating",
+            "fw_colossus:colossus_maul"
+          ]
+        },
+        {
+          "id": "fw_wraithking",
+          "name": "The Wraith King",
+          "desc": "A boss of the night: place the Cursed Crown after dark to summon the Wraith King. He hurls wither skulls, blinks behind you and raises skeleton guards - wither skeletons once he's enraged. Drops a Heart Container, soul gems and the life-draining Wraith Blade.",
+          "items": [
+            "fw_wraithking:cursed_crown",
+            "fw_wraithking:soul_gem",
+            "fw_wraithking:wraith_blade"
+          ]
+        },
+        {
+          "id": "fw_wyvern",
+          "name": "The Sky Wyvern",
+          "desc": "A boss of the high skies: blow a Wyvern Lure above y=140 (or anywhere in the Skylands) and the Sky Wyvern answers - a winged beast that rains fireballs and dives at you. Its scales make fireproof armor that lets you drift down gently while sneaking.",
+          "items": [
+            "fw_wyvern:wyvern_lure",
+            "fw_wyvern:wyvern_scale",
+            "fw_wyvern:wyvern_helmet",
+            "fw_wyvern:wyvern_chestplate",
+            "fw_wyvern:wyvern_leggings",
+            "fw_wyvern:wyvern_boots"
+          ]
+        },
+        {
+          "id": "fw_bounties",
+          "name": "Bounty Board",
+          "desc": "Craft a bounty board and right-click it for a hunting contract: slay a number of a given monster (vanilla or Frontierworks), then hand the finished contract back for coins and a loot roll. Harder targets pay more.",
+          "items": [
+            "fw_bounties:bounty_board",
+            "fw_bounties:bounty_contract"
+          ]
+        },
+        {
+          "id": "fw_arena",
+          "name": "Trial Grounds",
+          "desc": "Place a Trial Altar, feed it a Trial Sigil and fight off waves of monsters that spawn around it. Clear every wave for a treasure hoard; a Greater Sigil brings five tougher waves and better loot. Leave and the trial fails.",
+          "items": [
+            "fw_arena:trial_altar",
+            "fw_arena:trial_sigil",
+            "fw_arena:greater_trial_sigil"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "Exploration",
+      "icon": "fw_rubber:rubber_sapling",
+      "intro": "Structures to discover, new plants and caves, and gates to other dimensions.",
+      "mods": [
+        {
+          "id": "fw_rubber",
+          "name": "Rubber",
+          "desc": "Rubber trees grow in jungles, forests and swamps. Tap their logs with a Treetap (or use an Extractor) for latex, then smelt it into rubber for cables, belts and seals.",
+          "items": [
+            "fw_rubber:stripped_rubber_log",
+            "fw_rubber:rubber_log",
+            "fw_rubber:rubber_wood",
+            "fw_rubber:rubber_planks",
+            "fw_rubber:rubber_stairs",
+            "fw_rubber:rubber_slab",
+            "fw_rubber:rubber_leaves",
+            "fw_rubber:rubber_sapling",
+            "fw_rubber:treetap",
+            "fw_rubber:latex",
+            "fw_rubber:rubber",
+            "fw_rubber:rubber_sheet"
+          ]
+        },
+        {
+          "id": "fw_meteors",
+          "name": "Meteors",
+          "desc": "Meteor craters scar the overworld. Their cores hold meteorite, meteoric iron and rare star fragments - the key to meteoric steel tools and late-game tech.",
+          "items": [
+            "fw_meteors:scorched_stone",
+            "fw_meteors:meteorite",
+            "fw_meteors:meteoric_iron_ore",
+            "fw_meteors:star_fragment_ore",
+            "fw_meteors:raw_meteoric_iron",
+            "fw_meteors:meteoric_iron_ingot",
+            "fw_meteors:meteoric_steel_ingot",
+            "fw_meteors:star_fragment",
+            "fw_meteors:meteoric_steel_block"
+          ]
+        },
+        {
+          "id": "fw_waystones",
+          "name": "Waystones",
+          "desc": "Ancient waystones dot the land. Activate them to build a fast-travel network and teleport between any you have found - for a small cost in experience. You can craft your own, too.",
+          "items": [
+            "fw_waystones:waystone"
+          ]
+        },
+        {
+          "id": "fw_leafdecay",
+          "name": "Fast Leaf Decay",
+          "desc": "Leaves left floating after you chop a tree fall within a few seconds.",
+          "items": []
+        },
+        {
+          "id": "fw_towers",
+          "name": "Towers",
+          "desc": "Lonely towers rise across the land: stone wizard towers with conical roofs, wooden forest watchtowers, sandstone desert towers and frozen ice spires, each with guards on the way up and loot at the top.",
+          "items": [
+            "fw_towers:spyglass_lens",
+            "fw_towers:wizard_tome"
+          ]
+        },
+        {
+          "id": "fw_skyislands",
+          "name": "Sky Islands",
+          "desc": "Floating islands drift high above the overworld - groves, sky ponds, quartz shrines and haunted ruins - with skystone, aether crystals and treasure for anyone who can get up there.",
+          "items": [
+            "fw_skyislands:skystone",
+            "fw_skyislands:polished_skystone",
+            "fw_skyislands:skystone_bricks",
+            "fw_skyislands:skystone_brick_stairs",
+            "fw_skyislands:skystone_brick_slab",
+            "fw_skyislands:skystone_brick_wall",
+            "fw_skyislands:aether_crystal_ore",
+            "fw_skyislands:aether_crystal",
+            "fw_skyislands:feather_charm",
+            "fw_skyislands:cloud_bloom"
+          ]
+        },
+        {
+          "id": "fw_caves",
+          "name": "Glowing Caves",
+          "desc": "The overworld's caves come alive with bioluminescent glowcaps, luminous moss and crystal growths - natural light for spelunkers, and ingredients for lamps and night-vision stew.",
+          "items": [
+            "fw_caves:glowcap",
+            "fw_caves:emberstool",
+            "fw_caves:cave_crystal",
+            "fw_caves:cave_crystal_shard",
+            "fw_caves:luminous_moss",
+            "fw_caves:luminous_moss_carpet",
+            "fw_caves:crystal_lamp",
+            "fw_caves:glowcap_stew",
+            "fw_caves:ember_tea"
+          ]
+        },
+        {
+          "id": "fw_flora",
+          "name": "Wild Flora",
+          "desc": "New trees - fiery maples, golden aspens and savanna baobabs - plus six wildflowers and blueberry and raspberry bushes to forage.",
+          "items": [
+            "fw_flora:stripped_maple_log",
+            "fw_flora:maple_log",
+            "fw_flora:maple_wood",
+            "fw_flora:maple_planks",
+            "fw_flora:maple_stairs",
+            "fw_flora:maple_slab",
+            "fw_flora:maple_leaves",
+            "fw_flora:maple_sapling",
+            "fw_flora:stripped_aspen_log",
+            "fw_flora:aspen_log",
+            "fw_flora:aspen_wood",
+            "fw_flora:aspen_planks",
+            "fw_flora:aspen_stairs",
+            "fw_flora:aspen_slab",
+            "fw_flora:aspen_leaves",
+            "fw_flora:aspen_sapling",
+            "fw_flora:stripped_baobab_log",
+            "fw_flora:baobab_log",
+            "fw_flora:baobab_wood",
+            "fw_flora:baobab_planks",
+            "fw_flora:baobab_stairs",
+            "fw_flora:baobab_slab",
+            "fw_flora:baobab_leaves",
+            "fw_flora:baobab_sapling",
+            "fw_flora:maple_syrup",
+            "fw_flora:bluebell",
+            "fw_flora:sunpetal",
+            "fw_flora:violet",
+            "fw_flora:frostbloom",
+            "fw_flora:moonflower",
+            "fw_flora:firelily",
+            "fw_flora:blueberry_bush",
+            "fw_flora:blueberries",
+            "fw_flora:raspberry_bush",
+            "fw_flora:raspberries",
+            "fw_flora:berry_pie"
+          ]
+        },
+        {
+          "id": "fw_depths",
+          "name": "The Depths",
+          "desc": "A vast underground dimension reached through a Depths Gate: fungal hollows lit by glowcaps, dripstone chasms and lush verdant grottos, an underground sea, new depthstone and the rare abyssal ore.",
+          "items": [
+            "fw_depths:depthstone",
+            "fw_depths:polished_depthstone",
+            "fw_depths:depthstone_bricks",
+            "fw_depths:depthstone_brick_stairs",
+            "fw_depths:depthstone_brick_slab",
+            "fw_depths:depthstone_brick_wall",
+            "fw_depths:abyssal_ore",
+            "fw_depths:abyssal_shard",
+            "fw_depths:abyssal_lens",
+            "fw_depths:abyssal_block",
+            "fw_depths:depths_gate"
+          ]
+        },
+        {
+          "id": "fw_skylands",
+          "name": "The Skylands",
+          "desc": "A sunny dimension of floating islands drifting over the void, reached through a Skylands Gate: flowery meadows and forests in the sky, soft clouds that break your fall, skyshard ore, and the lair of the Sky Wyvern. Fall off and you tumble back to the overworld.",
+          "items": [
+            "fw_skylands:cloud",
+            "fw_skylands:skystone",
+            "fw_skylands:skyshard_ore",
+            "fw_skylands:skyshard",
+            "fw_skylands:skylands_gate",
+            "fw_skylands:skyshard_wings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "space",
+      "title": "Space",
+      "icon": "fw_rocketry:rocket_t1",
+      "intro": "Rockets, space suits, the Moon and Mars.",
+      "mods": [
+        {
+          "id": "fw_moon",
+          "name": "The Moon",
+          "desc": "A grey, airless world with one-third gravity, reached by a Tier 1 rocket. Bring a space suit (or an oxygen generator). Mine helium-3 crystals for advanced circuits and fusion, and collect moon dust and moon rock.",
+          "items": [
+            "fw_moon:lunar_regolith",
+            "fw_moon:moon_rock",
+            "fw_moon:polished_moon_rock",
+            "fw_moon:moon_rock_bricks",
+            "fw_moon:moon_rock_brick_stairs",
+            "fw_moon:moon_rock_brick_slab",
+            "fw_moon:moon_rock_brick_wall",
+            "fw_moon:helium3_ore",
+            "fw_moon:lunar_iron_ore",
+            "fw_moon:helium3_crystal",
+            "fw_moon:moon_dust"
+          ]
+        },
+        {
+          "id": "fw_mars",
+          "name": "Mars",
+          "desc": "The red planet, reached by a Tier 2 rocket: rust-red dunes and canyons under an orange sky, low gravity and no breathable air. Mars is the only source of titanium - the strongest metal in the pack - and martian dust.",
+          "items": [
+            "fw_mars:mars_sand",
+            "fw_mars:mars_rock",
+            "fw_mars:mars_rock_bricks",
+            "fw_mars:mars_rock_brick_stairs",
+            "fw_mars:mars_rock_brick_slab",
+            "fw_mars:mars_rock_brick_wall",
+            "fw_mars:titanium_ore",
+            "fw_mars:raw_titanium",
+            "fw_mars:titanium_ingot",
+            "fw_mars:titanium_nugget",
+            "fw_mars:titanium_dust",
+            "fw_mars:titanium_plate",
+            "fw_mars:mars_dust",
+            "fw_mars:titanium_block"
+          ]
+        },
+        {
+          "id": "fw_rocketry",
+          "name": "Rocketry",
+          "desc": "Build a rocket, place it on a launch pad, fill it with rocket fuel, climb in and press jump. Tier 1 rockets fly to the Moon, Tier 2 rockets to Mars - and either will bring you home again. Bring a space suit!",
+          "items": [
+            "fw_rocketry:launch_pad",
+            "fw_rocketry:rocket_t1",
+            "fw_rocketry:rocket_t2",
+            "fw_rocketry:rocket_fuel",
+            "fw_rocketry:nose_cone",
+            "fw_rocketry:rocket_fin",
+            "fw_rocketry:rocket_engine",
+            "fw_rocketry:heat_shield",
+            "fw_rocketry:fusion_engine"
+          ]
+        },
+        {
+          "id": "fw_spacesuit",
+          "name": "Space Suit",
+          "desc": "Space has no air. Wear the full space suit to breathe on the Moon and Mars - its tank holds 30 minutes of oxygen - and build Oxygen Generators (powered by Forge Energy) to make an 8-block breathable bubble around your base and refill your suit.",
+          "items": [
+            "fw_spacesuit:space_helmet",
+            "fw_spacesuit:space_suit",
+            "fw_spacesuit:space_leggings",
+            "fw_spacesuit:space_boots",
+            "fw_spacesuit:oxygen_tank",
+            "fw_spacesuit:oxygen_generator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "decor",
+      "title": "Decoration",
+      "icon": "fw_lamps:lamp_white",
+      "intro": "Lamps, glass and building blocks.",
+      "mods": [
+        {
+          "id": "fw_stone",
+          "name": "Stoneworks",
+          "desc": "Five new natural stones - marble, limestone, slate, gabbro and travertine - generating in large underground veins, each with polished, brick, chiseled, stair, slab and wall variants.",
+          "items": [
+            "fw_stone:marble",
+            "fw_stone:polished_marble",
+            "fw_stone:marble_bricks",
+            "fw_stone:chiseled_marble",
+            "fw_stone:marble_stairs",
+            "fw_stone:marble_slab",
+            "fw_stone:marble_wall",
+            "fw_stone:polished_marble_stairs",
+            "fw_stone:polished_marble_slab",
+            "fw_stone:polished_marble_wall",
+            "fw_stone:marble_brick_stairs",
+            "fw_stone:marble_brick_slab",
+            "fw_stone:marble_brick_wall",
+            "fw_stone:limestone",
+            "fw_stone:polished_limestone",
+            "fw_stone:limestone_bricks",
+            "fw_stone:chiseled_limestone",
+            "fw_stone:limestone_stairs",
+            "fw_stone:limestone_slab",
+            "fw_stone:limestone_wall",
+            "fw_stone:polished_limestone_stairs",
+            "fw_stone:polished_limestone_slab",
+            "fw_stone:polished_limestone_wall",
+            "fw_stone:limestone_brick_stairs",
+            "fw_stone:limestone_brick_slab",
+            "fw_stone:limestone_brick_wall",
+            "fw_stone:slate",
+            "fw_stone:polished_slate",
+            "fw_stone:slate_bricks",
+            "fw_stone:chiseled_slate",
+            "fw_stone:slate_stairs",
+            "fw_stone:slate_slab",
+            "fw_stone:slate_wall",
+            "fw_stone:polished_slate_stairs",
+            "fw_stone:polished_slate_slab",
+            "fw_stone:polished_slate_wall",
+            "fw_stone:slate_brick_stairs",
+            "fw_stone:slate_brick_slab",
+            "fw_stone:slate_brick_wall",
+            "fw_stone:gabbro",
+            "fw_stone:polished_gabbro",
+            "fw_stone:gabbro_bricks",
+            "fw_stone:chiseled_gabbro",
+            "fw_stone:gabbro_stairs",
+            "fw_stone:gabbro_slab",
+            "fw_stone:gabbro_wall",
+            "fw_stone:polished_gabbro_stairs",
+            "fw_stone:polished_gabbro_slab",
+            "fw_stone:polished_gabbro_wall",
+            "fw_stone:gabbro_brick_stairs",
+            "fw_stone:gabbro_brick_slab",
+            "fw_stone:gabbro_brick_wall",
+            "fw_stone:travertine",
+            "fw_stone:polished_travertine",
+            "fw_stone:travertine_bricks",
+            "fw_stone:chiseled_travertine",
+            "fw_stone:travertine_stairs",
+            "fw_stone:travertine_slab",
+            "fw_stone:travertine_wall",
+            "fw_stone:polished_travertine_stairs",
+            "fw_stone:polished_travertine_slab",
+            "fw_stone:polished_travertine_wall",
+            "fw_stone:travertine_brick_stairs",
+            "fw_stone:travertine_brick_slab",
+            "fw_stone:travertine_brick_wall"
+          ]
+        },
+        {
+          "id": "fw_elevators",
+          "name": "Elevators",
+          "desc": "Elevator blocks in all 16 colours: jump to rise to the next elevator above, sneak to drop to the one below. Up to 24 blocks apart.",
+          "items": [
+            "fw_elevators:white_elevator",
+            "fw_elevators:orange_elevator",
+            "fw_elevators:magenta_elevator",
+            "fw_elevators:light_blue_elevator",
+            "fw_elevators:yellow_elevator",
+            "fw_elevators:lime_elevator",
+            "fw_elevators:pink_elevator",
+            "fw_elevators:gray_elevator",
+            "fw_elevators:light_gray_elevator",
+            "fw_elevators:cyan_elevator",
+            "fw_elevators:purple_elevator",
+            "fw_elevators:blue_elevator",
+            "fw_elevators:brown_elevator",
+            "fw_elevators:green_elevator",
+            "fw_elevators:red_elevator",
+            "fw_elevators:black_elevator"
+          ]
+        },
+        {
+          "id": "fw_doors",
+          "name": "Double Doors",
+          "desc": "Open one half of a double door and the other half opens with it.",
+          "items": []
+        },
+        {
+          "id": "fw_ruins",
+          "name": "Ancient Ruins",
+          "desc": "Crumbling houses, broken arches, column circles and sunken cellars from a forgotten age dot the overworld, with ancient bricks to build with and treasure to dig up.",
+          "items": [
+            "fw_ruins:ancient_bricks",
+            "fw_ruins:cracked_ancient_bricks",
+            "fw_ruins:mossy_ancient_bricks",
+            "fw_ruins:ancient_tiles",
+            "fw_ruins:chiseled_ancient_bricks",
+            "fw_ruins:ancient_pillar",
+            "fw_ruins:ancient_brick_stairs",
+            "fw_ruins:ancient_brick_slab",
+            "fw_ruins:ancient_brick_wall",
+            "fw_ruins:ancient_tiles_stairs",
+            "fw_ruins:ancient_tiles_slab",
+            "fw_ruins:ancient_coin",
+            "fw_ruins:ancient_tablet"
+          ]
+        },
+        {
+          "id": "fw_villagers",
+          "name": "Frontier Villagers",
+          "desc": "Four new village professions - the Engineer, Surveyor, Miner and Botanist - who trade tech parts, treasure maps, ores and exotic plants. Give a villager their workstation to recruit one.",
+          "items": [
+            "fw_villagers:engineering_bench",
+            "fw_villagers:survey_table",
+            "fw_villagers:ore_cart",
+            "fw_villagers:potting_bench"
+          ]
+        },
+        {
+          "id": "fw_glass",
+          "name": "Glassworks",
+          "desc": "Better glass: blast-proof hardened glass, frameless clear glass, glowing glass, light-blocking dark glass and steel-framed glass, plus panes.",
+          "items": [
+            "fw_glass:hardened_glass",
+            "fw_glass:hardened_glass_pane",
+            "fw_glass:clear_glass",
+            "fw_glass:clear_glass_pane",
+            "fw_glass:glowing_glass",
+            "fw_glass:glowing_glass_pane",
+            "fw_glass:dark_glass",
+            "fw_glass:framed_glass",
+            "fw_glass:framed_glass_pane"
+          ]
+        },
+        {
+          "id": "fw_lamps",
+          "name": "Lamps & Lights",
+          "desc": "Colourful lighting: always-on lamps and redstone-controlled lamps in all sixteen dye colours, and compact cage lights for industrial builds.",
+          "items": [
+            "fw_lamps:lamp_white",
+            "fw_lamps:redstone_lamp_white",
+            "fw_lamps:cage_light_white",
+            "fw_lamps:lamp_orange",
+            "fw_lamps:redstone_lamp_orange",
+            "fw_lamps:cage_light_orange",
+            "fw_lamps:lamp_magenta",
+            "fw_lamps:redstone_lamp_magenta",
+            "fw_lamps:cage_light_magenta",
+            "fw_lamps:lamp_light_blue",
+            "fw_lamps:redstone_lamp_light_blue",
+            "fw_lamps:cage_light_light_blue",
+            "fw_lamps:lamp_yellow",
+            "fw_lamps:redstone_lamp_yellow",
+            "fw_lamps:cage_light_yellow",
+            "fw_lamps:lamp_lime",
+            "fw_lamps:redstone_lamp_lime",
+            "fw_lamps:cage_light_lime",
+            "fw_lamps:lamp_pink",
+            "fw_lamps:redstone_lamp_pink",
+            "fw_lamps:cage_light_pink",
+            "fw_lamps:lamp_gray",
+            "fw_lamps:redstone_lamp_gray",
+            "fw_lamps:cage_light_gray",
+            "fw_lamps:lamp_light_gray",
+            "fw_lamps:redstone_lamp_light_gray",
+            "fw_lamps:cage_light_light_gray",
+            "fw_lamps:lamp_cyan",
+            "fw_lamps:redstone_lamp_cyan",
+            "fw_lamps:cage_light_cyan",
+            "fw_lamps:lamp_purple",
+            "fw_lamps:redstone_lamp_purple",
+            "fw_lamps:cage_light_purple",
+            "fw_lamps:lamp_blue",
+            "fw_lamps:redstone_lamp_blue",
+            "fw_lamps:cage_light_blue",
+            "fw_lamps:lamp_brown",
+            "fw_lamps:redstone_lamp_brown",
+            "fw_lamps:cage_light_brown",
+            "fw_lamps:lamp_green",
+            "fw_lamps:redstone_lamp_green",
+            "fw_lamps:cage_light_green",
+            "fw_lamps:lamp_red",
+            "fw_lamps:redstone_lamp_red",
+            "fw_lamps:cage_light_red",
+            "fw_lamps:lamp_black",
+            "fw_lamps:redstone_lamp_black",
+            "fw_lamps:cage_light_black"
+          ]
+        },
+        {
+          "id": "fw_decor",
+          "name": "Frontier Decor",
+          "desc": "Building blocks for bases and homesteads: steel plating, rusted panels, hazard stripes, vents, grates, tiles, bricks, slate, steel beams and cargo crates, with stairs, slabs and walls.",
+          "items": [
+            "fw_decor:steel_plating",
+            "fw_decor:steel_plating_stairs",
+            "fw_decor:steel_plating_slab",
+            "fw_decor:riveted_steel",
+            "fw_decor:rusted_plating",
+            "fw_decor:rusted_plating_stairs",
+            "fw_decor:rusted_plating_slab",
+            "fw_decor:hazard_block",
+            "fw_decor:hazard_block_stairs",
+            "fw_decor:hazard_block_slab",
+            "fw_decor:vent_block",
+            "fw_decor:concrete_tiles",
+            "fw_decor:concrete_tiles_stairs",
+            "fw_decor:concrete_tiles_slab",
+            "fw_decor:dark_tiles",
+            "fw_decor:dark_tiles_stairs",
+            "fw_decor:dark_tiles_slab",
+            "fw_decor:checkered_tiles",
+            "fw_decor:checkered_tiles_stairs",
+            "fw_decor:checkered_tiles_slab",
+            "fw_decor:industrial_bricks",
+            "fw_decor:industrial_brick_stairs",
+            "fw_decor:industrial_brick_slab",
+            "fw_decor:industrial_brick_wall",
+            "fw_decor:frontier_bricks",
+            "fw_decor:frontier_brick_stairs",
+            "fw_decor:frontier_brick_slab",
+            "fw_decor:frontier_brick_wall",
+            "fw_decor:polished_slate",
+            "fw_decor:polished_slate_stairs",
+            "fw_decor:polished_slate_slab",
+            "fw_decor:polished_slate_wall",
+            "fw_decor:chiseled_slate",
+            "fw_decor:framed_planks",
+            "fw_decor:framed_stairs",
+            "fw_decor:framed_slab",
+            "fw_decor:cargo_crate",
+            "fw_decor:steel_grate",
+            "fw_decor:steel_beam"
+          ]
+        }
+      ]
+    }
+  ]
+}

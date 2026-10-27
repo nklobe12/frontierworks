@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "fw_bounties:bounty_board"
+    },
+    "title": {
+      "translate": "advancements.fw_guide.bounty.title"
+    },
+    "description": {
+      "translate": "advancements.fw_guide.bounty.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fw_bounties:bounty_contract"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "fw_guide:relic"
+}

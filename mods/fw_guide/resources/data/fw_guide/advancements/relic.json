@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "fw_relics:amulet_of_vigor"
+    },
+    "title": {
+      "translate": "advancements.fw_guide.relic.title"
+    },
+    "description": {
+      "translate": "advancements.fw_guide.relic.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fw_relics:amulet_of_vigor",
+              "fw_relics:ring_of_haste",
+              "fw_relics:ring_of_swiftness",
+              "fw_relics:featherfall_charm",
+              "fw_relics:ember_heart",
+              "fw_relics:tidal_pearl",
+              "fw_relics:eye_of_the_owl",
+              "fw_relics:phoenix_feather",
+              "fw_relics:lucky_coin",
+              "fw_relics:thorn_ring",
+              "fw_relics:band_of_regeneration",
+              "fw_relics:warding_amulet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "fw_guide:root"
+}

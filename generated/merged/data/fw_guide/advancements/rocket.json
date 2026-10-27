@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "fw_rocketry:rocket_t1"
+    },
+    "title": {
+      "translate": "advancements.fw_guide.rocket.title"
+    },
+    "description": {
+      "translate": "advancements.fw_guide.rocket.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fw_rocketry:rocket_t1"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "fw_guide:power"
+}

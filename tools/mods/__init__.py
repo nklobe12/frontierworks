@@ -15,4 +15,5 @@ ORDER = [
     'mobs', 'colossus', 'wraithking', 'wyvern',
     'bounties', 'arena',
     'depths', 'skylands', 'moon', 'mars', 'rocketry', 'spacesuit',
+    'guide',
 ]

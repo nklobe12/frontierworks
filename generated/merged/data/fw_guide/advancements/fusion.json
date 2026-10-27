@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "fw_fusion:fusion_reactor"
+    },
+    "title": {
+      "translate": "advancements.fw_guide.fusion.title"
+    },
+    "description": {
+      "translate": "advancements.fw_guide.fusion.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fw_fusion:fusion_reactor"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "fw_guide:quarry"
+}

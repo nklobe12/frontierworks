@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "fw_quarry:quarry"
+    },
+    "title": {
+      "translate": "advancements.fw_guide.quarry.title"
+    },
+    "description": {
+      "translate": "advancements.fw_guide.quarry.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fw_quarry:quarry"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "fw_guide:pulverizer"
+}

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "fw_metals:tin_ingot"
+    },
+    "title": {
+      "translate": "advancements.fw_guide.first_metal.title"
+    },
+    "description": {
+      "translate": "advancements.fw_guide.first_metal.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fw_metals:tin_ingot",
+              "fw_metals:lead_ingot",
+              "fw_metals:silver_ingot",
+              "fw_metals:nickel_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "fw_guide:root"
+}

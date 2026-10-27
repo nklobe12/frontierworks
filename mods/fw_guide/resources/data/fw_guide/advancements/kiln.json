@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "fw_kiln:alloy_kiln"
+    },
+    "title": {
+      "translate": "advancements.fw_guide.kiln.title"
+    },
+    "description": {
+      "translate": "advancements.fw_guide.kiln.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fw_kiln:alloy_kiln",
+              "fw_kiln:coke_oven"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "fw_guide:first_metal"
+}

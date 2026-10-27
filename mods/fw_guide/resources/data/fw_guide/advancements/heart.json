@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "fw_hearts:heart_container"
+    },
+    "title": {
+      "translate": "advancements.fw_guide.heart.title"
+    },
+    "description": {
+      "translate": "advancements.fw_guide.heart.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fw_hearts:heart_container"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "fw_guide:relic"
+}

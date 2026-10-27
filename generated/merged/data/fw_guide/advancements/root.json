@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "fw_guide:field_guide"
+    },
+    "title": {
+      "translate": "advancements.fw_guide.root.title"
+    },
+    "description": {
+      "translate": "advancements.fw_guide.root.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/stone_bricks.png"
+  },
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fw_guide:field_guide"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

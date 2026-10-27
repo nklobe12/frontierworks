@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "fw_depths:depths_gate"
+    },
+    "title": {
+      "translate": "advancements.fw_guide.depths.title"
+    },
+    "description": {
+      "translate": "advancements.fw_guide.depths.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arrived": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "fw_depths:depths"
+      }
+    }
+  },
+  "parent": "fw_guide:explore"
+}

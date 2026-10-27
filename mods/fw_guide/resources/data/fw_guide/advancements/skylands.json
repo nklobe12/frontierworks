@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "fw_skylands:skylands_gate"
+    },
+    "title": {
+      "translate": "advancements.fw_guide.skylands.title"
+    },
+    "description": {
+      "translate": "advancements.fw_guide.skylands.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arrived": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "fw_skylands:skylands"
+      }
+    }
+  },
+  "parent": "fw_guide:explore"
+}

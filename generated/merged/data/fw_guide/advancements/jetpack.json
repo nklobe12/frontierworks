@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "fw_jetpack:jetpack_basic"
+    },
+    "title": {
+      "translate": "advancements.fw_guide.jetpack.title"
+    },
+    "description": {
+      "translate": "advancements.fw_guide.jetpack.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fw_jetpack:jetpack_basic"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "fw_guide:pulverizer"
+}

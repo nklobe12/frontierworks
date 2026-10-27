@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "fw_treasure:explorers_map"
+    },
+    "title": {
+      "translate": "advancements.fw_guide.explore.title"
+    },
+    "description": {
+      "translate": "advancements.fw_guide.explore.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fw_treasure:explorers_map",
+              "fw_treasure:dungeon_map",
+              "fw_treasure:ruins_map",
+              "fw_treasure:tech_map",
+              "fw_treasure:stash_map"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "fw_guide:root"
+}
