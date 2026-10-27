@@ -13,4 +13,5 @@ ORDER = [
     'jetpacks',
     'codex',
     'lapidary',
+    'quarry',
 ]
