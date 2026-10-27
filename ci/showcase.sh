@@ -19,6 +19,7 @@ renderDistance:6
 simulationDistance:5
 guiScale:2
 fov:0.0
+renderClouds:"false"
 EOT
 export LIBGL_ALWAYS_SOFTWARE=1
 timeout 2400 xvfb-run -a -s "-screen 0 1280x720x24" ./gradlew runClient -PfwShowcase --no-daemon > showcase.log 2>&1

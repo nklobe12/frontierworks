@@ -1,4 +1,6 @@
 """Field Guide: an in-game book describing every Frontierworks mod and its items, plus a progression advancement tree."""
+import re
+
 from gen import fw
 from gen.fw import Mod
 from gen import tex
@@ -71,10 +73,12 @@ def build():
         for mod in fw.ALL_MODS:
             if mod is m or mod.tab != key:
                 continue
+            hidden = set(re.findall(r'REG\.blockOnly\("(\w+)"', '\n'.join(mod.fields)))
+            hidden |= set(re.findall(r'new FWFluid\(REG, "(\w+)"', '\n'.join(mod.fields)))
             items = []
             for k in mod.lang:
                 parts = k.split('.')
-                if len(parts) == 3 and parts[0] in ('item', 'block') and parts[1] == mod.modid and not k.endswith('_spawn_egg'):
+                if len(parts) == 3 and parts[0] in ('item', 'block') and parts[1] == mod.modid and not k.endswith('_spawn_egg') and parts[2] not in hidden:
                     items.append('%s:%s' % (mod.modid, parts[2]))
             mods.append({'id': mod.modid, 'name': mod.name, 'desc': mod.desc, 'items': list(dict.fromkeys(items))})
         cats.append({'id': key.lower(), 'title': title, 'icon': icon, 'intro': intro, 'mods': mods})

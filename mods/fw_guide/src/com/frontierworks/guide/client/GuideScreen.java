@@ -137,9 +137,13 @@ public class GuideScreen extends Screen {
         y += 4;
         g.drawString(font, Component.translatable("guide.fw_guide.items", page.items().size()), x, y, 0x8a6a48, false);
         y += 11;
-        List<ItemStack> stacks = new ArrayList<>();
+        List<ItemStack> all = new ArrayList<>();
+        for (String id : page.items()) {
+            ItemStack s = FW.stack(id, 1);
+            if (!s.isEmpty()) all.add(s);
+        }
         int start = itemPage * ITEMS_PER_PAGE;
-        for (int i = start; i < Math.min(page.items().size(), start + ITEMS_PER_PAGE); i++) stacks.add(FW.stack(page.items().get(i), 1));
+        List<ItemStack> stacks = all.subList(Math.min(start, all.size()), Math.min(all.size(), start + ITEMS_PER_PAGE));
         int perRow = Math.max(1, w / 18);
         ItemStack hovered = ItemStack.EMPTY;
         for (int i = 0; i < stacks.size(); i++) {

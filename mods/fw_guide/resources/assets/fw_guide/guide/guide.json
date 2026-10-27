@@ -282,7 +282,6 @@
           "name": "Oil",
           "desc": "Crude oil lakes in deserts, badlands and plains, plus oil sand deposits. Refine crude into diesel, lubricant and plastics, and pave roads with fast-walking asphalt.",
           "items": [
-            "fw_oil:crude_oil",
             "fw_oil:crude_oil_bucket",
             "fw_oil:oil_sand",
             "fw_oil:bitumen",
@@ -417,7 +416,6 @@
           "desc": "The Chemical Reactor combines solids and fluids: sulfuric acid, vulcanized rubber, gunpowder, fertilizer, plastic and rocket-grade chemicals.",
           "items": [
             "fw_chemistry:chemical_reactor",
-            "fw_chemistry:sulfuric_acid",
             "fw_chemistry:sulfuric_acid_bucket",
             "fw_chemistry:vulcanized_rubber",
             "fw_chemistry:plastic_sheet",
@@ -431,7 +429,6 @@
           "desc": "The Electrolyzer splits water into hydrogen and oxygen, brine into chlorine and sodium, and heavy water into deuterium for fusion.",
           "items": [
             "fw_electrolysis:electrolyzer",
-            "fw_electrolysis:heavy_water",
             "fw_electrolysis:heavy_water_bucket",
             "fw_electrolysis:salt",
             "fw_electrolysis:sodium"
@@ -443,11 +440,8 @@
           "desc": "The Refinery splits crude oil into diesel and lubricant; the Diesel Generator burns diesel, biodiesel and rocket fuel for serious power.",
           "items": [
             "fw_petro:refinery",
-            "fw_petro:diesel",
             "fw_petro:diesel_bucket",
-            "fw_petro:lubricant",
             "fw_petro:lubricant_bucket",
-            "fw_petro:biodiesel",
             "fw_petro:biodiesel_bucket",
             "fw_petro:diesel_generator"
           ]
@@ -962,7 +956,6 @@
           "name": "Flares & Glowsticks",
           "desc": "Light the dark: throw flares that light up caves for two minutes, or place glowsticks that glow forever.",
           "items": [
-            "fw_flares:flare_light",
             "fw_flares:flare",
             "fw_flares:green_glowstick",
             "fw_flares:blue_glowstick",
@@ -1235,16 +1228,12 @@
           "name": "Frontier Kitchen",
           "desc": "Tomatoes, corn, onions and chili peppers (seeds drop from grass), plus sixteen hearty frontier meals: burgers, chili con carne, salsa, cornbread, beef jerky, energy bars, MRE rations and more. Seeds can also be spun into seed oil for biodiesel.",
           "items": [
-            "fw_food:tomato_crop",
             "fw_food:tomato_seeds",
             "fw_food:tomato",
-            "fw_food:corn_crop",
             "fw_food:corn_seeds",
             "fw_food:corn",
-            "fw_food:onion_crop",
             "fw_food:onion_seeds",
             "fw_food:onion",
-            "fw_food:chili_pepper_crop",
             "fw_food:chili_pepper_seeds",
             "fw_food:chili_pepper",
             "fw_food:roasted_corn",
@@ -1263,7 +1252,6 @@
             "fw_food:stuffed_pepper",
             "fw_food:fried_egg",
             "fw_food:corn_chowder",
-            "fw_food:seed_oil",
             "fw_food:seed_oil_bucket"
           ]
         },
@@ -1525,9 +1513,7 @@
             "fw_flora:frostbloom",
             "fw_flora:moonflower",
             "fw_flora:firelily",
-            "fw_flora:blueberry_bush",
             "fw_flora:blueberries",
-            "fw_flora:raspberry_bush",
             "fw_flora:raspberries",
             "fw_flora:berry_pie"
           ]

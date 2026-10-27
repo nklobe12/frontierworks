@@ -76,6 +76,8 @@ public final class ShowcaseClient {
     }
 
     private static void shot(Minecraft mc, String name) {
+        if (mc.player != null) LOG.info("FWSHOWCASE taking {} at {} {} {} in {}", name, (int) mc.player.getX(), (int) mc.player.getY(), (int) mc.player.getZ(),
+                mc.player.level().dimension().location());
         Screenshot.grab(mc.gameDirectory, "fw_" + name + ".png", mc.getMainRenderTarget(), msg -> LOG.info("FWSHOWCASE shot {}", name));
     }
 
@@ -122,6 +124,41 @@ public final class ShowcaseClient {
         }
         wait = s.waitAfter;
         renderWait = s.waitAfter > 100 ? 1200 : 0;
+    }
+
+    /** A good camera spot: the biggest cavern for ceiling worlds, otherwise just above the highest ground (floating islands included). */
+    private static double[] viewpoint(ServerLevel lvl) {
+        double[] best = {64, 150, 64};
+        int bestScore = -1;
+        for (int gx = -2; gx <= 2; gx++) {
+            for (int gz = -2; gz <= 2; gz++) {
+                int x = 64 + gx * 48, z = 64 + gz * 48;
+                lvl.getChunk(x >> 4, z >> 4);
+                if (lvl.dimensionType().hasCeiling()) {
+                    int run = 0;
+                    int top = lvl.getMinBuildHeight() + lvl.dimensionType().logicalHeight() - 4;
+                    for (int y = top; y > lvl.getMinBuildHeight() + 4; y--) {
+                        BlockPos bp = new BlockPos(x, y, z);
+                        if (lvl.isEmptyBlock(bp)) {
+                            run++;
+                        } else {
+                            if (run > bestScore && lvl.getBlockState(bp).isSolidRender(lvl, bp)) {
+                                bestScore = run;
+                                best = new double[]{x, y + 1 + Math.min(4, run / 3), z};
+                            }
+                            run = 0;
+                        }
+                    }
+                } else {
+                    int h = lvl.getHeight(Heightmap.Types.MOTION_BLOCKING, x, z);
+                    if (h > lvl.getMinBuildHeight() + 8 && h > bestScore) {
+                        bestScore = h;
+                        best = new double[]{x, h + 6, z};
+                    }
+                }
+            }
+        }
+        return best;
     }
 
     /** True once the chunks around the player and along the view direction have been meshed. */
@@ -174,14 +211,22 @@ public final class ShowcaseClient {
                 ServerLevel lvl = srv.overworld();
                 BlockPos sp = srv.overworld().getSharedSpawnPos();
                 int x0 = sp.getX() - 8, y0 = 236, z0 = sp.getZ() - 30;
+                ServerPlayer early = player(srv);
+                LOG.info("FWSHOWCASE blocks page {}: {} blocks, player {}", pg + 1, slice.size(), early == null ? "missing" : early.blockPosition());
+                if (early != null) early.teleportTo(lvl, x0 + 7.5, y0 + 2.0, z0 + 11.5, 180f, 8f);
                 for (int x = -2; x < 18; x++)
                     for (int y = -2; y < 10; y++) {
                         lvl.setBlock(new BlockPos(x0 + x, y0 + y, z0), Blocks.SMOOTH_QUARTZ.defaultBlockState(), 2 | 16);
                     }
                 for (int i = 0; i < slice.size(); i++) {
                     BlockPos pos = new BlockPos(x0 + (i % 16), y0 + 7 - (i / 16), z0 + 1);
-                    lvl.setBlock(pos, slice.get(i).defaultBlockState(), 2 | 16);
+                    try {
+                        lvl.setBlock(pos, slice.get(i).defaultBlockState(), 2 | 16);
+                    } catch (Throwable t) {
+                        LOG.warn("FWSHOWCASE could not place {}", slice.get(i), t);
+                    }
                 }
+                LOG.info("FWSHOWCASE blocks page {} placed", pg + 1);
                 ServerPlayer p = player(srv);
                 if (p != null) p.teleportTo(lvl, x0 + 7.5, y0 + 2.0, z0 + 11.5, 180f, 8f);
             }));
@@ -257,17 +302,8 @@ public final class ShowcaseClient {
                 ServerLevel lvl = srv.getLevel(ResourceKey.create(Registries.DIMENSION, new ResourceLocation(d[0])));
                 ServerPlayer p = player(srv);
                 if (lvl == null || p == null) return;
-                double y;
-                if (lvl.dimensionType().hasCeiling()) {
-                    BlockPos safe = com.frontierworks.core.util.TeleportUtil.findSafe(lvl, 64, 64, null);
-                    y = safe.getY() + 1;
-                } else if (d[0].contains("skylands")) {
-                    y = 150;
-                } else {
-                    lvl.getChunk(4, 4);
-                    y = lvl.getHeight(Heightmap.Types.MOTION_BLOCKING, 64, 64) + 6;
-                }
-                p.teleportTo(lvl, 64.5, y, 64.5, 45f, Float.parseFloat(d[1]));
+                double[] v = viewpoint(lvl);
+                p.teleportTo(lvl, v[0] + 0.5, v[1], v[2] + 0.5, 45f, Float.parseFloat(d[1]));
             }));
             add(10, mc -> shot(mc, "dimension_" + d[0].substring(d[0].indexOf(':') + 1)));
         }
