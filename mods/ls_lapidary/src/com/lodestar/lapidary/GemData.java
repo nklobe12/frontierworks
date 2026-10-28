@@ -109,7 +109,7 @@ public final class GemData {
 
         public static Socket of(ItemStack gemStack) {
             GemType g = GemType.ofCut(gemStack);
-            return g == null ? EMPTY : new Socket(g, cut(gemStack), quality(gemStack));
+            return g == null ? EMPTY : new Socket(g, GemData.cut(gemStack), GemData.quality(gemStack));
         }
     }
 

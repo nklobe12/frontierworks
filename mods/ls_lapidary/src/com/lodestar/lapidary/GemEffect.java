@@ -65,7 +65,7 @@ public enum GemEffect {
     }
 
     /** "+1.2 attack damage" style line. */
-    public Component describe(float amount) {
+    public net.minecraft.network.chat.MutableComponent describe(float amount) {
         return Component.translatable("effect.ls_lapidary." + id(), format(amount));
     }
 }
