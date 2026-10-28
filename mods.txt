@@ -7,4 +7,4 @@ ls_dynamos
 ls_toolsmith
 ls_transmutation
 ls_ducts
-ls_lapidary
+ls_aeolus
