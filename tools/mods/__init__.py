@@ -11,4 +11,5 @@ ORDER = [
     'lens',
     'backpacks',
     'jetpacks',
+    'codex',
 ]
