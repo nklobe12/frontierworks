@@ -51,7 +51,7 @@ public final class QuarrySetup {
         if (SelfTest.enabled()) QuarryTests.register();
     }
 
-    private static RecipeCategory cat(ResourceLocation id, RegistryObject<? extends Item> icon, int order) {
+    private static RecipeCategory cat(ResourceLocation id, RegistryObject<? extends net.minecraft.world.level.ItemLike> icon, int order) {
         return new RecipeCategory(id, Component.translatable("lens.category." + id.getNamespace() + "." + id.getPath()),
                 () -> new ItemStack(icon.get()), () -> List.of(new ItemStack(Content.QUARRY.get()), new ItemStack(Content.LASER_QUARRY.get())), order);
     }

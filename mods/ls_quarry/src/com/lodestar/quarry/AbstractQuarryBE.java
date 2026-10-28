@@ -228,6 +228,7 @@ public abstract class AbstractQuarryBE extends MachineBlockEntity {
         }
         switch (phase) {
             case NO_AREA -> {
+                if (energy.getEnergyStored() <= 0) status = ST_NO_POWER;
                 if (level.getGameTime() % 10 == 0 && energy.getEnergyStored() > 0 && defineArea()) {
                     startArea();
                     phase = Phase.BUILDING;
@@ -682,6 +683,13 @@ public abstract class AbstractQuarryBE extends MachineBlockEntity {
 
     public boolean hasArea() {
         return hasArea;
+    }
+
+    /** Whether the machine is working (its LIT state), for renderers. */
+    public boolean isLitClient() {
+        BlockState s = getBlockState();
+        return s.hasProperty(net.minecraft.world.level.block.state.properties.BlockStateProperties.LIT)
+                && s.getValue(net.minecraft.world.level.block.state.properties.BlockStateProperties.LIT);
     }
 
     public boolean showArea() {

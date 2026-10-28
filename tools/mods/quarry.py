@@ -63,21 +63,24 @@ def drill_tex(seed):
 
 
 def bit_item(color, seed):
+    """Fat fluted drill bit pointing down-left, with a coloured collar on the shank."""
     img = Image.new('RGBA', (16, 16), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     c = tex.rgb(color)
-    steel = (150, 158, 168, 255)
-    dark = (60, 64, 72, 255)
-    # shank (top right) and fluted cone pointing down-left
-    d.rectangle([10, 1, 13, 5], fill=tex.shade(c, 1.0), outline=tex.shade(c, 0.6))
-    d.line([11, 2, 12, 2], fill=tex.shade(c, 1.4))
-    pts = [(12, 6), (9, 4), (2, 13), (3, 14), (5, 13)]
-    d.polygon([(13, 6), (9, 3), (1, 14), (2, 15)], fill=steel, outline=dark)
-    for i in range(4):
-        x, y = 10 - i * 2, 5 + i * 2
-        d.line([x, y, x + 2, y + 1], fill=dark)
-        d.point((x + 1, y - 1), fill=(220, 226, 232, 255))
-    d.point((1, 14), fill=tex.shade(c, 1.3))
+    d.polygon([(8, 3), (12, 7), (1, 14)], fill=(140, 148, 158, 255), outline=(52, 56, 64, 255))
+    px = img.load()
+    # flutes: diagonal bands across the cone
+    for y in range(16):
+        for x in range(16):
+            if px[x, y][3] and px[x, y][:3] == (140, 148, 158):
+                k = (x + y) % 4
+                px[x, y] = {0: (205, 212, 220, 255), 1: (150, 158, 168, 255), 2: (110, 118, 128, 255), 3: (78, 84, 94, 255)}[k]
+    # collar and shank
+    d.polygon([(9, 2), (13, 6), (14, 5), (10, 1)], fill=tex.shade(c, 1.0), outline=tex.shade(c, 0.55))
+    d.line([10, 2, 13, 5], fill=tex.shade(c, 1.35))
+    d.rectangle([12, 1, 14, 3], fill=(96, 100, 108, 255))
+    d.point((13, 2), fill=(170, 176, 184, 255))
+    d.point((1, 14), fill=(235, 240, 245, 255))
     return img
 
 
@@ -250,7 +253,7 @@ def build():
         'gui.ls_quarry.restore.on': 'Restore: On', 'gui.ls_quarry.restore.off': 'Restore: Off',
         'gui.ls_quarry.show.on': 'Area: Shown', 'gui.ls_quarry.show.off': 'Area: Hidden',
         'gui.ls_quarry.overflow.drop': 'Overflow: Drop', 'gui.ls_quarry.overflow.hold': 'Overflow: Hold',
-        'gui.ls_quarry.reset': 'Restart', 'gui.ls_quarry.minus': '-', 'gui.ls_quarry.plus': '+',
+        'gui.ls_quarry.reset': 'Restart', 'gui.ls_quarry.depth': 'Depth: Y %s (from %s down to %s)', 'gui.ls_quarry.minus': '-', 'gui.ls_quarry.plus': '+',
         'gui.ls_quarry.slot.bit': 'Drill bit', 'gui.ls_quarry.slot.sieve': 'Sieve', 'gui.ls_quarry.slot.fill': 'Fill material for restoring',
         'msg.ls_quarry.linked': 'Markers linked: %s x %s frame', 'msg.ls_quarry.partial': 'Found a marker along one axis only; place one along the other',
         'msg.ls_quarry.none': 'No other marker in line with this one (within 64 blocks)',
