@@ -25,12 +25,12 @@ import java.util.List;
 public class JewelerTableBE extends MachineBlockEntity {
     public static final int SLOT_TOOL = 0, SLOT_SETTING = 1, SLOT_GEM = 2;
     public static final int BTN_ADD = 0, BTN_SOCKET = 1;
-    public static final int SOCKET_X = 62, SOCKET_Y = 24, SOCKET_STEP = 24;
+    public static final int SOCKET_X = 62, SOCKET_Y = 22, SOCKET_STEP = 24;
     public static final MachineLayout LAYOUT = MachineLayout.builder()
-            .slot(26, 35, MachineLayout.Role.STORAGE)
-            .slot(26, 60, MachineLayout.Role.INPUT)
-            .slot(140, 35, MachineLayout.Role.INPUT)
-            .button(BTN_ADD, 52, 56, 76, 14, "gui.ls_lapidary.add_socket").build();
+            .slot(26, 24, MachineLayout.Role.STORAGE)
+            .slot(26, 52, MachineLayout.Role.INPUT)
+            .slot(140, 24, MachineLayout.Role.INPUT)
+            .button(BTN_ADD, 52, 53, 76, 14, "gui.ls_lapidary.add_socket").build();
 
     public JewelerTableBE(BlockEntityType<?> type, BlockPos pos, BlockState state) {
         super(type, pos, state, LAYOUT, 0, 0, 0);
