@@ -101,7 +101,13 @@ public final class Wind {
         return "gui.ls_aeolus.dir." + k[i];
     }
 
+    /** Short compass point for screens ("NW"). */
     public static Component compass(double bearing) {
         return Component.translatable(compassKey(bearing));
+    }
+
+    /** Compass point in words for messages ("north-west"). */
+    public static Component compassLong(double bearing) {
+        return Component.translatable(compassKey(bearing).replace("gui.", "msg."));
     }
 }

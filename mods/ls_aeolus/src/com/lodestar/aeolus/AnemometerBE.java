@@ -73,7 +73,7 @@ public class AnemometerBE extends LSBlockEntity implements LSEntityBlock.IIntera
                 double local = Wind.local(level, worldPosition);
                 String kind = local < 0.4 ? "calm" : local < 0.9 ? "breeze" : local < 1.5 ? "strong" : "gale";
                 player.displayClientMessage(Component.translatable("msg.ls_aeolus.reading", String.format("%.1f", Wind.metres(local)),
-                        Wind.compass(Wind.bearing(level)), Component.translatable("msg.ls_aeolus." + kind),
+                        Wind.compassLong(Wind.bearing(level)), Component.translatable("msg.ls_aeolus." + kind),
                         Math.round(local * 100)).withStyle(ChatFormatting.AQUA), true);
             }
         }

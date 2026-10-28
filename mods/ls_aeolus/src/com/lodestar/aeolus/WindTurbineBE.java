@@ -40,8 +40,8 @@ public class WindTurbineBE extends MachineBlockEntity implements LSEntityBlock.I
     public static final int SLOT_ROTOR = 0, SLOT_CHARGE = 1;
     public static final int OK = 0, NO_ROTOR = 1, BLOCKED = 2, COLLIDE = 3, LOW = 4, NO_WIND = 5;
     public static final MachineLayout LAYOUT = MachineLayout.builder()
-            .slot(24, 35, MachineLayout.Role.INPUT).slot(130, 53, MachineLayout.Role.CHARGE)
-            .energy(156, 17, 52).info(48, 18).extra(8).build();
+            .slot(17, 50, MachineLayout.Role.INPUT).slot(138, 55, MachineLayout.Role.CHARGE)
+            .energy(160, 17, 52).info(48, 17).extra(8).build();
     private static final int CAPACITY = 40_000, PUSH = 500;
     /** Server-side turbines currently loaded, for rotor overlap checks. */
     private static final Set<WindTurbineBE> LOADED = Collections.newSetFromMap(new WeakHashMap<>());

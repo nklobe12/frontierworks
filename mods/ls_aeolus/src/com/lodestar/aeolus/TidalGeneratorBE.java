@@ -28,7 +28,7 @@ public class TidalGeneratorBE extends MachineBlockEntity {
     public static final int PEAK = 80, FULL_WATER = 70, MIN_WATER = 20;
     public static final MachineLayout LAYOUT = MachineLayout.builder().slot(130, 53, MachineLayout.Role.CHARGE).energy(156, 17, 52)
             .slot(8, 17, MachineLayout.Role.UPGRADE).slot(8, 35, MachineLayout.Role.UPGRADE)
-            .info(28, 52).extra(4).build();
+            .info(30, 50).extra(4).build();
     private static final int CAPACITY = 40_000, PUSH = 500;
 
     public int status = NOT_OCEAN;

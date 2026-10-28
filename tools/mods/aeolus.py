@@ -100,18 +100,25 @@ def blade_tex(colour, accent, seed, kind):
 
 
 def rotor_icon(colour, accent, blades, seed):
+    """Front view of a rotor: tapered blades with a light leading edge around a hub."""
     img = Image.new('RGBA', (16, 16), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     c, a = tex.rgb(colour), tex.rgb(accent)
     cx = cy = 7.5
     for i in range(blades):
-        ang = -math.pi / 2 + i * 2 * math.pi / blades + 0.35
-        tip = (cx + math.cos(ang) * 7.2, cy + math.sin(ang) * 7.2)
-        side = (cx + math.cos(ang + 0.5) * 4.2, cy + math.sin(ang + 0.5) * 4.2)
-        side2 = (cx + math.cos(ang - 0.18) * 6.5, cy + math.sin(ang - 0.18) * 6.5)
-        d.polygon([(cx, cy), side, tip, side2], fill=tex.shade(c, 1.0), outline=tex.shade(c, 0.55))
-        d.line([(cx, cy), tip], fill=tex.shade(c, 1.0, 0.2))
-    d.ellipse([5, 5, 10, 10], fill=tex.shade(a, 1.0), outline=tex.shade(a, 0.5))
+        ang = -math.pi / 2 + i * 2 * math.pi / blades + 0.3
+        dx, dy = math.cos(ang), math.sin(ang)
+        px_, py_ = -dy, dx
+        root, tip = 2.0, 7.6
+        pts = [(cx + dx * root + px_ * 1.2, cy + dy * root + py_ * 1.2),
+               (cx + dx * 5.0 + px_ * 2.3, cy + dy * 5.0 + py_ * 2.3),
+               (cx + dx * tip + px_ * 1.0, cy + dy * tip + py_ * 1.0),
+               (cx + dx * tip - px_ * 0.6, cy + dy * tip - py_ * 0.6),
+               (cx + dx * root - px_ * 1.0, cy + dy * root - py_ * 1.0)]
+        d.polygon(pts, fill=tex.shade(c, 1.0), outline=tex.shade(c, 0.5))
+        d.line([(cx + dx * root - px_ * 0.5, cy + dy * root - py_ * 0.5), (cx + dx * (tip - 0.6) - px_ * 0.2, cy + dy * (tip - 0.6) - py_ * 0.2)],
+               fill=tex.shade(c, 1.0, 0.22))
+    d.ellipse([5, 5, 10, 10], fill=tex.shade(a, 1.0), outline=tex.shade(a, 0.45))
     img.putpixel((7, 7), tex.shade(a, 1.0, 0.3))
     return img
 
@@ -242,7 +249,7 @@ def build():
                          {'block/wind_turbine_side': turbine_side(s), 'block/wind_turbine_top': turbine_top(s),
                           'block/wind_turbine_front': turbine_front(s), 'block/wind_turbine_bottom': painted(s + 'b', '#b9bec4')},
                          top='wind_turbine_top', side='wind_turbine_side', bottom='wind_turbine_bottom', front='wind_turbine_front',
-                         tab='POWER', desc='Fit a rotor; it spins on the front face\nMore power the higher it stands and in storms\n'
+                         tab='POWER', props='LSProps.metal(3.5f)', desc='Fit a rotor; it spins on the front face\nMore power the higher it stands and in storms\n'
                                            'The rotor needs clear air around it')
     m.shaped('wind_turbine', rl('wind_turbine'), ['PRP', 'GFG', 'PCP'], {'P': '#forge:plates/iron', 'R': '#forge:rods/iron',
                                                                        'G': '#forge:gears/copper', 'F': 'ls_machina:machine_frame',
@@ -255,8 +262,8 @@ def build():
     m.texture('item/water_wheel', wheel_icon(m.modid + 'wwi'))
     wtx = {'hub': t('water_wheel_hub'), 'axle': t('water_wheel_axle'), 'particle': t('water_wheel_hub')}
     hub_model = element_model([([6, 6, 0], [10, 10, 16], '#axle'), ([3, 3, 4.5], [13, 13, 11.5], '#hub')], wtx)
-    entity_block(m, 'water_wheel', 'WaterWheelBE', 'new MachineBlock(LSProps.wood().strength(2.5f).noOcclusion(), BE_TYPE)',
-                 jtype='MachineBlock', tab='POWER', models={'water_wheel': hub_model},
+    entity_block(m, 'water_wheel', 'WaterWheelBE', 'new MachineBlock(LSProps.wood().strength(2.5f).noOcclusion(), BE_TYPE)'
+                 '.shape(net.minecraft.world.level.block.Block.box(3, 3, 3, 13, 13, 13))', jtype='LSEntityBlock', tab='POWER', models={'water_wheel': hub_model},
                  state=horizontal_model_state(m, 'water_wheel', 'water_wheel'), item_model='generated', mine='axe',
                  desc='Turns in moving water around it\nWater falling or flowing on one side makes it spin;\n'
                       'water pushing both ways cancels out\nPower comes out of both ends of the axle')
@@ -274,7 +281,7 @@ def build():
                          {'block/tidal_generator_side': tidal_side(s), 'block/tidal_generator_top': tex.casing('advanced', s, 'top'),
                           'block/tidal_generator_bottom': tex.casing('advanced', s, 'bottom'), 'block/tidal_generator_front': tidal_front(s)},
                          top='tidal_generator_top', side='tidal_generator_side', bottom='tidal_generator_bottom', front='tidal_generator_front',
-                         tab='POWER', desc='Sink it in an ocean, under water\nMost power while the tide runs in or out,\n'
+                         tab='POWER', props='LSProps.metal(3.5f)', desc='Sink it in an ocean, under water\nMost power while the tide runs in or out,\n'
                                            'none at high and low water; spring tides at full and new moon')
     m.texture('block/tidal_blade', blade_tex('#b8c4cc', '#2a9d8f', m.modid + 'tb', 'metal'))
     m.asset('models/block/tidal_blade.json', element_model([([7, 9, -2.5], [9, 13, -1.5], '#blade'), ([5.8, 12, -2.25], [10.2, 22, -1.75], '#blade')],
@@ -316,14 +323,14 @@ def build():
         'gui.ls_aeolus.status.ok': 'Running',
         'gui.ls_aeolus.status.no_rotor': 'No rotor fitted',
         'gui.ls_aeolus.status.blocked': 'Rotor blocked (%s)',
-        'gui.ls_aeolus.status.collide': 'Rotor hits another rotor',
-        'gui.ls_aeolus.status.low': 'Too low: no wind here',
-        'gui.ls_aeolus.status.no_wind': 'There is no wind here',
+        'gui.ls_aeolus.status.collide': 'Rotors overlap',
+        'gui.ls_aeolus.status.low': 'Too low for wind',
+        'gui.ls_aeolus.status.no_wind': 'No wind here',
         'gui.ls_aeolus.status.stalled': 'Wheel jammed (%s)',
         'gui.ls_aeolus.status.dry': 'No moving water',
         'gui.ls_aeolus.status.not_ocean': 'Not in an ocean',
         'gui.ls_aeolus.status.not_submerged': 'Must be under water',
-        'gui.ls_aeolus.status.shallow': 'Too little open water',
+        'gui.ls_aeolus.status.shallow': 'Too little water',
         'gui.ls_aeolus.flow': 'Moving water: %s, torque %s',
         'gui.ls_aeolus.tide.flood': 'Tide: rising',
         'gui.ls_aeolus.tide.ebb': 'Tide: falling',
@@ -334,7 +341,7 @@ def build():
         'gui.ls_aeolus.moon.neap': 'neap tide',
         'gui.ls_aeolus.moon.normal': 'ordinary tide',
         'gui.ls_aeolus.chart': 'Output through the day (now marked)',
-        'gui.ls_aeolus.dial': 'Wind from the %s; turbine faces %s',
+        'gui.ls_aeolus.dial': 'Wind from the %s, turbine faces %s',
         'gui.ls_aeolus.dial.hint': 'Facing into or away from the wind is best',
         'msg.ls_aeolus.reading': 'Wind %s m/s from the %s (%s). Turbines here would run at %s%%.',
         'msg.ls_aeolus.calm': 'calm', 'msg.ls_aeolus.breeze': 'breeze', 'msg.ls_aeolus.strong': 'strong wind', 'msg.ls_aeolus.gale': 'gale',
@@ -357,7 +364,8 @@ def build():
         m.tr(k, v)
     for d, nm in (('n', 'north'), ('ne', 'north-east'), ('e', 'east'), ('se', 'south-east'), ('s', 'south'), ('sw', 'south-west'),
                   ('w', 'west'), ('nw', 'north-west')):
-        m.tr('gui.ls_aeolus.dir.' + d, nm)
+        m.tr('gui.ls_aeolus.dir.' + d, d.upper())
+        m.tr('msg.ls_aeolus.dir.' + d, nm)
     for i, nm in enumerate(['full', 'waning gibbous', 'last quarter', 'waning crescent', 'new', 'waxing crescent', 'first quarter', 'waxing gibbous']):
         m.tr('gui.ls_aeolus.phase.%d' % i, nm)
 
