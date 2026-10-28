@@ -16,4 +16,5 @@ ORDER = [
     'quarry',
     'aeolus',
     'datastore',
+    'kinetics',
 ]
