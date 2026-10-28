@@ -65,8 +65,9 @@ final class AeolusTests {
 
     private static Supplier<String> waterWheel(ServerLevel l, BlockPos o) {
         BlockPos w = o.above(3);
-        fill(l, w.offset(-5, -3, -4), w.offset(5, 5, 4), Blocks.AIR.defaultBlockState());
-        fill(l, w.offset(-5, -2, -4), w.offset(5, -2, 4), Blocks.STONE.defaultBlockState());
+        // a wide floor, so the water spreads both ways under the wheel instead of running off the nearest edge
+        fill(l, w.offset(-9, -3, -9), w.offset(9, 5, 9), Blocks.AIR.defaultBlockState());
+        fill(l, w.offset(-9, -2, -9), w.offset(9, -2, 9), Blocks.STONE.defaultBlockState());
         l.setBlock(w, Content.WATER_WHEEL.get().defaultBlockState(), 3);
         // a spring above the east side, walled in so it can only fall down past the wheel (overshot wheel)
         for (BlockPos p : new BlockPos[]{w.offset(0, 2, 0), w.offset(2, 2, 0), w.offset(1, 2, -1), w.offset(1, 2, 1), w.offset(1, 3, 0)}) {
