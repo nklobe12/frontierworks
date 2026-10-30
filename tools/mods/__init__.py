@@ -15,4 +15,5 @@ ORDER = [
     'lapidary',
     'quarry',
     'aeolus',
+    'datastore',
 ]
