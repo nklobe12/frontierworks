@@ -36,7 +36,7 @@ public final class RenderUtil {
     /** Draws a baked block model (registered with {@link #extraModel}) at the current pose, in block space. */
     public static void model(PoseStack ps, MultiBufferSource buf, net.minecraft.resources.ResourceLocation id, int light, int overlay) {
         net.minecraft.client.resources.model.BakedModel m = Minecraft.getInstance().getModelManager().getModel(id);
-        Minecraft.getInstance().getBlockRenderer().getModelRenderer().renderModel(ps.last(), buf.getBuffer(RenderType.cutout()), null, m, 1f, 1f, 1f,
+        Minecraft.getInstance().getBlockRenderer().getModelRenderer().renderModel(ps.last(), buf.getBuffer(net.minecraft.client.renderer.Sheets.cutoutBlockSheet()), null, m, 1f, 1f, 1f,
                 light, overlay, net.minecraftforge.client.model.data.ModelData.EMPTY, RenderType.cutout());
     }
 

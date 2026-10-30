@@ -9,4 +9,6 @@ ORDER = [
     'transmutation',
     'ducts',
     'lens',
+    'backpacks',
+    'jetpacks',
 ]
