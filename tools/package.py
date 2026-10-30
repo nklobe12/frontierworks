@@ -27,6 +27,12 @@ def add_jars(z, jars, prefix):
         z.write(j, prefix + j.name)
 
 
+def build_label(ver):
+    """Version shown in the CurseForge app: the pack version plus the CI build number, so each import is told apart."""
+    n = os.environ.get('BUILD_NUMBER', '').strip()
+    return '%s build %s' % (ver, n) if n else ver
+
+
 def main():
     forge, jar_dir, out = sys.argv[1], Path(sys.argv[2]), Path(sys.argv[3])
     out.mkdir(parents=True, exist_ok=True)
@@ -40,7 +46,7 @@ def main():
     with zipfile.ZipFile(out / (base + '-curseforge.zip'), 'w', zipfile.ZIP_DEFLATED) as z:
         z.writestr('manifest.json', json.dumps({
             'minecraft': {'version': MC, 'modLoaders': [{'id': 'forge-' + forge, 'primary': True}]},
-            'manifestType': 'minecraftModpack', 'manifestVersion': 1, 'name': NAME, 'version': ver,
+            'manifestType': 'minecraftModpack', 'manifestVersion': 1, 'name': NAME, 'version': build_label(ver),
             'author': 'Klobe & Claude', 'files': [], 'overrides': 'overrides'}, indent=2))
         z.writestr('modlist.md', readme)
         add_jars(z, jars, 'overrides/mods/')

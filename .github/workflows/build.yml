@@ -80,7 +80,7 @@ jobs:
         id: package
         if: always() && steps.server.outcome == 'success'
         run: |
-          python3 tools/package.py "${FORGE#1.20.1-}" build/modjars dist
+          BUILD_NUMBER=${{ github.run_number }} python3 tools/package.py "${FORGE#1.20.1-}" build/modjars dist
           cp MODS.md dist/ 2>/dev/null || true
 
       - name: Publish release
