@@ -90,6 +90,14 @@ public class KineticMachineBE extends ProcessingMachineBE implements IKineticCon
         return heated;
     }
 
+    /** Output tanks take whatever a recipe produces (the recipe filter only describes what may be poured in). */
+    @Override
+    public boolean isFluidValid(int tank, net.minecraftforge.fluids.FluidStack stack) {
+        var def = layout.tanks.get(tank);
+        if (def.output && !def.input) return true;
+        return super.isFluidValid(tank, stack);
+    }
+
     @Override
     public boolean hasSideConfig() {
         return true;
