@@ -17,4 +17,5 @@ ORDER = [
     'aeolus',
     'datastore',
     'kinetics',
+    'petroleum',
 ]

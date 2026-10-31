@@ -36,6 +36,8 @@ public class ProcessingMachineBE extends MachineBlockEntity {
 
     @Override
     public boolean isFluidValid(int tank, FluidStack stack) {
+        // output-only tanks take whatever a recipe produces (it need not be an input of any recipe); outside access never fills them
+        if (!layout.tanks.get(tank).input) return true;
         return level == null || spec.recipes.acceptsFluid(level, stack);
     }
 

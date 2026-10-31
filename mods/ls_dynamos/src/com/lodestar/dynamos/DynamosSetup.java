@@ -35,10 +35,11 @@ public final class DynamosSetup {
         ResourceLocation comp = new ResourceLocation("ls_dynamos", "compression");
         LensRegistry.register(cat(comp, Content.COMPRESSION_DYNAMO, 302), level -> {
             List<RecipeView> out = new ArrayList<>();
-            DynamoFuels.COMPRESSION.forEach((id, v) -> {
-                Fluid f = BuiltInRegistries.FLUID.get(new ResourceLocation(id));
-                if (f != null && f != Fluids.EMPTY) out.add(fluidView(comp, f, v));
-            });
+            for (Fluid f : BuiltInRegistries.FLUID) {
+                if (f == Fluids.EMPTY || !f.isSource(f.defaultFluidState())) continue;
+                int v = DynamoFuels.compression(new FluidStack(f, 1));
+                if (v > 0) out.add(fluidView(comp, f, v));
+            }
             out.sort((a, b) -> a.texts.get(0).text().getString().compareTo(b.texts.get(0).text().getString()));
             return out;
         });

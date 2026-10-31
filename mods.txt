@@ -14,3 +14,6 @@ ls_codex
 ls_lapidary
 ls_quarry
 ls_aeolus
+ls_datastore
+ls_kinetics
+ls_petroleum

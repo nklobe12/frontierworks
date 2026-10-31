@@ -62,9 +62,26 @@ public final class DynamoFuels {
         return 0;
     }
 
+    /**
+     * Common forge fluid tag -> FE per mB for the compression dynamo. Any mod's fuel in one of these tags burns,
+     * the id map above only adds exact overrides.
+     */
+    public static final Map<String, Integer> COMPRESSION_TAGS = Map.ofEntries(
+            Map.entry("forge:creosote", 40), Map.entry("forge:light_oil", 300), Map.entry("forge:crude_oil", 150),
+            Map.entry("forge:heavy_oil", 250), Map.entry("forge:naphtha", 350), Map.entry("forge:kerosene", 500),
+            Map.entry("forge:gasoline", 600), Map.entry("forge:diesel", 700), Map.entry("forge:biodiesel", 600),
+            Map.entry("forge:ethanol", 350), Map.entry("forge:biogas", 150), Map.entry("forge:refinery_gas", 120),
+            Map.entry("forge:hydrogen", 200));
+
     public static int compression(FluidStack f) {
         if (f.isEmpty()) return 0;
         ResourceLocation id = BuiltInRegistries.FLUID.getKey(f.getFluid());
-        return COMPRESSION.getOrDefault(id.toString(), 0);
+        Integer exact = COMPRESSION.get(id.toString());
+        if (exact != null) return exact;
+        int best = 0;
+        for (Map.Entry<String, Integer> e : COMPRESSION_TAGS.entrySet()) {
+            if (e.getValue() > best && f.getFluid().is(FluidTags.create(new ResourceLocation(e.getKey())))) best = e.getValue();
+        }
+        return best;
     }
 }
