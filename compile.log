@@ -1,0 +1,73 @@
+Downloading https://services.gradle.org/distributions/gradle-8.8-bin.zip
+.............10%.............20%.............30%.............40%.............50%.............60%..............70%.............80%.............90%.............100%
+
+Welcome to Gradle 8.8!
+
+Here are the highlights of this release:
+ - Running Gradle on Java 22
+ - Configurable Gradle daemon JVM
+ - Improved IDE performance for large projects
+
+For more details see https://docs.gradle.org/8.8/release-notes.html
+
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.8/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Task :compileJava
+Setting up MCP environment
+Initializing steps
+Executing steps
+ > Running 'downloadManifest'
+ > Running 'downloadJson'
+ > Running 'downloadClient'
+ > Running 'downloadServer'
+ > Running 'extractServer'
+ > Running 'downloadClientMappings'
+ > Running 'mergeMappings'
+ > Running 'stripClient'
+ > Running 'stripServer'
+ > Running 'merge'
+ > Running 'listLibraries'
+ > Running 'rename'
+Stopping at requested step: /home/runner/.gradle/caches/forge_gradle/mcp_repo/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/joined/rename/output.jar
+[00:31:01] [main/INFO]: Writing debug log file accesstransform.log
+[00:31:01] [main/INFO]: Access Transformer processor running version 8.2.14
+[00:31:01] [main/INFO]: Command line arguments [--inJar, /home/runner/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0/forge-1.20.1-47.3.0-injected.jar, --outJar, /home/runner/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1.jar, --logFile, accesstransform.log, --atFile, /home/runner/work/frontierworks/frontierworks/build/_atJar_4/parent_at.cfg]
+[00:31:01] [main/INFO]: Reading from /home/runner/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0/forge-1.20.1-47.3.0-injected.jar
+[00:31:01] [main/INFO]: Writing to /home/runner/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1.jar
+[00:31:01] [main/INFO]: Transformer file /home/runner/work/frontierworks/frontierworks/build/_atJar_4/parent_at.cfg
+[00:31:01] [main/WARN]: Found existing output jar /home/runner/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1.jar, overwriting
+[00:31:04] [main/INFO]: JAR transformation complete /home/runner/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1.jar
+Creating SRG -> MCP TSRG
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :processResources
+> Task :classes
+> Task :jar
+> Task :downloadMcpConfig
+> Task :extractSrg
+> Task :createMcpToSrg
+> Task :reobfJar
+> Task :jar_ls_aeolus
+> Task :jar_ls_backpacks
+> Task :jar_ls_codex
+> Task :jar_ls_core
+> Task :jar_ls_datastore
+> Task :jar_ls_ducts
+> Task :jar_ls_dynamos
+> Task :jar_ls_jetpacks
+> Task :jar_ls_kinetics
+> Task :jar_ls_lapidary
+> Task :jar_ls_lens
+> Task :jar_ls_machina
+> Task :jar_ls_metalwork
+> Task :jar_ls_petroleum
+> Task :jar_ls_quarry
+> Task :jar_ls_toolsmith
+> Task :jar_ls_transmutation
+> Task :jar_ls_veins
+> Task :modJars
+
+BUILD SUCCESSFUL in 2m 20s
+25 actionable tasks: 25 executed

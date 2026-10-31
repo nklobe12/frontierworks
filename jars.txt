@@ -1,0 +1,21 @@
+total 3080
+drwxr-xr-x  2 runner runner   4096 Oct 31 00:31 .
+drwxr-xr-x 16 runner runner   4096 Oct 31 00:31 ..
+-rw-r--r--  1 runner runner  96675 Oct 31 00:31 ls_aeolus-1.20.1-0.1.0.jar
+-rw-r--r--  1 runner runner  99528 Oct 31 00:31 ls_backpacks-1.20.1-0.1.0.jar
+-rw-r--r--  1 runner runner  90505 Oct 31 00:31 ls_codex-1.20.1-0.1.0.jar
+-rw-r--r--  1 runner runner 260834 Oct 31 00:31 ls_core-1.20.1-0.1.0.jar
+-rw-r--r--  1 runner runner 211937 Oct 31 00:31 ls_datastore-1.20.1-0.1.0.jar
+-rw-r--r--  1 runner runner 162987 Oct 31 00:31 ls_ducts-1.20.1-0.1.0.jar
+-rw-r--r--  1 runner runner  47957 Oct 31 00:31 ls_dynamos-1.20.1-0.1.0.jar
+-rw-r--r--  1 runner runner  81368 Oct 31 00:31 ls_jetpacks-1.20.1-0.1.0.jar
+-rw-r--r--  1 runner runner 254855 Oct 31 00:31 ls_kinetics-1.20.1-0.1.0.jar
+-rw-r--r--  1 runner runner 253724 Oct 31 00:31 ls_lapidary-1.20.1-0.1.0.jar
+-rw-r--r--  1 runner runner  47972 Oct 31 00:31 ls_lens-1.20.1-0.1.0.jar
+-rw-r--r--  1 runner runner 318551 Oct 31 00:31 ls_machina-1.20.1-0.1.0.jar
+-rw-r--r--  1 runner runner 255001 Oct 31 00:31 ls_metalwork-1.20.1-0.1.0.jar
+-rw-r--r--  1 runner runner 137148 Oct 31 00:31 ls_petroleum-1.20.1-0.1.0.jar
+-rw-r--r--  1 runner runner  95908 Oct 31 00:31 ls_quarry-1.20.1-0.1.0.jar
+-rw-r--r--  1 runner runner 248098 Oct 31 00:31 ls_toolsmith-1.20.1-0.1.0.jar
+-rw-r--r--  1 runner runner 173039 Oct 31 00:31 ls_transmutation-1.20.1-0.1.0.jar
+-rw-r--r--  1 runner runner 275766 Oct 31 00:31 ls_veins-1.20.1-0.1.0.jar

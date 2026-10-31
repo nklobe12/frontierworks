@@ -1,0 +1,168 @@
+2026-10-31 00:31:46,101 main WARN Advanced terminal features are not available in this environment
+[00:31:46] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[00:31:46] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.21 by Eclipse Adoptium; OS Linux arch amd64 version 7.0.0-1017-azure
+[00:31:46] [main/WARN] [ne.mi.fm.lo.FMLConfig/CORE]: Configuration file /home/runner/work/frontierworks/frontierworks/server/config/fml.toml is not correct. Correcting
+[00:31:46] [main/INFO] [ne.mi.fm.lo.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
+[00:31:46] [main/INFO] [ne.mi.fm.lo.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
+[00:31:46] [main/INFO] [ne.mi.fm.lo.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
+[00:31:46] [main/INFO] [ne.mi.fm.lo.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[00:31:46] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/runner/work/frontierworks/frontierworks/server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[00:31:46] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/runner/work/frontierworks/frontierworks/server/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.0/fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[00:31:46] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/runner/work/frontierworks/frontierworks/server/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.0/javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[00:31:46] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/runner/work/frontierworks/frontierworks/server/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.0/lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[00:31:46] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/runner/work/frontierworks/frontierworks/server/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.0/mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[00:31:46] [main/INFO] [ne.mi.fm.lo.mo.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[00:31:48] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[00:31:54] [modloading-worker-0/INFO] [ne.mi.co.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[00:31:54] [modloading-worker-0/INFO] [ne.mi.co.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[00:31:55] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[00:31:55] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.28
+[00:31:56] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:31:56] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/home/runner/work/frontierworks/frontierworks/server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23137!/assets/.mcassetsroot' uses unexpected schema
+[00:31:56] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/home/runner/work/frontierworks/frontierworks/server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23137!/data/.mcassetsroot' uses unexpected schema
+[00:31:58] [main/INFO] [minecraft/RecipeManager]: Loaded 29 recipes
+[00:31:58] [main/INFO] [minecraft/AdvancementList]: Loaded 1271 advancements
+[00:31:59] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 1.20.1
+[00:31:59] [Server thread/INFO] [minecraft/DedicatedServer]: Loading properties
+[00:31:59] [Server thread/INFO] [minecraft/DedicatedServer]: Default game type: SURVIVAL
+[00:31:59] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+[00:31:59] [Server thread/INFO] [minecraft/DedicatedServer]: Starting Minecraft server on *:25565
+[00:31:59] [Server thread/INFO] [minecraft/ServerConnectionListener]: Using epoll channel type
+[00:31:59] [Server thread/WARN] [minecraft/DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:31:59] [Server thread/WARN] [minecraft/DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[00:31:59] [Server thread/WARN] [minecraft/DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:31:59] [Server thread/WARN] [minecraft/DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:31:59] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+[00:31:59] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[00:31:59] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[00:31:59] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[00:31:59] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[00:31:59] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[00:31:59] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[00:31:59] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[00:31:59] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[00:31:59] [Server thread/INFO] [minecraft/DedicatedServer]: Preparing level "world"
+[00:32:05] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[00:32:06] [Worker-Main-3/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:32:06] [Worker-Main-3/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:32:06] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:32:06] [Worker-Main-2/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:32:07] [Worker-Main-3/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[00:32:07] [Worker-Main-3/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 1%
+[00:32:08] [Worker-Main-3/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[00:32:08] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[00:32:09] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 3%
+[00:32:09] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 4%
+[00:32:10] [Worker-Main-2/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 5%
+[00:32:10] [Worker-Main-2/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 6%
+[00:32:11] [Worker-Main-3/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 8%
+[00:32:11] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 9%
+[00:32:12] [Worker-Main-3/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 11%
+[00:32:12] [Worker-Main-3/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 12%
+[00:32:13] [Worker-Main-2/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 13%
+[00:32:13] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 15%
+[00:32:14] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 17%
+[00:32:14] [Worker-Main-3/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 19%
+[00:32:15] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 22%
+[00:32:15] [Worker-Main-2/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 23%
+[00:32:16] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 25%
+[00:32:16] [Worker-Main-2/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 28%
+[00:32:17] [Worker-Main-2/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 31%
+[00:32:17] [Worker-Main-2/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 32%
+[00:32:18] [Worker-Main-2/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 35%
+[00:32:18] [Worker-Main-3/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 37%
+[00:32:19] [Worker-Main-2/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 41%
+[00:32:19] [Worker-Main-3/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 42%
+[00:32:20] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 45%
+[00:32:20] [Worker-Main-2/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 48%
+[00:32:21] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 49%
+[00:32:21] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 52%
+[00:32:22] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 54%
+[00:32:22] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 57%
+[00:32:23] [Worker-Main-2/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 59%
+[00:32:23] [Worker-Main-3/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 61%
+[00:32:24] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 64%
+[00:32:24] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 67%
+[00:32:25] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 68%
+[00:32:25] [Worker-Main-3/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 71%
+[00:32:26] [Worker-Main-2/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 74%
+[00:32:26] [Worker-Main-2/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 77%
+[00:32:27] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 80%
+[00:32:27] [Worker-Main-3/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 83%
+[00:32:28] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 85%
+[00:32:28] [Worker-Main-2/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 87%
+[00:32:29] [Worker-Main-2/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 90%
+[00:32:29] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 94%
+[00:32:30] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 97%
+[00:32:30] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 25383 ms
+[00:32:30] [Server thread/INFO] [minecraft/DedicatedServer]: Done (31.218s)! For help, type "help"
+[00:32:30] [Server thread/INFO] [ne.mi.se.pe.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[00:32:30] [Server thread/INFO] [co.lo.co.te.SelfTest/]: LSSELFTEST START
+[00:32:30] [Server thread/INFO] [co.lo.tr.AetherValues/]: Transmutation: 1366 items have aether values (9 passes, 36 ms)
+[00:32:34] [Server thread/INFO] [co.lo.co.te.SelfTest/]: LSSELFTEST blocks placed=245
+[00:32:34] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Is the server overloaded? Running 2230ms or 44 ticks behind
+[00:32:37] [Server thread/INFO] [co.lo.co.te.SelfTest/]: LSSELFTEST blocks removed
+[00:32:39] [Server thread/INFO] [co.lo.co.te.SelfTest/]: LSSELFTEST entity spawned ls_ducts:transit_pod
+[00:32:42] [Server thread/INFO] [co.lo.co.te.SelfTest/]: LSSELFTEST entities ticked
+[00:32:51] [Server thread/INFO] [co.lo.la.LapidaryTests/]: lapidary:socketing sockets=1 damage bonus=1.6899998188018799 (want 1.6899998188018799), offhand=0.0, gold refused silver=true, gem returned=true, chest armor bonus=1.100000023841858
+[00:32:52] [Server thread/INFO] [co.lo.la.LapidaryTests/]: lapidary:clusters growth steps=4 stage=3 rough topaz dropped=2
+[00:32:54] [Server thread/INFO] [co.lo.la.LapidaryTests/]: lapidary:geode placed=true budding=24 druse=277 crust=184 clusters=11
+[00:33:20] [Server thread/INFO] [co.lo.co.CodexTests/]: codex:chapters structure ls_metalwork:bloomery is 3x4x3 with 2 kinds of block
+[00:33:20] [Server thread/INFO] [co.lo.co.CodexTests/]: codex:chapters structure ls_petroleum:pumpjack is 3x4x5 with 4 kinds of block
+[00:33:20] [Server thread/INFO] [co.lo.co.CodexTests/]: codex:chapters structure ls_petroleum:distillation is 1x6x1 with 2 kinds of block
+[00:33:24] [Server thread/INFO] [co.lo.da.DatastoreTests/]: datastore:storage devices=6 status=0 inserted 100 iron, extracted 40, 60 left
+[00:33:25] [Server thread/INFO] [co.lo.da.DatastoreTests/]: datastore:autocraft plan for 100 sticks ok=false missing 10 logs; plan for 8 ok=true steps=2 crafts=3 uses 1 logs
+[00:33:26] [Server thread/INFO] [co.lo.co.te.SelfTest/]: LSSELFTEST scenarios built=40
+[00:33:29] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Is the server overloaded? Running 40864ms or 817 ticks behind
+[00:33:41] [Server thread/INFO] [co.lo.du.DuctsTests/]: ducts:items delivered 32 of 32 cobblestone
+[00:33:41] [Server thread/INFO] [co.lo.du.DuctsTests/]: ducts:filter north dirt=16 cobble=0, east dirt=0 cobble=16
+[00:33:41] [Server thread/INFO] [co.lo.du.DuctsTests/]: ducts:energy furnace holds 14400 FE
+[00:33:41] [Server thread/INFO] [co.lo.du.DuctsTests/]: ducts:fluids filled 1000 mB, dynamo has 700 mB and 21560 FE
+[00:33:41] [Server thread/INFO] [co.lo.du.DuctsTests/]: ducts:viaduct pod removed=true rider at (12203.5, 102.0, 12000.5) (0.0 from target)
+[00:33:41] [Server thread/INFO] [co.lo.la.LapidaryTests/]: lapidary:cutting cut rubies=3 [cabochon/75 cabochon/77 cabochon/74] rough left=0 energy left=13280 FE
+[00:33:41] [Server thread/INFO] [co.lo.je.JetpacksTests/]: jetpacks:flight electrum vy=0.5 energy 400000->399200; bronze water=0 creosote=1000 left=880; upgrade level=1
+[00:33:41] [Server thread/INFO] [co.lo.ae.AeolusTests/]: aeolus:turbines clear turbine at y=200 made 10755 FE (rate 27 FE/t, clearance 1.00, rotor wear 18s); blocked status=2 (1 blocks) energy=0; overlapping status=3,3
+[00:33:41] [Server thread/INFO] [co.lo.ae.AeolusTests/]: aeolus:water_wheel moving water 5 still 0 torque -4.12 -> 21 FE/t, stored 7190 FE
+[00:33:41] [Server thread/INFO] [co.lo.ae.AeolusTests/]: aeolus:tidal day time 547 current 0.41 moon phase 0; inland generator ocean=false status=1 energy=0
+[00:33:41] [Server thread/INFO] [co.lo.ae.AeolusTests/]: aeolus:tidal ocean generator at BlockPos{x=12288, y=60, z=11936} status=0 open water=97 rate=41 FE/t stored=11203 FE
+[00:33:41] [Server thread/INFO] [co.lo.ae.AeolusTests/]: aeolus:anemometer wind 6.3 m/s from gui.ls_aeolus.dir.ne -> comparator 4
+[00:33:41] [Server thread/INFO] [co.lo.ba.BackpacksTests/]: backpacks:place_and_keep block sees 7 diamonds, id kept=true
+[00:33:41] [Server thread/INFO] [co.lo.ba.BackpacksTests/]: backpacks:upgrades magnet moved item to 0.5 blocks away, smelted 1 iron, hotbar refilled to 64
+[00:33:41] [Server thread/INFO] [co.lo.pe.PetroleumTests/]: petroleum:pumpjack formed=true status=1 crude=1800 mB, reservoir left=98200 mB, wellhead offers 100 mB
+[00:33:41] [Server thread/INFO] [co.lo.pe.PetroleumTests/]: petroleum:distillation 5 trays: crude left=400 heavy=1080 diesel=900 kerosene=720 naphtha=540 gas=360, top tray offers 360 mB, tray state=5
+[00:33:41] [Server thread/INFO] [co.lo.pe.PetroleumTests/]: petroleum:distillation 2 trays: crude left=400 heavy=1080 diesel=900 kerosene=0 naphtha=0 gas=0, top tray offers 900 mB, tray state=2
+[00:33:41] [Server thread/INFO] [co.lo.pe.PetroleumTests/]: petroleum:cracker accepted heavy=2000 water=2000, made diesel=300 gas=180, heavy left=1400
+[00:33:41] [Server thread/INFO] [co.lo.pe.PetroleumTests/]: petroleum:polymerizer made 6 plastic pellets, gas left=250
+[00:33:41] [Server thread/INFO] [co.lo.pe.PetroleumTests/]: petroleum:diesel_dynamo accepted 1000 mB crude by tag, stored 28760 FE
+[00:33:41] [Server thread/INFO] [co.lo.pe.PetroleumTests/]: petroleum:diesel_dynamo accepted 1000 mB diesel, stored 28800 FE
+[00:33:41] [Server thread/INFO] [co.lo.pe.PetroleumTests/]: petroleum:reservoirs 2619 of 14400 chunks hold oil (18%), average 695 B, largest 3297 B
+[00:33:41] [Server thread/INFO] [co.lo.ki.KineticsTests/]: kinetics:mill shaft -64.0 RPM, 9 flour from 8 wheat
+[00:33:41] [Server thread/INFO] [co.lo.ki.KineticsTests/]: kinetics:gearing tachometer 128.0 RPM, dynamo 128.0 RPM, 23040 FE stored, comparator 8
+[00:33:41] [Server thread/INFO] [co.lo.ki.KineticsTests/]: kinetics:overload status 1 demand 768.0 Nm capacity 512.0 Nm, dynamo 0 FE
+[00:33:41] [Server thread/INFO] [co.lo.ki.KineticsTests/]: kinetics:belt far pulley 64.0 RPM, press -64.0 RPM, 6 iron plates
+[00:33:41] [Server thread/INFO] [co.lo.ki.KineticsTests/]: kinetics:vat mud 2 (water left 500 mB), heated=true output 576 mB of fluid_type.ls_toolsmith.molten_bronze
+[00:33:41] [Server thread/INFO] [co.lo.ki.KineticsTests/]: kinetics:blower 64.0 RPM stream 4 blocks (ROAST), cooked beef 4 (raw left 0), soul sand 4
+[00:33:41] [Server thread/INFO] [co.lo.ki.KineticsTests/]: kinetics:paddle_wheel wheel 10.0 RPM from 3 wet paddles (blocked=false), tachometer 10.0 RPM
+[00:33:41] [Server thread/INFO] [co.lo.ki.KineticsTests/]: kinetics:windmill 15 vanes, wind 1.3, 7.0 RPM 467.99997 Nm, tachometer 7.0 RPM
+[00:33:41] [Server thread/INFO] [co.lo.ki.KineticsTests/]: kinetics:hand_wheel tachometer -24.0 RPM
+[00:33:41] [Server thread/INFO] [co.lo.co.CodexTests/]: codex:first_join first grant=true (codex count 1), second grant=false (count 1), flag=true, recipe=true
+[00:33:41] [Server thread/INFO] [co.lo.co.CodexTests/]: codex:chapters read 18 chapters, 73 pages, 222 item links, 3 structures, 0 problems
+[00:33:41] [Server thread/INFO] [co.lo.qu.QuarryTests/]: quarry:frame phase=MINING mined=39 frame blocks=44 cleared=9/9 cobblestone=26 raw iron=1 markers returned=3
+[00:33:41] [Server thread/INFO] [co.lo.qu.QuarryTests/]: quarry:laser phase=MINING mined=118 first stone ring cleared=8/8 raw iron=1 cobblestone=0 (voided) column under tower kept=true
+[00:33:41] [Server thread/INFO] [co.lo.qu.QuarryTests/]: quarry:restore phase=DONE mined=18 restored grass=9/9 dirt=9/9 frame blocks left=0
+[00:33:41] [Server thread/INFO] [co.lo.da.DatastoreTests/]: datastore:storage cobble=64 (source left 0), diamonds via link=5 (+3 -> chest 8), dirt exported=10, disk bytes 156/4096 types 2/27, saved=true, upkeep 13 FE/t, 4680 FE used
+[00:33:41] [Server thread/INFO] [co.lo.da.DatastoreTests/]: datastore:autocraft after the job: 8 sticks, 2 logs, 0 planks, 0 jobs left
+[00:33:41] [Server thread/INFO] [co.lo.da.DatastoreTests/]: datastore:substitutes 8 sticks from birch and spruce planks (0 planks left)
+[00:33:41] [Server thread/INFO] [co.lo.co.te.SelfTest/]: LSSELFTEST scenarios checked=40
+[00:33:41] [Server thread/INFO] [co.lo.co.te.SelfTest/]: LSSELFTEST DONE failures=0
+[00:33:41] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[00:33:41] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[00:33:41] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[00:33:44] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:33:46] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:33:46] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:33:46] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:33:46] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:33:46] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:33:46] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+server exit code: 0
